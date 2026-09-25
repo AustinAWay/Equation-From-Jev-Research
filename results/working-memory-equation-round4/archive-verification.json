@@ -1,0 +1,20 @@
+{
+  "archives": [
+    {
+      "file": "offline-checker.zip",
+      "sha256": "e277243070f5679cfa6231abbd12c09979aad1369bd7fe01e95a6b6b4a22208b",
+      "bytes": 149315436,
+      "verified_source_files": 50,
+      "credential_scan": "passed",
+      "reused_verified_first_run_archive": true
+    },
+    {
+      "file": "research-record.zip",
+      "sha256": "566c06bb119922e5d8033ed414e92c1d0752417f2d18ffc2b1826c7845eba786",
+      "bytes": 1023369262,
+      "verified_source_files": 2937,
+      "credential_scan": "passed"
+    }
+  ],
+  "completed_at": "2026-09-24T00:38:50.760859+00:00"
+}

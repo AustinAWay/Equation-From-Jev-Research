@@ -1,0 +1,70 @@
+{
+  "corpus_id": "everyday_13_a",
+  "already_evaluated_test_example": true,
+  "method": "offline exported mathematical equation",
+  "api_calls": 0,
+  "network_access": "blocked",
+  "passage": "Three empty bird boxes hang along a fence, with a round opening on the left box and square openings on the others. A ribbon marks the middle box. Describe how to identify the ribbon's box without confusing it with the box that has the round opening.",
+  "steps": [
+    {
+      "id": "s1",
+      "text": "Three empty bird boxes hang along a fence, with a round opening on the left box and square openings on the others.",
+      "start": 0,
+      "end": 114,
+      "equation_output": 5.0,
+      "score_raw": 5.0,
+      "score_displayed": 5,
+      "pre_round_prediction": 4.86287961475579
+    },
+    {
+      "id": "s2",
+      "text": "A ribbon marks the middle box.",
+      "start": 115,
+      "end": 145,
+      "equation_output": 2.0,
+      "score_raw": 2.0,
+      "score_displayed": 2,
+      "pre_round_prediction": 1.829802768053681
+    },
+    {
+      "id": "s3",
+      "text": "Describe how to identify the ribbon's box without confusing it with the box",
+      "start": 146,
+      "end": 221,
+      "equation_output": 4.0,
+      "score_raw": 4.0,
+      "score_displayed": 4,
+      "pre_round_prediction": 3.9107456006097103
+    },
+    {
+      "id": "s4",
+      "text": "that has the round opening.",
+      "start": 222,
+      "end": 249,
+      "equation_output": 3.0,
+      "score_raw": 3.0,
+      "score_displayed": 3,
+      "pre_round_prediction": 3.214059314768811
+    }
+  ],
+  "equation_output_transform": "max(0, floor(base + 0.5))",
+  "score_raw_definition": "Backward-compatible alias for final equation_output before display formatting; integer equations have already rounded and clipped it.",
+  "average_equation_output": 3.5,
+  "average_raw": 3.5,
+  "average_displayed": 3.5,
+  "peak_equation_output": 5.0,
+  "peak_raw": 5.0,
+  "peak_displayed": 5,
+  "rounding": "Display only: step and peak = floor(equation_output + 0.5); average = floor(mean_equation_output * 10 + 0.5) / 10. Any rounding or nonnegative clipping inside the equation is reported separately.",
+  "offset_units": "UTF-16; end exclusive",
+  "feature_hash": "7928287c39bb1db956d7f5006c02515492973aa7660f675a7054090f134e450f",
+  "equation_sha256": "f61a1c5b812eea86e4108dbc55a6cacecf39a69d254f76189993feadd2f85077",
+  "extractor_sha256": "63a5eabe21503fdf18c4fba052f0eea2275d38c3dbe2a7826a337e66d393d968",
+  "parser": "spaCy en_core_web_sm 3.8.0",
+  "warnings": [
+    "English prose coverage is provisional: parser candidates are editable suggestions, not measured memory units."
+  ],
+  "interpretation": "Approximation to a fixed Jev-derived reference; not a measurement of learner memory or comprehension.",
+  "pre_round_average": 3.454371824546998,
+  "pre_round_peak": 4.86287961475579
+}

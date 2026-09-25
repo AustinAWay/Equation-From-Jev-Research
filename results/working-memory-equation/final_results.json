@@ -1,0 +1,166 @@
+{
+  "model": "rounded_v1_boosted_absolute_error_depth5_n400",
+  "metrics": {
+    "rows": 107,
+    "families": 12,
+    "mae": 0.9663780663780663,
+    "rmse": 1.254338310969014,
+    "exact": 0.3119468494468495,
+    "within_one": 0.7468434343434344,
+    "bias": 0.1825757575757576,
+    "max_error": 3.0
+  },
+  "by_domain": {
+    "everyday": {
+      "rows": 29,
+      "families": 3,
+      "mae": 1.090909090909091,
+      "rmse": 1.395881387684802,
+      "exact": 0.30757575757575756,
+      "within_one": 0.6318181818181818,
+      "bias": 0.06363636363636364,
+      "max_error": 3.0
+    },
+    "history": {
+      "rows": 27,
+      "families": 3,
+      "mae": 1.0,
+      "rmse": 1.2071217242444348,
+      "exact": 0.22857142857142854,
+      "within_one": 0.7714285714285714,
+      "bias": 0.11428571428571423,
+      "max_error": 2.0
+    },
+    "practical": {
+      "rows": 25,
+      "families": 3,
+      "mae": 0.9047619047619048,
+      "rmse": 1.1796331597299188,
+      "exact": 0.30158730158730157,
+      "within_one": 0.8306878306878308,
+      "bias": 0.47089947089947093,
+      "max_error": 3.0
+    },
+    "science": {
+      "rows": 26,
+      "families": 3,
+      "mae": 0.8698412698412699,
+      "rmse": 1.223231906179812,
+      "exact": 0.4100529100529101,
+      "within_one": 0.7534391534391536,
+      "bias": 0.0814814814814815,
+      "max_error": 3.0
+    }
+  },
+  "by_provisional": {
+    "False": {
+      "rows": 5,
+      "families": 4,
+      "mae": 0.625,
+      "rmse": 1.0606601717798212,
+      "exact": 0.625,
+      "within_one": 0.75,
+      "bias": 0.375,
+      "max_error": 2.0
+    },
+    "True": {
+      "rows": 102,
+      "families": 12,
+      "mae": 0.9830447330447333,
+      "rmse": 1.2677384961658673,
+      "exact": 0.30060425685425696,
+      "within_one": 0.7447601010101009,
+      "bias": 0.19090909090909097,
+      "max_error": 3.0
+    }
+  },
+  "test_opened_utc": "2026-09-22T18:13:34.328826+00:00",
+  "dataset_assignments": {
+    "rows_by_split": {
+      "train": 331,
+      "validation": 106,
+      "test": 107
+    },
+    "families_by_split": {
+      "train": 36,
+      "validation": 12,
+      "test": 12
+    }
+  },
+  "reference_selection": {
+    "loaded": 544,
+    "excluded": {},
+    "test_accessed": true,
+    "by_split": {
+      "train": {
+        "total_rows": 331,
+        "eligible_rows": 331,
+        "total_families": 36,
+        "eligible_families": 36,
+        "excluded": {}
+      },
+      "validation": {
+        "total_rows": 106,
+        "eligible_rows": 106,
+        "total_families": 12,
+        "eligible_families": 12,
+        "excluded": {}
+      },
+      "test": {
+        "total_rows": 107,
+        "eligible_rows": 107,
+        "total_families": 12,
+        "eligible_families": 12,
+        "excluded": {}
+      }
+    }
+  },
+  "baseline": {
+    "name": "rounded_length_baseline",
+    "metrics": {
+      "rows": 107,
+      "families": 12,
+      "mae": 0.9309343434343434,
+      "rmse": 1.1684973268630114,
+      "exact": 0.2635642135642136,
+      "within_one": 0.820652958152958,
+      "bias": 0.16716570466570468,
+      "max_error": 4.0
+    },
+    "pre_round_metrics": {
+      "rows": 107,
+      "families": 12,
+      "mae": 0.9431394140050187,
+      "rmse": 1.1331245270934882,
+      "exact": 0.2635642135642136,
+      "within_one": 0.5997174122174121,
+      "bias": 0.1444260064719568,
+      "max_error": 3.7537064555886053
+    }
+  },
+  "pre_round_metrics": {
+    "rows": 107,
+    "families": 12,
+    "mae": 0.9521954592467362,
+    "rmse": 1.1767140885460328,
+    "exact": 0.3119468494468495,
+    "within_one": 0.5572871572871573,
+    "bias": 0.15649196053996528,
+    "max_error": 3.0836572610074455
+  },
+  "mae_improvement_over_baseline": -0.03544372294372289,
+  "mae_interval_95": [
+    0.8567355098605096,
+    1.0733919552669549
+  ],
+  "exact_interval_95": [
+    0.24071669071669075,
+    0.3893995009620009
+  ],
+  "mae_improvement_interval_95": [
+    -0.1443740981240981,
+    0.07646960678210678
+  ],
+  "original_unrounded_target_mae": 0.9521954592467362,
+  "meets_proposed_targets": false
+}

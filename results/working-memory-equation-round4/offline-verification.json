@@ -1,0 +1,495 @@
+{
+  "registry_sha256": "5da3c43ff25d6fb107d8b5cb6f793c33ed5d2a91f424b737f435a49f7428671c",
+  "integrity_sha256": "946da03d2c5b3d4d905fa083dfb1c0b5a26a96138464550a7aab15cd071f407f",
+  "scope": "Faithful full-fit equation transport and input isolation; not prediction accuracy against Jev",
+  "passages": 688,
+  "steps": 4726,
+  "corpora": [
+    {
+      "path": "[original-study-workspace]/work/round4/package/verification-corpus688.jsonl",
+      "sha256": "738c3213d04be53be3ee23d2b433b73d7d4f24638b9491450e826528977dd4ad"
+    }
+  ],
+  "workspace_and_package_full_fit": {
+    "direct_exact": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "direct_mae": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "direct_matched_original": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_original_inputs": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_structure": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_lexical_hard": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_lexical_expected": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_frequency_hard": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_count_mode": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_frequency_count_mode": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "round3_lexical": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "round3_components": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "word_count": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "initial488_same_method": {
+      "rows": 4726,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    }
+  },
+  "numeric_tolerance": 1e-10,
+  "teacher_field_poison": {
+    "direct_exact": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "direct_mae": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "direct_matched_original": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_original_inputs": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_structure": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_lexical_hard": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_lexical_expected": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_frequency_hard": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_count_mode": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_frequency_count_mode": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "round3_lexical": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "round3_components": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "word_count": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "initial488_same_method": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    }
+  },
+  "random_order": {
+    "direct_exact": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "direct_mae": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "direct_matched_original": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_original_inputs": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_structure": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_lexical_hard": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_lexical_expected": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_frequency_hard": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_count_mode": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_frequency_count_mode": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "round3_lexical": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "round3_components": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "word_count": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "initial488_same_method": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    }
+  },
+  "arbitrary_ids": {
+    "direct_exact": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "direct_mae": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "direct_matched_original": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_original_inputs": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_structure": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_lexical_hard": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_lexical_expected": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_frequency_hard": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_count_mode": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_frequency_count_mode": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "round3_lexical": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "round3_components": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "word_count": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "initial488_same_method": {
+      "rows": 16,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    }
+  },
+  "single_row_batch_invariance": {
+    "direct_exact": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "direct_mae": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "direct_matched_original": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_original_inputs": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_structure": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_lexical_hard": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_lexical_expected": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_frequency_hard": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_count_mode": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "component_frequency_count_mode": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "round3_lexical": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "round3_components": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "word_count": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    },
+    "initial488_same_method": {
+      "rows": 3,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    }
+  },
+  "empty_input": true,
+  "fixed_offset_prefix_invariance": {
+    "word_count": {
+      "rows": 8,
+      "displayed_max_error": 0.0,
+      "raw_max_error": 0.0,
+      "probability_max_error": 0.0
+    }
+  },
+  "prefix_exclusion": "All current direct/component methods use whole-passage candidate extraction; only word count has this fixed-offset prefix check. Segmentation is whole-passage for every method.",
+  "opened_package_sources": [
+    "compare.py",
+    "work/equation-research/equation_runtime.py",
+    "work/equation-research/features.py",
+    "work/frozen-parser/backend/__init__.py",
+    "work/frozen-parser/backend/errors.py",
+    "work/frozen-parser/backend/extraction.py",
+    "work/round2/approach2/approach2.py",
+    "work/round2/approach2/feature_local.py",
+    "work/round2/approach2/grammar/__init__.py",
+    "work/round2/approach2/grammar/errors.py",
+    "work/round2/approach2/grammar/extraction.py",
+    "work/round3/components/base_components.py",
+    "work/round3/components/component_fast_runtime.py",
+    "work/round3/components/components.py",
+    "work/round3/components/feature_local.py",
+    "work/round3/components/grammar/__init__.py",
+    "work/round3/components/grammar/errors.py",
+    "work/round3/components/grammar/extraction.py",
+    "work/round3/components/grammar/memory.py",
+    "work/round4/components/component_repair.py",
+    "work/round4/components/count_mode.py",
+    "work/round4/components/frequency_count_mode.py",
+    "work/round4/components/frequency_repair.py",
+    "work/round4/components/verify_training_raws.py",
+    "work/round4/direct/arithmetic.py",
+    "work/round4/direct/measurements.py",
+    "work/round4/direct/search.py"
+  ],
+  "original_work_and_app_paths_denied": [
+    "[original-study-workspace]",
+    "/Users/austinway/Desktop/Working-Memory-Jev"
+  ],
+  "denial_probes_passed": true,
+  "network_denial_probe_passed": true,
+  "text_and_file_cli_equal": true,
+  "probabilities_available": false,
+  "final_corpus_accessed": false,
+  "reference_labels_accessed": false,
+  "model_selection_performed": false,
+  "reference_data_or_credentials_required": false
+}

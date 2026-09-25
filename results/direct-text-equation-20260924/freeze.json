@@ -1,0 +1,13 @@
+{
+  "selected_constant": 2,
+  "equation_sha256": "dd422edd0486cf11435b1596abdb5758614cbb78bd1e506de376f41ea64d1b1d",
+  "comparison_labels_used_for_fitting": false,
+  "comparison_set_previously_seen": true,
+  "specification": {
+    "group": "surface_and_grammar",
+    "degree": 1,
+    "requested_terms": 32,
+    "ridge": 1.0
+  },
+  "candidate_count": 32
+}

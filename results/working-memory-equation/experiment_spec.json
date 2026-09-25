@@ -1,0 +1,17 @@
+{
+  "question": "Can we discover a mathematical equation, of any length or complexity, that reproduces Passage\u2019s Jev-based working-memory demand scores on passages it has never seen?",
+  "profile": {
+    "reading_grade": 6,
+    "presentation": "visible",
+    "capacity": 4,
+    "goal": "Explain the main idea or instructions and apply them to a similar example.",
+    "known_concepts": "The learner knows ordinary English, common everyday objects and actions, and basic whole-number arithmetic. Do not assume previously learned specialist terminology or subject-specific mechanisms unless introduced in the passage."
+  },
+  "target": "median of three full analysis scores per reading step",
+  "selection": "train and validation only, final test sealed until candidate frozen",
+  "success": {
+    "exact_match_min": 0.95,
+    "family_weighted_mae_max": 0.1
+  },
+  "equation_complexity_cap": null
+}

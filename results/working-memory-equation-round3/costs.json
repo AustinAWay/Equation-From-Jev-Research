@@ -1,0 +1,124 @@
+{
+  "ledgers": [
+    {
+      "name": "round1",
+      "ledger": "[original-study-workspace]/work/equation-research/data/budget.json",
+      "sha256": "6d596e75ce0112b4b58aa714b2743b06d4b283d801266c0f5067a3941d6047f7",
+      "requests": 33430,
+      "saved_full_analyses": 360,
+      "reported_token_cost_usd": 9.87259807799991,
+      "reported_plus_retained_reservations_usd": 9.96088186799991,
+      "unknown_usage_requests": 4
+    },
+    {
+      "name": "round2",
+      "ledger": "[original-study-workspace]/work/round2/fresh/data/budget.json",
+      "sha256": "8c59fc9cd54d59a43a7fd28f5bcba22453d683919d79dc4a0a1144aea4d55f66",
+      "requests": 12290,
+      "saved_full_analyses": 144,
+      "reported_token_cost_usd": 3.421797288000015,
+      "reported_plus_retained_reservations_usd": 3.442543524000015,
+      "unknown_usage_requests": 2
+    },
+    {
+      "name": "new development short",
+      "ledger": "[original-study-workspace]/work/round3/development-data/batch01/budget.json",
+      "sha256": "0b3f048c5780db212eda63f9ab303a1e9397a67b03f3f4f8c84d695f4a4ae92e",
+      "requests": 38706,
+      "saved_full_analyses": 360,
+      "reported_token_cost_usd": 12.02585848800028,
+      "reported_plus_retained_reservations_usd": 12.04933338000028,
+      "unknown_usage_requests": 5
+    },
+    {
+      "name": "new development longer",
+      "ledger": "[original-study-workspace]/work/round3/development-data/batch02/budget.json",
+      "sha256": "54a7be6f9caa15fd965439e541ca393fbe350669c1918f53cd39ce3df0e8001f",
+      "requests": 63374,
+      "saved_full_analyses": 360,
+      "reported_token_cost_usd": 21.875105490000607,
+      "reported_plus_retained_reservations_usd": 24.634773912001027,
+      "unknown_usage_requests": 89
+    },
+    {
+      "name": "cap original",
+      "ledger": "[original-study-workspace]/work/round3/reference_cap/data/original/budget.json",
+      "sha256": "4e074122890e0902f5c944151496fd793ff32ba5efd94b8ea8b069448ce38004",
+      "requests": 1272,
+      "saved_full_analyses": 12,
+      "reported_token_cost_usd": 0.33576148200000056,
+      "reported_plus_retained_reservations_usd": 0.33576148200000056,
+      "unknown_usage_requests": 0
+    },
+    {
+      "name": "cap expanded",
+      "ledger": "[original-study-workspace]/work/round3/reference_cap/data/uncapped/budget.json",
+      "sha256": "167be9ce50eae8b671faa191d55bc3affb157adb29c2084b4970e3079db6cd45",
+      "requests": 1280,
+      "saved_full_analyses": 12,
+      "reported_token_cost_usd": 0.353876964,
+      "reported_plus_retained_reservations_usd": 0.353876964,
+      "unknown_usage_requests": 0
+    },
+    {
+      "name": "repeatability first",
+      "ledger": "[original-study-workspace]/work/round3/repeatability/data/budget.json",
+      "sha256": "3925bd4afcff3a13c866ae8c950be59de2deb76727b2ef5ae245f54c50f7d7a6",
+      "requests": 27066,
+      "saved_full_analyses": 288,
+      "reported_token_cost_usd": 7.7544969180000205,
+      "reported_plus_retained_reservations_usd": 8.495115258000013,
+      "unknown_usage_requests": 24
+    },
+    {
+      "name": "repeatability replication",
+      "ledger": "[original-study-workspace]/work/round3/repeatability-replication/data/budget.json",
+      "sha256": "53bbf1a841d96060e6c48ab51828b645ea9ea791826507fe8ec1b3640d494189",
+      "requests": 26835,
+      "saved_full_analyses": 288,
+      "reported_token_cost_usd": 7.720698719999962,
+      "reported_plus_retained_reservations_usd": 7.720698719999962,
+      "unknown_usage_requests": 0
+    },
+    {
+      "name": "final a",
+      "ledger": "[original-study-workspace]/work/round3/final-data-shards/a/budget.json",
+      "sha256": "7894e560fd02b62199a09a0af726e3b9c591880b5f3b9019b22b0dd1694c38ee",
+      "requests": 19923,
+      "saved_full_analyses": 120,
+      "reported_token_cost_usd": 6.646969224000112,
+      "reported_plus_retained_reservations_usd": 6.646969224000112,
+      "unknown_usage_requests": 0
+    },
+    {
+      "name": "final b",
+      "ledger": "[original-study-workspace]/work/round3/final-data-shards/b/budget.json",
+      "sha256": "978cd6ee188f3e28801d104a4091e5e28f897162d823140d65a5c8a7590f48e2",
+      "requests": 16465,
+      "saved_full_analyses": 120,
+      "reported_token_cost_usd": 5.4026179620000185,
+      "reported_plus_retained_reservations_usd": 6.132468089999994,
+      "unknown_usage_requests": 23
+    }
+  ],
+  "round3": {
+    "requests": 194921,
+    "saved_full_analyses": 1560,
+    "reported_token_cost_usd": 62.115385248001004,
+    "reported_plus_retained_reservations_usd": 66.3689970300014,
+    "unknown_usage_requests": 141
+  },
+  "all_rounds": {
+    "requests": 240641,
+    "saved_full_analyses": 2064,
+    "reported_token_cost_usd": 75.40978061400094,
+    "reported_plus_retained_reservations_usd": 79.77242242200131,
+    "unknown_usage_requests": 147
+  },
+  "notes": [
+    "Reference usage estimates at the frozen input-token price; not a billing invoice.",
+    "Includes failed requests with recorded cost and retains unknown-usage reservations.",
+    "Does not include Codex/assistant usage or local computation.",
+    "Counts underlying shard ledgers once, never the merged final-data budget view."
+  ]
+}

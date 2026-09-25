@@ -1,0 +1,100 @@
+{
+  "independent_arithmetic_verified": true,
+  "method": "Explicit per-family sums, standard-library means; no shared research metric function imported. Same predeclared bootstrap seed used for independent interval arithmetic.",
+  "models_verified": 9,
+  "rows_per_model": 208,
+  "families_per_model": 24,
+  "metrics": {
+    "approach1": {
+      "mae": 0.8550226393976393,
+      "exact": 0.4001666157916158,
+      "raw_mae": 0.8471428233312646,
+      "within_one": 0.8143543956043956
+    },
+    "approach2": {
+      "mae": 0.7399598087098087,
+      "exact": 0.4171309015059015,
+      "raw_mae": 0.7750485788304821,
+      "within_one": 0.8809218559218559
+    },
+    "approach3": {
+      "mae": 0.8884806166056166,
+      "exact": 0.32680860805860806,
+      "raw_mae": 0.9248170947974405,
+      "within_one": 0.8562881562881562
+    },
+    "no_history": {
+      "mae": 0.8881715506715506,
+      "exact": 0.31600910663410664,
+      "raw_mae": 0.9204596544453649,
+      "within_one": 0.8523504273504273
+    },
+    "best_no_history": {
+      "mae": 0.8914300976800977,
+      "exact": 0.342896571021571,
+      "raw_mae": 0.8908666437957128,
+      "within_one": 0.8371820309320309
+    },
+    "role_baseline": {
+      "mae": 0.8736988705738705,
+      "exact": 0.29999236874236873,
+      "raw_mae": 0.877881930900316,
+      "within_one": 0.8765898453398453
+    },
+    "old_equation": {
+      "mae": 0.84629884004884,
+      "exact": 0.3900030525030525,
+      "raw_mae": 0.8721762922691126,
+      "within_one": 0.8165725478225478
+    },
+    "old_word_count": {
+      "mae": 0.9309243996743997,
+      "exact": 0.28833307895807897,
+      "raw_mae": 0.9644880657955891,
+      "within_one": 0.8518569393569394
+    },
+    "word_count": {
+      "mae": 0.9170355107855108,
+      "exact": 0.2952775234025234,
+      "raw_mae": 0.9619447205077214,
+      "within_one": 0.8588013838013838
+    }
+  },
+  "comparisons": {
+    "direct_vs_old": {
+      "mae_improvement": -0.00872379934879935,
+      "interval98_33": [
+        -0.10311326694139196,
+        0.08489134996947512
+      ],
+      "positive_gain_supported": false,
+      "at_least_point10_supported": false,
+      "at_least_point10_contradicted": true
+    },
+    "decisions_vs_direct": {
+      "mae_improvement": 0.11506283068783067,
+      "interval98_33": [
+        0.013332093253968249,
+        0.2143543320105823
+      ],
+      "positive_gain_supported": true,
+      "at_least_point10_supported": false,
+      "at_least_point10_contradicted": false
+    },
+    "ledger_vs_no_history": {
+      "mae_improvement": -0.0003090659340659237,
+      "interval98_33": [
+        -0.056809848137973115,
+        0.052878637566137796
+      ],
+      "positive_gain_supported": false,
+      "at_least_point10_supported": false,
+      "at_least_point10_contradicted": true
+    }
+  },
+  "all_three_fidelity_targets_failed": true,
+  "source_hashes": {
+    "final_results.json": "a4b9ca23dd20834f09b8047eba9040a8e80c646629e6e8f05a6d230d8c8da394",
+    "final_predictions.jsonl": "adbfca7901df4395781b1dc44b150afbda7f3e1247b7a937909af58200d0913a"
+  }
+}

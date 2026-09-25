@@ -1,0 +1,25 @@
+{
+  "files_in_research_archive": 3966,
+  "credential_scan_passed": true,
+  "zip_integrity_passed": true,
+  "excluded_reproducible_caches": {
+    "work/round3/components/expanded-parallel/prepared.pkl": {
+      "sha256": "1580654d5051b8f2636079a9cb0319991adad861f29375b5107bf7efc4dfd50e",
+      "bytes": 295887300,
+      "reason": "Reproducible worker input cache; numeric equation exports, raw analyses and cache/input manifests remain included."
+    }
+  },
+  "archives": {
+    "full-experiment.zip": {
+      "sha256": "407077a7fdff5274b01ab3f5a880865da3fc7eaf086d690801c6ffe47044ca6e",
+      "bytes": 263234389
+    },
+    "offline-checker.zip": {
+      "sha256": "ab1601f3743d813ac086f2c2fe09aaae545b0e8b58f22053d7300b94599771bd",
+      "bytes": 33880565
+    }
+  },
+  "archived_file_hashes_verified": 3966,
+  "offline_archived_files_verified": 45,
+  "final_report_and_review_included": true
+}

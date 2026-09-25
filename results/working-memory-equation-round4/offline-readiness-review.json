@@ -1,0 +1,55 @@
+{
+  "created_at": "2026-09-23T20:11:14.218975+00:00",
+  "status": "passed",
+  "issues": [],
+  "source_sha256": "2625709b9732b5657643012d7c5943d5224b2261bad9a6e9b1cc76969c4609a9",
+  "amendment_sha256": "20758298620e4cae03682945644a7654fe7a37ed82c1419fed233e8a20c45bb6",
+  "capability_sha256": "4d248b030a0f10703eaceaa6f3a20609a2a2b9c1d841ef6bc6b419006cd10910",
+  "reviewer": "independent corpus agent",
+  "scope": "Additive optional-output compatibility only. Source, synthetic tests, development-only output schema, existing immutable verification and hash evidence reviewed. No final corpus/scores/predictions, APIs, model fitting, model changes or new package inference performed by reviewer.",
+  "evidence": {
+    "[original-study-workspace]/work/round4/package/package_readiness_compatibility.py": "2625709b9732b5657643012d7c5943d5224b2261bad9a6e9b1cc76969c4609a9",
+    "[original-study-workspace]/work/round4/package/probe_output_capabilities.py": "9477df962d3d0d873f1cc829f0cfa86a7da42e0446b0ce98621d118d7fb6ebce",
+    "[original-study-workspace]/work/round4/package/test_readiness_compatibility.py": "71b22bd554b8f83a8a2d5d86617152a906a7380fff9431ea5d1710fe0d0df015",
+    "[original-study-workspace]/work/round4/package/offline_runner.py": "27bc2b69a7856861f6059170036e8f2e2c62994b60cac78c071c669ba0f96b6a",
+    "[original-study-workspace]/work/round4/package/run_final_when_ready.py": "9d743750f1b735e4d750ce75bcf0ae0ea305fc25393f33361ee3d0658bb60396",
+    "[original-study-workspace]/work/round4/package/verify_package.py": "971957f2ee35048570430691fcbe4992484a031fd58994dfb6d5824ce84cd69a",
+    "[original-study-workspace]/work/round4/package/compatibility/amendment.json": "20758298620e4cae03682945644a7654fe7a37ed82c1419fed233e8a20c45bb6",
+    "[original-study-workspace]/work/round4/package/compatibility/capability.json": "4d248b030a0f10703eaceaa6f3a20609a2a2b9c1d841ef6bc6b419006cd10910",
+    "[original-study-workspace]/work/round4/package/bundle-final/verification.json": "e3f7214385e77de56daa95846615adf1e8716872dd45b84a48a4e411d34d32c1",
+    "[original-study-workspace]/work/round4/package/bundle-final/integrity.json": "946da03d2c5b3d4d905fa083dfb1c0b5a26a96138464550a7aab15cd071f407f",
+    "[original-study-workspace]/work/round4/package/compatibility/independent-tests.log": "d6cef7a30fccff5421710efa5ef6797ddc671fac28bbe2410b643e1067139e64"
+  },
+  "synthetic_tests": {
+    "passed": 7,
+    "exit_code": 0,
+    "command": "python3 -m unittest discover -s work/round4/package -p test_readiness_compatibility.py -v"
+  },
+  "actual_read_only_validation": {
+    "validate_inputs_passed": true,
+    "amendment_evidence_current": true,
+    "socket_and_final_directory_audit_hook_active": true,
+    "passages": 688,
+    "steps": 4726,
+    "models": 14,
+    "probabilities_available": false,
+    "advertised_probability_models": [],
+    "source_only_probe_steps": 4,
+    "maximum_full_fit_raw_error": 0.0,
+    "maximum_full_fit_displayed_error": 0.0
+  },
+  "checks": [
+    "Compared replacement against both original readiness gates: registry, complete model inventory, current source/model hashes, bundle integrity, verified development corpus identity and provenance remain required.",
+    "Literal frozen predict_rows output dictionaries advertise the required four score/identity fields without score_probabilities; package word-count branch is inspected separately. Indirect or inconsistent return schemas refuse instead of guessing.",
+    "Development-only packaged probe supplies include_probabilities=True, verifies every model and positive step count, and agrees with source-declared optional fields. Networking and final data directories are denied.",
+    "The truthful unavailable probability flag is accepted only when advertisements, observed output schema and immutable verification report all agree. Advertised but missing probabilities and unexpected probability fields fail.",
+    "All six numeric parity/invariance sections, per-model coverage, finite errors, full-fit step counts, original filesystem/network denial evidence, CLI agreement and empty-input check remain required.",
+    "Current immutable verification has exact displayed and raw equality across all 14 models and 4,726 development steps. This is delivery parity, not new accuracy evidence.",
+    "Readiness publication remains exclusive via hard link, preserves status/sources/gate_bindings/artifacts, and binds compatibility amendment/review/capability. Existing runtime benchmark accepts the unchanged schema.",
+    "Frozen bundle, verification report, models, registry and original orchestration sources remain unchanged; future orchestration must explicitly call the reviewed additive validator."
+  ],
+  "limitations": [
+    "The new one-passage schema probe is additional capability evidence, not a replacement for the existing full-corpus relocated filesystem/network-denied verification.",
+    "Probability fields are optional public outputs; internal item probabilities do not imply a public distribution or calibration claim."
+  ]
+}

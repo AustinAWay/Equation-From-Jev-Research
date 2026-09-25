@@ -1,0 +1,70 @@
+{
+  "selected_kind": "gaussian",
+  "selected_equation_sha256": "bbf6494601187a251af4f659b0a7cf80df9b77b8bb1cdf22b59c4b94ace4c5bc",
+  "basis": "development grouped out-of-fold scores only",
+  "candidates": [
+    {
+      "kind": "gaussian",
+      "path": "[original-study-workspace]/outputs/nonlinear-text-equation-20260924/kernel-polynomial/gaussian-equation.json",
+      "sha256": "bbf6494601187a251af4f659b0a7cf80df9b77b8bb1cdf22b59c4b94ace4c5bc",
+      "development_oof_metrics": {
+        "exact": 0.3832836031781537,
+        "mae": 0.8657201307699678
+      },
+      "parameter_count": 6942,
+      "folder": "kernel-polynomial",
+      "prediction_sha256": "3b4cbf8c13e35c64f289cbc86416a2126e09270dbb1fa1ae87bb682f3aa00a59"
+    },
+    {
+      "kind": "polynomial",
+      "path": "[original-study-workspace]/outputs/nonlinear-text-equation-20260924/kernel-polynomial/polynomial-equation.json",
+      "sha256": "103f0f5164ca291db2dc2f7f9db734eb1cd3ed85d63c1657d02ba79215d6d3bf",
+      "development_oof_metrics": {
+        "exact": 0.3805909617476281,
+        "mae": 0.8600066465716103
+      },
+      "parameter_count": 542,
+      "folder": "kernel-polynomial",
+      "prediction_sha256": "665f6263e836bfee9424588bdc412fae97cc354d256a02795f4dbfc52b04a207"
+    },
+    {
+      "kind": "spline",
+      "path": "[original-study-workspace]/outputs/nonlinear-text-equation-20260924/splines/spline-equation.json",
+      "sha256": "ba78e63049f744b58e27d7bd8cc3d69186aea7bb9ee149777cbf77f116d25f27",
+      "development_oof_metrics": {
+        "exact": 0.3832247230054603,
+        "mae": 0.8636312871094911
+      },
+      "parameter_count": 3164,
+      "parameter_count_components": {
+        "coefficients": 2280,
+        "intercepts": 10,
+        "basis_mean": 228,
+        "basis_scale": 228,
+        "spline_knots": 418
+      },
+      "folder": "splines",
+      "prediction_sha256": "7608beb16d3f0dcfa07bc33558cffa70b3e92ad27a0ef5185aa8a37c575d0d23"
+    },
+    {
+      "kind": "word_count_spline",
+      "path": "[original-study-workspace]/outputs/nonlinear-text-equation-20260924/splines/word_count_spline-equation.json",
+      "sha256": "fdee043a8232e53bb246e798a931870d752454d0579d9ea5f3766ecc1c59184f",
+      "development_oof_metrics": {
+        "exact": 0.37626508303619605,
+        "mae": 0.8724331997335728
+      },
+      "parameter_count": 67,
+      "parameter_count_components": {
+        "coefficients": 40,
+        "intercepts": 10,
+        "basis_mean": 4,
+        "basis_scale": 4,
+        "spline_knots": 9
+      },
+      "folder": "splines",
+      "prediction_sha256": "411a6853dcaa79c1ddadbbd7c1691b3edbf2a37a400d1459b058b3ed6faf9873"
+    }
+  ],
+  "comparison_labels_used_for_selection": false
+}

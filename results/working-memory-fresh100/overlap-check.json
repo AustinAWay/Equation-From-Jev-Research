@@ -1,0 +1,758 @@
+{
+  "corpus_sha256": "3ebfa3714cdcb1d8d336805437e8868d89d38c2a10bf6456a12eec5c2735312c",
+  "passages": 100,
+  "families": 50,
+  "domains": {
+    "physical_science": 10,
+    "earth_geography": 10,
+    "living_systems": 10,
+    "mathematics_data": 10,
+    "digital_technology": 10,
+    "history_archives": 10,
+    "community_systems": 10,
+    "language_literature": 10,
+    "music_visual_arts": 10,
+    "everyday_design": 10
+  },
+  "genres": {
+    "explanation": 20,
+    "observational_narrative": 20,
+    "comparison_interpretation": 20,
+    "worked_reasoning": 20,
+    "procedure": 20
+  },
+  "length_bands": {
+    "short": 40,
+    "medium": 40,
+    "long": 20
+  },
+  "challenges": {
+    "reference_identity": 10,
+    "directed_roles": 10,
+    "independent_requirement": 10,
+    "definition_placement": 10,
+    "conditional_negation": 10,
+    "information_distance": 10,
+    "task_relevance": 10,
+    "unfinished_dependencies": 10,
+    "intervening_new_information": 10,
+    "grouping_paraphrase": 10
+  },
+  "words": {
+    "min": 53,
+    "max": 143,
+    "mean": 86.51
+  },
+  "historical_inputs": [
+    {
+      "path": "[original-study-workspace]/work/round4/data/development-labels-688.jsonl",
+      "sha256": "d22f480c1c0a3f056504ad56807a80eb1e53e0917906e3898da41216cc20c546",
+      "rows": 4726,
+      "unique_passages": 688
+    },
+    {
+      "path": "[original-study-workspace]/work/round4/corpus/final/final.jsonl",
+      "sha256": "8ff8dd038cabdb4a0d5c70d01a07bf3ccabd788a7e9fd6a9879605d0cdea53ab",
+      "rows": 100,
+      "unique_passages": 100
+    },
+    {
+      "path": "[original-study-workspace]/work/equation-research/corpus.jsonl",
+      "sha256": "c2263665f964707fe5e8cad53351e5914ab7be7cdfe3dbb591bb37f82fe838a1",
+      "rows": 120,
+      "unique_passages": 120
+    }
+  ],
+  "historical_unique_texts": 788,
+  "historical_comparisons": 78800,
+  "screening_rule": "NFKC lowercase alphanumeric-token exact; near if word5gram Jaccard>=.25, or >=12 shared5grams cover>=.55 of shorter text, or character SequenceMatcher>=.80 (computed when>=6 shared5grams).",
+  "historical_matches": [],
+  "new_pair_comparisons": 4950,
+  "within_new_near_matches": [
+    {
+      "first": "f100_001_a",
+      "second": "f100_001_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 36,
+      "word5gram_jaccard": 0.5217391304347826,
+      "shorter_text_coverage": 0.7058823529411765,
+      "character_similarity": 0.9230769230769231,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_002_a",
+      "second": "f100_002_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 42,
+      "word5gram_jaccard": 0.6774193548387096,
+      "shorter_text_coverage": 0.8076923076923077,
+      "character_similarity": 0.9811912225705329,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_003_a",
+      "second": "f100_003_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 78,
+      "word5gram_jaccard": 0.8297872340425532,
+      "shorter_text_coverage": 0.9512195121951219,
+      "character_similarity": 0.9583333333333334,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_004_a",
+      "second": "f100_004_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 71,
+      "word5gram_jaccard": 0.7473684210526316,
+      "shorter_text_coverage": 0.8554216867469879,
+      "character_similarity": 0.8504854368932039,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_005_a",
+      "second": "f100_005_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 115,
+      "word5gram_jaccard": 0.8156028368794326,
+      "shorter_text_coverage": 0.905511811023622,
+      "character_similarity": 0.9755073477956613,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_006_a",
+      "second": "f100_006_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 34,
+      "word5gram_jaccard": 0.4788732394366197,
+      "shorter_text_coverage": 0.6538461538461539,
+      "character_similarity": 0.6077170418006431,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_007_a",
+      "second": "f100_007_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 44,
+      "word5gram_jaccard": 0.6984126984126984,
+      "shorter_text_coverage": 0.8461538461538461,
+      "character_similarity": 0.930780559646539,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_008_a",
+      "second": "f100_008_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 75,
+      "word5gram_jaccard": 0.7425742574257426,
+      "shorter_text_coverage": 0.8522727272727273,
+      "character_similarity": 0.9473684210526315,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_009_a",
+      "second": "f100_009_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 63,
+      "word5gram_jaccard": 0.5478260869565217,
+      "shorter_text_coverage": 0.7078651685393258,
+      "character_similarity": 0.8778696051423324,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_010_a",
+      "second": "f100_010_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 118,
+      "word5gram_jaccard": 0.7712418300653595,
+      "shorter_text_coverage": 0.8805970149253731,
+      "character_similarity": 0.9688888888888889,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_011_a",
+      "second": "f100_011_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 42,
+      "word5gram_jaccard": 0.7,
+      "shorter_text_coverage": 0.8571428571428571,
+      "character_similarity": 0.8938906752411575,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_012_a",
+      "second": "f100_012_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 41,
+      "word5gram_jaccard": 0.6029411764705882,
+      "shorter_text_coverage": 0.7592592592592593,
+      "character_similarity": 0.9320388349514563,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_013_a",
+      "second": "f100_013_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 82,
+      "word5gram_jaccard": 0.8118811881188119,
+      "shorter_text_coverage": 0.9534883720930233,
+      "character_similarity": 0.9498632634457612,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_014_a",
+      "second": "f100_014_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 74,
+      "word5gram_jaccard": 0.7551020408163265,
+      "shorter_text_coverage": 0.8604651162790697,
+      "character_similarity": 0.8897795591182365,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_015_a",
+      "second": "f100_015_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 118,
+      "word5gram_jaccard": 0.7763157894736842,
+      "shorter_text_coverage": 0.8872180451127819,
+      "character_similarity": 0.9594855305466238,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_016_a",
+      "second": "f100_016_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 35,
+      "word5gram_jaccard": 0.49295774647887325,
+      "shorter_text_coverage": 0.660377358490566,
+      "character_similarity": 0.821917808219178,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_017_a",
+      "second": "f100_017_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 39,
+      "word5gram_jaccard": 0.6,
+      "shorter_text_coverage": 0.7647058823529411,
+      "character_similarity": 0.911504424778761,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_018_a",
+      "second": "f100_018_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 76,
+      "word5gram_jaccard": 0.7169811320754716,
+      "shorter_text_coverage": 0.8444444444444444,
+      "character_similarity": 0.9715857011915674,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_019_a",
+      "second": "f100_019_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 62,
+      "word5gram_jaccard": 0.5636363636363636,
+      "shorter_text_coverage": 0.7380952380952381,
+      "character_similarity": 0.8532555879494655,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_020_a",
+      "second": "f100_020_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 120,
+      "word5gram_jaccard": 0.8633093525179856,
+      "shorter_text_coverage": 0.9302325581395349,
+      "character_similarity": 0.982131854590265,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_021_a",
+      "second": "f100_021_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 47,
+      "word5gram_jaccard": 0.7966101694915254,
+      "shorter_text_coverage": 0.8867924528301887,
+      "character_similarity": 0.9713375796178344,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_022_a",
+      "second": "f100_022_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 32,
+      "word5gram_jaccard": 0.43243243243243246,
+      "shorter_text_coverage": 0.6153846153846154,
+      "character_similarity": 0.9110105580693816,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_023_a",
+      "second": "f100_023_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 84,
+      "word5gram_jaccard": 0.8316831683168316,
+      "shorter_text_coverage": 0.9545454545454546,
+      "character_similarity": 0.9594721960414703,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_024_a",
+      "second": "f100_024_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 74,
+      "word5gram_jaccard": 0.7551020408163265,
+      "shorter_text_coverage": 0.8604651162790697,
+      "character_similarity": 0.8752436647173489,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_025_a",
+      "second": "f100_025_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 123,
+      "word5gram_jaccard": 0.825503355704698,
+      "shorter_text_coverage": 0.9044117647058824,
+      "character_similarity": 0.985969387755102,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_026_a",
+      "second": "f100_026_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 32,
+      "word5gram_jaccard": 0.4266666666666667,
+      "shorter_text_coverage": 0.6037735849056604,
+      "character_similarity": 0.784688995215311,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_027_a",
+      "second": "f100_027_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 42,
+      "word5gram_jaccard": 0.5753424657534246,
+      "shorter_text_coverage": 0.75,
+      "character_similarity": 0.9152542372881356,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_028_a",
+      "second": "f100_028_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 71,
+      "word5gram_jaccard": 0.7029702970297029,
+      "shorter_text_coverage": 0.8255813953488372,
+      "character_similarity": 0.9242144177449169,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_029_a",
+      "second": "f100_029_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 66,
+      "word5gram_jaccard": 0.616822429906542,
+      "shorter_text_coverage": 0.7857142857142857,
+      "character_similarity": 0.8781925343811395,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_030_a",
+      "second": "f100_030_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 122,
+      "word5gram_jaccard": 0.8840579710144928,
+      "shorter_text_coverage": 0.9384615384615385,
+      "character_similarity": 0.9848101265822785,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_031_a",
+      "second": "f100_031_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 45,
+      "word5gram_jaccard": 0.703125,
+      "shorter_text_coverage": 0.8333333333333334,
+      "character_similarity": 0.9625,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_032_a",
+      "second": "f100_032_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 34,
+      "word5gram_jaccard": 0.4594594594594595,
+      "shorter_text_coverage": 0.6296296296296297,
+      "character_similarity": 0.9615384615384616,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_033_a",
+      "second": "f100_033_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 81,
+      "word5gram_jaccard": 0.826530612244898,
+      "shorter_text_coverage": 0.9529411764705882,
+      "character_similarity": 0.9519650655021834,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_034_a",
+      "second": "f100_034_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 71,
+      "word5gram_jaccard": 0.7473684210526316,
+      "shorter_text_coverage": 0.8554216867469879,
+      "character_similarity": 0.8886597938144329,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_035_a",
+      "second": "f100_035_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 124,
+      "word5gram_jaccard": 0.8157894736842105,
+      "shorter_text_coverage": 0.9117647058823529,
+      "character_similarity": 0.9710610932475884,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_036_a",
+      "second": "f100_036_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 43,
+      "word5gram_jaccard": 0.6323529411764706,
+      "shorter_text_coverage": 0.7962962962962963,
+      "character_similarity": 0.8318042813455657,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_037_a",
+      "second": "f100_037_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 46,
+      "word5gram_jaccard": 0.6571428571428571,
+      "shorter_text_coverage": 0.8070175438596491,
+      "character_similarity": 0.9230769230769231,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_038_a",
+      "second": "f100_038_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 64,
+      "word5gram_jaccard": 0.5663716814159292,
+      "shorter_text_coverage": 0.735632183908046,
+      "character_similarity": 0.9236298292902066,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_039_a",
+      "second": "f100_039_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 67,
+      "word5gram_jaccard": 0.6146788990825688,
+      "shorter_text_coverage": 0.7790697674418605,
+      "character_similarity": 0.8832391713747646,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_040_a",
+      "second": "f100_040_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 119,
+      "word5gram_jaccard": 0.85,
+      "shorter_text_coverage": 0.9296875,
+      "character_similarity": 0.9754562617998741,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_041_a",
+      "second": "f100_041_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 44,
+      "word5gram_jaccard": 0.6470588235294118,
+      "shorter_text_coverage": 0.7857142857142857,
+      "character_similarity": 0.9471947194719472,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_042_a",
+      "second": "f100_042_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 38,
+      "word5gram_jaccard": 0.5588235294117647,
+      "shorter_text_coverage": 0.7169811320754716,
+      "character_similarity": 0.9138461538461539,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_043_a",
+      "second": "f100_043_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 84,
+      "word5gram_jaccard": 0.8316831683168316,
+      "shorter_text_coverage": 0.9545454545454546,
+      "character_similarity": 0.9502762430939227,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_044_a",
+      "second": "f100_044_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 71,
+      "word5gram_jaccard": 0.7473684210526316,
+      "shorter_text_coverage": 0.8554216867469879,
+      "character_similarity": 0.8418803418803419,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_045_a",
+      "second": "f100_045_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 112,
+      "word5gram_jaccard": 0.7272727272727273,
+      "shorter_text_coverage": 0.8484848484848485,
+      "character_similarity": 0.9219512195121952,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_046_a",
+      "second": "f100_046_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 35,
+      "word5gram_jaccard": 0.4666666666666667,
+      "shorter_text_coverage": 0.6481481481481481,
+      "character_similarity": 0.7893915756630265,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_047_a",
+      "second": "f100_047_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 38,
+      "word5gram_jaccard": 0.5846153846153846,
+      "shorter_text_coverage": 0.76,
+      "character_similarity": 0.8881789137380192,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_048_a",
+      "second": "f100_048_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 73,
+      "word5gram_jaccard": 0.7525773195876289,
+      "shorter_text_coverage": 0.8588235294117647,
+      "character_similarity": 0.9878542510121457,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_049_a",
+      "second": "f100_049_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 57,
+      "word5gram_jaccard": 0.5480769230769231,
+      "shorter_text_coverage": 0.7215189873417721,
+      "character_similarity": 0.8275862068965517,
+      "normalized_exact": false,
+      "near_duplicate": true
+    },
+    {
+      "first": "f100_050_a",
+      "second": "f100_050_b",
+      "intentional_same_family": true,
+      "shared_word5grams": 120,
+      "word5gram_jaccard": 0.7894736842105263,
+      "shorter_text_coverage": 0.8955223880597015,
+      "character_similarity": 0.9604022627278441,
+      "normalized_exact": false,
+      "near_duplicate": true
+    }
+  ],
+  "cross_family_new_matches": [],
+  "nearest_historical_matches": [
+    {
+      "new_id": "f100_022_a",
+      "old_id": "r3d_085_a",
+      "old_source": "[original-study-workspace]/work/round4/data/development-labels-688.jsonl",
+      "shared_word5grams": 3,
+      "word5gram_jaccard": 0.024,
+      "shorter_text_coverage": 0.057692307692307696,
+      "character_similarity": 0.0,
+      "normalized_exact": false,
+      "near_duplicate": false
+    },
+    {
+      "new_id": "f100_022_b",
+      "old_id": "r3d_085_a",
+      "old_source": "[original-study-workspace]/work/round4/data/development-labels-688.jsonl",
+      "shared_word5grams": 3,
+      "word5gram_jaccard": 0.023622047244094488,
+      "shorter_text_coverage": 0.05555555555555555,
+      "character_similarity": 0.0,
+      "normalized_exact": false,
+      "near_duplicate": false
+    },
+    {
+      "new_id": "f100_042_a",
+      "old_id": "science_04_a",
+      "old_source": "[original-study-workspace]/work/round4/data/development-labels-688.jsonl",
+      "shared_word5grams": 1,
+      "word5gram_jaccard": 0.011111111111111112,
+      "shorter_text_coverage": 0.02631578947368421,
+      "character_similarity": 0.0,
+      "normalized_exact": false,
+      "near_duplicate": false
+    },
+    {
+      "new_id": "f100_042_b",
+      "old_id": "science_04_a",
+      "old_source": "[original-study-workspace]/work/round4/data/development-labels-688.jsonl",
+      "shared_word5grams": 1,
+      "word5gram_jaccard": 0.011111111111111112,
+      "shorter_text_coverage": 0.02631578947368421,
+      "character_similarity": 0.0,
+      "normalized_exact": false,
+      "near_duplicate": false
+    },
+    {
+      "new_id": "f100_039_a",
+      "old_id": "r3d_120_a",
+      "old_source": "[original-study-workspace]/work/round4/data/development-labels-688.jsonl",
+      "shared_word5grams": 1,
+      "word5gram_jaccard": 0.006211180124223602,
+      "shorter_text_coverage": 0.013157894736842105,
+      "character_similarity": 0.0,
+      "normalized_exact": false,
+      "near_duplicate": false
+    },
+    {
+      "new_id": "f100_039_b",
+      "old_id": "r3d_120_a",
+      "old_source": "[original-study-workspace]/work/round4/data/development-labels-688.jsonl",
+      "shared_word5grams": 1,
+      "word5gram_jaccard": 0.006060606060606061,
+      "shorter_text_coverage": 0.013157894736842105,
+      "character_similarity": 0.0,
+      "normalized_exact": false,
+      "near_duplicate": false
+    },
+    {
+      "new_id": "f100_035_a",
+      "old_id": "history_01_a",
+      "old_source": "[original-study-workspace]/work/round4/data/development-labels-688.jsonl",
+      "shared_word5grams": 1,
+      "word5gram_jaccard": 0.005813953488372093,
+      "shorter_text_coverage": 0.02702702702702703,
+      "character_similarity": 0.0,
+      "normalized_exact": false,
+      "near_duplicate": false
+    },
+    {
+      "new_id": "f100_035_b",
+      "old_id": "history_01_a",
+      "old_source": "[original-study-workspace]/work/round4/data/development-labels-688.jsonl",
+      "shared_word5grams": 1,
+      "word5gram_jaccard": 0.005681818181818182,
+      "shorter_text_coverage": 0.02702702702702703,
+      "character_similarity": 0.0,
+      "normalized_exact": false,
+      "near_duplicate": false
+    },
+    {
+      "new_id": "f100_049_b",
+      "old_id": "r4d_005_a",
+      "old_source": "[original-study-workspace]/work/round4/data/development-labels-688.jsonl",
+      "shared_word5grams": 1,
+      "word5gram_jaccard": 0.0048543689320388345,
+      "shorter_text_coverage": 0.012658227848101266,
+      "character_similarity": 0.0,
+      "normalized_exact": false,
+      "near_duplicate": false
+    },
+    {
+      "new_id": "f100_049_a",
+      "old_id": "r4d_005_a",
+      "old_source": "[original-study-workspace]/work/round4/data/development-labels-688.jsonl",
+      "shared_word5grams": 1,
+      "word5gram_jaccard": 0.004784688995215311,
+      "shorter_text_coverage": 0.012195121951219513,
+      "character_similarity": 0.0,
+      "normalized_exact": false,
+      "near_duplicate": false
+    }
+  ],
+  "limitations": [
+    "Intentional paired variants are included in screening and marked, not removed.",
+    "Low wording overlap does not prove independent authorship or a representative textbook sample.",
+    "Only passage/ID/family text was used from historical label files; no score or prediction informed authoring."
+  ],
+  "manual_review": [
+    {
+      "new_family": "f100_022",
+      "historical_family": "r3d_085",
+      "finding": "Generic sender/receiver diagram wording overlaps. New case is a tablet/robot command-and-acknowledgment exchange; old case distinguishes letter senders from quoted speakers."
+    },
+    {
+      "new_family": "f100_042",
+      "historical_family": "science_04",
+      "finding": "Both mention a lamp and screen/wall. New case assigns roles in a shadow performance; old case changes object distance and compares shadow outlines."
+    },
+    {
+      "new_family": "f100_039",
+      "historical_family": "r3d_120",
+      "finding": "Generic end-of-exercise question wording. New case varies intervening descriptions before applying a door-marker rule; old case tracks an object moved after an observer leaves."
+    }
+  ]
+}

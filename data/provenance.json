@@ -1,0 +1,60 @@
+{
+  "train": {
+    "rows": 4726,
+    "passages": 688,
+    "families": 344,
+    "features": 302,
+    "finite_input_check": true,
+    "suffix_invariance_checks": 10,
+    "all_11_prior_grammar_inputs_recomputed_and_cache_checked": true,
+    "sha256": "8aa63b37d4fbc29408caa76086a5b9837f2071908647fd42b47a84e292c07276",
+    "source_sha256": "d22f480c1c0a3f056504ad56807a80eb1e53e0917906e3898da41216cc20c546",
+    "seconds": 61.43,
+    "contains_labels": true
+  },
+  "comparison": {
+    "rows": 910,
+    "passages": 100,
+    "families": 50,
+    "features": 302,
+    "finite_input_check": true,
+    "suffix_invariance_checks": 2,
+    "all_11_prior_grammar_inputs_recomputed_and_cache_checked": true,
+    "sha256": "3f290e194ef772d38ddadd3299eab379447cf8303f1e19449ce617a460caad84",
+    "source_sha256": "eb6a4030f06695522431c84a754d66847f34eb3583f9f87ca0eeaf825fe8e00e",
+    "seconds": 12.79,
+    "contains_labels": false
+  },
+  "train_comparison_id_overlap": 0,
+  "train_comparison_family_overlap": 0,
+  "label_input_policy": "Only passage, start, end enter extract(); metadata only groups rows. Comparison targets and saved model predictions are never accessed.",
+  "normalization": "None. Training fixes feature order before comparison is extracted.",
+  "weights": "Each row weight = 1 / number of rows in its family, giving each family equal total weight.",
+  "comparison_status": "Previously examined comparison set; not a newly blind holdout.",
+  "extractor_version": "local-prefix-features-v3-reference-frequency",
+  "source_sha256": {
+    "work/equation-research/features.py": "7928287c39bb1db956d7f5006c02515492973aa7660f675a7054090f134e450f",
+    "work/direct-text-equation-20260924/text_counts.py": "9db715cb1a22c006bf7d0952d14967e61e578fefcb5cb5711f068c6dee2ade57",
+    "work/round4/direct/measurements.py": "bf9ca4de51dfa7f44b1f66f66c7bc203cd5c47a686f589dcfba8ec86d4e8e1ac",
+    "work/nonlinear-text-equation-20260924/data/build_data.py": "cda469563ce437cfc6f343a236504c15ae0a932f76e3f037ee3cca766553bec3",
+    "work/direct-text-equation-20260924/train-structure.jsonl": "2a768f37eb965c45972c01b749c9787542627fbd34b977e76a1eab526049d6e6",
+    "work/direct-text-equation-20260924/fresh-structure.jsonl": "f4641e57d09b851a57967bfe16d7961b33d65208e4c6a2f975863d277005ef48"
+  },
+  "python": "/Library/Developer/CommandLineTools/usr/bin/python3",
+  "python_version": "3.9.6",
+  "libraries": {
+    "numpy": "2.0.2",
+    "scikit-learn": "1.6.1",
+    "spacy": "3.8.11",
+    "en-core-web-sm": "3.8.0",
+    "wordfreq": "3.1.1"
+  },
+  "no_api_calls": true,
+  "no_word_identity_features": true,
+  "files": {
+    "train.npz": "8aa63b37d4fbc29408caa76086a5b9837f2071908647fd42b47a84e292c07276",
+    "comparison-features.npz": "3f290e194ef772d38ddadd3299eab379447cf8303f1e19449ce617a460caad84",
+    "features.json": "f38dbb90a09f183cd5adb599859ce39b1e96328244290a23da3c68c9e4dab0f1",
+    "folds.json": "9fb011b7e4c4b004b7ad2a671a3aa9b576da38ef1ad0a4ef01fb800ad461db52"
+  }
+}

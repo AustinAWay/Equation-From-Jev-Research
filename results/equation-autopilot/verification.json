@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "12 focused tests passed",
+    "Two-candidate real-data subset smoke completed",
+    "All136 smoke rows matched native/exported equation outputs",
+    "Resume reused saved scores with no additional trial"
+  ],
+  "scope": "Execution verification only, not an accuracy claim.",
+  "runner_sha256": "714873b4486bbf040be45e8ef14cd95fcc08ba59fd50ee0261c3d7f3dda7f817",
+  "new_paid_model_calls": 0,
+  "old_research_files_modified": false
+}

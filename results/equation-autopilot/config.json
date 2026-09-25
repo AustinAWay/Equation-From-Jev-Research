@@ -1,0 +1,27 @@
+{
+  "labels": "[original-study-workspace]/work/round4/data/development-labels-688.jsonl",
+  "folds": "[original-study-workspace]/work/round4/data/folds-688.json",
+  "measurements": "[original-study-workspace]/work/round4/direct/expanded688/measurements.jsonl",
+  "input_hashes": {
+    "[original-study-workspace]/work/round4/data/development-labels-688.jsonl": "d22f480c1c0a3f056504ad56807a80eb1e53e0917906e3898da41216cc20c546",
+    "[original-study-workspace]/work/round4/data/folds-688.json": "3ff402514cff13f67c6c81ac755ed4d8dc84e251d9291407875b5d7f20d65b88",
+    "[original-study-workspace]/work/round4/direct/expanded688/measurements.jsonl": "ba010bcdfb41d6ab93681aeb46c1ab38cb00eb19d867f52c0678d2a2f2bf20ee",
+    "[original-study-workspace]/work/round4/direct/measurements.py": "bf9ca4de51dfa7f44b1f66f66c7bc203cd5c47a686f589dcfba8ec86d4e8e1ac",
+    "[original-study-workspace]/work/round4/direct/expanded688/measurement-manifest.json": "9fd432b5a9201461861c052198e841c4937801c095548f65585b9c801096423e"
+  },
+  "output": "[original-study-workspace]/outputs/equation-autopilot",
+  "run_dir": "[original-study-workspace]/work/equation-autopilot-run",
+  "hours": 12,
+  "max_trials": 1000,
+  "patience": 150,
+  "trial_timeout_seconds": 600,
+  "seed": 20260924,
+  "target_exact": 0.95,
+  "target_mae": 0.1,
+  "prevent_idle_sleep": true,
+  "incumbent": {
+    "exact": 0.4561390328084203,
+    "mae": 0.7101784932865115,
+    "note": "Saved round4 frequency/count-mode five-fold development result; not the 47.7% fresh-test result."
+  }
+}

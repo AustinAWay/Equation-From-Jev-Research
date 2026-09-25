@@ -1,0 +1,24 @@
+{
+  "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]",
+  "packages": {
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.6.1",
+    "spacy": "3.8.11",
+    "en-core-web-sm": "3.8.0",
+    "joblib": "1.5.3",
+    "matplotlib": "3.9.4",
+    "sympy": "1.14.0",
+    "wordfreq": "3.1.1"
+  },
+  "symbolic_package": {
+    "gplearn": "0.4.2",
+    "location": "vendor"
+  },
+  "reference_runtime": {
+    "python": "3.12.13",
+    "spacy": "3.8.16",
+    "en-core-web-sm": "3.8.0",
+    "source_commit": "cee3edb9922115d759778434878f6c56b483b390"
+  }
+}

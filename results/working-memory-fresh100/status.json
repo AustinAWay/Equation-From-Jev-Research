@@ -1,0 +1,24 @@
+{
+  "updated_at": "2026-09-24T16:09:00.607421+00:00",
+  "status": "complete",
+  "pid": 63282,
+  "worker_pid": null,
+  "complete_analyses": 300,
+  "saved_analyses": 300,
+  "requested_analyses": 300,
+  "missing_analyses": 0,
+  "incomplete_saved_analyses": [],
+  "cost": {
+    "requests": 58874,
+    "charged_or_reserved_usd": 20.11884138600051,
+    "known_reported_cost_usd": 20.007945342000262,
+    "unknown_usage_requests": 6,
+    "http_429": 0,
+    "reservation_exceeded": false
+  },
+  "errors": {},
+  "reason": null,
+  "concurrent_analyses": 4,
+  "concurrent_evaluation_batches": 8,
+  "maximum_simultaneous_http_attempts": 16
+}

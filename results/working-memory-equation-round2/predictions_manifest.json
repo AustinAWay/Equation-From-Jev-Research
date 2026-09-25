@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-09-22T18:51:26.942687+00:00",
+  "freeze_sha256": "0c7ebf2b9adb8e9556b09becf9179aa645e82c47ef2a2ded2e4680c11d7b720a",
+  "steps_sha256": "83af682d00295cc0ad5c60686d07b1c2a4ac0d7be76494f0fa1f094245dd4972",
+  "hashes": {
+    "approach1": "25c2d8d9ce3079fd4373547b2fac627aa3395d18d6672e2b863aca345fa3f1c0",
+    "approach2": "cb9b53e3556f9b8e9e6af0d7491a3d151d02994ce61b3188b3c3505d1b5ad865",
+    "approach3": "439eac32637c39584ce82c404430a8b9fa61060ed19056b04688be8d3c2085bf",
+    "no_history": "5061da066f482845f06f61ce5d6adf10a2579ad269c1c4345934d25c0c5f7785",
+    "best_no_history": "403a4e15b5673cc4df8f5c426a31bf3d8605cc0d5d2d625c106c8f8c1f88517d",
+    "role_baseline": "4501eda1e30756e08ea9cec96834169f36b0bc0affecef9528099a173b9a8f3e",
+    "old_equation": "431ec3ca4c8f9e7231539a5bbb9e955171bb1582fb82b20229bf57bc1901b61e",
+    "old_word_count": "6fa955cdfd54bdbb2a43f739847e2d2747fade2978694ae23b6adcb99d89eadc",
+    "word_count": "88d736a4e5ead7ce6b6c1a64620eee0cbf27a39513eb03e88667ff591f18c9bb"
+  },
+  "rows": 208,
+  "inputs": [
+    "passage",
+    "start",
+    "end"
+  ],
+  "network_blocked": true,
+  "targets_absent": true
+}

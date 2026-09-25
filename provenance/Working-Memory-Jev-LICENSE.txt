@@ -1,0 +1,101 @@
+Working Memory Jev License
+Version 2.0 — 21 September 2026
+
+Copyright (c) 2026 AustinAWay. All rights reserved except as granted below.
+
+1. Scope and ownership
+
+This license applies to original source code, documentation, and other material
+in this repository to the extent that the copyright or other applicable rights
+are owned or controlled by AustinAWay (the "Licensor"). That material is the
+"Software." No ownership is transferred. Rights not expressly granted are
+reserved.
+
+Third-party software, models, dependencies, and separately identified material
+are excluded from this license and remain subject to their respective terms.
+This license does not claim ownership of those materials, your input content,
+or rights that the Licensor does not own or control.
+
+2. Free use
+
+Subject to sections 3 and 4, the Licensor grants you a nonexclusive,
+worldwide, royalty-free permission to download, run, study, modify, and share
+the Software and modified versions, for any purpose, when you are:
+
+  (a) an individual acting on your own behalf, or
+  (b) an organization with no more than one employee, or
+  (c) anyone using the Software for a non-commercial purpose, including
+      personal study, classroom teaching, research, and evaluation.
+
+Copies and modified versions you share must keep this license and all
+applicable copyright and attribution notices, and recipients receive the
+Software under these same terms.
+
+3. Uses that require permission first
+
+The following require the Licensor's written permission before they begin:
+
+  (a) use of the Software, or of a modified version, by or on behalf of an
+      organization with more than one employee, for any purpose; and
+  (b) commercial use by anyone, meaning use that is intended for or directed
+      toward commercial advantage or monetary compensation, including offering
+      the Software or a modified version as a product, a hosted or managed
+      service, or part of a paid service to others.
+
+To request permission, email the Licensor at austin.way@alpha.school and state
+who you are, the organization involved, and how the Software will be used.
+Permission is granted when the Licensor confirms it in writing. The Licensor
+may grant it freely, attach conditions, ask for a separate written agreement,
+or decline. A request that goes unanswered is not permission.
+
+No trademark, endorsement, or patent license is granted. Access to any external
+API, including TypeSafe's Jev API, requires your own authorization and
+compliance with that provider's terms.
+
+4. Termination and future terms
+
+Your permission under section 2 ends automatically if you breach these terms,
+and permission granted under section 3 ends according to its own conditions or
+on the Licensor's written notice for breach. After termination, stop the use
+that depended on the ended permission and delete copies and modifications in
+your possession or control, except where retention or another use is
+independently authorized or required by applicable law, section 5, or a
+separate written agreement.
+
+The Licensor may offer future versions under different terms and may require a
+separate agreement for uses that need permission. No updates, support, or
+future license is promised. A fee is never imposed by a repository notice
+alone; any paid arrangement requires a separate agreement.
+
+5. Public-platform rights and legal exceptions
+
+Nothing in this license withdraws or limits rights that must be granted under
+the applicable GitHub Terms of Service, including public-repository viewing
+and forking through GitHub as those terms permit, or rights and exceptions
+that cannot lawfully be restricted. Public availability does not make the
+Software public domain.
+
+6. No warranty; limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SOFTWARE IS PROVIDED "AS IS" AND
+"AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT,
+ACCURACY, OR AVAILABILITY. ANALYSES ARE EXPERIMENTAL AND ARE NOT GUARANTEED
+MEASUREMENTS OF A LEARNER'S COGNITIVE CAPACITY OR PERFORMANCE.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE LICENSOR IS NOT LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE,
+WHETHER IN CONTRACT, TORT, OR OTHERWISE. NOTHING HERE EXCLUDES LIABILITY
+THAT CANNOT LAWFULLY BE EXCLUDED.
+
+7. Other terms
+
+A separate written agreement with the Licensor controls in the event of a
+conflict concerning the rights it covers. Failure to enforce a term does not
+waive it. If a term is unenforceable, the remaining terms continue to apply
+to the extent permitted by law. Ownership, the permission requirements in
+section 3, public-platform and statutory exceptions, and the warranty and
+liability provisions survive termination to the extent applicable.
+
+Contact: austin.way@alpha.school
+Repository: https://github.com/AustinAWay/Working-Memory-Jev

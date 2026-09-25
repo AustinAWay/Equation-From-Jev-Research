@@ -1,0 +1,26 @@
+{
+  "round4": {
+    "requests": 202785,
+    "saved_full_analyses": 900,
+    "reported_token_cost_usd": 73.13975453399966,
+    "reported_plus_retained_reservations_usd": 440.31098307000406,
+    "unknown_usage_requests": 4768
+  },
+  "all_rounds": {
+    "requests": 443426,
+    "saved_full_analyses": 2964,
+    "reported_token_cost_usd": 148.5495351480006,
+    "reported_plus_retained_reservations_usd": 520.0834054920053,
+    "unknown_usage_requests": 4915
+  },
+  "evidence": {
+    "development_audit_sha256": "b5034e7a9267a93c7034999482173c7aefc58ae0eabdab288d7d9c484953e6bb",
+    "final_audit_sha256": "5941f59880f42775e380e5a73bc0af62ad4f7f4adf2b57168fa10d1de21fdad5",
+    "previous_cost_summary_sha256": "fe4f54f633f379db49b3e6cc27d19f7f2088e31abccedc49524e1b838a1742b5"
+  },
+  "notes": [
+    "Frozen input-token price estimates, not invoices; excludes assistant use and local computation.",
+    "Original shard ledgers counted once; merged copies and recovery snapshots are not additional spending.",
+    "Unknown-usage reservations, including rejected/interrupted requests, are retained and are not confirmed charges."
+  ]
+}

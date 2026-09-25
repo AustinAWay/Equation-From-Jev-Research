@@ -1,0 +1,9 @@
+{
+  "portable_replay_rows": 910,
+  "maximum_error": 3.1086244689504383e-15,
+  "no_Jev_calls": true,
+  "train_test_id_overlap": 0,
+  "surface_counts_fixture_passed": true,
+  "utf16_boundary_fixture_passed": true,
+  "future_text_invariance_fixture_passed": true
+}

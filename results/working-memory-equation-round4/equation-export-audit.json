@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "issues": [],
+  "created_at": "2026-09-24T00:02:16.613276+00:00",
+  "evidence": {
+    "[original-study-workspace]/work/round4/audit/check_final_equation_export.py": "cd13267d1e44349b5c50bae0db654b9044eb955ce75c207fa3888cab026ff3c1",
+    "[original-study-workspace]/work/round4/export_full_equation.py": "95490fb618925e9590d9b85aee0f4f7aa4fdfb04f32d045c4b397c6b8055cc7e",
+    "[original-study-workspace]/work/round4/direct/arithmetic.py": "431e1f408229c4cdd85f84d416457c78e17be4914a797722ebfbac9279d2edee",
+    "[original-study-workspace]/work/round4/direct/search.py": "e8ac339052db30b32595aea63c16d5e6d27b053c9bda2d556d0792ae0156b9bd",
+    "[original-study-workspace]/work/round4/components/count_mode.py": "25aa047f714642fc15946601dd3e7bbb7582d99e100564b875f48f8e4a2f7169",
+    "[original-study-workspace]/work/round4/components/component_repair.py": "92d3e6554071da677e2514de32eb8d5d1e806316dce50d11aa277dd33101403a",
+    "[original-study-workspace]/work/round4/audit/test_final_equation_export.py": "c7b962f4462b9fa3938c8a912976b07f697dfcdb3a67fa69ccd171e824493457",
+    "[original-study-workspace]/work/round4/audit/final-equation-export-tests.log": "b3086edadcaac4821e28679fc6c18839a8efade1497916ea3af35965a89c5d96",
+    "[original-study-workspace]/work/round4/frozen-models.json": "5da3c43ff25d6fb107d8b5cb6f793c33ed5d2a91f424b737f435a49f7428671c",
+    "[original-study-workspace]/work/round4/components/frequency-count-mode688/model.json": "be1a6884cb99d4a7d56759c9ae81e8d75d4b140963cfc0e568908e023303d781",
+    "[original-study-workspace]/outputs/working-memory-equation-round4/equation.json": "be1a6884cb99d4a7d56759c9ae81e8d75d4b140963cfc0e568908e023303d781",
+    "[original-study-workspace]/outputs/working-memory-equation-round4/full-equation.txt": "0be9c110ad998ddd285414c34da9d187afac73afd475280f07643a9c82e61b20",
+    "[original-study-workspace]/outputs/working-memory-equation-round4/equation-export.json": "fecfa6ccdfb754e6fc8180e8ddeb7af13f50221f8c277d970d94b09d8a90010e",
+    "[original-study-workspace]/work/round4/components/frequency_count_mode.py": "81159c8c951e1cd6c7138a973c54fa737374729e1cefe45a22a87fad26f9589e"
+  },
+  "model_sha256": "be1a6884cb99d4a7d56759c9ae81e8d75d4b140963cfc0e568908e023303d781",
+  "text_sha256": "0be9c110ad998ddd285414c34da9d187afac73afd475280f07643a9c82e61b20",
+  "primary_method": "component_frequency_count_mode",
+  "checks": {
+    "parts": {
+      "R": {
+        "trees": 160,
+        "features": 519,
+        "nodes": 526120,
+        "branches": 262980,
+        "leaves": 263140,
+        "sample_vectors": 37,
+        "root_boundary_vectors": 25,
+        "maximum_arithmetic_difference": 0.0
+      },
+      "E": {
+        "trees": 120,
+        "features": 236,
+        "nodes": 40694,
+        "branches": 20287,
+        "leaves": 20407,
+        "sample_vectors": 37,
+        "root_boundary_vectors": 25,
+        "maximum_arithmetic_difference": 0.0
+      }
+    },
+    "definition_count": 566820,
+    "output_rule": {
+      "cases": 8,
+      "style": "independent_count_mode",
+      "mode_tie_smaller_and_half_up_rounding_distinguished": true
+    },
+    "warnings": [],
+    "every_used_feature_threshold_leaf_scale_and_class_checked": true,
+    "unused_internal_node_values_and_leaf_sentinels": "Not part of the emitted/evaluated piecewise rules; not claimed as printed parameters.",
+    "scope": "Exact representation of the selected numerical equation plus bounded synthetic finite/float32-boundary arithmetic; no passage text, fitting, labels or accuracy evaluation.",
+    "limitations": "Text measurements still require the separately supplied checker. This verifies implementation, not prediction accuracy, human-memory validity, or the truth of independent-item assumptions."
+  },
+  "completed_at": "2026-09-24T00:02:18.527637+00:00",
+  "final_passage_text_accessed": false,
+  "api_calls": false,
+  "fitting_or_selection": false
+}

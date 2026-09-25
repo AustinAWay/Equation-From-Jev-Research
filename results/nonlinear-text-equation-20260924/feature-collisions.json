@@ -1,0 +1,212 @@
+{
+  "scope": "Training data only. This is a ceiling on exact agreement for this particular set of recorded labels and these feature vectors; it is not an unseen-data performance ceiling.",
+  "interpretation": "A conflicting group has identical measured inputs but different saved Jev targets. Omitted text information, different meanings, and label variability can cause such conflicts.",
+  "comparison_data_accessed": false,
+  "grouping": "Exact numerical equality of complete vectors, no rounding or binning.",
+  "weighting": "Each family has equal total weight, matching train.npz weights.",
+  "training_data_sha256": "8aa63b37d4fbc29408caa76086a5b9837f2071908647fd42b47a84e292c07276",
+  "variants": {
+    "compact": {
+      "features": 38,
+      "rows": 4726,
+      "unique_feature_vectors": 3637,
+      "collision_groups": 1089,
+      "rows_in_collision_groups": 2178,
+      "conflicting_groups": 148,
+      "rows_in_conflicting_groups": 296,
+      "conflicting_groups_with_identical_visible_text_and_boundary": 121,
+      "conflicting_groups_with_different_visible_text_or_boundary": 27,
+      "maximum_achievable_weighted_training_exact_agreement": 0.9727067899377825,
+      "maximum_achievable_unweighted_training_exact_agreement": 0.9686838764282691,
+      "examples": [
+        {
+          "group_rows": 2,
+          "all_indices": [
+            558,
+            564
+          ],
+          "target_counts": {
+            "5": 1,
+            "6": 1
+          },
+          "rows": [
+            {
+              "row_index": 558,
+              "id": "fresh_03_a",
+              "segment_id": "s1",
+              "family": "fresh_03",
+              "target": 5,
+              "visible_prefix": "During a listening activity, a class describes a short whistle rather than identifying the instrument",
+              "current_text": "During a listening activity, a class describes a short whistle rather than identifying the instrument",
+              "repeat_targets": {
+                "1": 5,
+                "2": 5,
+                "3": 4
+              },
+              "within_row_repeat_disagreement": true
+            },
+            {
+              "row_index": 564,
+              "id": "fresh_03_b",
+              "segment_id": "s1",
+              "family": "fresh_03",
+              "target": 6,
+              "visible_prefix": "During a listening activity, a class describes a short whistle rather than identifying the instrument",
+              "current_text": "During a listening activity, a class describes a short whistle rather than identifying the instrument",
+              "repeat_targets": {
+                "1": 5,
+                "2": 6,
+                "3": 6
+              },
+              "within_row_repeat_disagreement": true
+            }
+          ]
+        },
+        {
+          "group_rows": 2,
+          "all_indices": [
+            702,
+            708
+          ],
+          "target_counts": {
+            "1": 1,
+            "3": 1
+          },
+          "rows": [
+            {
+              "row_index": 702,
+              "id": "fresh_20_a",
+              "segment_id": "s5",
+              "family": "fresh_20",
+              "target": 1,
+              "visible_prefix": "The rehearsal room has a padded chair. A clock hangs above the door. Members with a silver badge may enter before nine. The waiting drummer has a silver badge, and it is eight.",
+              "current_text": "and it is eight.",
+              "repeat_targets": {
+                "1": 1,
+                "2": 2,
+                "3": 1
+              },
+              "within_row_repeat_disagreement": true
+            },
+            {
+              "row_index": 708,
+              "id": "fresh_20_b",
+              "segment_id": "s5",
+              "family": "fresh_20",
+              "target": 3,
+              "visible_prefix": "Members with a silver badge may enter before nine. The rehearsal room has a padded chair. A clock hangs above the door. The waiting drummer has a silver badge, and it is eight.",
+              "current_text": "and it is eight.",
+              "repeat_targets": {
+                "1": 3,
+                "2": 3,
+                "3": 3
+              },
+              "within_row_repeat_disagreement": false
+            }
+          ]
+        }
+      ]
+    },
+    "expanded": {
+      "features": 302,
+      "rows": 4726,
+      "unique_feature_vectors": 3702,
+      "collision_groups": 1024,
+      "rows_in_collision_groups": 2048,
+      "conflicting_groups": 128,
+      "rows_in_conflicting_groups": 256,
+      "conflicting_groups_with_identical_visible_text_and_boundary": 121,
+      "conflicting_groups_with_different_visible_text_or_boundary": 7,
+      "maximum_achievable_weighted_training_exact_agreement": 0.976628187630279,
+      "maximum_achievable_unweighted_training_exact_agreement": 0.9729157850190436,
+      "examples": [
+        {
+          "group_rows": 2,
+          "all_indices": [
+            558,
+            564
+          ],
+          "target_counts": {
+            "5": 1,
+            "6": 1
+          },
+          "rows": [
+            {
+              "row_index": 558,
+              "id": "fresh_03_a",
+              "segment_id": "s1",
+              "family": "fresh_03",
+              "target": 5,
+              "visible_prefix": "During a listening activity, a class describes a short whistle rather than identifying the instrument",
+              "current_text": "During a listening activity, a class describes a short whistle rather than identifying the instrument",
+              "repeat_targets": {
+                "1": 5,
+                "2": 5,
+                "3": 4
+              },
+              "within_row_repeat_disagreement": true
+            },
+            {
+              "row_index": 564,
+              "id": "fresh_03_b",
+              "segment_id": "s1",
+              "family": "fresh_03",
+              "target": 6,
+              "visible_prefix": "During a listening activity, a class describes a short whistle rather than identifying the instrument",
+              "current_text": "During a listening activity, a class describes a short whistle rather than identifying the instrument",
+              "repeat_targets": {
+                "1": 5,
+                "2": 6,
+                "3": 6
+              },
+              "within_row_repeat_disagreement": true
+            }
+          ]
+        },
+        {
+          "group_rows": 2,
+          "all_indices": [
+            702,
+            708
+          ],
+          "target_counts": {
+            "1": 1,
+            "3": 1
+          },
+          "rows": [
+            {
+              "row_index": 702,
+              "id": "fresh_20_a",
+              "segment_id": "s5",
+              "family": "fresh_20",
+              "target": 1,
+              "visible_prefix": "The rehearsal room has a padded chair. A clock hangs above the door. Members with a silver badge may enter before nine. The waiting drummer has a silver badge, and it is eight.",
+              "current_text": "and it is eight.",
+              "repeat_targets": {
+                "1": 1,
+                "2": 2,
+                "3": 1
+              },
+              "within_row_repeat_disagreement": true
+            },
+            {
+              "row_index": 708,
+              "id": "fresh_20_b",
+              "segment_id": "s5",
+              "family": "fresh_20",
+              "target": 3,
+              "visible_prefix": "Members with a silver badge may enter before nine. The rehearsal room has a padded chair. A clock hangs above the door. The waiting drummer has a silver badge, and it is eight.",
+              "current_text": "and it is eight.",
+              "repeat_targets": {
+                "1": 3,
+                "2": 3,
+                "3": 3
+              },
+              "within_row_repeat_disagreement": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

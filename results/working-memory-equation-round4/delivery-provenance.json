@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-09-24T00:02:07.398518+00:00",
+  "primary_method": "component_frequency_count_mode",
+  "model_sha256": "be1a6884cb99d4a7d56759c9ae81e8d75d4b140963cfc0e568908e023303d781",
+  "registry_sha256": "5da3c43ff25d6fb107d8b5cb6f793c33ed5d2a91f424b737f435a49f7428671c",
+  "results_sha256": "198d46a04f132f430d11fac03c0981338872df08d5c3b40c02c327b0dc15ffe8",
+  "final_reference_audit_sha256": "5941f59880f42775e380e5a73bc0af62ad4f7f4adf2b57168fa10d1de21fdad5",
+  "transport_admission": {
+    "route": "explicit_amended_transport_admission",
+    "reference_audit_path": "[original-study-workspace]/work/round4/audit/final-transport-reference-audit.json",
+    "reference_audit_sha256": "5941f59880f42775e380e5a73bc0af62ad4f7f4adf2b57168fa10d1de21fdad5",
+    "statistics_source_lock_sha256": "449defa1a1e928fbcf191e648d385acfb5466f4121e7c303e47da17244a42240",
+    "evaluation_release_sha256": "f53e540dad11e362888cb4787568326939105342cd8cba8825a5bf4d0c4f5731",
+    "amendment_sha256": "d4eaa9680399a343aecc203e8e4e6c387870576a15d4a3f6b32388ebf7079d16",
+    "policy_sha256": "3dad1257f6249710c56639b87c4678a4de76ef71d4f8a73a96e84b6edc18e7cf",
+    "mixed_epochs": {
+      "original": 62,
+      "transport-3dad1257f6249710": 238
+    },
+    "data_root": "[original-study-workspace]/work/round4/reference/final-transport/data",
+    "original_evaluator_sha256": "a9bdabda9fd6414110e63ecc25a8d67e264053a73ecc04f7880a084699e8fc50",
+    "original_statistics_auditor_sha256": "8700b068c1c81a8a261baf3e722f2b7c9863b6a0d87de763bd83b83f17c6ce8c",
+    "interpretation": "Frozen app score calculation and sealed equation predictions; reference responses collected under documented original and amended transport epochs, not an identical collection procedure throughout."
+  },
+  "package_verification_sha256": "e3f7214385e77de56daa95846615adf1e8716872dd45b84a48a4e411d34d32c1",
+  "report_source_sha256": "16f2599ca8662ed73a3d6a73a25a467a7e8a139d0ececa8b1c9fa3da4a64b4e0"
+}

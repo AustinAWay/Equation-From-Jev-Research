@@ -1,0 +1,267 @@
+{
+  "specification": {
+    "group": "surface_and_grammar",
+    "degree": 1,
+    "requested_terms": 32,
+    "ridge": 1.0
+  },
+  "intercept": -0.662879716197931,
+  "terms": [
+    {
+      "coefficient": 0.018403493442603374,
+      "features": [
+        "letters"
+      ]
+    },
+    {
+      "coefficient": 0.7538662445217253,
+      "features": [
+        "sentences"
+      ]
+    },
+    {
+      "coefficient": 0.03896820620515564,
+      "features": [
+        "letters_per_word"
+      ]
+    },
+    {
+      "coefficient": -0.012090414705679085,
+      "features": [
+        "three_syllable_words"
+      ]
+    },
+    {
+      "coefficient": 0.12894038646645747,
+      "features": [
+        "unique_words"
+      ]
+    },
+    {
+      "coefficient": 0.12282830387460522,
+      "features": [
+        "repeated_words"
+      ]
+    },
+    {
+      "coefficient": 0.1401015164409812,
+      "features": [
+        "commas"
+      ]
+    },
+    {
+      "coefficient": -0.06166112182595786,
+      "features": [
+        "semicolons"
+      ]
+    },
+    {
+      "coefficient": 0.7320485621861041,
+      "features": [
+        "colons"
+      ]
+    },
+    {
+      "coefficient": -0.15759646061675672,
+      "features": [
+        "pronoun_markers"
+      ]
+    },
+    {
+      "coefficient": -0.30747405602732814,
+      "features": [
+        "condition_markers"
+      ]
+    },
+    {
+      "coefficient": 0.007058851737133925,
+      "features": [
+        "connectors"
+      ]
+    },
+    {
+      "coefficient": -0.1785639697252744,
+      "features": [
+        "negations"
+      ]
+    },
+    {
+      "coefficient": 0.4679124670797507,
+      "features": [
+        "number_tokens"
+      ]
+    },
+    {
+      "coefficient": 0.011302280003806512,
+      "features": [
+        "previous_words"
+      ]
+    },
+    {
+      "coefficient": -0.009476108343542136,
+      "features": [
+        "previous_unique_words"
+      ]
+    },
+    {
+      "coefficient": -0.11125047206855457,
+      "features": [
+        "words_seen_before"
+      ]
+    },
+    {
+      "coefficient": -0.13299445381443423,
+      "features": [
+        "new_word_types"
+      ]
+    },
+    {
+      "coefficient": 0.05407344330556174,
+      "features": [
+        "words_seen_recently"
+      ]
+    },
+    {
+      "coefficient": 0.0028300752802928515,
+      "features": [
+        "mean_repeat_gap"
+      ]
+    },
+    {
+      "coefficient": -0.011064622655418032,
+      "features": [
+        "max_repeat_gap"
+      ]
+    },
+    {
+      "coefficient": 0.07843555969647936,
+      "features": [
+        "step_noun_chunks"
+      ]
+    },
+    {
+      "coefficient": 0.21571498057330418,
+      "features": [
+        "step_clause_heads"
+      ]
+    },
+    {
+      "coefficient": -0.2601517529979477,
+      "features": [
+        "step_subordinate_clauses"
+      ]
+    },
+    {
+      "coefficient": 0.07212351314246566,
+      "features": [
+        "step_max_syntax_depth"
+      ]
+    },
+    {
+      "coefficient": 0.10873439342234234,
+      "features": [
+        "step_mean_dependency_distance"
+      ]
+    },
+    {
+      "coefficient": 0.034777236884330244,
+      "features": [
+        "step_long_dependencies"
+      ]
+    },
+    {
+      "coefficient": 0.13349925595389792,
+      "features": [
+        "step_pos_pron"
+      ]
+    },
+    {
+      "coefficient": 0.3305647956572802,
+      "features": [
+        "struct_unfinished_peak"
+      ]
+    },
+    {
+      "coefficient": 0.011712219746680373,
+      "features": [
+        "struct_new_entities"
+      ]
+    },
+    {
+      "coefficient": -0.03213079079009061,
+      "features": [
+        "struct_intervening_information_sum"
+      ]
+    },
+    {
+      "coefficient": -0.0691069021751946,
+      "features": [
+        "struct_cross_step_connections"
+      ]
+    }
+  ],
+  "rounding": "max(0, floor(raw + 0.5))",
+  "target": "middle of three saved Jev-app scores",
+  "human_working_memory_validated": false,
+  "development_oof_metrics": {
+    "exact": 0.36043760781613043,
+    "mae": 0.821431226404246,
+    "within_one": 0.859839023365885,
+    "raw_correlation": 0.5508149758416678,
+    "raw_rmse": 1.1132673784098899,
+    "prediction_counts": {
+      "1": 68,
+      "2": 1938,
+      "3": 2020,
+      "4": 570,
+      "5": 115,
+      "6": 12,
+      "7": 3
+    }
+  },
+  "development_rows": 4726,
+  "development_families": 344,
+  "feature_names": [
+    "words",
+    "letters",
+    "vowels",
+    "syllables",
+    "sentences",
+    "words_per_sentence",
+    "syllables_per_word",
+    "letters_per_word",
+    "long_words",
+    "three_syllable_words",
+    "unique_words",
+    "repeated_words",
+    "commas",
+    "semicolons",
+    "colons",
+    "pronoun_markers",
+    "condition_markers",
+    "connectors",
+    "negations",
+    "number_tokens",
+    "previous_words",
+    "previous_unique_words",
+    "words_seen_before",
+    "new_word_types",
+    "words_seen_recently",
+    "mean_repeat_gap",
+    "max_repeat_gap",
+    "step_noun_chunks",
+    "step_clause_heads",
+    "step_subordinate_clauses",
+    "step_max_syntax_depth",
+    "step_mean_dependency_distance",
+    "step_long_dependencies",
+    "step_pos_pron",
+    "struct_unfinished_peak",
+    "struct_new_entities",
+    "struct_intervening_information_sum",
+    "struct_cross_step_connections"
+  ],
+  "training_data_sha256": "d22f480c1c0a3f056504ad56807a80eb1e53e0917906e3898da41216cc20c546",
+  "text_measurements_sha256": "9db715cb1a22c006bf7d0952d14967e61e578fefcb5cb5711f068c6dee2ade57",
+  "protocol_sha256": "ecac932f0c8514d71a11cfae6a3548e289960997542934a97fad8f4e91ff93db"
+}

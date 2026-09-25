@@ -1,0 +1,15 @@
+# Direct text equation: corrective experiment
+
+Question: Can an explicit arithmetic formula over measured text properties predict the saved Jev-app score better than a common-score guess or word count alone?
+
+This is a new exploratory analysis. Earlier studies and the aggregate fresh100 results have already been seen. The 100 passages therefore are a previously used comparison set, not a new blind confirmation. Keep all their labels out of fitting and candidate selection. Use the 688-passage development set to select a formula, freeze it, then evaluate once on the 100-passage set. Preserve prior equations and results.
+
+Inputs: current reading-step word, letter, vowel, approximate syllable, sentence, punctuation, repetition and marker counts; repetition and distance relative to earlier visible text; optionally eleven numerical grammar/connection counts. No Jev answers, predicted intermediate Jev judgments, passage identities, topic labels, future text, or learned word-identity tables enter the formula. Grammar features use the existing fixed local parser. Syllables are an explicitly approximate spelling rule.
+
+Candidates: ordinary sums of weighted measurements and, in a second family, products or squares of measurements. Select 5, 10, 20 or 32 terms by orthogonal matching pursuit on training folds, then refit those terms with ridge penalties 0.01 or 1.0. Compare surface-only and surface-plus-grammar inputs. This is a finite 32-candidate search; no tree ensembles or repeated edits against comparison-set results. Score is rounded half up and bounded below by zero. The intercept is fitted on training data and reported openly.
+
+Use five development folds, keeping each passage family entirely within one fold. Weight each family equally, then each step within the family equally. Choose highest out-of-fold exact agreement, breaking ties by lower absolute error and fewer terms. Fit the selected specification on all development rows. Independently select a word-count-only quadratic ridge baseline by the same folds.
+
+Attempt to falsify the claim that the formula uses useful text information: compare the frozen formula with always-2, always-3, the development-selected constant and word-count baseline; shuffle the complete measured feature vectors among comparison steps 500 times while retaining answers at their original rows. Report correlation of continuous estimates with reference scores, prediction spread and per-score errors. Report paired family bootstrap intervals for the advantage over baselines. Shuffling is a diagnostic of text/label association, not proof of understanding, human memory validity or causal importance of individual features.
+
+If the formula cannot beat the development-selected constant and word-count baseline, or shuffling retains its advantage, do not call it a useful content-sensitive improvement. If those tests pass, only report preliminary predictive information about this Jev-app reference. Human working-memory load remains unvalidated. All outcomes, including failed candidates, remain recorded. No Jev API calls are needed for this experiment.

@@ -1,0 +1,4 @@
+# Preserve the bytes of original data and historical reports, including CSV CRLF.
+data/** -text -whitespace
+results/** -text -whitespace
+models/** -text

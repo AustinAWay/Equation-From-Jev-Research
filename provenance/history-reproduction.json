@@ -1,0 +1,240 @@
+{
+  "status": "passed",
+  "checks": {
+    "working-memory-equation": {
+      "models_checked": 1,
+      "prediction_rows": 107,
+      "metrics": {
+        "selected": {
+          "exact": 0.3119468494468494,
+          "mae": 0.9663780663780663,
+          "within_one": 0.7468434343434344
+        }
+      }
+    },
+    "working-memory-equation-round2": {
+      "models_checked": 9,
+      "prediction_rows": 1872,
+      "metrics": {
+        "approach1": {
+          "exact": 0.4001666157916158,
+          "mae": 0.8550226393976393,
+          "within_one": 0.8143543956043956
+        },
+        "approach2": {
+          "exact": 0.4171309015059015,
+          "mae": 0.7399598087098087,
+          "within_one": 0.8809218559218559
+        },
+        "approach3": {
+          "exact": 0.32680860805860806,
+          "mae": 0.8884806166056166,
+          "within_one": 0.8562881562881562
+        },
+        "no_history": {
+          "exact": 0.31600910663410664,
+          "mae": 0.8881715506715506,
+          "within_one": 0.8523504273504273
+        },
+        "best_no_history": {
+          "exact": 0.342896571021571,
+          "mae": 0.8914300976800977,
+          "within_one": 0.8371820309320309
+        },
+        "role_baseline": {
+          "exact": 0.29999236874236873,
+          "mae": 0.8736988705738705,
+          "within_one": 0.8765898453398453
+        },
+        "old_equation": {
+          "exact": 0.3900030525030525,
+          "mae": 0.84629884004884,
+          "within_one": 0.8165725478225478
+        },
+        "old_word_count": {
+          "exact": 0.28833307895807897,
+          "mae": 0.9309243996743997,
+          "within_one": 0.8518569393569394
+        },
+        "word_count": {
+          "exact": 0.2952775234025234,
+          "mae": 0.9170355107855108,
+          "within_one": 0.8588013838013838
+        }
+      }
+    },
+    "working-memory-equation-round3": {
+      "models_checked": 16,
+      "prediction_rows": 9056,
+      "metrics": {
+        "direct": {
+          "exact": 0.35795959780673403,
+          "mae": 0.8151850816237426,
+          "within_one": 0.8622323046965075
+        },
+        "components": {
+          "exact": 0.40465739905948883,
+          "mae": 0.7289717908080912,
+          "within_one": 0.8923033498149597
+        },
+        "ledger": {
+          "exact": 0.33255639806529896,
+          "mae": 0.8235547567542537,
+          "within_one": 0.8769705076700046
+        },
+        "distribution": {
+          "exact": 0.38731153510662025,
+          "mae": 0.8097434645248113,
+          "within_one": 0.8603071250429997
+        },
+        "old_components": {
+          "exact": 0.35363770238189746,
+          "mae": 0.8019943405837369,
+          "within_one": 0.8783560522724609
+        },
+        "direct_initial": {
+          "exact": 0.3035488927352317,
+          "mae": 0.9735319681178815,
+          "within_one": 0.7849006247235736
+        },
+        "components_initial": {
+          "exact": 0.33424096865466835,
+          "mae": 0.856223185461769,
+          "within_one": 0.846698544296261
+        },
+        "ledger_initial": {
+          "exact": 0.30356860996760376,
+          "mae": 0.8888175827010967,
+          "within_one": 0.859151505743998
+        },
+        "distribution_initial": {
+          "exact": 0.3432129673731841,
+          "mae": 0.9978030010924748,
+          "within_one": 0.7909631828439878
+        },
+        "ledger_original_inputs": {
+          "exact": 0.299983624691442,
+          "mae": 0.8510891682921482,
+          "within_one": 0.8798101435243463
+        },
+        "ledger_nohistory": {
+          "exact": 0.37811527073717477,
+          "mae": 0.7803602839583876,
+          "within_one": 0.8841038103838026
+        },
+        "components_lexical": {
+          "exact": 0.4297898911588927,
+          "mae": 0.7063653347641351,
+          "within_one": 0.8894995359817341
+        },
+        "components_choice": {
+          "exact": 0.35950338704982665,
+          "mae": 0.8202745516222684,
+          "within_one": 0.853034545970885
+        },
+        "word_count": {
+          "exact": 0.3118565668507619,
+          "mae": 0.8632062740750821,
+          "within_one": 0.8576653336773306
+        },
+        "blend_mae": {
+          "exact": 0.3850140292284255,
+          "mae": 0.7343157998692055,
+          "within_one": 0.9096582661404643
+        },
+        "blend_exact": {
+          "exact": 0.3860740109134072,
+          "mae": 0.7310672183853298,
+          "within_one": 0.9118468659393582
+        }
+      }
+    },
+    "working-memory-equation-round4": {
+      "models_checked": 14,
+      "prediction_rows": 12712,
+      "metrics": {
+        "direct_exact": {
+          "exact": 0.4449706927658557,
+          "mae": 0.7496824042274567,
+          "within_one": 0.8635568547180044
+        },
+        "direct_mae": {
+          "exact": 0.4479630814313999,
+          "mae": 0.7214252716522542,
+          "within_one": 0.8716410207461773
+        },
+        "direct_matched_original": {
+          "exact": 0.4336349936240846,
+          "mae": 0.7609575930285905,
+          "within_one": 0.8571906843513764
+        },
+        "component_original_inputs": {
+          "exact": 0.46348155112595657,
+          "mae": 0.7658470023168832,
+          "within_one": 0.8495410067759117
+        },
+        "component_structure": {
+          "exact": 0.4753364954241424,
+          "mae": 0.7565869284292428,
+          "within_one": 0.8495662373424466
+        },
+        "component_lexical_hard": {
+          "exact": 0.4722531621157716,
+          "mae": 0.7471765380480799,
+          "within_one": 0.8517968460640598
+        },
+        "component_lexical_expected": {
+          "exact": 0.4671120729665313,
+          "mae": 0.6914094530718061,
+          "within_one": 0.8710975087026653
+        },
+        "component_frequency_hard": {
+          "exact": 0.47102938991096494,
+          "mae": 0.739227860233877,
+          "within_one": 0.8595725702035849
+        },
+        "component_count_mode": {
+          "exact": 0.47305659838946745,
+          "mae": 0.6809032355398094,
+          "within_one": 0.8833784990573399
+        },
+        "component_frequency_count_mode": {
+          "exact": 0.47708014895184864,
+          "mae": 0.6832352405329838,
+          "within_one": 0.8770229435017843
+        },
+        "round3_lexical": {
+          "exact": 0.40443195120327213,
+          "mae": 0.7418693473889797,
+          "within_one": 0.8771065996117562
+        },
+        "round3_components": {
+          "exact": 0.38488622462959243,
+          "mae": 0.7726303894650813,
+          "within_one": 0.8706883855586096
+        },
+        "word_count": {
+          "exact": 0.3729977668687958,
+          "mae": 0.8102044908873008,
+          "within_one": 0.8470752565170698
+        },
+        "initial488_same_method": {
+          "exact": 0.4765634828619481,
+          "mae": 0.684519776270881,
+          "within_one": 0.8744448665172645
+        }
+      }
+    },
+    "fresh100_raw_reference": {
+      "raw_analyses": 300,
+      "step_repeat_scores_checked": 2730,
+      "median_rows_checked": 910
+    },
+    "fresh100_reference_flags": {
+      "inconsistent": 267,
+      "provisional": 880,
+      "coverage_limited": 910
+    }
+  },
+  "scope": "Arithmetic reproduction and saved raw-score consistency. No fresh service collection, retraining or human validation."
+}

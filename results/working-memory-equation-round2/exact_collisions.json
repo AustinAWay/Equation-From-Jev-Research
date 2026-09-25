@@ -1,0 +1,607 @@
+{
+  "purpose": "Exact frozen-feature collision audit of old development references; no fitting or new equation evaluation.",
+  "old_rows": 544,
+  "stable_rows": 389,
+  "feature_count": 30,
+  "config": {
+    "history": true,
+    "window": 8,
+    "rules": true
+  },
+  "exact_comparison": "Python tuple equality of all 30 exported float feature values; no binning, rounding, approximation or feature selection.",
+  "distinct_vectors": 377,
+  "conflicting_vector_groups": 5,
+  "rows_in_conflicting_groups": 10,
+  "collisions": [
+    {
+      "distinct_targets": [
+        1,
+        3
+      ],
+      "vector": {
+        "active_coordinated_groups": 0.0,
+        "active_entities": 2.0,
+        "active_entity_groups": 2.0,
+        "active_relation_arguments": 2.0,
+        "active_relations": 1.0,
+        "active_unmentioned_entities": 0.0,
+        "argument_bindings": 2.0,
+        "current_entity_groups": 2.0,
+        "current_entity_identities": 2.0,
+        "current_relation_identities": 1.0,
+        "definition_merges": 0.0,
+        "local_unique_lemmas": 5.0,
+        "max_active_group_members": 0.0,
+        "new_entities": 2.0,
+        "new_groups": 0.0,
+        "new_relations": 1.0,
+        "nominal_mentions": 2.0,
+        "predicate_mentions": 1.0,
+        "previously_seen_inactive_entities": 0.0,
+        "prior_active_entities": 0.0,
+        "pronouns": 0.0,
+        "recency_sum": 0.0,
+        "resolved_plural": 0.0,
+        "resolved_singular": 0.0,
+        "retired_entities": 0.0,
+        "retired_location_facts": 0.0,
+        "retrieved_entities": 0.0,
+        "reused_entities": 0.0,
+        "reused_relations": 0.0,
+        "words": 8.0
+      },
+      "rows": [
+        {
+          "id": "science_10_b",
+          "segment_id": "s1",
+          "family": "science_10",
+          "passage": "Draw a perpendicular line at the marked point where a narrow beam meets a flat mirror. Compare the angle between this line and the incoming beam with the angle between the same line and the reflected beam. Label both angles beside the diagram.",
+          "segment_text": "Draw a perpendicular line at the marked point",
+          "start": 0,
+          "end": 45,
+          "target": 3,
+          "repeat_targets": {
+            "1": 3,
+            "2": 3,
+            "3": 3
+          },
+          "raw_reference_sources": [
+            {
+              "repeat": "1",
+              "target": 3,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/98aadd88f1990f10-r1.json",
+              "sha256": "c8f87b0ccf2d097e645e7d0ef799b44628edd6e90f5357b86820f9def4cf0e5d",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "2",
+              "target": 3,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/98aadd88f1990f10-r2.json",
+              "sha256": "99386618fbc3107b03daf851702a030f863ca6d9923dc69f77960a9bce46faad",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "3",
+              "target": 3,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/98aadd88f1990f10-r3.json",
+              "sha256": "5631544c3c855b88fbc6271af66ae26a611d022d6de33dc9842b12784b33d6c4",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            }
+          ]
+        },
+        {
+          "id": "history_01_b",
+          "segment_id": "s1",
+          "family": "history_01",
+          "passage": "Examine two handwritten copies of a short passage and mark any words that differ. If the later scribe copied from the earlier manuscript, a mistake in the earlier copy could appear in the later one. Before printing became common, scribes produced many books this way.",
+          "segment_text": "Examine two handwritten copies of a short passage",
+          "start": 0,
+          "end": 49,
+          "target": 1,
+          "repeat_targets": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "raw_reference_sources": [
+            {
+              "repeat": "1",
+              "target": 1,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/86fb94fa0b129122-r1.json",
+              "sha256": "d6bfe41aa77a1b4c40ce983e1680c700b7820d3786d520e79b72142368d0e432",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "2",
+              "target": 1,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/86fb94fa0b129122-r2.json",
+              "sha256": "ad98b2fcb66ce4672414fd963ffd898de7ceb47fb53cf3aa4ec40aa6d83a16ca",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "3",
+              "target": 1,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/86fb94fa0b129122-r3.json",
+              "sha256": "63f71e6a39e0f2b952ef94f87e730ad4ac2b76011f8848feee34698d7e8c1447",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "distinct_targets": [
+        1,
+        3
+      ],
+      "vector": {
+        "active_coordinated_groups": 0.0,
+        "active_entities": 2.0,
+        "active_entity_groups": 2.0,
+        "active_relation_arguments": 2.0,
+        "active_relations": 1.0,
+        "active_unmentioned_entities": 0.0,
+        "argument_bindings": 2.0,
+        "current_entity_groups": 2.0,
+        "current_entity_identities": 2.0,
+        "current_relation_identities": 1.0,
+        "definition_merges": 0.0,
+        "local_unique_lemmas": 3.0,
+        "max_active_group_members": 0.0,
+        "new_entities": 2.0,
+        "new_groups": 0.0,
+        "new_relations": 1.0,
+        "nominal_mentions": 2.0,
+        "predicate_mentions": 1.0,
+        "previously_seen_inactive_entities": 0.0,
+        "prior_active_entities": 0.0,
+        "pronouns": 0.0,
+        "recency_sum": 0.0,
+        "resolved_plural": 0.0,
+        "resolved_singular": 0.0,
+        "retired_entities": 0.0,
+        "retired_location_facts": 0.0,
+        "retrieved_entities": 0.0,
+        "reused_entities": 0.0,
+        "reused_relations": 0.0,
+        "words": 4.0
+      },
+      "rows": [
+        {
+          "id": "science_14_a",
+          "segment_id": "s1",
+          "family": "science_14",
+          "passage": "The Moon reflects sunlight, and its visible bright portion changes as it travels around Earth. Arrange drawings of a crescent, a half moon, and a full moon in a growing sequence. Explain that the drawings show changing views of the illuminated half.",
+          "segment_text": "The Moon reflects sunlight,",
+          "start": 0,
+          "end": 27,
+          "target": 1,
+          "repeat_targets": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "raw_reference_sources": [
+            {
+              "repeat": "1",
+              "target": 1,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/0e04ef30377dfcaf-r1.json",
+              "sha256": "eb8315e2a741a15b9bb04a0a1a35829a34c27ac7274cee4808bb51b3f00d260e",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "2",
+              "target": 1,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/0e04ef30377dfcaf-r2.json",
+              "sha256": "6dbc147c3403d31c06f9f4d0d5a7caa50f5fb08496bf05b36a7b52913eabb7e2",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "3",
+              "target": 1,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/0e04ef30377dfcaf-r3.json",
+              "sha256": "4f0c93790603f0c339d277b978dc21ef95e6a008f7b86030c43e5f175548f32f",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            }
+          ]
+        },
+        {
+          "id": "history_13_b",
+          "segment_id": "s1",
+          "family": "history_13",
+          "passage": "Compare VI with IV, noting whether I appears after or before V. Since V represents five and I represents one, VI adds one to five while IV places one before five to represent four. Explain how changing the order changes the number.",
+          "segment_text": "Compare VI with IV,",
+          "start": 0,
+          "end": 19,
+          "target": 3,
+          "repeat_targets": {
+            "1": 3,
+            "2": 3,
+            "3": 3
+          },
+          "raw_reference_sources": [
+            {
+              "repeat": "1",
+              "target": 3,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/8aa3e42cd91e2873-r1.json",
+              "sha256": "52e6d0dfa5cf90ba07a8528ce8fd2c1aae56f4d1cefd84427089abe6e2eaa43a",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "2",
+              "target": 3,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/8aa3e42cd91e2873-r2.json",
+              "sha256": "8b3c066fb5e9aba5bd5469d85bf4be0c566263e5c7a4d08fb54944726aa187cd",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "3",
+              "target": 3,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/8aa3e42cd91e2873-r3.json",
+              "sha256": "661ba1909e16b7efe99650ba60f4688d9468f9ce95fe6e6a39d0576ab73b9e86",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "distinct_targets": [
+        2,
+        4
+      ],
+      "vector": {
+        "active_coordinated_groups": 0.0,
+        "active_entities": 4.0,
+        "active_entity_groups": 4.0,
+        "active_relation_arguments": 5.0,
+        "active_relations": 2.0,
+        "active_unmentioned_entities": 2.0,
+        "argument_bindings": 2.0,
+        "current_entity_groups": 2.0,
+        "current_entity_identities": 2.0,
+        "current_relation_identities": 1.0,
+        "definition_merges": 0.0,
+        "local_unique_lemmas": 2.0,
+        "max_active_group_members": 0.0,
+        "new_entities": 1.0,
+        "new_groups": 0.0,
+        "new_relations": 1.0,
+        "nominal_mentions": 2.0,
+        "predicate_mentions": 1.0,
+        "previously_seen_inactive_entities": 0.0,
+        "prior_active_entities": 3.0,
+        "pronouns": 1.0,
+        "recency_sum": 1.0,
+        "resolved_plural": 0.0,
+        "resolved_singular": 1.0,
+        "retired_entities": 0.0,
+        "retired_location_facts": 0.0,
+        "retrieved_entities": 0.0,
+        "reused_entities": 1.0,
+        "reused_relations": 0.0,
+        "words": 5.0
+      },
+      "rows": [
+        {
+          "id": "science_14_a",
+          "segment_id": "s3",
+          "family": "science_14",
+          "passage": "The Moon reflects sunlight, and its visible bright portion changes as it travels around Earth. Arrange drawings of a crescent, a half moon, and a full moon in a growing sequence. Explain that the drawings show changing views of the illuminated half.",
+          "segment_text": "as it travels around Earth.",
+          "start": 67,
+          "end": 94,
+          "target": 2,
+          "repeat_targets": {
+            "1": 2,
+            "2": 2,
+            "3": 2
+          },
+          "raw_reference_sources": [
+            {
+              "repeat": "1",
+              "target": 2,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/0e04ef30377dfcaf-r1.json",
+              "sha256": "eb8315e2a741a15b9bb04a0a1a35829a34c27ac7274cee4808bb51b3f00d260e",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "2",
+              "target": 2,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/0e04ef30377dfcaf-r2.json",
+              "sha256": "6dbc147c3403d31c06f9f4d0d5a7caa50f5fb08496bf05b36a7b52913eabb7e2",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "3",
+              "target": 2,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/0e04ef30377dfcaf-r3.json",
+              "sha256": "4f0c93790603f0c339d277b978dc21ef95e6a008f7b86030c43e5f175548f32f",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            }
+          ]
+        },
+        {
+          "id": "practical_15_a",
+          "segment_id": "s2",
+          "family": "practical_15",
+          "passage": "A chain in crochet begins with a loop that stays on the hook while a new loop is pulled through it. On a diagram, label the old loop and the new loop before drawing the pull. Repeat the drawing with the new loop becoming the old one.",
+          "segment_text": "that stays on the hook",
+          "start": 38,
+          "end": 60,
+          "target": 4,
+          "repeat_targets": {
+            "1": 4,
+            "2": 4,
+            "3": 4
+          },
+          "raw_reference_sources": [
+            {
+              "repeat": "1",
+              "target": 4,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/7616502ea82b0b31-r1.json",
+              "sha256": "e623bb2058dd8b060c1b2a6d6c76a8721c165937e49bb886f0c006c990b82e71",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "2",
+              "target": 4,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/7616502ea82b0b31-r2.json",
+              "sha256": "39a45818ce59f5a2b9f5a286d4a68a125dba3f5402bc2720f3edaf3e246bf6c9",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "3",
+              "target": 4,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/7616502ea82b0b31-r3.json",
+              "sha256": "01d73e26f239b9f9fd34b8d1442fa1c97a1f15eb3de47dd99cb11be76ad8d41d",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "distinct_targets": [
+        1,
+        2
+      ],
+      "vector": {
+        "active_coordinated_groups": 0.0,
+        "active_entities": 4.0,
+        "active_entity_groups": 4.0,
+        "active_relation_arguments": 5.0,
+        "active_relations": 4.0,
+        "active_unmentioned_entities": 3.0,
+        "argument_bindings": 1.0,
+        "current_entity_groups": 1.0,
+        "current_entity_identities": 1.0,
+        "current_relation_identities": 1.0,
+        "definition_merges": 0.0,
+        "local_unique_lemmas": 2.0,
+        "max_active_group_members": 0.0,
+        "new_entities": 1.0,
+        "new_groups": 0.0,
+        "new_relations": 1.0,
+        "nominal_mentions": 1.0,
+        "predicate_mentions": 1.0,
+        "previously_seen_inactive_entities": 0.0,
+        "prior_active_entities": 3.0,
+        "pronouns": 0.0,
+        "recency_sum": 0.0,
+        "resolved_plural": 0.0,
+        "resolved_singular": 0.0,
+        "retired_entities": 0.0,
+        "retired_location_facts": 0.0,
+        "retrieved_entities": 0.0,
+        "reused_entities": 0.0,
+        "reused_relations": 0.0,
+        "words": 3.0
+      },
+      "rows": [
+        {
+          "id": "science_08_a",
+          "segment_id": "s3",
+          "family": "science_08",
+          "passage": "Place a bean seed beside a damp paper towel inside a clear jar. As the seed begins to grow, draw the root and shoot on separate days. Label each drawing with its date so that the sequence shows which part appeared first.",
+          "segment_text": "draw the root",
+          "start": 92,
+          "end": 105,
+          "target": 2,
+          "repeat_targets": {
+            "1": 2,
+            "2": 2,
+            "3": 2
+          },
+          "raw_reference_sources": [
+            {
+              "repeat": "1",
+              "target": 2,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/177ba060dcd31d53-r1.json",
+              "sha256": "d4756bd2eae614cecca27833bce57bd02c4507339c7a8b332c02e60e4889550b",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "2",
+              "target": 2,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/177ba060dcd31d53-r2.json",
+              "sha256": "dd304561993b2e28a25c99efd33689f4fb33a335ec1463d64b14ec0bc0810ab6",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "3",
+              "target": 2,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/177ba060dcd31d53-r3.json",
+              "sha256": "6bc5c4684b261037c2125a61fc51c6669bcea07ce1559bdecab034a84dfc57d1",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            }
+          ]
+        },
+        {
+          "id": "practical_01_a",
+          "segment_id": "s3",
+          "family": "practical_01",
+          "passage": "Place a mixing bowl beside a tray and measure flour into the bowl. Add water to the flour, stir the mixture, and shape three small pieces on the tray. Keep the unused flour in its container so it is not confused with the prepared mixture.",
+          "segment_text": "stir the mixture,",
+          "start": 91,
+          "end": 108,
+          "target": 1,
+          "repeat_targets": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "raw_reference_sources": [
+            {
+              "repeat": "1",
+              "target": 1,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/8ccac54f710fef24-r1.json",
+              "sha256": "c279764dcc69eaf05ba56d0146b94659234f18c8defeb43b9fb97b7417bf7105",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "2",
+              "target": 1,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/8ccac54f710fef24-r2.json",
+              "sha256": "183939ff44a36e27c60ba127e7f8399611d0bda7136b9f28d4222040a07b2f3e",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "3",
+              "target": 1,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/8ccac54f710fef24-r3.json",
+              "sha256": "f10ff43774a6d841920d3078587b94484b9b4e93c79eeb7d193bf1185323a6cf",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "distinct_targets": [
+        2,
+        3
+      ],
+      "vector": {
+        "active_coordinated_groups": 0.0,
+        "active_entities": 3.0,
+        "active_entity_groups": 3.0,
+        "active_relation_arguments": 3.0,
+        "active_relations": 2.0,
+        "active_unmentioned_entities": 0.0,
+        "argument_bindings": 3.0,
+        "current_entity_groups": 3.0,
+        "current_entity_identities": 3.0,
+        "current_relation_identities": 2.0,
+        "definition_merges": 0.0,
+        "local_unique_lemmas": 6.0,
+        "max_active_group_members": 0.0,
+        "new_entities": 3.0,
+        "new_groups": 0.0,
+        "new_relations": 2.0,
+        "nominal_mentions": 3.0,
+        "predicate_mentions": 2.0,
+        "previously_seen_inactive_entities": 0.0,
+        "prior_active_entities": 0.0,
+        "pronouns": 0.0,
+        "recency_sum": 0.0,
+        "resolved_plural": 0.0,
+        "resolved_singular": 0.0,
+        "retired_entities": 0.0,
+        "retired_location_facts": 0.0,
+        "retrieved_entities": 0.0,
+        "reused_entities": 0.0,
+        "reused_relations": 0.0,
+        "words": 11.0
+      },
+      "rows": [
+        {
+          "id": "science_13_a",
+          "segment_id": "s1",
+          "family": "science_13",
+          "passage": "A fixed pulley can change the direction of a pulling force. Thread a cord over the wheel, attach a small flag to one end, and pull the other end down. Draw arrows showing the downward movement of your hand and the upward movement of the flag.",
+          "segment_text": "A fixed pulley can change the direction of a pulling force.",
+          "start": 0,
+          "end": 59,
+          "target": 3,
+          "repeat_targets": {
+            "1": 3,
+            "2": 3,
+            "3": 3
+          },
+          "raw_reference_sources": [
+            {
+              "repeat": "1",
+              "target": 3,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/e96ca67c9d866404-r1.json",
+              "sha256": "443967afe58e91a1355709ae1e2b89842f6f150ce616d3e15194c1fa590c26cd",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "2",
+              "target": 3,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/e96ca67c9d866404-r2.json",
+              "sha256": "f6bea467aa1960bb7434150a106381a3599723c85a1449bddd480081691d1621",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "3",
+              "target": 3,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/e96ca67c9d866404-r3.json",
+              "sha256": "f76bb26f834bac1c92fa08a56d8f0a3c3059d62e574dbdc8e2ca25eaca4bf3a4",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            }
+          ]
+        },
+        {
+          "id": "history_14_a",
+          "segment_id": "s1",
+          "family": "history_14",
+          "passage": "A sundial uses the position of a shadow to indicate time. On a drawing of an old sundial, find the upright piece that casts the shadow and the marks around it. Compare two recorded shadows to describe how the indicated time changed.",
+          "segment_text": "A sundial uses the position of a shadow to indicate time.",
+          "start": 0,
+          "end": 57,
+          "target": 2,
+          "repeat_targets": {
+            "1": 2,
+            "2": 2,
+            "3": 2
+          },
+          "raw_reference_sources": [
+            {
+              "repeat": "1",
+              "target": 2,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/b8d3183139d87b19-r1.json",
+              "sha256": "cceed68ac7bb3acabc0b92dde2e9eae337a70c07ad5e8a7f81193243e4d487c2",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "2",
+              "target": 2,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/b8d3183139d87b19-r2.json",
+              "sha256": "634b79a24b44ba2f93bfc90e597ab2b5590b3a75195237c62a068086df443443",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            },
+            {
+              "repeat": "3",
+              "target": 2,
+              "path": "[original-study-workspace]/work/equation-research/data/raw/b8d3183139d87b19-r3.json",
+              "sha256": "0321ebbd874a67d80cd59269b617f923945c836e05a33ef11c0474942d79bda1",
+              "provenance_hash": "7ad4c2445a50aeee738d731c1971a459720047e61a84713b25562951317da14f"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "source_hashes_unchanged": true,
+  "hashes": {
+    "[original-study-workspace]/work/round2/approach3/approach3.py": "3cd4ed5ce60b7ab9ea1ebf9acb812a683b130755a8c906d897e6c727d58512a4",
+    "[original-study-workspace]/work/round2/approach3/fit/model.json": "6e044667ef5ad8a75138fab40773b793dd4328eb94c073bbb05328e0e7ef9bdc"
+  },
+  "logical_scope": "If two identical complete feature vectors have different reference targets, no deterministic function of only that vector can exactly match both. This constrains this input representation, not equations using other text measurements, and does not establish human working-memory truth.",
+  "fresh_data_accessed": false,
+  "minimum_unweighted_mismatches_on_stable_sample": 5,
+  "maximum_unweighted_exact_agreement_on_stable_sample": 0.987146529562982,
+  "bound_scope": "This is an exact mathematical constraint on deterministic functions of the frozen complete 30-value vector for these 389 fixed stable labels. It is an unweighted sample bound, not a population or family-weighted bound. The bound does not rule out 95% agreement, other inputs, or the broader possibility of an equation."
+}

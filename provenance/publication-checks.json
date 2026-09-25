@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "text_files_scanned": 11756,
+  "potential_matches_reviewed": 7,
+  "credential_findings": 0,
+  "scope": "Pattern-based credential scan plus review of every match. Not a proof against every possible secret format.",
+  "false_positive_causes": [
+    "ask-more-than in a public documentation URL",
+    "authorization fields containing procedural notes or local paths"
+  ],
+  "archive_files_verified": 11929,
+  "archive_sha256_verification": "all seven archives and every included member passed",
+  "source_file_bytes": "all included files match their source snapshot hashes",
+  "excluded_files": 631
+}

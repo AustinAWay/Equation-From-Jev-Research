@@ -1,0 +1,132 @@
+{
+  "files": {
+    "README.md": {
+      "sha256": "48561e12ccdae5814b058c631fa3d387a12b7819cc957e68e43532abc09b8f04",
+      "bytes": 2083
+    },
+    "additional-experiments.md": {
+      "sha256": "e8c4cc3bd33885c23f4d8bbba85cc12436835c073d10181838cc7f16929600d5",
+      "bytes": 3500
+    },
+    "all-final-predictions.jsonl": {
+      "sha256": "645a17da3c59181c4b5aa56f5b0a61b19fe78fca2ff8968fd679ae2d507d9264",
+      "bytes": 18629725
+    },
+    "archive-recovery-review.json": {
+      "sha256": "74b11174c1cd2a957252dcf8b0ea79956703e587d6286e114028c6a7cac773ef",
+      "bytes": 3784
+    },
+    "archive-verification.json": {
+      "sha256": "3f629c26d286e38e7167b6937f4c2679b95638da8a2f9db1e6ed50bbd4b89401",
+      "bytes": 587
+    },
+    "costs.json": {
+      "sha256": "8862f8c80d867a473d78a5ebe4cbc21eb78f7d9000353303a7b6da85f9b9ad14",
+      "bytes": 1129
+    },
+    "delivery-provenance.json": {
+      "sha256": "33fa6474acd8e9d6e4f57f97f08541ccd9e11ad21bbda018c2acde6845083318",
+      "bytes": 2006
+    },
+    "equation-explained.md": {
+      "sha256": "0b2719ecb981887c2bcd11a091cebd36c4d38193aa115cbb431734e078dd735d",
+      "bytes": 3082
+    },
+    "equation-export-audit.json": {
+      "sha256": "d5f649019f29b525b061d28f539ae9205e0e1e07615d69df90be26ada4fcfca6",
+      "bytes": 4200
+    },
+    "equation-export.json": {
+      "sha256": "fecfa6ccdfb754e6fc8180e8ddeb7af13f50221f8c277d970d94b09d8a90010e",
+      "bytes": 220
+    },
+    "equation.json": {
+      "sha256": "be1a6884cb99d4a7d56759c9ae81e8d75d4b140963cfc0e568908e023303d781",
+      "bytes": 24064245
+    },
+    "evaluation-completion.json": {
+      "sha256": "a092709427069ade39b44e51724e243f9b889f6c5c335eebdba2b2c414527b94",
+      "bytes": 160249
+    },
+    "final-results.json": {
+      "sha256": "198d46a04f132f430d11fac03c0981338872df08d5c3b40c02c327b0dc15ffe8",
+      "bytes": 117000
+    },
+    "fresh-test-comparison.png": {
+      "sha256": "7e38bb0ed764521adea9cdd9640f09b7f96499c7aad04476d2259af2ec4fc861",
+      "bytes": 140498
+    },
+    "fresh-test-comparison.svg": {
+      "sha256": "6f36c39d320ef95dd447b3f8b6d3ea1c207d71781e6b4bb0393567f3e4fec5c3",
+      "bytes": 66738
+    },
+    "full-equation.txt": {
+      "sha256": "0be9c110ad998ddd285414c34da9d187afac73afd475280f07643a9c82e61b20",
+      "bytes": 33558383
+    },
+    "independent-development-audit.json": {
+      "sha256": "b5034e7a9267a93c7034999482173c7aefc58ae0eabdab288d7d9c484953e6bb",
+      "bytes": 6929
+    },
+    "independent-interpretation-review.json": {
+      "sha256": "c3d25ca43391535e2367b7e65291942d793ae4ef10ce6e45a28433593508ab62",
+      "bytes": 5786
+    },
+    "independent-reference-audit.json": {
+      "sha256": "5941f59880f42775e380e5a73bc0af62ad4f7f4adf2b57168fa10d1de21fdad5",
+      "bytes": 171053
+    },
+    "independent-statistics-audit.json": {
+      "sha256": "dd002b4667da644ca9e3ee314c8e9dc18466458e0fe7db5a609e0a46884246dd",
+      "bytes": 176183
+    },
+    "local-runtime-results.json": {
+      "sha256": "ad65a1b3927155c1d033973a9fe4e2f7877c13a42feaa178916699dbf8958920",
+      "bytes": 16313
+    },
+    "local-runtime.md": {
+      "sha256": "2739768464b33ab2ec27de64a3e8494ff14c840068656716e6c3b4f234ab0744",
+      "bytes": 1822
+    },
+    "offline-checker.zip": {
+      "sha256": "e277243070f5679cfa6231abbd12c09979aad1369bd7fe01e95a6b6b4a22208b",
+      "bytes": 149315436
+    },
+    "offline-readiness-amendment.json": {
+      "sha256": "20758298620e4cae03682945644a7654fe7a37ed82c1419fed233e8a20c45bb6",
+      "bytes": 5706
+    },
+    "offline-readiness-review.json": {
+      "sha256": "0e2dcc68c4dc1271c2af95dac7c5d6f9a2342535711a87a1c05d0c11422e63a6",
+      "bytes": 5260
+    },
+    "offline-readiness.json": {
+      "sha256": "a356ecfbd7d24eaf1ccfa0a3e69b1914a209e55feae22ffea26a68f4e4ff4682",
+      "bytes": 7210
+    },
+    "offline-verification.json": {
+      "sha256": "e3f7214385e77de56daa95846615adf1e8716872dd45b84a48a4e411d34d32c1",
+      "bytes": 13513
+    },
+    "reference-transport-amendment.json": {
+      "sha256": "d4eaa9680399a343aecc203e8e4e6c387870576a15d4a3f6b32388ebf7079d16",
+      "bytes": 41477
+    },
+    "report.md": {
+      "sha256": "a5250d4c15f94c37512e278d1a81adf5bfb5a6d64b2e7cde961c07642cc51ff6",
+      "bytes": 11131
+    },
+    "research-log.md": {
+      "sha256": "b86ee1d50dbdbb74018d9777c6e441ea434fb16ebcf6b40371a3c773f3d6da9c",
+      "bytes": 42418
+    },
+    "research-protocol.md": {
+      "sha256": "574259256975d817226b75e9eaaf65c359957fad3c27e8dc82dcbaac19294495",
+      "bytes": 7407
+    },
+    "research-record.zip": {
+      "sha256": "566c06bb119922e5d8033ed414e92c1d0752417f2d18ffc2b1826c7845eba786",
+      "bytes": 1023369262
+    }
+  }
+}

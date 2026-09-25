@@ -1,0 +1,8 @@
+{
+  "research_files": 4112,
+  "archive_bytes": 158339120,
+  "archive_sha256": "0288a9819d1641b4734299330d5556c5058be993fa194c92b77cea95ad74ecb3",
+  "credential_scan": "passed; configured API key absent",
+  "equation_sha256": "f61a1c5b812eea86e4108dbc55a6cacecf39a69d254f76189993feadd2f85077",
+  "source_commit": "cee3edb9922115d759778434878f6c56b483b390"
+}

@@ -1,0 +1,2953 @@
+{
+  "purpose": "Read-only deterministic request-pool and saved grouping audit; no API calls or causal ablation.",
+  "cap": 12,
+  "records": [
+    {
+      "id": "fresh_20_a",
+      "family": "fresh_20",
+      "variant": "a",
+      "repeat": 1,
+      "focus": "Decide whether the drummer may enter now.",
+      "rule": "Members with a silver badge may enter before nine.",
+      "rule_candidates": [
+        {
+          "id": "c7",
+          "text": "Members"
+        },
+        {
+          "id": "c8",
+          "text": "a silver badge"
+        },
+        {
+          "id": "c9",
+          "text": "may enter"
+        },
+        {
+          "id": "c10",
+          "text": "nine"
+        }
+      ],
+      "focus_segments": [
+        {
+          "segment_id": "s6",
+          "text": "Decide whether the drummer may enter now.",
+          "target": 6,
+          "available_prior_count": 16,
+          "retained_prior_count": 12,
+          "retained_rule": [
+            {
+              "id": "c7",
+              "text": "Members"
+            },
+            {
+              "id": "c8",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c9",
+              "text": "may enter"
+            },
+            {
+              "id": "c10",
+              "text": "nine"
+            }
+          ],
+          "dropped_rule": [],
+          "primary_group_count": 6,
+          "primary_groups": [
+            {
+              "id": "s6-memory-c17",
+              "concept_ids": [
+                "c17"
+              ],
+              "labels": [
+                "Decide"
+              ]
+            },
+            {
+              "id": "s6-memory-c18",
+              "concept_ids": [
+                "c18",
+                "c19",
+                "c9",
+                "c11",
+                "c12"
+              ],
+              "labels": [
+                "the drummer",
+                "may enter",
+                "may enter",
+                "The waiting drummer",
+                "has"
+              ]
+            },
+            {
+              "id": "s6-memory-c8",
+              "concept_ids": [
+                "c8",
+                "c13"
+              ],
+              "labels": [
+                "a silver badge",
+                "a silver badge"
+              ]
+            },
+            {
+              "id": "s6-memory-c10",
+              "concept_ids": [
+                "c10"
+              ],
+              "labels": [
+                "nine"
+              ]
+            },
+            {
+              "id": "s6-memory-c14",
+              "concept_ids": [
+                "c14",
+                "c15"
+              ],
+              "labels": [
+                "it",
+                "is"
+              ]
+            },
+            {
+              "id": "s6-memory-c16",
+              "concept_ids": [
+                "c16"
+              ],
+              "labels": [
+                "eight"
+              ]
+            }
+          ],
+          "rule_memory_roles": [
+            {
+              "concept_id": "c7",
+              "role": "background",
+              "anchor_id": null,
+              "confidence": 0.2457,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.2062,
+                "certainty": "uncertain"
+              },
+              "text": "Members"
+            },
+            {
+              "concept_id": "c8",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.2631,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.35,
+                "certainty": "uncertain"
+              },
+              "text": "a silver badge"
+            },
+            {
+              "concept_id": "c9",
+              "role": "grouped",
+              "anchor_id": "c19",
+              "confidence": 0.6889,
+              "certainty": "uncertain",
+              "text": "may enter"
+            },
+            {
+              "concept_id": "c10",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.6294,
+              "certainty": "supported",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.5813,
+                "certainty": "supported"
+              },
+              "text": "nine"
+            }
+          ],
+          "prior_pool": [
+            {
+              "id": "c5",
+              "text": "hangs"
+            },
+            {
+              "id": "c6",
+              "text": "the door"
+            },
+            {
+              "id": "c7",
+              "text": "Members"
+            },
+            {
+              "id": "c8",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c9",
+              "text": "may enter"
+            },
+            {
+              "id": "c10",
+              "text": "nine"
+            },
+            {
+              "id": "c11",
+              "text": "The waiting drummer"
+            },
+            {
+              "id": "c12",
+              "text": "has"
+            },
+            {
+              "id": "c13",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c14",
+              "text": "it"
+            },
+            {
+              "id": "c15",
+              "text": "is"
+            },
+            {
+              "id": "c16",
+              "text": "eight"
+            }
+          ],
+          "count_provisional": true,
+          "whole_rule_present_in_request_prefix": true,
+          "memory_assessable": true,
+          "relational_assessable": false,
+          "memory_notes": [
+            "Some coordination checks are uncertain. They require review without changing the primary active grouping.",
+            "Some active-role choices are tentative. The suggested grouping follows those choices; uncertainty does not add extra elements or reactivate background information.",
+            "An independent-binding or condition check conflicts with a primary background choice. The primary role is retained and the disagreement requires review.",
+            "Coordination checks suggest independent distinctions within one primary group. The grouping is retained pending review; these checks do not automatically add or split elements."
+          ],
+          "cap_warning": [
+            "Clause 6: dependency checks cover 12 prior candidate occurrences selected by same-sentence conditional context, phrase overlap, and recency. More distant or differently worded dependencies may be missed; the full available prefix still informs clause judgments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fresh_20_a",
+      "family": "fresh_20",
+      "variant": "a",
+      "repeat": 2,
+      "focus": "Decide whether the drummer may enter now.",
+      "rule": "Members with a silver badge may enter before nine.",
+      "rule_candidates": [
+        {
+          "id": "c7",
+          "text": "Members"
+        },
+        {
+          "id": "c8",
+          "text": "a silver badge"
+        },
+        {
+          "id": "c9",
+          "text": "may enter"
+        },
+        {
+          "id": "c10",
+          "text": "nine"
+        }
+      ],
+      "focus_segments": [
+        {
+          "segment_id": "s6",
+          "text": "Decide whether the drummer may enter now.",
+          "target": 5,
+          "available_prior_count": 16,
+          "retained_prior_count": 12,
+          "retained_rule": [
+            {
+              "id": "c7",
+              "text": "Members"
+            },
+            {
+              "id": "c8",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c9",
+              "text": "may enter"
+            },
+            {
+              "id": "c10",
+              "text": "nine"
+            }
+          ],
+          "dropped_rule": [],
+          "primary_group_count": 5,
+          "primary_groups": [
+            {
+              "id": "s6-memory-c17",
+              "concept_ids": [
+                "c17"
+              ],
+              "labels": [
+                "Decide"
+              ]
+            },
+            {
+              "id": "s6-memory-c18",
+              "concept_ids": [
+                "c18",
+                "c19",
+                "c9",
+                "c11",
+                "c12"
+              ],
+              "labels": [
+                "the drummer",
+                "may enter",
+                "may enter",
+                "The waiting drummer",
+                "has"
+              ]
+            },
+            {
+              "id": "s6-memory-c8",
+              "concept_ids": [
+                "c8",
+                "c13"
+              ],
+              "labels": [
+                "a silver badge",
+                "a silver badge"
+              ]
+            },
+            {
+              "id": "s6-memory-c10",
+              "concept_ids": [
+                "c10"
+              ],
+              "labels": [
+                "nine"
+              ]
+            },
+            {
+              "id": "s6-memory-c14",
+              "concept_ids": [
+                "c14",
+                "c15",
+                "c16"
+              ],
+              "labels": [
+                "it",
+                "is",
+                "eight"
+              ]
+            }
+          ],
+          "rule_memory_roles": [
+            {
+              "concept_id": "c7",
+              "role": "background",
+              "anchor_id": null,
+              "confidence": 0.2629,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.1875,
+                "certainty": "uncertain"
+              },
+              "text": "Members"
+            },
+            {
+              "concept_id": "c8",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.28,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.3187,
+                "certainty": "uncertain"
+              },
+              "text": "a silver badge"
+            },
+            {
+              "concept_id": "c9",
+              "role": "grouped",
+              "anchor_id": "c19",
+              "confidence": 0.7111,
+              "certainty": "uncertain",
+              "text": "may enter"
+            },
+            {
+              "concept_id": "c10",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.6405,
+              "certainty": "supported",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.5625,
+                "certainty": "supported"
+              },
+              "text": "nine"
+            }
+          ],
+          "prior_pool": [
+            {
+              "id": "c5",
+              "text": "hangs"
+            },
+            {
+              "id": "c6",
+              "text": "the door"
+            },
+            {
+              "id": "c7",
+              "text": "Members"
+            },
+            {
+              "id": "c8",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c9",
+              "text": "may enter"
+            },
+            {
+              "id": "c10",
+              "text": "nine"
+            },
+            {
+              "id": "c11",
+              "text": "The waiting drummer"
+            },
+            {
+              "id": "c12",
+              "text": "has"
+            },
+            {
+              "id": "c13",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c14",
+              "text": "it"
+            },
+            {
+              "id": "c15",
+              "text": "is"
+            },
+            {
+              "id": "c16",
+              "text": "eight"
+            }
+          ],
+          "count_provisional": true,
+          "whole_rule_present_in_request_prefix": true,
+          "memory_assessable": true,
+          "relational_assessable": false,
+          "memory_notes": [
+            "Some coordination checks are uncertain. They require review without changing the primary active grouping.",
+            "Some active-role choices are tentative. The suggested grouping follows those choices; uncertainty does not add extra elements or reactivate background information.",
+            "An independent-binding or condition check conflicts with a primary background choice. The primary role is retained and the disagreement requires review.",
+            "Coordination checks suggest independent distinctions within one primary group. The grouping is retained pending review; these checks do not automatically add or split elements."
+          ],
+          "cap_warning": [
+            "Clause 6: dependency checks cover 12 prior candidate occurrences selected by same-sentence conditional context, phrase overlap, and recency. More distant or differently worded dependencies may be missed; the full available prefix still informs clause judgments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fresh_20_a",
+      "family": "fresh_20",
+      "variant": "a",
+      "repeat": 3,
+      "focus": "Decide whether the drummer may enter now.",
+      "rule": "Members with a silver badge may enter before nine.",
+      "rule_candidates": [
+        {
+          "id": "c7",
+          "text": "Members"
+        },
+        {
+          "id": "c8",
+          "text": "a silver badge"
+        },
+        {
+          "id": "c9",
+          "text": "may enter"
+        },
+        {
+          "id": "c10",
+          "text": "nine"
+        }
+      ],
+      "focus_segments": [
+        {
+          "segment_id": "s6",
+          "text": "Decide whether the drummer may enter now.",
+          "target": 6,
+          "available_prior_count": 16,
+          "retained_prior_count": 12,
+          "retained_rule": [
+            {
+              "id": "c7",
+              "text": "Members"
+            },
+            {
+              "id": "c8",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c9",
+              "text": "may enter"
+            },
+            {
+              "id": "c10",
+              "text": "nine"
+            }
+          ],
+          "dropped_rule": [],
+          "primary_group_count": 6,
+          "primary_groups": [
+            {
+              "id": "s6-memory-c17",
+              "concept_ids": [
+                "c17"
+              ],
+              "labels": [
+                "Decide"
+              ]
+            },
+            {
+              "id": "s6-memory-c18",
+              "concept_ids": [
+                "c18",
+                "c19",
+                "c9",
+                "c11",
+                "c12"
+              ],
+              "labels": [
+                "the drummer",
+                "may enter",
+                "may enter",
+                "The waiting drummer",
+                "has"
+              ]
+            },
+            {
+              "id": "s6-memory-c8",
+              "concept_ids": [
+                "c8",
+                "c13"
+              ],
+              "labels": [
+                "a silver badge",
+                "a silver badge"
+              ]
+            },
+            {
+              "id": "s6-memory-c10",
+              "concept_ids": [
+                "c10"
+              ],
+              "labels": [
+                "nine"
+              ]
+            },
+            {
+              "id": "s6-memory-c14",
+              "concept_ids": [
+                "c14",
+                "c15"
+              ],
+              "labels": [
+                "it",
+                "is"
+              ]
+            },
+            {
+              "id": "s6-memory-c16",
+              "concept_ids": [
+                "c16"
+              ],
+              "labels": [
+                "eight"
+              ]
+            }
+          ],
+          "rule_memory_roles": [
+            {
+              "concept_id": "c7",
+              "role": "background",
+              "anchor_id": null,
+              "confidence": 0.2686,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.2375,
+                "certainty": "uncertain"
+              },
+              "text": "Members"
+            },
+            {
+              "concept_id": "c8",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.2406,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.3438,
+                "certainty": "uncertain"
+              },
+              "text": "a silver badge"
+            },
+            {
+              "concept_id": "c9",
+              "role": "grouped",
+              "anchor_id": "c19",
+              "confidence": 0.6444,
+              "certainty": "uncertain",
+              "text": "may enter"
+            },
+            {
+              "concept_id": "c10",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.593,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.5437,
+                "certainty": "uncertain"
+              },
+              "text": "nine"
+            }
+          ],
+          "prior_pool": [
+            {
+              "id": "c5",
+              "text": "hangs"
+            },
+            {
+              "id": "c6",
+              "text": "the door"
+            },
+            {
+              "id": "c7",
+              "text": "Members"
+            },
+            {
+              "id": "c8",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c9",
+              "text": "may enter"
+            },
+            {
+              "id": "c10",
+              "text": "nine"
+            },
+            {
+              "id": "c11",
+              "text": "The waiting drummer"
+            },
+            {
+              "id": "c12",
+              "text": "has"
+            },
+            {
+              "id": "c13",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c14",
+              "text": "it"
+            },
+            {
+              "id": "c15",
+              "text": "is"
+            },
+            {
+              "id": "c16",
+              "text": "eight"
+            }
+          ],
+          "count_provisional": true,
+          "whole_rule_present_in_request_prefix": true,
+          "memory_assessable": true,
+          "relational_assessable": false,
+          "memory_notes": [
+            "Some coordination checks are uncertain. They require review without changing the primary active grouping.",
+            "Some active-role choices are tentative. The suggested grouping follows those choices; uncertainty does not add extra elements or reactivate background information.",
+            "An independent-binding or condition check conflicts with a primary background choice. The primary role is retained and the disagreement requires review.",
+            "Coordination checks suggest independent distinctions within one primary group. The grouping is retained pending review; these checks do not automatically add or split elements."
+          ],
+          "cap_warning": [
+            "Clause 6: dependency checks cover 12 prior candidate occurrences selected by same-sentence conditional context, phrase overlap, and recency. More distant or differently worded dependencies may be missed; the full available prefix still informs clause judgments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fresh_20_b",
+      "family": "fresh_20",
+      "variant": "b",
+      "repeat": 1,
+      "focus": "Decide whether the drummer may enter now.",
+      "rule": "Members with a silver badge may enter before nine.",
+      "rule_candidates": [
+        {
+          "id": "c1",
+          "text": "Members"
+        },
+        {
+          "id": "c2",
+          "text": "a silver badge"
+        },
+        {
+          "id": "c3",
+          "text": "may enter"
+        },
+        {
+          "id": "c4",
+          "text": "nine"
+        }
+      ],
+      "focus_segments": [
+        {
+          "segment_id": "s6",
+          "text": "Decide whether the drummer may enter now.",
+          "target": 3,
+          "available_prior_count": 16,
+          "retained_prior_count": 12,
+          "retained_rule": [
+            {
+              "id": "c3",
+              "text": "may enter"
+            }
+          ],
+          "dropped_rule": [
+            {
+              "id": "c1",
+              "text": "Members"
+            },
+            {
+              "id": "c2",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c4",
+              "text": "nine"
+            }
+          ],
+          "primary_group_count": 3,
+          "primary_groups": [
+            {
+              "id": "s6-memory-c17",
+              "concept_ids": [
+                "c17"
+              ],
+              "labels": [
+                "Decide"
+              ]
+            },
+            {
+              "id": "s6-memory-c18",
+              "concept_ids": [
+                "c18",
+                "c19",
+                "c3",
+                "c11",
+                "c12",
+                "c13"
+              ],
+              "labels": [
+                "the drummer",
+                "may enter",
+                "may enter",
+                "The waiting drummer",
+                "has",
+                "a silver badge"
+              ]
+            },
+            {
+              "id": "s6-memory-c14",
+              "concept_ids": [
+                "c14",
+                "c15",
+                "c16"
+              ],
+              "labels": [
+                "it",
+                "is",
+                "eight"
+              ]
+            }
+          ],
+          "rule_memory_roles": [
+            {
+              "concept_id": "c3",
+              "role": "grouped",
+              "anchor_id": "c19",
+              "confidence": 0.7,
+              "certainty": "uncertain",
+              "text": "may enter"
+            }
+          ],
+          "prior_pool": [
+            {
+              "id": "c3",
+              "text": "may enter"
+            },
+            {
+              "id": "c6",
+              "text": "has"
+            },
+            {
+              "id": "c7",
+              "text": "a padded chair"
+            },
+            {
+              "id": "c8",
+              "text": "A clock"
+            },
+            {
+              "id": "c9",
+              "text": "hangs"
+            },
+            {
+              "id": "c10",
+              "text": "the door"
+            },
+            {
+              "id": "c11",
+              "text": "The waiting drummer"
+            },
+            {
+              "id": "c12",
+              "text": "has"
+            },
+            {
+              "id": "c13",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c14",
+              "text": "it"
+            },
+            {
+              "id": "c15",
+              "text": "is"
+            },
+            {
+              "id": "c16",
+              "text": "eight"
+            }
+          ],
+          "count_provisional": true,
+          "whole_rule_present_in_request_prefix": true,
+          "memory_assessable": true,
+          "relational_assessable": false,
+          "memory_notes": [
+            "Some coordination checks are uncertain. They require review without changing the primary active grouping.",
+            "Some active-role choices are tentative. The suggested grouping follows those choices; uncertainty does not add extra elements or reactivate background information.",
+            "Coordination checks suggest independent distinctions within one primary group. The grouping is retained pending review; these checks do not automatically add or split elements."
+          ],
+          "cap_warning": [
+            "Clause 6: dependency checks cover 12 prior candidate occurrences selected by same-sentence conditional context, phrase overlap, and recency. More distant or differently worded dependencies may be missed; the full available prefix still informs clause judgments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fresh_20_b",
+      "family": "fresh_20",
+      "variant": "b",
+      "repeat": 2,
+      "focus": "Decide whether the drummer may enter now.",
+      "rule": "Members with a silver badge may enter before nine.",
+      "rule_candidates": [
+        {
+          "id": "c1",
+          "text": "Members"
+        },
+        {
+          "id": "c2",
+          "text": "a silver badge"
+        },
+        {
+          "id": "c3",
+          "text": "may enter"
+        },
+        {
+          "id": "c4",
+          "text": "nine"
+        }
+      ],
+      "focus_segments": [
+        {
+          "segment_id": "s6",
+          "text": "Decide whether the drummer may enter now.",
+          "target": 3,
+          "available_prior_count": 16,
+          "retained_prior_count": 12,
+          "retained_rule": [
+            {
+              "id": "c3",
+              "text": "may enter"
+            }
+          ],
+          "dropped_rule": [
+            {
+              "id": "c1",
+              "text": "Members"
+            },
+            {
+              "id": "c2",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c4",
+              "text": "nine"
+            }
+          ],
+          "primary_group_count": 3,
+          "primary_groups": [
+            {
+              "id": "s6-memory-c17",
+              "concept_ids": [
+                "c17"
+              ],
+              "labels": [
+                "Decide"
+              ]
+            },
+            {
+              "id": "s6-memory-c18",
+              "concept_ids": [
+                "c18",
+                "c19",
+                "c3",
+                "c11",
+                "c12",
+                "c13"
+              ],
+              "labels": [
+                "the drummer",
+                "may enter",
+                "may enter",
+                "The waiting drummer",
+                "has",
+                "a silver badge"
+              ]
+            },
+            {
+              "id": "s6-memory-c14",
+              "concept_ids": [
+                "c14",
+                "c15",
+                "c16"
+              ],
+              "labels": [
+                "it",
+                "is",
+                "eight"
+              ]
+            }
+          ],
+          "rule_memory_roles": [
+            {
+              "concept_id": "c3",
+              "role": "grouped",
+              "anchor_id": "c19",
+              "confidence": 0.73,
+              "certainty": "uncertain",
+              "text": "may enter"
+            }
+          ],
+          "prior_pool": [
+            {
+              "id": "c3",
+              "text": "may enter"
+            },
+            {
+              "id": "c6",
+              "text": "has"
+            },
+            {
+              "id": "c7",
+              "text": "a padded chair"
+            },
+            {
+              "id": "c8",
+              "text": "A clock"
+            },
+            {
+              "id": "c9",
+              "text": "hangs"
+            },
+            {
+              "id": "c10",
+              "text": "the door"
+            },
+            {
+              "id": "c11",
+              "text": "The waiting drummer"
+            },
+            {
+              "id": "c12",
+              "text": "has"
+            },
+            {
+              "id": "c13",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c14",
+              "text": "it"
+            },
+            {
+              "id": "c15",
+              "text": "is"
+            },
+            {
+              "id": "c16",
+              "text": "eight"
+            }
+          ],
+          "count_provisional": true,
+          "whole_rule_present_in_request_prefix": true,
+          "memory_assessable": true,
+          "relational_assessable": false,
+          "memory_notes": [
+            "Some coordination checks are uncertain. They require review without changing the primary active grouping.",
+            "Some active-role choices are tentative. The suggested grouping follows those choices; uncertainty does not add extra elements or reactivate background information.",
+            "Coordination checks suggest independent distinctions within one primary group. The grouping is retained pending review; these checks do not automatically add or split elements."
+          ],
+          "cap_warning": [
+            "Clause 6: dependency checks cover 12 prior candidate occurrences selected by same-sentence conditional context, phrase overlap, and recency. More distant or differently worded dependencies may be missed; the full available prefix still informs clause judgments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fresh_20_b",
+      "family": "fresh_20",
+      "variant": "b",
+      "repeat": 3,
+      "focus": "Decide whether the drummer may enter now.",
+      "rule": "Members with a silver badge may enter before nine.",
+      "rule_candidates": [
+        {
+          "id": "c1",
+          "text": "Members"
+        },
+        {
+          "id": "c2",
+          "text": "a silver badge"
+        },
+        {
+          "id": "c3",
+          "text": "may enter"
+        },
+        {
+          "id": "c4",
+          "text": "nine"
+        }
+      ],
+      "focus_segments": [
+        {
+          "segment_id": "s6",
+          "text": "Decide whether the drummer may enter now.",
+          "target": 3,
+          "available_prior_count": 16,
+          "retained_prior_count": 12,
+          "retained_rule": [
+            {
+              "id": "c3",
+              "text": "may enter"
+            }
+          ],
+          "dropped_rule": [
+            {
+              "id": "c1",
+              "text": "Members"
+            },
+            {
+              "id": "c2",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c4",
+              "text": "nine"
+            }
+          ],
+          "primary_group_count": 3,
+          "primary_groups": [
+            {
+              "id": "s6-memory-c17",
+              "concept_ids": [
+                "c17"
+              ],
+              "labels": [
+                "Decide"
+              ]
+            },
+            {
+              "id": "s6-memory-c18",
+              "concept_ids": [
+                "c18",
+                "c19",
+                "c3",
+                "c11",
+                "c13"
+              ],
+              "labels": [
+                "the drummer",
+                "may enter",
+                "may enter",
+                "The waiting drummer",
+                "a silver badge"
+              ]
+            },
+            {
+              "id": "s6-memory-c14",
+              "concept_ids": [
+                "c14",
+                "c15",
+                "c16"
+              ],
+              "labels": [
+                "it",
+                "is",
+                "eight"
+              ]
+            }
+          ],
+          "rule_memory_roles": [
+            {
+              "concept_id": "c3",
+              "role": "grouped",
+              "anchor_id": "c19",
+              "confidence": 0.712,
+              "certainty": "uncertain",
+              "text": "may enter"
+            }
+          ],
+          "prior_pool": [
+            {
+              "id": "c3",
+              "text": "may enter"
+            },
+            {
+              "id": "c6",
+              "text": "has"
+            },
+            {
+              "id": "c7",
+              "text": "a padded chair"
+            },
+            {
+              "id": "c8",
+              "text": "A clock"
+            },
+            {
+              "id": "c9",
+              "text": "hangs"
+            },
+            {
+              "id": "c10",
+              "text": "the door"
+            },
+            {
+              "id": "c11",
+              "text": "The waiting drummer"
+            },
+            {
+              "id": "c12",
+              "text": "has"
+            },
+            {
+              "id": "c13",
+              "text": "a silver badge"
+            },
+            {
+              "id": "c14",
+              "text": "it"
+            },
+            {
+              "id": "c15",
+              "text": "is"
+            },
+            {
+              "id": "c16",
+              "text": "eight"
+            }
+          ],
+          "count_provisional": true,
+          "whole_rule_present_in_request_prefix": true,
+          "memory_assessable": true,
+          "relational_assessable": false,
+          "memory_notes": [
+            "Some coordination checks are uncertain. They require review without changing the primary active grouping.",
+            "Some active-role choices are tentative. The suggested grouping follows those choices; uncertainty does not add extra elements or reactivate background information.",
+            "Coordination checks suggest independent distinctions within one primary group. The grouping is retained pending review; these checks do not automatically add or split elements."
+          ],
+          "cap_warning": [
+            "Clause 6: dependency checks cover 12 prior candidate occurrences selected by same-sentence conditional context, phrase overlap, and recency. More distant or differently worded dependencies may be missed; the full available prefix still informs clause judgments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fresh_22_a",
+      "family": "fresh_22",
+      "variant": "a",
+      "repeat": 1,
+      "focus": "Interpret the probe reading.",
+      "rule": "For this probe, a blue lamp means moist air and a yellow lamp means dry air.",
+      "rule_candidates": [
+        {
+          "id": "c6",
+          "text": "this probe"
+        },
+        {
+          "id": "c7",
+          "text": "a blue lamp"
+        },
+        {
+          "id": "c8",
+          "text": "means"
+        },
+        {
+          "id": "c9",
+          "text": "moist air"
+        },
+        {
+          "id": "c10",
+          "text": "a yellow lamp"
+        },
+        {
+          "id": "c11",
+          "text": "means"
+        },
+        {
+          "id": "c12",
+          "text": "dry air"
+        }
+      ],
+      "focus_segments": [
+        {
+          "segment_id": "s5",
+          "text": "Interpret the probe reading.",
+          "target": 6,
+          "available_prior_count": 14,
+          "retained_prior_count": 12,
+          "retained_rule": [
+            {
+              "id": "c6",
+              "text": "this probe"
+            },
+            {
+              "id": "c7",
+              "text": "a blue lamp"
+            },
+            {
+              "id": "c8",
+              "text": "means"
+            },
+            {
+              "id": "c9",
+              "text": "moist air"
+            },
+            {
+              "id": "c10",
+              "text": "a yellow lamp"
+            },
+            {
+              "id": "c11",
+              "text": "means"
+            },
+            {
+              "id": "c12",
+              "text": "dry air"
+            }
+          ],
+          "dropped_rule": [],
+          "primary_group_count": 6,
+          "primary_groups": [
+            {
+              "id": "s5-memory-c15",
+              "concept_ids": [
+                "c15",
+                "c16"
+              ],
+              "labels": [
+                "Interpret",
+                "the probe reading"
+              ]
+            },
+            {
+              "id": "s5-memory-c6",
+              "concept_ids": [
+                "c6"
+              ],
+              "labels": [
+                "this probe"
+              ]
+            },
+            {
+              "id": "s5-memory-c7",
+              "concept_ids": [
+                "c7",
+                "c13",
+                "c14"
+              ],
+              "labels": [
+                "a blue lamp",
+                "The blue lamp",
+                "is lit"
+              ]
+            },
+            {
+              "id": "s5-memory-c9",
+              "concept_ids": [
+                "c9",
+                "c11"
+              ],
+              "labels": [
+                "moist air",
+                "means"
+              ]
+            },
+            {
+              "id": "s5-memory-c10",
+              "concept_ids": [
+                "c10"
+              ],
+              "labels": [
+                "a yellow lamp"
+              ]
+            },
+            {
+              "id": "s5-memory-c12",
+              "concept_ids": [
+                "c12"
+              ],
+              "labels": [
+                "dry air"
+              ]
+            }
+          ],
+          "rule_memory_roles": [
+            {
+              "concept_id": "c6",
+              "role": "unknown",
+              "anchor_id": null,
+              "confidence": 0.2571,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "ordinary",
+                "confidence": 0.2,
+                "certainty": "uncertain"
+              },
+              "text": "this probe"
+            },
+            {
+              "concept_id": "c7",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.2856,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.2188,
+                "certainty": "uncertain"
+              },
+              "text": "a blue lamp"
+            },
+            {
+              "concept_id": "c8",
+              "role": "background",
+              "anchor_id": null,
+              "confidence": 0.2833,
+              "certainty": "uncertain",
+              "text": "means"
+            },
+            {
+              "concept_id": "c9",
+              "role": "unknown",
+              "anchor_id": null,
+              "confidence": 0.252,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "ordinary",
+                "confidence": 0.1688,
+                "certainty": "uncertain"
+              },
+              "text": "moist air"
+            },
+            {
+              "concept_id": "c10",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.28,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "background",
+                "confidence": 0.3438,
+                "certainty": "uncertain"
+              },
+              "text": "a yellow lamp"
+            },
+            {
+              "concept_id": "c11",
+              "role": "grouped",
+              "anchor_id": "c9",
+              "confidence": 0.7508,
+              "certainty": "uncertain",
+              "text": "means"
+            },
+            {
+              "concept_id": "c12",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.2462,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "background",
+                "confidence": 0.3562,
+                "certainty": "uncertain"
+              },
+              "text": "dry air"
+            }
+          ],
+          "prior_pool": [
+            {
+              "id": "c1",
+              "text": "The classroom probe"
+            },
+            {
+              "id": "c4",
+              "text": "Its cable"
+            },
+            {
+              "id": "c5",
+              "text": "is neatly coiled"
+            },
+            {
+              "id": "c6",
+              "text": "this probe"
+            },
+            {
+              "id": "c7",
+              "text": "a blue lamp"
+            },
+            {
+              "id": "c8",
+              "text": "means"
+            },
+            {
+              "id": "c9",
+              "text": "moist air"
+            },
+            {
+              "id": "c10",
+              "text": "a yellow lamp"
+            },
+            {
+              "id": "c11",
+              "text": "means"
+            },
+            {
+              "id": "c12",
+              "text": "dry air"
+            },
+            {
+              "id": "c13",
+              "text": "The blue lamp"
+            },
+            {
+              "id": "c14",
+              "text": "is lit"
+            }
+          ],
+          "count_provisional": true,
+          "whole_rule_present_in_request_prefix": true,
+          "memory_assessable": true,
+          "relational_assessable": false,
+          "memory_notes": [
+            "Some active-role choices are tentative. The suggested grouping follows those choices; uncertainty does not add extra elements or reactivate background information.",
+            "Some coordination checks are uncertain. They require review without changing the primary active grouping.",
+            "Some grouping decisions point to an inactive or unresolved anchor. Those conflicting occurrences remain separate for review.",
+            "Members selecting the same background anchor share a provisional active representative. The background source stays excluded, and the original anchor choices remain available for review."
+          ],
+          "cap_warning": [
+            "Clause 5: dependency checks cover 12 prior candidate occurrences selected by same-sentence conditional context, phrase overlap, and recency. More distant or differently worded dependencies may be missed; the full available prefix still informs clause judgments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fresh_22_a",
+      "family": "fresh_22",
+      "variant": "a",
+      "repeat": 2,
+      "focus": "Interpret the probe reading.",
+      "rule": "For this probe, a blue lamp means moist air and a yellow lamp means dry air.",
+      "rule_candidates": [
+        {
+          "id": "c6",
+          "text": "this probe"
+        },
+        {
+          "id": "c7",
+          "text": "a blue lamp"
+        },
+        {
+          "id": "c8",
+          "text": "means"
+        },
+        {
+          "id": "c9",
+          "text": "moist air"
+        },
+        {
+          "id": "c10",
+          "text": "a yellow lamp"
+        },
+        {
+          "id": "c11",
+          "text": "means"
+        },
+        {
+          "id": "c12",
+          "text": "dry air"
+        }
+      ],
+      "focus_segments": [
+        {
+          "segment_id": "s5",
+          "text": "Interpret the probe reading.",
+          "target": 6,
+          "available_prior_count": 14,
+          "retained_prior_count": 12,
+          "retained_rule": [
+            {
+              "id": "c6",
+              "text": "this probe"
+            },
+            {
+              "id": "c7",
+              "text": "a blue lamp"
+            },
+            {
+              "id": "c8",
+              "text": "means"
+            },
+            {
+              "id": "c9",
+              "text": "moist air"
+            },
+            {
+              "id": "c10",
+              "text": "a yellow lamp"
+            },
+            {
+              "id": "c11",
+              "text": "means"
+            },
+            {
+              "id": "c12",
+              "text": "dry air"
+            }
+          ],
+          "dropped_rule": [],
+          "primary_group_count": 6,
+          "primary_groups": [
+            {
+              "id": "s5-memory-c15",
+              "concept_ids": [
+                "c15",
+                "c16"
+              ],
+              "labels": [
+                "Interpret",
+                "the probe reading"
+              ]
+            },
+            {
+              "id": "s5-memory-c6",
+              "concept_ids": [
+                "c6"
+              ],
+              "labels": [
+                "this probe"
+              ]
+            },
+            {
+              "id": "s5-memory-c7",
+              "concept_ids": [
+                "c7",
+                "c13",
+                "c14"
+              ],
+              "labels": [
+                "a blue lamp",
+                "The blue lamp",
+                "is lit"
+              ]
+            },
+            {
+              "id": "s5-memory-c9",
+              "concept_ids": [
+                "c9",
+                "c11"
+              ],
+              "labels": [
+                "moist air",
+                "means"
+              ]
+            },
+            {
+              "id": "s5-memory-c10",
+              "concept_ids": [
+                "c10"
+              ],
+              "labels": [
+                "a yellow lamp"
+              ]
+            },
+            {
+              "id": "s5-memory-c12",
+              "concept_ids": [
+                "c12"
+              ],
+              "labels": [
+                "dry air"
+              ]
+            }
+          ],
+          "rule_memory_roles": [
+            {
+              "concept_id": "c6",
+              "role": "unknown",
+              "anchor_id": null,
+              "confidence": 0.2914,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "ordinary",
+                "confidence": 0.2062,
+                "certainty": "uncertain"
+              },
+              "text": "this probe"
+            },
+            {
+              "concept_id": "c7",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.2687,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.1875,
+                "certainty": "uncertain"
+              },
+              "text": "a blue lamp"
+            },
+            {
+              "concept_id": "c8",
+              "role": "background",
+              "anchor_id": null,
+              "confidence": 0.2722,
+              "certainty": "uncertain",
+              "text": "means"
+            },
+            {
+              "concept_id": "c9",
+              "role": "unknown",
+              "anchor_id": null,
+              "confidence": 0.2465,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "ordinary",
+                "confidence": 0.125,
+                "certainty": "uncertain"
+              },
+              "text": "moist air"
+            },
+            {
+              "concept_id": "c10",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.2309,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "background",
+                "confidence": 0.375,
+                "certainty": "uncertain"
+              },
+              "text": "a yellow lamp"
+            },
+            {
+              "concept_id": "c11",
+              "role": "grouped",
+              "anchor_id": "c9",
+              "confidence": 0.7183,
+              "certainty": "uncertain",
+              "text": "means"
+            },
+            {
+              "concept_id": "c12",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.2462,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "background",
+                "confidence": 0.35,
+                "certainty": "uncertain"
+              },
+              "text": "dry air"
+            }
+          ],
+          "prior_pool": [
+            {
+              "id": "c1",
+              "text": "The classroom probe"
+            },
+            {
+              "id": "c4",
+              "text": "Its cable"
+            },
+            {
+              "id": "c5",
+              "text": "is neatly coiled"
+            },
+            {
+              "id": "c6",
+              "text": "this probe"
+            },
+            {
+              "id": "c7",
+              "text": "a blue lamp"
+            },
+            {
+              "id": "c8",
+              "text": "means"
+            },
+            {
+              "id": "c9",
+              "text": "moist air"
+            },
+            {
+              "id": "c10",
+              "text": "a yellow lamp"
+            },
+            {
+              "id": "c11",
+              "text": "means"
+            },
+            {
+              "id": "c12",
+              "text": "dry air"
+            },
+            {
+              "id": "c13",
+              "text": "The blue lamp"
+            },
+            {
+              "id": "c14",
+              "text": "is lit"
+            }
+          ],
+          "count_provisional": true,
+          "whole_rule_present_in_request_prefix": true,
+          "memory_assessable": true,
+          "relational_assessable": false,
+          "memory_notes": [
+            "Some active-role choices are tentative. The suggested grouping follows those choices; uncertainty does not add extra elements or reactivate background information.",
+            "Some coordination checks are uncertain. They require review without changing the primary active grouping.",
+            "Some grouping decisions point to an inactive or unresolved anchor. Those conflicting occurrences remain separate for review.",
+            "Members selecting the same background anchor share a provisional active representative. The background source stays excluded, and the original anchor choices remain available for review."
+          ],
+          "cap_warning": [
+            "Clause 5: dependency checks cover 12 prior candidate occurrences selected by same-sentence conditional context, phrase overlap, and recency. More distant or differently worded dependencies may be missed; the full available prefix still informs clause judgments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fresh_22_a",
+      "family": "fresh_22",
+      "variant": "a",
+      "repeat": 3,
+      "focus": "Interpret the probe reading.",
+      "rule": "For this probe, a blue lamp means moist air and a yellow lamp means dry air.",
+      "rule_candidates": [
+        {
+          "id": "c6",
+          "text": "this probe"
+        },
+        {
+          "id": "c7",
+          "text": "a blue lamp"
+        },
+        {
+          "id": "c8",
+          "text": "means"
+        },
+        {
+          "id": "c9",
+          "text": "moist air"
+        },
+        {
+          "id": "c10",
+          "text": "a yellow lamp"
+        },
+        {
+          "id": "c11",
+          "text": "means"
+        },
+        {
+          "id": "c12",
+          "text": "dry air"
+        }
+      ],
+      "focus_segments": [
+        {
+          "segment_id": "s5",
+          "text": "Interpret the probe reading.",
+          "target": 5,
+          "available_prior_count": 14,
+          "retained_prior_count": 12,
+          "retained_rule": [
+            {
+              "id": "c6",
+              "text": "this probe"
+            },
+            {
+              "id": "c7",
+              "text": "a blue lamp"
+            },
+            {
+              "id": "c8",
+              "text": "means"
+            },
+            {
+              "id": "c9",
+              "text": "moist air"
+            },
+            {
+              "id": "c10",
+              "text": "a yellow lamp"
+            },
+            {
+              "id": "c11",
+              "text": "means"
+            },
+            {
+              "id": "c12",
+              "text": "dry air"
+            }
+          ],
+          "dropped_rule": [],
+          "primary_group_count": 5,
+          "primary_groups": [
+            {
+              "id": "s5-memory-c15",
+              "concept_ids": [
+                "c15",
+                "c16",
+                "c6"
+              ],
+              "labels": [
+                "Interpret",
+                "the probe reading",
+                "this probe"
+              ]
+            },
+            {
+              "id": "s5-memory-c7",
+              "concept_ids": [
+                "c7",
+                "c13",
+                "c14"
+              ],
+              "labels": [
+                "a blue lamp",
+                "The blue lamp",
+                "is lit"
+              ]
+            },
+            {
+              "id": "s5-memory-c9",
+              "concept_ids": [
+                "c9",
+                "c11"
+              ],
+              "labels": [
+                "moist air",
+                "means"
+              ]
+            },
+            {
+              "id": "s5-memory-c10",
+              "concept_ids": [
+                "c10"
+              ],
+              "labels": [
+                "a yellow lamp"
+              ]
+            },
+            {
+              "id": "s5-memory-c12",
+              "concept_ids": [
+                "c12"
+              ],
+              "labels": [
+                "dry air"
+              ]
+            }
+          ],
+          "rule_memory_roles": [
+            {
+              "concept_id": "c6",
+              "role": "grouped",
+              "anchor_id": "c16",
+              "confidence": 0.3143,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "ordinary",
+                "confidence": 0.225,
+                "certainty": "uncertain"
+              },
+              "text": "this probe"
+            },
+            {
+              "concept_id": "c7",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.2687,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.1875,
+                "certainty": "uncertain"
+              },
+              "text": "a blue lamp"
+            },
+            {
+              "concept_id": "c8",
+              "role": "background",
+              "anchor_id": null,
+              "confidence": 0.2333,
+              "certainty": "uncertain",
+              "text": "means"
+            },
+            {
+              "concept_id": "c9",
+              "role": "unknown",
+              "anchor_id": null,
+              "confidence": 0.2905,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.1125,
+                "certainty": "uncertain"
+              },
+              "text": "moist air"
+            },
+            {
+              "concept_id": "c10",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.2255,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "background",
+                "confidence": 0.3,
+                "certainty": "uncertain"
+              },
+              "text": "a yellow lamp"
+            },
+            {
+              "concept_id": "c11",
+              "role": "grouped",
+              "anchor_id": "c9",
+              "confidence": 0.7292,
+              "certainty": "uncertain",
+              "text": "means"
+            },
+            {
+              "concept_id": "c12",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.2569,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "background",
+                "confidence": 0.4,
+                "certainty": "uncertain"
+              },
+              "text": "dry air"
+            }
+          ],
+          "prior_pool": [
+            {
+              "id": "c1",
+              "text": "The classroom probe"
+            },
+            {
+              "id": "c4",
+              "text": "Its cable"
+            },
+            {
+              "id": "c5",
+              "text": "is neatly coiled"
+            },
+            {
+              "id": "c6",
+              "text": "this probe"
+            },
+            {
+              "id": "c7",
+              "text": "a blue lamp"
+            },
+            {
+              "id": "c8",
+              "text": "means"
+            },
+            {
+              "id": "c9",
+              "text": "moist air"
+            },
+            {
+              "id": "c10",
+              "text": "a yellow lamp"
+            },
+            {
+              "id": "c11",
+              "text": "means"
+            },
+            {
+              "id": "c12",
+              "text": "dry air"
+            },
+            {
+              "id": "c13",
+              "text": "The blue lamp"
+            },
+            {
+              "id": "c14",
+              "text": "is lit"
+            }
+          ],
+          "count_provisional": true,
+          "whole_rule_present_in_request_prefix": true,
+          "memory_assessable": true,
+          "relational_assessable": false,
+          "memory_notes": [
+            "Some active-role choices are tentative. The suggested grouping follows those choices; uncertainty does not add extra elements or reactivate background information.",
+            "Some coordination checks are uncertain. They require review without changing the primary active grouping.",
+            "Some grouping decisions point to an inactive or unresolved anchor. Those conflicting occurrences remain separate for review.",
+            "Members selecting the same background anchor share a provisional active representative. The background source stays excluded, and the original anchor choices remain available for review."
+          ],
+          "cap_warning": [
+            "Clause 5: dependency checks cover 12 prior candidate occurrences selected by same-sentence conditional context, phrase overlap, and recency. More distant or differently worded dependencies may be missed; the full available prefix still informs clause judgments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fresh_22_b",
+      "family": "fresh_22",
+      "variant": "b",
+      "repeat": 1,
+      "focus": "Interpret the probe reading.",
+      "rule": "For this probe, a blue lamp means moist air and a yellow lamp means dry air.",
+      "rule_candidates": [
+        {
+          "id": "c1",
+          "text": "this probe"
+        },
+        {
+          "id": "c2",
+          "text": "a blue lamp"
+        },
+        {
+          "id": "c3",
+          "text": "means"
+        },
+        {
+          "id": "c4",
+          "text": "moist air"
+        },
+        {
+          "id": "c5",
+          "text": "a yellow lamp"
+        },
+        {
+          "id": "c6",
+          "text": "means"
+        },
+        {
+          "id": "c7",
+          "text": "dry air"
+        }
+      ],
+      "focus_segments": [
+        {
+          "segment_id": "s5",
+          "text": "Interpret the probe reading.",
+          "target": 3,
+          "available_prior_count": 14,
+          "retained_prior_count": 12,
+          "retained_rule": [
+            {
+              "id": "c1",
+              "text": "this probe"
+            },
+            {
+              "id": "c4",
+              "text": "moist air"
+            },
+            {
+              "id": "c5",
+              "text": "a yellow lamp"
+            },
+            {
+              "id": "c6",
+              "text": "means"
+            },
+            {
+              "id": "c7",
+              "text": "dry air"
+            }
+          ],
+          "dropped_rule": [
+            {
+              "id": "c2",
+              "text": "a blue lamp"
+            },
+            {
+              "id": "c3",
+              "text": "means"
+            }
+          ],
+          "primary_group_count": 3,
+          "primary_groups": [
+            {
+              "id": "s5-memory-c15",
+              "concept_ids": [
+                "c15",
+                "c16",
+                "c1",
+                "c13",
+                "c14"
+              ],
+              "labels": [
+                "Interpret",
+                "the probe reading",
+                "this probe",
+                "The blue lamp",
+                "is lit"
+              ]
+            },
+            {
+              "id": "s5-memory-c4",
+              "concept_ids": [
+                "c4"
+              ],
+              "labels": [
+                "moist air"
+              ]
+            },
+            {
+              "id": "s5-memory-c7",
+              "concept_ids": [
+                "c7"
+              ],
+              "labels": [
+                "dry air"
+              ]
+            }
+          ],
+          "rule_memory_roles": [
+            {
+              "concept_id": "c1",
+              "role": "grouped",
+              "anchor_id": "c16",
+              "confidence": 0.1875,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "ordinary",
+                "confidence": 0.3125,
+                "certainty": "uncertain"
+              },
+              "text": "this probe"
+            },
+            {
+              "concept_id": "c4",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.22,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.1937,
+                "certainty": "uncertain"
+              },
+              "text": "moist air"
+            },
+            {
+              "concept_id": "c5",
+              "role": "background",
+              "anchor_id": null,
+              "confidence": 0.335,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "background",
+                "confidence": 0.35,
+                "certainty": "uncertain"
+              },
+              "text": "a yellow lamp"
+            },
+            {
+              "concept_id": "c6",
+              "role": "background",
+              "anchor_id": null,
+              "confidence": 0.2971,
+              "certainty": "uncertain",
+              "text": "means"
+            },
+            {
+              "concept_id": "c7",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.2631,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "background",
+                "confidence": 0.3875,
+                "certainty": "uncertain"
+              },
+              "text": "dry air"
+            }
+          ],
+          "prior_pool": [
+            {
+              "id": "c1",
+              "text": "this probe"
+            },
+            {
+              "id": "c4",
+              "text": "moist air"
+            },
+            {
+              "id": "c5",
+              "text": "a yellow lamp"
+            },
+            {
+              "id": "c6",
+              "text": "means"
+            },
+            {
+              "id": "c7",
+              "text": "dry air"
+            },
+            {
+              "id": "c8",
+              "text": "The classroom probe"
+            },
+            {
+              "id": "c9",
+              "text": "rests"
+            },
+            {
+              "id": "c10",
+              "text": "a stand"
+            },
+            {
+              "id": "c11",
+              "text": "Its cable"
+            },
+            {
+              "id": "c12",
+              "text": "is neatly coiled"
+            },
+            {
+              "id": "c13",
+              "text": "The blue lamp"
+            },
+            {
+              "id": "c14",
+              "text": "is lit"
+            }
+          ],
+          "count_provisional": true,
+          "whole_rule_present_in_request_prefix": true,
+          "memory_assessable": true,
+          "relational_assessable": false,
+          "memory_notes": [
+            "Some active-role choices are tentative. The suggested grouping follows those choices; uncertainty does not add extra elements or reactivate background information.",
+            "Some coordination checks are uncertain. They require review without changing the primary active grouping."
+          ],
+          "cap_warning": [
+            "Clause 5: dependency checks cover 12 prior candidate occurrences selected by same-sentence conditional context, phrase overlap, and recency. More distant or differently worded dependencies may be missed; the full available prefix still informs clause judgments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fresh_22_b",
+      "family": "fresh_22",
+      "variant": "b",
+      "repeat": 2,
+      "focus": "Interpret the probe reading.",
+      "rule": "For this probe, a blue lamp means moist air and a yellow lamp means dry air.",
+      "rule_candidates": [
+        {
+          "id": "c1",
+          "text": "this probe"
+        },
+        {
+          "id": "c2",
+          "text": "a blue lamp"
+        },
+        {
+          "id": "c3",
+          "text": "means"
+        },
+        {
+          "id": "c4",
+          "text": "moist air"
+        },
+        {
+          "id": "c5",
+          "text": "a yellow lamp"
+        },
+        {
+          "id": "c6",
+          "text": "means"
+        },
+        {
+          "id": "c7",
+          "text": "dry air"
+        }
+      ],
+      "focus_segments": [
+        {
+          "segment_id": "s5",
+          "text": "Interpret the probe reading.",
+          "target": 3,
+          "available_prior_count": 14,
+          "retained_prior_count": 12,
+          "retained_rule": [
+            {
+              "id": "c1",
+              "text": "this probe"
+            },
+            {
+              "id": "c4",
+              "text": "moist air"
+            },
+            {
+              "id": "c5",
+              "text": "a yellow lamp"
+            },
+            {
+              "id": "c6",
+              "text": "means"
+            },
+            {
+              "id": "c7",
+              "text": "dry air"
+            }
+          ],
+          "dropped_rule": [
+            {
+              "id": "c2",
+              "text": "a blue lamp"
+            },
+            {
+              "id": "c3",
+              "text": "means"
+            }
+          ],
+          "primary_group_count": 3,
+          "primary_groups": [
+            {
+              "id": "s5-memory-c15",
+              "concept_ids": [
+                "c15",
+                "c16",
+                "c1",
+                "c13",
+                "c14"
+              ],
+              "labels": [
+                "Interpret",
+                "the probe reading",
+                "this probe",
+                "The blue lamp",
+                "is lit"
+              ]
+            },
+            {
+              "id": "s5-memory-c4",
+              "concept_ids": [
+                "c4"
+              ],
+              "labels": [
+                "moist air"
+              ]
+            },
+            {
+              "id": "s5-memory-c7",
+              "concept_ids": [
+                "c7"
+              ],
+              "labels": [
+                "dry air"
+              ]
+            }
+          ],
+          "rule_memory_roles": [
+            {
+              "concept_id": "c1",
+              "role": "grouped",
+              "anchor_id": "c16",
+              "confidence": 0.2,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "ordinary",
+                "confidence": 0.375,
+                "certainty": "uncertain"
+              },
+              "text": "this probe"
+            },
+            {
+              "concept_id": "c4",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.202,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "ordinary",
+                "confidence": 0.2313,
+                "certainty": "uncertain"
+              },
+              "text": "moist air"
+            },
+            {
+              "concept_id": "c5",
+              "role": "background",
+              "anchor_id": null,
+              "confidence": 0.3117,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "background",
+                "confidence": 0.4125,
+                "certainty": "uncertain"
+              },
+              "text": "a yellow lamp"
+            },
+            {
+              "concept_id": "c6",
+              "role": "background",
+              "anchor_id": null,
+              "confidence": 0.2343,
+              "certainty": "uncertain",
+              "text": "means"
+            },
+            {
+              "concept_id": "c7",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.2744,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "background",
+                "confidence": 0.3625,
+                "certainty": "uncertain"
+              },
+              "text": "dry air"
+            }
+          ],
+          "prior_pool": [
+            {
+              "id": "c1",
+              "text": "this probe"
+            },
+            {
+              "id": "c4",
+              "text": "moist air"
+            },
+            {
+              "id": "c5",
+              "text": "a yellow lamp"
+            },
+            {
+              "id": "c6",
+              "text": "means"
+            },
+            {
+              "id": "c7",
+              "text": "dry air"
+            },
+            {
+              "id": "c8",
+              "text": "The classroom probe"
+            },
+            {
+              "id": "c9",
+              "text": "rests"
+            },
+            {
+              "id": "c10",
+              "text": "a stand"
+            },
+            {
+              "id": "c11",
+              "text": "Its cable"
+            },
+            {
+              "id": "c12",
+              "text": "is neatly coiled"
+            },
+            {
+              "id": "c13",
+              "text": "The blue lamp"
+            },
+            {
+              "id": "c14",
+              "text": "is lit"
+            }
+          ],
+          "count_provisional": true,
+          "whole_rule_present_in_request_prefix": true,
+          "memory_assessable": true,
+          "relational_assessable": false,
+          "memory_notes": [
+            "Some active-role choices are tentative. The suggested grouping follows those choices; uncertainty does not add extra elements or reactivate background information.",
+            "Some coordination checks are uncertain. They require review without changing the primary active grouping."
+          ],
+          "cap_warning": [
+            "Clause 5: dependency checks cover 12 prior candidate occurrences selected by same-sentence conditional context, phrase overlap, and recency. More distant or differently worded dependencies may be missed; the full available prefix still informs clause judgments."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fresh_22_b",
+      "family": "fresh_22",
+      "variant": "b",
+      "repeat": 3,
+      "focus": "Interpret the probe reading.",
+      "rule": "For this probe, a blue lamp means moist air and a yellow lamp means dry air.",
+      "rule_candidates": [
+        {
+          "id": "c1",
+          "text": "this probe"
+        },
+        {
+          "id": "c2",
+          "text": "a blue lamp"
+        },
+        {
+          "id": "c3",
+          "text": "means"
+        },
+        {
+          "id": "c4",
+          "text": "moist air"
+        },
+        {
+          "id": "c5",
+          "text": "a yellow lamp"
+        },
+        {
+          "id": "c6",
+          "text": "means"
+        },
+        {
+          "id": "c7",
+          "text": "dry air"
+        }
+      ],
+      "focus_segments": [
+        {
+          "segment_id": "s5",
+          "text": "Interpret the probe reading.",
+          "target": 3,
+          "available_prior_count": 14,
+          "retained_prior_count": 12,
+          "retained_rule": [
+            {
+              "id": "c1",
+              "text": "this probe"
+            },
+            {
+              "id": "c4",
+              "text": "moist air"
+            },
+            {
+              "id": "c5",
+              "text": "a yellow lamp"
+            },
+            {
+              "id": "c6",
+              "text": "means"
+            },
+            {
+              "id": "c7",
+              "text": "dry air"
+            }
+          ],
+          "dropped_rule": [
+            {
+              "id": "c2",
+              "text": "a blue lamp"
+            },
+            {
+              "id": "c3",
+              "text": "means"
+            }
+          ],
+          "primary_group_count": 3,
+          "primary_groups": [
+            {
+              "id": "s5-memory-c15",
+              "concept_ids": [
+                "c15",
+                "c16",
+                "c1",
+                "c13",
+                "c14"
+              ],
+              "labels": [
+                "Interpret",
+                "the probe reading",
+                "this probe",
+                "The blue lamp",
+                "is lit"
+              ]
+            },
+            {
+              "id": "s5-memory-c4",
+              "concept_ids": [
+                "c4"
+              ],
+              "labels": [
+                "moist air"
+              ]
+            },
+            {
+              "id": "s5-memory-c7",
+              "concept_ids": [
+                "c7"
+              ],
+              "labels": [
+                "dry air"
+              ]
+            }
+          ],
+          "rule_memory_roles": [
+            {
+              "concept_id": "c1",
+              "role": "grouped",
+              "anchor_id": "c16",
+              "confidence": 0.2,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "ordinary",
+                "confidence": 0.3562,
+                "certainty": "uncertain"
+              },
+              "text": "this probe"
+            },
+            {
+              "concept_id": "c4",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.208,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "independent",
+                "confidence": 0.175,
+                "certainty": "uncertain"
+              },
+              "text": "moist air"
+            },
+            {
+              "concept_id": "c5",
+              "role": "background",
+              "anchor_id": null,
+              "confidence": 0.335,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "background",
+                "confidence": 0.3875,
+                "certainty": "uncertain"
+              },
+              "text": "a yellow lamp"
+            },
+            {
+              "concept_id": "c6",
+              "role": "background",
+              "anchor_id": null,
+              "confidence": 0.2343,
+              "certainty": "uncertain",
+              "text": "means"
+            },
+            {
+              "concept_id": "c7",
+              "role": "separate",
+              "anchor_id": null,
+              "confidence": 0.2631,
+              "certainty": "uncertain",
+              "coordination": {
+                "choice": "background",
+                "confidence": 0.3063,
+                "certainty": "uncertain"
+              },
+              "text": "dry air"
+            }
+          ],
+          "prior_pool": [
+            {
+              "id": "c1",
+              "text": "this probe"
+            },
+            {
+              "id": "c4",
+              "text": "moist air"
+            },
+            {
+              "id": "c5",
+              "text": "a yellow lamp"
+            },
+            {
+              "id": "c6",
+              "text": "means"
+            },
+            {
+              "id": "c7",
+              "text": "dry air"
+            },
+            {
+              "id": "c8",
+              "text": "The classroom probe"
+            },
+            {
+              "id": "c9",
+              "text": "rests"
+            },
+            {
+              "id": "c10",
+              "text": "a stand"
+            },
+            {
+              "id": "c11",
+              "text": "Its cable"
+            },
+            {
+              "id": "c12",
+              "text": "is neatly coiled"
+            },
+            {
+              "id": "c13",
+              "text": "The blue lamp"
+            },
+            {
+              "id": "c14",
+              "text": "is lit"
+            }
+          ],
+          "count_provisional": true,
+          "whole_rule_present_in_request_prefix": true,
+          "memory_assessable": true,
+          "relational_assessable": false,
+          "memory_notes": [
+            "Some active-role choices are tentative. The suggested grouping follows those choices; uncertainty does not add extra elements or reactivate background information.",
+            "Some coordination checks are uncertain. They require review without changing the primary active grouping."
+          ],
+          "cap_warning": [
+            "Clause 5: dependency checks cover 12 prior candidate occurrences selected by same-sentence conditional context, phrase overlap, and recency. More distant or differently worded dependencies may be missed; the full available prefix still informs clause judgments."
+          ]
+        }
+      ]
+    }
+  ],
+  "audited_at": "2026-09-22T19:08:34.521030+00:00",
+  "raw_analyses_inspected": 12,
+  "api_calls": 0,
+  "source_mutations": false,
+  "reconstructed_memory_question_ids_equal_saved_decision_ids_all_repeats": true,
+  "every_focus_count_equals_primary_group_count": true,
+  "source_commit": "cee3edb9922115d759778434878f6c56b483b390",
+  "family_summaries": [
+    {
+      "family": "fresh_20",
+      "near_repeat_scores": [
+        6,
+        5,
+        6
+      ],
+      "far_repeat_scores": [
+        3,
+        3,
+        3
+      ],
+      "paired_repeat_deltas": [
+        -3,
+        -2,
+        -3
+      ],
+      "near_retained_rule": [
+        {
+          "id": "c7",
+          "text": "Members"
+        },
+        {
+          "id": "c8",
+          "text": "a silver badge"
+        },
+        {
+          "id": "c9",
+          "text": "may enter"
+        },
+        {
+          "id": "c10",
+          "text": "nine"
+        }
+      ],
+      "far_retained_rule": [
+        {
+          "id": "c3",
+          "text": "may enter"
+        }
+      ],
+      "far_dropped_rule": [
+        {
+          "id": "c1",
+          "text": "Members"
+        },
+        {
+          "id": "c2",
+          "text": "a silver badge"
+        },
+        {
+          "id": "c4",
+          "text": "nine"
+        }
+      ],
+      "available_prior_count": 16,
+      "retained_prior_count": 12,
+      "full_rule_remains_visible_in_prefix": true
+    },
+    {
+      "family": "fresh_22",
+      "near_repeat_scores": [
+        6,
+        6,
+        5
+      ],
+      "far_repeat_scores": [
+        3,
+        3,
+        3
+      ],
+      "paired_repeat_deltas": [
+        -3,
+        -3,
+        -2
+      ],
+      "near_retained_rule": [
+        {
+          "id": "c6",
+          "text": "this probe"
+        },
+        {
+          "id": "c7",
+          "text": "a blue lamp"
+        },
+        {
+          "id": "c8",
+          "text": "means"
+        },
+        {
+          "id": "c9",
+          "text": "moist air"
+        },
+        {
+          "id": "c10",
+          "text": "a yellow lamp"
+        },
+        {
+          "id": "c11",
+          "text": "means"
+        },
+        {
+          "id": "c12",
+          "text": "dry air"
+        }
+      ],
+      "far_retained_rule": [
+        {
+          "id": "c1",
+          "text": "this probe"
+        },
+        {
+          "id": "c4",
+          "text": "moist air"
+        },
+        {
+          "id": "c5",
+          "text": "a yellow lamp"
+        },
+        {
+          "id": "c6",
+          "text": "means"
+        },
+        {
+          "id": "c7",
+          "text": "dry air"
+        }
+      ],
+      "far_dropped_rule": [
+        {
+          "id": "c2",
+          "text": "a blue lamp"
+        },
+        {
+          "id": "c3",
+          "text": "means"
+        }
+      ],
+      "available_prior_count": 14,
+      "retained_prior_count": 12,
+      "full_rule_remains_visible_in_prefix": true
+    }
+  ],
+  "conclusion": "The finite prior-candidate nomination cap changes the countable source universe between near/far variants and drops original rule occurrences in both far cases. This is a concrete possible measurement artifact, not proof that it alone causes the score decrease. The full rule remains in the prefix, and remaining candidates receive different model grouping decisions. No cap-removal/relabeling ablation or human experiment was performed.",
+  "source_locations": [
+    "backend/prompts.py:365-382 (12-prior nomination)",
+    "backend/prompts.py:385-412 (intact prefix and selected occurrence records)",
+    "backend/memory.py:10-15 (groups can use only prior occurrences with memory decisions)",
+    "backend/semantic_connections.py:44-53 (relational pool follows assessed occurrences)"
+  ]
+}

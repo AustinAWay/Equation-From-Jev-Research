@@ -1,0 +1,556 @@
+{
+  "created_at": "2026-09-22T18:17:19.587927+00:00",
+  "purpose": "Post-freeze diagnosis of saved predictions only. No equation refitted or newly evaluated on the final test.",
+  "weighting": "Main error metrics average clauses inside each family, then weight families equally. Distribution and repeat fractions explicitly labeled unweighted or family-weighted.",
+  "selected_model": "rounded_v1_boosted_absolute_error_depth5_n400",
+  "training_metrics_recorded": {
+    "rows": 331,
+    "families": 36,
+    "mae": 0.17130254005254006,
+    "rmse": 0.46453600188112115,
+    "exact": 0.8484177859177859,
+    "within_one": 0.9828049265549266,
+    "bias": -0.04343534551867886,
+    "max_error": 3.0
+  },
+  "validation_error": {
+    "steps": 106,
+    "families": 12,
+    "mae_family_weighted": 0.5869047619047619,
+    "exact_family_weighted": 0.491765873015873,
+    "mae_unweighted": 0.5754716981132075,
+    "exact_unweighted": 0.5
+  },
+  "test_error": {
+    "steps": 107,
+    "families": 12,
+    "mae_family_weighted": 0.9663780663780663,
+    "exact_family_weighted": 0.3119468494468494,
+    "mae_unweighted": 0.9719626168224299,
+    "exact_unweighted": 0.308411214953271
+  },
+  "test_baseline_error": {
+    "steps": 107,
+    "families": 12,
+    "mae_family_weighted": 0.9309343434343434,
+    "exact_family_weighted": 0.26356421356421356,
+    "mae_unweighted": 0.9345794392523364,
+    "exact_unweighted": 0.2616822429906542
+  },
+  "final_reported_intervals": {
+    "mae_interval_95": [
+      0.8567355098605096,
+      1.0733919552669549
+    ],
+    "exact_interval_95": [
+      0.24071669071669075,
+      0.3893995009620009
+    ],
+    "mae_improvement_interval_95": [
+      -0.1443740981240981,
+      0.07646960678210678
+    ]
+  },
+  "by_split": {
+    "train": {
+      "steps": 331,
+      "passages": 72,
+      "families": 36,
+      "score": {
+        "n": 331,
+        "mean": 2.867069486404834,
+        "median": 3,
+        "std": 1.4058048166380772,
+        "min": 1,
+        "max": 7,
+        "histogram": {
+          "1": 59,
+          "2": 88,
+          "3": 84,
+          "4": 60,
+          "5": 21,
+          "6": 16,
+          "7": 3
+        }
+      },
+      "step_words": {
+        "n": 331,
+        "mean": 9.34441087613293,
+        "median": 8.0,
+        "std": 4.303703583204488,
+        "min": 3.0,
+        "max": 22.0,
+        "histogram": {
+          "3.0": 14,
+          "4.0": 18,
+          "5.0": 32,
+          "6.0": 46,
+          "7.0": 30,
+          "8.0": 30,
+          "9.0": 25,
+          "10.0": 20,
+          "11.0": 16,
+          "12.0": 14,
+          "13.0": 18,
+          "14.0": 18,
+          "15.0": 18,
+          "16.0": 8,
+          "17.0": 12,
+          "18.0": 2,
+          "19.0": 4,
+          "20.0": 4,
+          "22.0": 2
+        }
+      },
+      "step_candidate_concepts": {
+        "n": 331,
+        "mean": 2.8489425981873113,
+        "median": 3.0,
+        "std": 1.375714184103113,
+        "min": 1.0,
+        "max": 7.0,
+        "histogram": {
+          "1.0": 48,
+          "2.0": 113,
+          "3.0": 74,
+          "4.0": 51,
+          "5.0": 31,
+          "6.0": 10,
+          "7.0": 4
+        }
+      },
+      "repeatability": {
+        "steps": 331,
+        "disagreeing_steps": 85,
+        "disagreeing_fraction_unweighted": 0.256797583081571,
+        "disagreeing_fraction_family_weighted": 0.2571000758500758,
+        "stable_steps": 246,
+        "mean_range_unweighted": 0.2930513595166163,
+        "pairwise_exact_unweighted": 0.8227593152064451,
+        "pairwise_mad_unweighted": 0.19536757301107754,
+        "provisional_fraction_unweighted": 0.9577039274924471,
+        "coverage_limited_fraction_unweighted": 0.8580060422960725
+      },
+      "family_weighted_means": {
+        "target": 2.9488336509169844,
+        "step_words": 9.647015561598895,
+        "step_candidate_concepts": 2.9257112486279153
+      }
+    },
+    "validation": {
+      "steps": 106,
+      "passages": 24,
+      "families": 12,
+      "score": {
+        "n": 106,
+        "mean": 2.9150943396226414,
+        "median": 3.0,
+        "std": 1.2371446471179062,
+        "min": 1,
+        "max": 7,
+        "histogram": {
+          "1": 11,
+          "2": 32,
+          "3": 32,
+          "4": 22,
+          "5": 6,
+          "6": 1,
+          "7": 2
+        }
+      },
+      "step_words": {
+        "n": 106,
+        "mean": 9.69811320754717,
+        "median": 8.5,
+        "std": 4.720828619544304,
+        "min": 3.0,
+        "max": 27.0,
+        "histogram": {
+          "3.0": 4,
+          "4.0": 4,
+          "5.0": 9,
+          "6.0": 12,
+          "7.0": 15,
+          "8.0": 9,
+          "9.0": 9,
+          "10.0": 4,
+          "11.0": 8,
+          "12.0": 8,
+          "13.0": 5,
+          "14.0": 2,
+          "15.0": 4,
+          "16.0": 3,
+          "17.0": 4,
+          "18.0": 1,
+          "20.0": 1,
+          "21.0": 1,
+          "22.0": 1,
+          "24.0": 1,
+          "27.0": 1
+        }
+      },
+      "step_candidate_concepts": {
+        "n": 106,
+        "mean": 3.0283018867924527,
+        "median": 3.0,
+        "std": 1.4239033991097991,
+        "min": 1.0,
+        "max": 8.0,
+        "histogram": {
+          "1.0": 10,
+          "2.0": 32,
+          "3.0": 35,
+          "4.0": 15,
+          "5.0": 6,
+          "6.0": 6,
+          "8.0": 2
+        }
+      },
+      "repeatability": {
+        "steps": 106,
+        "disagreeing_steps": 37,
+        "disagreeing_fraction_unweighted": 0.3490566037735849,
+        "disagreeing_fraction_family_weighted": 0.3590518278018278,
+        "stable_steps": 69,
+        "mean_range_unweighted": 0.4056603773584906,
+        "pairwise_exact_unweighted": 0.7610062893081762,
+        "pairwise_mad_unweighted": 0.27044025157232704,
+        "provisional_fraction_unweighted": 0.9528301886792453,
+        "coverage_limited_fraction_unweighted": 0.8962264150943396
+      },
+      "family_weighted_means": {
+        "target": 2.9625090187590186,
+        "step_words": 9.945262145262145,
+        "step_candidate_concepts": 3.0809253246753245
+      }
+    },
+    "test": {
+      "steps": 107,
+      "passages": 24,
+      "families": 12,
+      "score": {
+        "n": 107,
+        "mean": 2.850467289719626,
+        "median": 3,
+        "std": 1.309945695655187,
+        "min": 1,
+        "max": 6,
+        "histogram": {
+          "1": 16,
+          "2": 34,
+          "3": 24,
+          "4": 18,
+          "5": 13,
+          "6": 2
+        }
+      },
+      "step_words": {
+        "n": 107,
+        "mean": 9.785046728971963,
+        "median": 8.0,
+        "std": 4.722244115227178,
+        "min": 3.0,
+        "max": 23.0,
+        "histogram": {
+          "3.0": 3,
+          "4.0": 8,
+          "5.0": 7,
+          "6.0": 12,
+          "7.0": 7,
+          "8.0": 20,
+          "9.0": 6,
+          "10.0": 2,
+          "11.0": 10,
+          "12.0": 5,
+          "13.0": 5,
+          "14.0": 3,
+          "15.0": 6,
+          "16.0": 4,
+          "18.0": 1,
+          "19.0": 1,
+          "20.0": 3,
+          "21.0": 1,
+          "22.0": 2,
+          "23.0": 1
+        }
+      },
+      "step_candidate_concepts": {
+        "n": 107,
+        "mean": 3.102803738317757,
+        "median": 3.0,
+        "std": 1.497253432116963,
+        "min": 1.0,
+        "max": 7.0,
+        "histogram": {
+          "1.0": 11,
+          "2.0": 36,
+          "3.0": 21,
+          "4.0": 21,
+          "5.0": 10,
+          "6.0": 4,
+          "7.0": 4
+        }
+      },
+      "repeatability": {
+        "steps": 107,
+        "disagreeing_steps": 33,
+        "disagreeing_fraction_unweighted": 0.308411214953271,
+        "disagreeing_fraction_family_weighted": 0.3090127465127465,
+        "stable_steps": 74,
+        "mean_range_unweighted": 0.37383177570093457,
+        "pairwise_exact_unweighted": 0.7850467289719626,
+        "pairwise_mad_unweighted": 0.24922118380062305,
+        "provisional_fraction_unweighted": 0.9532710280373832,
+        "coverage_limited_fraction_unweighted": 0.6355140186915887
+      },
+      "family_weighted_means": {
+        "target": 2.87630772005772,
+        "step_words": 10.020262145262144,
+        "step_candidate_concepts": 3.137073112073112
+      }
+    }
+  },
+  "simple_feature_shift": {
+    "step_words": {
+      "train_min": 3.0,
+      "train_max": 22.0,
+      "test_min": 3.0,
+      "test_max": 23.0,
+      "test_fraction_outside_train_range": 0.009345794392523364,
+      "test_vs_train_standardized_mean_difference": 0.10238526987747171
+    },
+    "step_candidate_concepts": {
+      "train_min": 1.0,
+      "train_max": 7.0,
+      "test_min": 1.0,
+      "test_max": 7.0,
+      "test_fraction_outside_train_range": 0,
+      "test_vs_train_standardized_mean_difference": 0.18453043740037361
+    }
+  },
+  "by_domain": {
+    "science": {
+      "test": {
+        "steps": 26,
+        "families": 3,
+        "mae_family_weighted": 0.8698412698412699,
+        "exact_family_weighted": 0.41005291005291006,
+        "mae_unweighted": 0.8461538461538461,
+        "exact_unweighted": 0.4230769230769231
+      },
+      "validation": {
+        "steps": 27,
+        "families": 3,
+        "mae_family_weighted": 0.5921115921115921,
+        "exact_family_weighted": 0.49254449254449256,
+        "mae_unweighted": 0.5555555555555556,
+        "exact_unweighted": 0.5185185185185185
+      },
+      "test_baseline": {
+        "steps": 26,
+        "families": 3,
+        "mae_family_weighted": 0.8031746031746031,
+        "exact_family_weighted": 0.3253968253968254,
+        "mae_unweighted": 0.7692307692307693,
+        "exact_unweighted": 0.34615384615384615
+      }
+    },
+    "history": {
+      "test": {
+        "steps": 27,
+        "families": 3,
+        "mae_family_weighted": 1.0,
+        "exact_family_weighted": 0.22857142857142856,
+        "mae_unweighted": 1.0,
+        "exact_unweighted": 0.2222222222222222
+      },
+      "validation": {
+        "steps": 24,
+        "families": 3,
+        "mae_family_weighted": 0.621031746031746,
+        "exact_family_weighted": 0.4576719576719577,
+        "mae_unweighted": 0.625,
+        "exact_unweighted": 0.4583333333333333
+      },
+      "test_baseline": {
+        "steps": 27,
+        "families": 3,
+        "mae_family_weighted": 0.8666666666666667,
+        "exact_family_weighted": 0.21428571428571427,
+        "mae_unweighted": 0.8518518518518519,
+        "exact_unweighted": 0.2222222222222222
+      }
+    },
+    "practical": {
+      "test": {
+        "steps": 25,
+        "families": 3,
+        "mae_family_weighted": 0.9047619047619048,
+        "exact_family_weighted": 0.30158730158730157,
+        "mae_unweighted": 0.92,
+        "exact_unweighted": 0.28
+      },
+      "validation": {
+        "steps": 27,
+        "families": 3,
+        "mae_family_weighted": 0.5380952380952381,
+        "exact_family_weighted": 0.5761904761904761,
+        "mae_unweighted": 0.5185185185185185,
+        "exact_unweighted": 0.5925925925925926
+      },
+      "test_baseline": {
+        "steps": 25,
+        "families": 3,
+        "mae_family_weighted": 0.9523809523809523,
+        "exact_family_weighted": 0.25396825396825395,
+        "mae_unweighted": 0.96,
+        "exact_unweighted": 0.24
+      }
+    },
+    "everyday": {
+      "test": {
+        "steps": 29,
+        "families": 3,
+        "mae_family_weighted": 1.0909090909090908,
+        "exact_family_weighted": 0.30757575757575756,
+        "mae_unweighted": 1.103448275862069,
+        "exact_unweighted": 0.3103448275862069
+      },
+      "validation": {
+        "steps": 28,
+        "families": 3,
+        "mae_family_weighted": 0.5963804713804713,
+        "exact_family_weighted": 0.44065656565656564,
+        "mae_unweighted": 0.6071428571428571,
+        "exact_unweighted": 0.42857142857142855
+      },
+      "test_baseline": {
+        "steps": 29,
+        "families": 3,
+        "mae_family_weighted": 1.1015151515151516,
+        "exact_family_weighted": 0.2606060606060606,
+        "mae_unweighted": 1.1379310344827587,
+        "exact_unweighted": 0.2413793103448276
+      }
+    }
+  },
+  "errors_by_repeat_stability": {
+    "test_stable": {
+      "steps": 74,
+      "families": 12,
+      "mae_family_weighted": 0.970734126984127,
+      "exact_family_weighted": 0.269973544973545,
+      "mae_unweighted": 0.972972972972973,
+      "exact_unweighted": 0.28378378378378377
+    },
+    "test_disagreeing": {
+      "steps": 33,
+      "families": 12,
+      "mae_family_weighted": 0.8541666666666666,
+      "exact_family_weighted": 0.3472222222222222,
+      "mae_unweighted": 0.9696969696969697,
+      "exact_unweighted": 0.36363636363636365
+    },
+    "validation_stable": {
+      "steps": 69,
+      "families": 12,
+      "mae_family_weighted": 0.5297619047619048,
+      "exact_family_weighted": 0.531547619047619,
+      "mae_unweighted": 0.5362318840579711,
+      "exact_unweighted": 0.5362318840579711
+    },
+    "validation_disagreeing": {
+      "steps": 37,
+      "families": 12,
+      "mae_family_weighted": 0.5736111111111111,
+      "exact_family_weighted": 0.49166666666666664,
+      "mae_unweighted": 0.6486486486486487,
+      "exact_unweighted": 0.43243243243243246
+    }
+  },
+  "illustrative_stable_errors": [
+    {
+      "id": "science_13_b",
+      "family": "science_13",
+      "domain": "science",
+      "segment_id": "s5",
+      "segment_text": "Explain how the wheel changes the pull's direction.",
+      "target": 5,
+      "prediction": 2.0,
+      "absolute_error": 3.0,
+      "repeat_targets": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      },
+      "step_words": 8.0,
+      "step_candidate_concepts": 2.0
+    },
+    {
+      "id": "practical_13_a",
+      "family": "practical_13",
+      "domain": "practical",
+      "segment_id": "s1",
+      "segment_text": "Arrange paper tiles around the edge of a cardboard square, alternating light and dark colors.",
+      "target": 2,
+      "prediction": 5.0,
+      "absolute_error": 3.0,
+      "repeat_targets": {
+        "1": 2,
+        "2": 2,
+        "3": 2
+      },
+      "step_words": 15.0,
+      "step_candidate_concepts": 4.0
+    },
+    {
+      "id": "everyday_14_b",
+      "family": "everyday_14",
+      "domain": "everyday",
+      "segment_id": "s2",
+      "segment_text": "and Taylor's sash lies inside a box below both items.",
+      "target": 5,
+      "prediction": 3.0,
+      "absolute_error": 2.0,
+      "repeat_targets": {
+        "1": 5,
+        "2": 5,
+        "3": 5
+      },
+      "step_words": 10.0,
+      "step_candidate_concepts": 3.0
+    }
+  ],
+  "consistency_checks": {
+    "freeze_precedes_test_access": true,
+    "unchanged_frozen_equation_hash": true,
+    "unchanged_feature_definition_hash": true,
+    "model_development_hash_matches_freeze": true,
+    "one_reference_provenance": true,
+    "all_references_complete_with_three_scores": true,
+    "all_targets_equal_repeat_median": true,
+    "no_duplicate_step_ids": true,
+    "no_family_split_overlap": true,
+    "corpus_split_domain_family_match": true,
+    "segments_match_utf16_source_ranges": true,
+    "all_rows_present_in_frozen_feature_cache": true,
+    "validation_targets_match_development_labels": true,
+    "selected_feature_count_matches_metadata": true,
+    "selected_v1_columns_exclude_v2_and_v3_additions": true
+  },
+  "issues_detected": [],
+  "interpretation_limits": [
+    "A failure of this fitted equation is not proof that no suitable equation exists.",
+    "Generalization, semantic grouping, and development selection explanations are hypotheses; this audit does not isolate causal explanations.",
+    "Consistent Jev repeats do not establish human working-memory validity.",
+    "No retraining, changed inputs, or new equation evaluations were performed on final-test data."
+  ],
+  "sources": {
+    "final_results": "runs/final_results.json",
+    "final_predictions": "runs/final_predictions.jsonl",
+    "development_labels": "development-labels.jsonl",
+    "selected_validation_predictions": "runs/models/rounded_v1_boosted_absolute_error_depth5_n400/validation_predictions.jsonl",
+    "feature_cache": "runs/features.jsonl",
+    "corpus": "corpus.jsonl"
+  }
+}

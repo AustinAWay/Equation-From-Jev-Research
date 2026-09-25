@@ -1,0 +1,10 @@
+{
+  "name": "rounded_v1_boosted_absolute_error_depth5_n400",
+  "time_utc": "2026-09-22T18:13:29.466390+00:00",
+  "equation_sha256": "f61a1c5b812eea86e4108dbc55a6cacecf39a69d254f76189993feadd2f85077",
+  "development_data_hash": "43e823c8e9928c187fe23c801eff1b98df303dabb610ee03f73da68ec095436b",
+  "min_repeats": 3,
+  "baseline_name": "rounded_length_baseline",
+  "baseline_equation_sha256": "cf0b832f846b097c55d43d14ed9961ec7fa575383577e16fb7cdbdf62d2fbf22",
+  "selection_basis": "Candidate and strongest simple baseline selected on development validation; held-out scores not used for selection."
+}

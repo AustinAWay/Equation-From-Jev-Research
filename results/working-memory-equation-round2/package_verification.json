@@ -1,0 +1,9 @@
+{
+  "archive_bytes": 34857772,
+  "archive_sha256": "c62f4c83f8bcef7d6683d99acc11577795f8fa948e37e60a43fc10ec0972c7a2",
+  "files": 794,
+  "credential_scan_passed": true,
+  "zip_integrity_passed": true,
+  "offline_archive_bytes": 2986484,
+  "offline_archive_sha256": "92b939d48cf5f11ce629506903baaa17a1ad17b614125ccf40186b3bc453d794"
+}

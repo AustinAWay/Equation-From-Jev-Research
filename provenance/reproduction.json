@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "development_passages": 688,
+  "development_steps": 4726,
+  "comparison_passages": 100,
+  "comparison_steps": 910,
+  "families": 50,
+  "model_replays": 5,
+  "replayed_predictions": 4550,
+  "raw_text_feature_rows_checked": 910,
+  "family_folds_checked": 5,
+  "median_reference_rows_checked": 5636,
+  "metrics": {
+    "gaussian": {
+      "exact": 0.42029326027143366,
+      "mae": 0.7535035314502033,
+      "within_one": 0.84592998783409
+    },
+    "polynomial": {
+      "exact": 0.42347533860761416,
+      "mae": 0.7463763975045709,
+      "within_one": 0.8558864394549379
+    },
+    "spline": {
+      "exact": 0.43369855043477334,
+      "mae": 0.7460731643829167,
+      "within_one": 0.8498960041592395
+    },
+    "word_count_spline": {
+      "exact": 0.425049575143925,
+      "mae": 0.7106963972559948,
+      "within_one": 0.8951181992471466
+    },
+    "previous_large_model": {
+      "exact": 0.47269975136376063,
+      "mae": 0.634286716895076,
+      "within_one": 0.9144135943978049
+    },
+    "previous_32_term_formula": {
+      "exact": 0.3913563917478004,
+      "mae": 0.7151380324926765,
+      "within_one": 0.9081344743950007
+    },
+    "always_2": {
+      "exact": 0.3444380415450849,
+      "mae": 0.9268468168026217,
+      "within_one": 0.817695706538044
+    },
+    "always_3": {
+      "exact": 0.2898699191617922,
+      "mae": 0.9824983915551253,
+      "within_one": 0.7580485324301888
+    }
+  },
+  "scope": "Computational reproduction on saved data; no retraining, new Jev calls or human validation."
+}

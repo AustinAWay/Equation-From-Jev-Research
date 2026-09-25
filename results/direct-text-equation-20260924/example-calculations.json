@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "f100_001_a",
+    "segment_id": "s1",
+    "text": "A soap film stretches across a wire rectangle.",
+    "Jev_reference": 2,
+    "raw": 2.2442632233268864,
+    "score": 2,
+    "measurements": {
+      "words": 8.0,
+      "letters": 38.0,
+      "vowels": 14.0,
+      "syllables": 12.0,
+      "sentences": 1.0,
+      "words_per_sentence": 8.0,
+      "syllables_per_word": 1.5,
+      "letters_per_word": 4.75,
+      "long_words": 2.0,
+      "three_syllable_words": 1.0,
+      "unique_words": 7.0,
+      "repeated_words": 1.0,
+      "commas": 0.0,
+      "semicolons": 0.0,
+      "colons": 0.0,
+      "pronoun_markers": 0.0,
+      "condition_markers": 0.0,
+      "connectors": 0.0,
+      "negations": 0.0,
+      "number_tokens": 0.0,
+      "previous_words": 0.0,
+      "previous_unique_words": 0.0,
+      "words_seen_before": 0.0,
+      "new_word_types": 7.0,
+      "words_seen_recently": 0.0,
+      "mean_repeat_gap": 0.0,
+      "max_repeat_gap": 0.0,
+      "step_noun_chunks": 2.0,
+      "step_clause_heads": 1.0,
+      "step_subordinate_clauses": 0.0,
+      "step_max_syntax_depth": 3.0,
+      "step_mean_dependency_distance": 2.0,
+      "step_long_dependencies": 1.0,
+      "step_pos_pron": 0.0,
+      "struct_unfinished_peak": 1.0,
+      "struct_new_entities": 4.0,
+      "struct_intervening_information_sum": 1.0,
+      "struct_cross_step_connections": 0.0
+    },
+    "contributions": [
+      {
+        "coefficient": 0.018403493442603374,
+        "features": [
+          "letters"
+        ],
+        "value": 38.0,
+        "contribution": 0.6993327508189282
+      },
+      {
+        "coefficient": 0.7538662445217253,
+        "features": [
+          "sentences"
+        ],
+        "value": 1.0,
+        "contribution": 0.7538662445217253
+      },
+      {
+        "coefficient": 0.03896820620515564,
+        "features": [
+          "letters_per_word"
+        ],
+        "value": 4.75,
+        "contribution": 0.1850989794744893
+      },
+      {
+        "coefficient": -0.012090414705679085,
+        "features": [
+          "three_syllable_words"
+        ],
+        "value": 1.0,
+        "contribution": -0.012090414705679085
+      },
+      {
+        "coefficient": 0.12894038646645747,
+        "features": [
+          "unique_words"
+        ],
+        "value": 7.0,
+        "contribution": 0.9025827052652023
+      },
+      {
+        "coefficient": 0.12282830387460522,
+        "features": [
+          "repeated_words"
+        ],
+        "value": 1.0,
+        "contribution": 0.12282830387460522
+      },
+      {
+        "coefficient": 0.1401015164409812,
+        "features": [
+          "commas"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.06166112182595786,
+        "features": [
+          "semicolons"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.7320485621861041,
+        "features": [
+          "colons"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.15759646061675672,
+        "features": [
+          "pronoun_markers"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": -0.30747405602732814,
+        "features": [
+          "condition_markers"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.007058851737133925,
+        "features": [
+          "connectors"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.1785639697252744,
+        "features": [
+          "negations"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.4679124670797507,
+        "features": [
+          "number_tokens"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": 0.011302280003806512,
+        "features": [
+          "previous_words"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.009476108343542136,
+        "features": [
+          "previous_unique_words"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": -0.11125047206855457,
+        "features": [
+          "words_seen_before"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": -0.13299445381443423,
+        "features": [
+          "new_word_types"
+        ],
+        "value": 7.0,
+        "contribution": -0.9309611767010396
+      },
+      {
+        "coefficient": 0.05407344330556174,
+        "features": [
+          "words_seen_recently"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": 0.0028300752802928515,
+        "features": [
+          "mean_repeat_gap"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.011064622655418032,
+        "features": [
+          "max_repeat_gap"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.07843555969647936,
+        "features": [
+          "step_noun_chunks"
+        ],
+        "value": 2.0,
+        "contribution": 0.15687111939295872
+      },
+      {
+        "coefficient": 0.21571498057330418,
+        "features": [
+          "step_clause_heads"
+        ],
+        "value": 1.0,
+        "contribution": 0.21571498057330418
+      },
+      {
+        "coefficient": -0.2601517529979477,
+        "features": [
+          "step_subordinate_clauses"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.07212351314246566,
+        "features": [
+          "step_max_syntax_depth"
+        ],
+        "value": 3.0,
+        "contribution": 0.21637053942739698
+      },
+      {
+        "coefficient": 0.10873439342234234,
+        "features": [
+          "step_mean_dependency_distance"
+        ],
+        "value": 2.0,
+        "contribution": 0.21746878684468468
+      },
+      {
+        "coefficient": 0.034777236884330244,
+        "features": [
+          "step_long_dependencies"
+        ],
+        "value": 1.0,
+        "contribution": 0.034777236884330244
+      },
+      {
+        "coefficient": 0.13349925595389792,
+        "features": [
+          "step_pos_pron"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": 0.3305647956572802,
+        "features": [
+          "struct_unfinished_peak"
+        ],
+        "value": 1.0,
+        "contribution": 0.3305647956572802
+      },
+      {
+        "coefficient": 0.011712219746680373,
+        "features": [
+          "struct_new_entities"
+        ],
+        "value": 4.0,
+        "contribution": 0.04684887898672149
+      },
+      {
+        "coefficient": -0.03213079079009061,
+        "features": [
+          "struct_intervening_information_sum"
+        ],
+        "value": 1.0,
+        "contribution": -0.03213079079009061
+      },
+      {
+        "coefficient": -0.0691069021751946,
+        "features": [
+          "struct_cross_step_connections"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      }
+    ]
+  },
+  {
+    "id": "f100_001_a",
+    "segment_id": "s2",
+    "text": "A loose thread rests inside the film as a closed loop.",
+    "Jev_reference": 2,
+    "raw": 2.4935977429210427,
+    "score": 2,
+    "measurements": {
+      "words": 11.0,
+      "letters": 43.0,
+      "vowels": 18.0,
+      "syllables": 13.0,
+      "sentences": 1.0,
+      "words_per_sentence": 11.0,
+      "syllables_per_word": 1.1818181818181819,
+      "letters_per_word": 3.909090909090909,
+      "long_words": 0.0,
+      "three_syllable_words": 0.0,
+      "unique_words": 10.0,
+      "repeated_words": 1.0,
+      "commas": 0.0,
+      "semicolons": 0.0,
+      "colons": 0.0,
+      "pronoun_markers": 0.0,
+      "condition_markers": 0.0,
+      "connectors": 0.0,
+      "negations": 0.0,
+      "number_tokens": 0.0,
+      "previous_words": 8.0,
+      "previous_unique_words": 7.0,
+      "words_seen_before": 3.0,
+      "new_word_types": 8.0,
+      "words_seen_recently": 3.0,
+      "mean_repeat_gap": 4.0,
+      "max_repeat_gap": 6.0,
+      "step_noun_chunks": 3.0,
+      "step_clause_heads": 1.0,
+      "step_subordinate_clauses": 0.0,
+      "step_max_syntax_depth": 3.0,
+      "step_mean_dependency_distance": 2.3636363636363638,
+      "step_long_dependencies": 1.0,
+      "step_pos_pron": 0.0,
+      "struct_unfinished_peak": 1.0,
+      "struct_new_entities": 2.0,
+      "struct_intervening_information_sum": 0.0,
+      "struct_cross_step_connections": 0.0
+    },
+    "contributions": [
+      {
+        "coefficient": 0.018403493442603374,
+        "features": [
+          "letters"
+        ],
+        "value": 43.0,
+        "contribution": 0.791350218031945
+      },
+      {
+        "coefficient": 0.7538662445217253,
+        "features": [
+          "sentences"
+        ],
+        "value": 1.0,
+        "contribution": 0.7538662445217253
+      },
+      {
+        "coefficient": 0.03896820620515564,
+        "features": [
+          "letters_per_word"
+        ],
+        "value": 3.909090909090909,
+        "contribution": 0.15233026062015387
+      },
+      {
+        "coefficient": -0.012090414705679085,
+        "features": [
+          "three_syllable_words"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.12894038646645747,
+        "features": [
+          "unique_words"
+        ],
+        "value": 10.0,
+        "contribution": 1.2894038646645747
+      },
+      {
+        "coefficient": 0.12282830387460522,
+        "features": [
+          "repeated_words"
+        ],
+        "value": 1.0,
+        "contribution": 0.12282830387460522
+      },
+      {
+        "coefficient": 0.1401015164409812,
+        "features": [
+          "commas"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.06166112182595786,
+        "features": [
+          "semicolons"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.7320485621861041,
+        "features": [
+          "colons"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.15759646061675672,
+        "features": [
+          "pronoun_markers"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": -0.30747405602732814,
+        "features": [
+          "condition_markers"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.007058851737133925,
+        "features": [
+          "connectors"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.1785639697252744,
+        "features": [
+          "negations"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.4679124670797507,
+        "features": [
+          "number_tokens"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": 0.011302280003806512,
+        "features": [
+          "previous_words"
+        ],
+        "value": 8.0,
+        "contribution": 0.0904182400304521
+      },
+      {
+        "coefficient": -0.009476108343542136,
+        "features": [
+          "previous_unique_words"
+        ],
+        "value": 7.0,
+        "contribution": -0.06633275840479495
+      },
+      {
+        "coefficient": -0.11125047206855457,
+        "features": [
+          "words_seen_before"
+        ],
+        "value": 3.0,
+        "contribution": -0.33375141620566373
+      },
+      {
+        "coefficient": -0.13299445381443423,
+        "features": [
+          "new_word_types"
+        ],
+        "value": 8.0,
+        "contribution": -1.0639556305154738
+      },
+      {
+        "coefficient": 0.05407344330556174,
+        "features": [
+          "words_seen_recently"
+        ],
+        "value": 3.0,
+        "contribution": 0.16222032991668522
+      },
+      {
+        "coefficient": 0.0028300752802928515,
+        "features": [
+          "mean_repeat_gap"
+        ],
+        "value": 4.0,
+        "contribution": 0.011320301121171406
+      },
+      {
+        "coefficient": -0.011064622655418032,
+        "features": [
+          "max_repeat_gap"
+        ],
+        "value": 6.0,
+        "contribution": -0.06638773593250819
+      },
+      {
+        "coefficient": 0.07843555969647936,
+        "features": [
+          "step_noun_chunks"
+        ],
+        "value": 3.0,
+        "contribution": 0.2353066790894381
+      },
+      {
+        "coefficient": 0.21571498057330418,
+        "features": [
+          "step_clause_heads"
+        ],
+        "value": 1.0,
+        "contribution": 0.21571498057330418
+      },
+      {
+        "coefficient": -0.2601517529979477,
+        "features": [
+          "step_subordinate_clauses"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.07212351314246566,
+        "features": [
+          "step_max_syntax_depth"
+        ],
+        "value": 3.0,
+        "contribution": 0.21637053942739698
+      },
+      {
+        "coefficient": 0.10873439342234234,
+        "features": [
+          "step_mean_dependency_distance"
+        ],
+        "value": 2.3636363636363638,
+        "contribution": 0.257008566270991
+      },
+      {
+        "coefficient": 0.034777236884330244,
+        "features": [
+          "step_long_dependencies"
+        ],
+        "value": 1.0,
+        "contribution": 0.034777236884330244
+      },
+      {
+        "coefficient": 0.13349925595389792,
+        "features": [
+          "step_pos_pron"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": 0.3305647956572802,
+        "features": [
+          "struct_unfinished_peak"
+        ],
+        "value": 1.0,
+        "contribution": 0.3305647956572802
+      },
+      {
+        "coefficient": 0.011712219746680373,
+        "features": [
+          "struct_new_entities"
+        ],
+        "value": 2.0,
+        "contribution": 0.023424439493360746
+      },
+      {
+        "coefficient": -0.03213079079009061,
+        "features": [
+          "struct_intervening_information_sum"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": -0.0691069021751946,
+        "features": [
+          "struct_cross_step_connections"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      }
+    ]
+  },
+  {
+    "id": "f100_001_a",
+    "segment_id": "s3",
+    "text": "When the film inside the loop is removed, the remaining film pulls the thread outward.",
+    "Jev_reference": 4,
+    "raw": 3.813284405386172,
+    "score": 4,
+    "measurements": {
+      "words": 15.0,
+      "letters": 70.0,
+      "vowels": 26.0,
+      "syllables": 21.0,
+      "sentences": 1.0,
+      "words_per_sentence": 15.0,
+      "syllables_per_word": 1.4,
+      "letters_per_word": 4.666666666666667,
+      "long_words": 3.0,
+      "three_syllable_words": 2.0,
+      "unique_words": 11.0,
+      "repeated_words": 4.0,
+      "commas": 1.0,
+      "semicolons": 0.0,
+      "colons": 0.0,
+      "pronoun_markers": 0.0,
+      "condition_markers": 1.0,
+      "connectors": 0.0,
+      "negations": 0.0,
+      "number_tokens": 0.0,
+      "previous_words": 19.0,
+      "previous_unique_words": 15.0,
+      "words_seen_before": 9.0,
+      "new_word_types": 6.0,
+      "words_seen_recently": 9.0,
+      "mean_repeat_gap": 5.666666666666667,
+      "max_repeat_gap": 9.0,
+      "step_noun_chunks": 4.0,
+      "step_clause_heads": 2.0,
+      "step_subordinate_clauses": 1.0,
+      "step_max_syntax_depth": 5.0,
+      "step_mean_dependency_distance": 2.5625,
+      "step_long_dependencies": 3.0,
+      "step_pos_pron": 0.0,
+      "struct_unfinished_peak": 2.0,
+      "struct_new_entities": 0.0,
+      "struct_intervening_information_sum": 1.0,
+      "struct_cross_step_connections": 0.0
+    },
+    "contributions": [
+      {
+        "coefficient": 0.018403493442603374,
+        "features": [
+          "letters"
+        ],
+        "value": 70.0,
+        "contribution": 1.2882445409822363
+      },
+      {
+        "coefficient": 0.7538662445217253,
+        "features": [
+          "sentences"
+        ],
+        "value": 1.0,
+        "contribution": 0.7538662445217253
+      },
+      {
+        "coefficient": 0.03896820620515564,
+        "features": [
+          "letters_per_word"
+        ],
+        "value": 4.666666666666667,
+        "contribution": 0.181851628957393
+      },
+      {
+        "coefficient": -0.012090414705679085,
+        "features": [
+          "three_syllable_words"
+        ],
+        "value": 2.0,
+        "contribution": -0.02418082941135817
+      },
+      {
+        "coefficient": 0.12894038646645747,
+        "features": [
+          "unique_words"
+        ],
+        "value": 11.0,
+        "contribution": 1.4183442511310322
+      },
+      {
+        "coefficient": 0.12282830387460522,
+        "features": [
+          "repeated_words"
+        ],
+        "value": 4.0,
+        "contribution": 0.4913132154984209
+      },
+      {
+        "coefficient": 0.1401015164409812,
+        "features": [
+          "commas"
+        ],
+        "value": 1.0,
+        "contribution": 0.1401015164409812
+      },
+      {
+        "coefficient": -0.06166112182595786,
+        "features": [
+          "semicolons"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.7320485621861041,
+        "features": [
+          "colons"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.15759646061675672,
+        "features": [
+          "pronoun_markers"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": -0.30747405602732814,
+        "features": [
+          "condition_markers"
+        ],
+        "value": 1.0,
+        "contribution": -0.30747405602732814
+      },
+      {
+        "coefficient": 0.007058851737133925,
+        "features": [
+          "connectors"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.1785639697252744,
+        "features": [
+          "negations"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.4679124670797507,
+        "features": [
+          "number_tokens"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": 0.011302280003806512,
+        "features": [
+          "previous_words"
+        ],
+        "value": 19.0,
+        "contribution": 0.21474332007232372
+      },
+      {
+        "coefficient": -0.009476108343542136,
+        "features": [
+          "previous_unique_words"
+        ],
+        "value": 15.0,
+        "contribution": -0.14214162515313206
+      },
+      {
+        "coefficient": -0.11125047206855457,
+        "features": [
+          "words_seen_before"
+        ],
+        "value": 9.0,
+        "contribution": -1.001254248616991
+      },
+      {
+        "coefficient": -0.13299445381443423,
+        "features": [
+          "new_word_types"
+        ],
+        "value": 6.0,
+        "contribution": -0.7979667228866054
+      },
+      {
+        "coefficient": 0.05407344330556174,
+        "features": [
+          "words_seen_recently"
+        ],
+        "value": 9.0,
+        "contribution": 0.4866609897500557
+      },
+      {
+        "coefficient": 0.0028300752802928515,
+        "features": [
+          "mean_repeat_gap"
+        ],
+        "value": 5.666666666666667,
+        "contribution": 0.016037093254992824
+      },
+      {
+        "coefficient": -0.011064622655418032,
+        "features": [
+          "max_repeat_gap"
+        ],
+        "value": 9.0,
+        "contribution": -0.09958160389876229
+      },
+      {
+        "coefficient": 0.07843555969647936,
+        "features": [
+          "step_noun_chunks"
+        ],
+        "value": 4.0,
+        "contribution": 0.31374223878591745
+      },
+      {
+        "coefficient": 0.21571498057330418,
+        "features": [
+          "step_clause_heads"
+        ],
+        "value": 2.0,
+        "contribution": 0.43142996114660837
+      },
+      {
+        "coefficient": -0.2601517529979477,
+        "features": [
+          "step_subordinate_clauses"
+        ],
+        "value": 1.0,
+        "contribution": -0.2601517529979477
+      },
+      {
+        "coefficient": 0.07212351314246566,
+        "features": [
+          "step_max_syntax_depth"
+        ],
+        "value": 5.0,
+        "contribution": 0.36061756571232834
+      },
+      {
+        "coefficient": 0.10873439342234234,
+        "features": [
+          "step_mean_dependency_distance"
+        ],
+        "value": 2.5625,
+        "contribution": 0.27863188314475223
+      },
+      {
+        "coefficient": 0.034777236884330244,
+        "features": [
+          "step_long_dependencies"
+        ],
+        "value": 3.0,
+        "contribution": 0.10433171065299074
+      },
+      {
+        "coefficient": 0.13349925595389792,
+        "features": [
+          "step_pos_pron"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": 0.3305647956572802,
+        "features": [
+          "struct_unfinished_peak"
+        ],
+        "value": 2.0,
+        "contribution": 0.6611295913145604
+      },
+      {
+        "coefficient": 0.011712219746680373,
+        "features": [
+          "struct_new_entities"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.03213079079009061,
+        "features": [
+          "struct_intervening_information_sum"
+        ],
+        "value": 1.0,
+        "contribution": -0.03213079079009061
+      },
+      {
+        "coefficient": -0.0691069021751946,
+        "features": [
+          "struct_cross_step_connections"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      }
+    ]
+  },
+  {
+    "id": "f100_001_a",
+    "segment_id": "s4",
+    "text": "The thread becomes round because the pull acts around its edge.",
+    "Jev_reference": 3,
+    "raw": 2.8381828980503827,
+    "score": 3,
+    "measurements": {
+      "words": 11.0,
+      "letters": 52.0,
+      "vowels": 21.0,
+      "syllables": 14.0,
+      "sentences": 1.0,
+      "words_per_sentence": 11.0,
+      "syllables_per_word": 1.2727272727272727,
+      "letters_per_word": 4.7272727272727275,
+      "long_words": 2.0,
+      "three_syllable_words": 0.0,
+      "unique_words": 10.0,
+      "repeated_words": 1.0,
+      "commas": 0.0,
+      "semicolons": 0.0,
+      "colons": 0.0,
+      "pronoun_markers": 1.0,
+      "condition_markers": 0.0,
+      "connectors": 1.0,
+      "negations": 0.0,
+      "number_tokens": 0.0,
+      "previous_words": 34.0,
+      "previous_unique_words": 21.0,
+      "words_seen_before": 3.0,
+      "new_word_types": 8.0,
+      "words_seen_recently": 3.0,
+      "mean_repeat_gap": 2.6666666666666665,
+      "max_repeat_gap": 3.0,
+      "step_noun_chunks": 2.0,
+      "step_clause_heads": 2.0,
+      "step_subordinate_clauses": 1.0,
+      "step_max_syntax_depth": 4.0,
+      "step_mean_dependency_distance": 2.4545454545454546,
+      "step_long_dependencies": 2.0,
+      "step_pos_pron": 1.0,
+      "struct_unfinished_peak": 1.0,
+      "struct_new_entities": 3.0,
+      "struct_intervening_information_sum": 1.0,
+      "struct_cross_step_connections": 0.0
+    },
+    "contributions": [
+      {
+        "coefficient": 0.018403493442603374,
+        "features": [
+          "letters"
+        ],
+        "value": 52.0,
+        "contribution": 0.9569816590153755
+      },
+      {
+        "coefficient": 0.7538662445217253,
+        "features": [
+          "sentences"
+        ],
+        "value": 1.0,
+        "contribution": 0.7538662445217253
+      },
+      {
+        "coefficient": 0.03896820620515564,
+        "features": [
+          "letters_per_word"
+        ],
+        "value": 4.7272727272727275,
+        "contribution": 0.18421333842437213
+      },
+      {
+        "coefficient": -0.012090414705679085,
+        "features": [
+          "three_syllable_words"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.12894038646645747,
+        "features": [
+          "unique_words"
+        ],
+        "value": 10.0,
+        "contribution": 1.2894038646645747
+      },
+      {
+        "coefficient": 0.12282830387460522,
+        "features": [
+          "repeated_words"
+        ],
+        "value": 1.0,
+        "contribution": 0.12282830387460522
+      },
+      {
+        "coefficient": 0.1401015164409812,
+        "features": [
+          "commas"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.06166112182595786,
+        "features": [
+          "semicolons"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.7320485621861041,
+        "features": [
+          "colons"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.15759646061675672,
+        "features": [
+          "pronoun_markers"
+        ],
+        "value": 1.0,
+        "contribution": -0.15759646061675672
+      },
+      {
+        "coefficient": -0.30747405602732814,
+        "features": [
+          "condition_markers"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.007058851737133925,
+        "features": [
+          "connectors"
+        ],
+        "value": 1.0,
+        "contribution": 0.007058851737133925
+      },
+      {
+        "coefficient": -0.1785639697252744,
+        "features": [
+          "negations"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.4679124670797507,
+        "features": [
+          "number_tokens"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": 0.011302280003806512,
+        "features": [
+          "previous_words"
+        ],
+        "value": 34.0,
+        "contribution": 0.3842775201294214
+      },
+      {
+        "coefficient": -0.009476108343542136,
+        "features": [
+          "previous_unique_words"
+        ],
+        "value": 21.0,
+        "contribution": -0.19899827521438485
+      },
+      {
+        "coefficient": -0.11125047206855457,
+        "features": [
+          "words_seen_before"
+        ],
+        "value": 3.0,
+        "contribution": -0.33375141620566373
+      },
+      {
+        "coefficient": -0.13299445381443423,
+        "features": [
+          "new_word_types"
+        ],
+        "value": 8.0,
+        "contribution": -1.0639556305154738
+      },
+      {
+        "coefficient": 0.05407344330556174,
+        "features": [
+          "words_seen_recently"
+        ],
+        "value": 3.0,
+        "contribution": 0.16222032991668522
+      },
+      {
+        "coefficient": 0.0028300752802928515,
+        "features": [
+          "mean_repeat_gap"
+        ],
+        "value": 2.6666666666666665,
+        "contribution": 0.00754686741411427
+      },
+      {
+        "coefficient": -0.011064622655418032,
+        "features": [
+          "max_repeat_gap"
+        ],
+        "value": 3.0,
+        "contribution": -0.03319386796625409
+      },
+      {
+        "coefficient": 0.07843555969647936,
+        "features": [
+          "step_noun_chunks"
+        ],
+        "value": 2.0,
+        "contribution": 0.15687111939295872
+      },
+      {
+        "coefficient": 0.21571498057330418,
+        "features": [
+          "step_clause_heads"
+        ],
+        "value": 2.0,
+        "contribution": 0.43142996114660837
+      },
+      {
+        "coefficient": -0.2601517529979477,
+        "features": [
+          "step_subordinate_clauses"
+        ],
+        "value": 1.0,
+        "contribution": -0.2601517529979477
+      },
+      {
+        "coefficient": 0.07212351314246566,
+        "features": [
+          "step_max_syntax_depth"
+        ],
+        "value": 4.0,
+        "contribution": 0.28849405256986266
+      },
+      {
+        "coefficient": 0.10873439342234234,
+        "features": [
+          "step_mean_dependency_distance"
+        ],
+        "value": 2.4545454545454546,
+        "contribution": 0.26689351112756754
+      },
+      {
+        "coefficient": 0.034777236884330244,
+        "features": [
+          "step_long_dependencies"
+        ],
+        "value": 2.0,
+        "contribution": 0.06955447376866049
+      },
+      {
+        "coefficient": 0.13349925595389792,
+        "features": [
+          "step_pos_pron"
+        ],
+        "value": 1.0,
+        "contribution": 0.13349925595389792
+      },
+      {
+        "coefficient": 0.3305647956572802,
+        "features": [
+          "struct_unfinished_peak"
+        ],
+        "value": 1.0,
+        "contribution": 0.3305647956572802
+      },
+      {
+        "coefficient": 0.011712219746680373,
+        "features": [
+          "struct_new_entities"
+        ],
+        "value": 3.0,
+        "contribution": 0.03513665924004112
+      },
+      {
+        "coefficient": -0.03213079079009061,
+        "features": [
+          "struct_intervening_information_sum"
+        ],
+        "value": 1.0,
+        "contribution": -0.03213079079009061
+      },
+      {
+        "coefficient": -0.0691069021751946,
+        "features": [
+          "struct_cross_step_connections"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      }
+    ]
+  },
+  {
+    "id": "f100_001_a",
+    "segment_id": "s5",
+    "text": "Here, the loop means the thread, not the wire frame.",
+    "Jev_reference": 3,
+    "raw": 2.6906816823457906,
+    "score": 3,
+    "measurements": {
+      "words": 10.0,
+      "letters": 40.0,
+      "vowels": 16.0,
+      "syllables": 10.0,
+      "sentences": 1.0,
+      "words_per_sentence": 10.0,
+      "syllables_per_word": 1.0,
+      "letters_per_word": 4.0,
+      "long_words": 0.0,
+      "three_syllable_words": 0.0,
+      "unique_words": 8.0,
+      "repeated_words": 2.0,
+      "commas": 2.0,
+      "semicolons": 0.0,
+      "colons": 0.0,
+      "pronoun_markers": 0.0,
+      "condition_markers": 0.0,
+      "connectors": 0.0,
+      "negations": 1.0,
+      "number_tokens": 0.0,
+      "previous_words": 45.0,
+      "previous_unique_words": 29.0,
+      "words_seen_before": 6.0,
+      "new_word_types": 4.0,
+      "words_seen_recently": 6.0,
+      "mean_repeat_gap": 14.666666666666666,
+      "max_repeat_gap": 39.0,
+      "step_noun_chunks": 3.0,
+      "step_clause_heads": 1.0,
+      "step_subordinate_clauses": 0.0,
+      "step_max_syntax_depth": 3.0,
+      "step_mean_dependency_distance": 2.5833333333333335,
+      "step_long_dependencies": 2.0,
+      "step_pos_pron": 0.0,
+      "struct_unfinished_peak": 1.0,
+      "struct_new_entities": 1.0,
+      "struct_intervening_information_sum": 0.0,
+      "struct_cross_step_connections": 0.0
+    },
+    "contributions": [
+      {
+        "coefficient": 0.018403493442603374,
+        "features": [
+          "letters"
+        ],
+        "value": 40.0,
+        "contribution": 0.736139737704135
+      },
+      {
+        "coefficient": 0.7538662445217253,
+        "features": [
+          "sentences"
+        ],
+        "value": 1.0,
+        "contribution": 0.7538662445217253
+      },
+      {
+        "coefficient": 0.03896820620515564,
+        "features": [
+          "letters_per_word"
+        ],
+        "value": 4.0,
+        "contribution": 0.15587282482062256
+      },
+      {
+        "coefficient": -0.012090414705679085,
+        "features": [
+          "three_syllable_words"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.12894038646645747,
+        "features": [
+          "unique_words"
+        ],
+        "value": 8.0,
+        "contribution": 1.0315230917316598
+      },
+      {
+        "coefficient": 0.12282830387460522,
+        "features": [
+          "repeated_words"
+        ],
+        "value": 2.0,
+        "contribution": 0.24565660774921044
+      },
+      {
+        "coefficient": 0.1401015164409812,
+        "features": [
+          "commas"
+        ],
+        "value": 2.0,
+        "contribution": 0.2802030328819624
+      },
+      {
+        "coefficient": -0.06166112182595786,
+        "features": [
+          "semicolons"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.7320485621861041,
+        "features": [
+          "colons"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.15759646061675672,
+        "features": [
+          "pronoun_markers"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": -0.30747405602732814,
+        "features": [
+          "condition_markers"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.007058851737133925,
+        "features": [
+          "connectors"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": -0.1785639697252744,
+        "features": [
+          "negations"
+        ],
+        "value": 1.0,
+        "contribution": -0.1785639697252744
+      },
+      {
+        "coefficient": 0.4679124670797507,
+        "features": [
+          "number_tokens"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": 0.011302280003806512,
+        "features": [
+          "previous_words"
+        ],
+        "value": 45.0,
+        "contribution": 0.508602600171293
+      },
+      {
+        "coefficient": -0.009476108343542136,
+        "features": [
+          "previous_unique_words"
+        ],
+        "value": 29.0,
+        "contribution": -0.27480714196272193
+      },
+      {
+        "coefficient": -0.11125047206855457,
+        "features": [
+          "words_seen_before"
+        ],
+        "value": 6.0,
+        "contribution": -0.6675028324113275
+      },
+      {
+        "coefficient": -0.13299445381443423,
+        "features": [
+          "new_word_types"
+        ],
+        "value": 4.0,
+        "contribution": -0.5319778152577369
+      },
+      {
+        "coefficient": 0.05407344330556174,
+        "features": [
+          "words_seen_recently"
+        ],
+        "value": 6.0,
+        "contribution": 0.32444065983337045
+      },
+      {
+        "coefficient": 0.0028300752802928515,
+        "features": [
+          "mean_repeat_gap"
+        ],
+        "value": 14.666666666666666,
+        "contribution": 0.04150777077762849
+      },
+      {
+        "coefficient": -0.011064622655418032,
+        "features": [
+          "max_repeat_gap"
+        ],
+        "value": 39.0,
+        "contribution": -0.43152028356130323
+      },
+      {
+        "coefficient": 0.07843555969647936,
+        "features": [
+          "step_noun_chunks"
+        ],
+        "value": 3.0,
+        "contribution": 0.2353066790894381
+      },
+      {
+        "coefficient": 0.21571498057330418,
+        "features": [
+          "step_clause_heads"
+        ],
+        "value": 1.0,
+        "contribution": 0.21571498057330418
+      },
+      {
+        "coefficient": -0.2601517529979477,
+        "features": [
+          "step_subordinate_clauses"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": 0.07212351314246566,
+        "features": [
+          "step_max_syntax_depth"
+        ],
+        "value": 3.0,
+        "contribution": 0.21637053942739698
+      },
+      {
+        "coefficient": 0.10873439342234234,
+        "features": [
+          "step_mean_dependency_distance"
+        ],
+        "value": 2.5833333333333335,
+        "contribution": 0.2808971830077177
+      },
+      {
+        "coefficient": 0.034777236884330244,
+        "features": [
+          "step_long_dependencies"
+        ],
+        "value": 2.0,
+        "contribution": 0.06955447376866049
+      },
+      {
+        "coefficient": 0.13349925595389792,
+        "features": [
+          "step_pos_pron"
+        ],
+        "value": 0.0,
+        "contribution": 0.0
+      },
+      {
+        "coefficient": 0.3305647956572802,
+        "features": [
+          "struct_unfinished_peak"
+        ],
+        "value": 1.0,
+        "contribution": 0.3305647956572802
+      },
+      {
+        "coefficient": 0.011712219746680373,
+        "features": [
+          "struct_new_entities"
+        ],
+        "value": 1.0,
+        "contribution": 0.011712219746680373
+      },
+      {
+        "coefficient": -0.03213079079009061,
+        "features": [
+          "struct_intervening_information_sum"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      },
+      {
+        "coefficient": -0.0691069021751946,
+        "features": [
+          "struct_cross_step_connections"
+        ],
+        "value": 0.0,
+        "contribution": -0.0
+      }
+    ]
+  }
+]

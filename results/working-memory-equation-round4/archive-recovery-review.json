@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "issues": [],
+  "reviewed_at": "2026-09-24T00:18:42.474677+00:00",
+  "reviewer": "reference_harness",
+  "evidence": {
+    "[original-study-workspace]/work/round4/complete_transport_archives.py": "fe5def75f3ca97c035899eb9f4eef8acac8ff52cfd043947d6dadf8de6533209",
+    "[original-study-workspace]/work/round4/make_transport_archives.py": "0e1f8384678433b0e9cbed82c623a0e11b6dac3c5f9effb8769056c2bbfa1f7b",
+    "[original-study-workspace]/work/round4/reference/transport_recovery/test_runtime.py": "b96adc84badac1317241dbcdd76441297025d0db1fcfb6405466ecf82562967c",
+    "[original-study-workspace]/work/round4/test_archive_recovery.py": "523c7546c215aeb5d50ed63f984e6e5fa83c941601a109997c137e076248f2b5",
+    "[original-study-workspace]/work/round4/audit/archive-recovery-tests.log": "e6bb07fef14dbf986a218c9f6ecc0d109028a2463e96c37c48a27500647bf6fa"
+  },
+  "scope": "Packaging-only independent source and synthetic regression review. No actual completion run, scientific changes, API calls or changes to existing delivery archives were performed by the reviewer.",
+  "checks": [
+    "Fixture exception binds the exact canonical nonsymlink path, complete original file SHA256, unique pattern index, span, match hash and line71. AST context confirms a temporary environment value inside the mock-transport test helper. Only that matched span is masked for scanning; the original bytes and checksum remain archive inputs.",
+    "Changed fixture bytes fail closed. A second credential-shaped literal is rejected even in a synthetic test that hypothetically updates the overall file hash. The same fixture copied to any other path, ordinary files with credential-like text and a fixture symlink are rejected.",
+    "Existing calculator ZIP reuse requires pinned outer SHA, exact expected member inventory, CRC success, source/manifest equality, metadata equality, per-member bytes and hashes, nonsymlink source checks and credential rescanning. Source hashes and package inventory are rechecked after verification. Altered ZIP bytes, member data, extra members, source content, metadata and callback inventory changes are rejected.",
+    "The original no-existing-output guard remains unchanged: the first ZIP is preserved outside the research inventory, verified there, and restored with exclusive creation. The original research make_zip still performs its source/byte/inventory checks. Synthetic normal completion verified original fixture/archive bytes and restoration of scanner/function bindings; synthetic admission failure restores the original calculator ZIP without overwrite.",
+    "The wrapper changes only the exact obsolete research-manifest sentence claiming the calculator ZIP was created in this run. Replacement truthfully records preserved first-run bytes and full current revalidation; all other metadata remains equal and unexpected original wording is rejected.",
+    "The new wrapper, regression source, test log and exact canonical fixture pass the intended scanner. Production archiver and fixture bytes are unchanged. The actual completion must still perform its full admission, source/member verification and research scan; this review does not predeclare that future run successful."
+  ],
+  "verification": {
+    "command": "/usr/bin/python3 -m unittest -v test_archive_recovery.py",
+    "synthetic_tests_passed": 15,
+    "exit_code": 0,
+    "real_archive_completion_executed": false
+  },
+  "correction_resolved": "Reused calculator ZIP manifest now describes preserved/reverified bytes instead of creation in the recovery run.",
+  "write_status": "Reviewer edits are complete; no additional writes planned during archive completion."
+}

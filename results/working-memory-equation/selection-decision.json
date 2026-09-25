@@ -1,0 +1,30 @@
+{
+  "name": "rounded_v1_boosted_absolute_error_depth5_n400",
+  "selected_at_utc": "2026-09-22T18:11:15.123039+00:00",
+  "selection_rule": "Minimum development-validation family-weighted MAE; ties resolved by higher exact agreement. No length penalty.",
+  "validation": {
+    "rows": 106,
+    "families": 12,
+    "mae": 0.5869047619047619,
+    "rmse": 0.8626969524381269,
+    "exact": 0.491765873015873,
+    "within_one": 0.9213293650793651,
+    "bias": 0.018620731120731128,
+    "max_error": 2.0
+  },
+  "training": {
+    "rows": 331,
+    "families": 36,
+    "mae": 0.17130254005254006,
+    "rmse": 0.46453600188112115,
+    "exact": 0.8484177859177859,
+    "within_one": 0.9828049265549266,
+    "bias": -0.04343534551867886,
+    "max_error": 3.0
+  },
+  "equation_sha256": "f61a1c5b812eea86e4108dbc55a6cacecf39a69d254f76189993feadd2f85077",
+  "development_data_hash": "43e823c8e9928c187fe23c801eff1b98df303dabb610ee03f73da68ec095436b",
+  "feature_hash": "7928287c39bb1db956d7f5006c02515492973aa7660f675a7054090f134e450f",
+  "candidate_count": 540,
+  "test_labels_inspected_for_selection": false
+}

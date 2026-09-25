@@ -1,0 +1,134 @@
+{
+  "status": "passed",
+  "completed_at": "2026-09-23T18:13:43.042409+00:00",
+  "api_calls_by_audit": 0,
+  "final_data_accessed": false,
+  "batches": [
+    {
+      "batch": "batch01",
+      "passages": 100,
+      "families": 50,
+      "steps": 918,
+      "full_analyses": 300,
+      "full_frontend_replays": 300,
+      "missing_scores": 0,
+      "request_count": 61932,
+      "known_usd": 21.49209888000012,
+      "conservative_usd": 112.73149771800057,
+      "unknown_usage_requests": 1005,
+      "flags": {
+        "provisional": 872,
+        "coverage_limited": 918,
+        "inconsistent": 270
+      },
+      "ledger_evidence": {
+        "a": {
+          "request_count": 31071,
+          "known_usd": 10.92286931399993,
+          "conservative_usd": 55.56655633200076,
+          "unknown_usage_requests": 494,
+          "ledger_sha256": "0c7689ce4c0dbe40ea930acb2dd3376b1f8385d4f318906650fbe13b23882fed",
+          "events_sha256": "d04c3be795e5baf8f57773831e15b7090746f1069eeda925732037088dc882de"
+        },
+        "b": {
+          "request_count": 30861,
+          "known_usd": 10.56922956600019,
+          "conservative_usd": 57.16494138599981,
+          "unknown_usage_requests": 511,
+          "ledger_sha256": "8b5a4eb161cae5225391c4af1cf1bc8d75c0c5bb79e4a61394f41df85ea57e00",
+          "events_sha256": "b9b18ce6451a966022ecc1696639ebbd0f9f2c63480ea735a90b5f75cd029052"
+        }
+      }
+    },
+    {
+      "batch": "batch02",
+      "passages": 100,
+      "families": 50,
+      "steps": 917,
+      "full_analyses": 300,
+      "full_frontend_replays": 300,
+      "missing_scores": 0,
+      "request_count": 63715,
+      "known_usd": 21.97697842199993,
+      "conservative_usd": 164.7529775219976,
+      "unknown_usage_requests": 1660,
+      "flags": {
+        "provisional": 870,
+        "coverage_limited": 917,
+        "inconsistent": 250
+      },
+      "ledger_evidence": {
+        "a": {
+          "request_count": 31510,
+          "known_usd": 10.913219603999957,
+          "conservative_usd": 60.237919307998624,
+          "unknown_usage_requests": 538,
+          "ledger_sha256": "817e1284144c76192d7c9816401e711ac22b6332db8355ea1956863255043549",
+          "events_sha256": "a401562564943128195d3be98d363d14e96e2648532a3cca695bb2291cd930d3"
+        },
+        "b": {
+          "request_count": 32205,
+          "known_usd": 11.063758817999974,
+          "conservative_usd": 104.51505821399897,
+          "unknown_usage_requests": 1122,
+          "ledger_sha256": "dc182272c594c80d0d426f322e443a2381d6772c661ec9a273fd7198c10b2161",
+          "events_sha256": "153fc9f421fd2b9eecfa9c6936dea6e5b11b8958b9c3c4abb554777dc17b15ce"
+        }
+      }
+    }
+  ],
+  "operational_amendment": {
+    "sha256": "ec61c497ad693d67533b1a74715730ec35ba7dabbe0494cafedbd165928545ff",
+    "paid_invocations": 3,
+    "original_snapshots_preserved": true,
+    "known_original_usd": 9.092806044000017,
+    "conservative_original_usd": 192.42631085999943,
+    "operational_only": true,
+    "new_limits_verified": true
+  },
+  "scheduling_amendment": {
+    "maximum_new_processes": 2,
+    "cumulative_invocations": {
+      "batch01/a": 3,
+      "batch01/b": 2,
+      "batch02/a": 3,
+      "batch02/b": 3
+    },
+    "scheduling_amendment_sha256": "664cd447b5a438e776650d331b9f17f956a724f523ddc48aac317ec2250d4a23"
+  },
+  "new_passages": 200,
+  "new_families": 100,
+  "new_steps": 1835,
+  "full_frontend_replays": 600,
+  "missing_scores": 0,
+  "known_usd": 43.46907730200005,
+  "conservative_usd": 277.4844752399982,
+  "expanded_release": {
+    "exists": true,
+    "verified": true,
+    "steps": 4726,
+    "labels_sha256": "d22f480c1c0a3f056504ad56807a80eb1e53e0917906e3898da41216cc20c546",
+    "manifest_sha256": "cb63808f165f1e7b61090b296059360c5f8d05c366b2d281761c0f22f54bfe06"
+  },
+  "evidence": {
+    "[original-study-workspace]/work/round4/data/development-manifest.json": "5fa238fee682e064c4ce5d7d697491a83e3163c3c10677144d940523a09b1c4a",
+    "[original-study-workspace]/work/round4/data/development-labels-488.jsonl": "3df947693a28fa82edd29a526899f990f090b011a5f1760f0a5a9b8b3029bf4b",
+    "[original-study-workspace]/work/equation-research/score_analysis.mjs": "5fdc4b5e37912bbd272ea65173fa6b364447c1c9252c0093a0487416eb2850d8",
+    "[original-study-workspace]/work/round4/reference/batch01/data/scheduling-merge.json": "b9de909a8ffcf15b12169cafdb3aa599f440695726211a88f784d4424e98a784",
+    "[original-study-workspace]/work/round4/reference/batch01/run-plan.json": "24e5aeb88a1eec8aef88e7a0e07146e73cec8df26d0dde3978900736abcfe011",
+    "[original-study-workspace]/work/round4/reference/batch01/data/merge-manifest.json": "23ae78f627e4bebcf6975b3ed9ffd23eb4f9c87b8e202a4c4cb20b5630d19c94",
+    "[original-study-workspace]/work/round4/reference/batch01/data/labels.jsonl": "9e2ae9729c01623b3a8bfde0b6e24cd352216cdfd2c4866a874d5fc7271c8dce",
+    "[original-study-workspace]/work/round4/reference/batch01/data/metadata.json": "097043e6c1358766723c3b4c9c348d533c81acb0812ea1189bfd357dc9b7001c",
+    "[original-study-workspace]/work/round4/reference/batch01/data/budget.json": "acf68adc1b3d262ed4bcf4b503f282911275e83cb24fdbd62561fd60df2c1dd0",
+    "[original-study-workspace]/work/round4/corpus/development/batch01.jsonl": "cf573b396fa5147aa26b24c8e4f8cff1423674200de47fdb3870838ced29830e",
+    "[original-study-workspace]/work/round4/reference/batch02/data/scheduling-merge.json": "a30479bf739e925ef51a4f488d368205c1e6e4f52ef2ce16f0ca94eb78db7c8c",
+    "[original-study-workspace]/work/round4/reference/batch02/run-plan.json": "bf0acfe7b1ada712341c758bf8d4d27035c696a6702e168eb52642e943509395",
+    "[original-study-workspace]/work/round4/reference/batch02/data/merge-manifest.json": "4e957a44f82b376833f028aa777b76182e7a7435644487da4ea468756ac8a768",
+    "[original-study-workspace]/work/round4/reference/batch02/data/labels.jsonl": "9a42df7fb6373c81b85bc3c81a60568c3e85af6cd48173248f205345cbbbe066",
+    "[original-study-workspace]/work/round4/reference/batch02/data/metadata.json": "7a7506a6719142ef845bfa42bfcf597a0c4426454d4be278e4bd5108bf34e091",
+    "[original-study-workspace]/work/round4/reference/batch02/data/budget.json": "e41f5e0480ee5ad74bd2974d5c6f453109d51911a2ffddc0684cec29b339df32",
+    "[original-study-workspace]/work/round4/corpus/development/batch02.jsonl": "f7c62b280a709aa9f933e0cfd0f6f12adf2c57b80dd2e64296f842bdc31defee"
+  },
+  "audit_source_sha256": "5bc07d1425867a365743ab568ca4827da78fb3bc9e8e8819f92a6402c4058f1b",
+  "scope": "Reference agreement/provenance audit only; provisional and coverage flags are retained, not evidence of human-memory validity."
+}

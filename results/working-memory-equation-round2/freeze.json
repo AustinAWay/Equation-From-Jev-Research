@@ -1,0 +1,83 @@
+{
+  "time": "2026-09-22T18:51:16.066444+00:00",
+  "assets": {
+    "approach1": {
+      "model": "[original-study-workspace]/work/round2/approach1/results/model.json",
+      "model_sha256": "c0a057da43bc4bec638a6070e9b968a62939c4c64f0735d60dff94872a8f57a1",
+      "module": "[original-study-workspace]/work/round2/approach1/approach1.py",
+      "module_sha256": "ca0e0cc900672c40f2c1457e9eaeadb0f6d880c91cac27deffafb661b16350c2"
+    },
+    "approach2": {
+      "model": "[original-study-workspace]/work/round2/approach2/results/model.json",
+      "model_sha256": "987510a36ade33bc5f913d73c0b52afb9b05c573b6efb4c40911d34ad559de1b",
+      "module": "[original-study-workspace]/work/round2/approach2/approach2.py",
+      "module_sha256": "861cd80d8e43913f26675d19e228731bbfd64135cb41c45964352d441e86cfa8"
+    },
+    "approach3": {
+      "model": "[original-study-workspace]/work/round2/approach3/fit/model.json",
+      "model_sha256": "6e044667ef5ad8a75138fab40773b793dd4328eb94c073bbb05328e0e7ef9bdc",
+      "module": "[original-study-workspace]/work/round2/approach3/approach3.py",
+      "module_sha256": "3cd4ed5ce60b7ab9ea1ebf9acb812a683b130755a8c906d897e6c727d58512a4"
+    },
+    "no_history": {
+      "model": "[original-study-workspace]/work/round2/approach3/fit/nohistory_model.json",
+      "model_sha256": "a1b2242cc7f2cd2c731f0a8166a6d18024b91d09cd478b498c79f210b80e6198",
+      "module": "[original-study-workspace]/work/round2/approach3/approach3.py",
+      "module_sha256": "3cd4ed5ce60b7ab9ea1ebf9acb812a683b130755a8c906d897e6c727d58512a4"
+    },
+    "best_no_history": {
+      "model": "[original-study-workspace]/work/round2/approach3/fit/best_nohistory_model.json",
+      "model_sha256": "8e970ce6a0ddafe26906ac3c1ab27b5e08dd8a3706026450b24713bb3b849012",
+      "module": "[original-study-workspace]/work/round2/approach3/approach3.py",
+      "module_sha256": "3cd4ed5ce60b7ab9ea1ebf9acb812a683b130755a8c906d897e6c727d58512a4"
+    },
+    "role_baseline": {
+      "model": "[original-study-workspace]/work/round2/approach2/results/baseline-model.json",
+      "model_sha256": "fe56c12c645fe7595463dedcc7fbac39c986d8991dcf2cc3d8b447e01a038311",
+      "module": "[original-study-workspace]/work/round2/approach2/approach2.py",
+      "module_sha256": "861cd80d8e43913f26675d19e228731bbfd64135cb41c45964352d441e86cfa8"
+    },
+    "old_equation": {
+      "model": "[original-study-workspace]/work/equation-research/runs/models/rounded_v1_boosted_absolute_error_depth5_n400/equation.json",
+      "model_sha256": "f61a1c5b812eea86e4108dbc55a6cacecf39a69d254f76189993feadd2f85077"
+    },
+    "old_word_count": {
+      "model": "[original-study-workspace]/work/equation-research/runs/models/rounded_length_baseline/equation.json",
+      "model_sha256": "903a59cf6d6b4ea3adc25242d9524ba20774f3aff471ece4713ad4277774703b"
+    },
+    "word_count": {
+      "model": "[original-study-workspace]/work/round2/word_count/model.json",
+      "model_sha256": "95bf7367ed7f019c9d0c1e89546a0a84c410daf4c82db6764bbe6c8fea376df5"
+    }
+  },
+  "source_hashes": {
+    "refit_baseline.py": "28312460b69e503109331cd7207307d87326e2dae027ba53b0ffe6cdd770e69a",
+    "evaluate.py": "4d8a099305681e413588d2c7554685ca2e2cf98fd96a062ef4495a0112b8e4f5",
+    "approach1/test_approach1.py": "4ed1af46868a4b35c178b55f8adabd6eb99bfaeb178a204c532fe2c1b7bcee21",
+    "approach1/approach1.py": "ca0e0cc900672c40f2c1457e9eaeadb0f6d880c91cac27deffafb661b16350c2",
+    "approach2/feature_local.py": "f64ed256452de88d514097418aa444ea7b181044eb031a4bf06967309fa295dd",
+    "approach2/approach2.py": "861cd80d8e43913f26675d19e228731bbfd64135cb41c45964352d441e86cfa8",
+    "approach2/test_approach2.py": "bb3b961df43c02650382331151264db5842c0a25200e39952476e0b021ee3f66",
+    "approach2/verify_artifact.py": "1afe795c1d0a3158e99a1ab6a0bc81e8638c7eee0a2b233dd4e09653b5709b4f",
+    "approach2/grammar/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "approach2/grammar/extraction.py": "63a5eabe21503fdf18c4fba052f0eea2275d38c3dbe2a7826a337e66d393d968",
+    "approach2/grammar/errors.py": "1381374cb7e8de99839dea75543f4ab2ccc254bd3eedc5427d3522626236350d",
+    "approach3/approach3.py": "3cd4ed5ce60b7ab9ea1ebf9acb812a683b130755a8c906d897e6c727d58512a4",
+    "approach3/test_approach3.py": "3c4c60495dd1ae35f474dc45bac2a70a4647dfc9e3f196e1aba73a2d2cde7847"
+  },
+  "external_sources": {
+    "[original-study-workspace]/work/equation-research/features.py": "7928287c39bb1db956d7f5006c02515492973aa7660f675a7054090f134e450f",
+    "[original-study-workspace]/work/equation-research/equation_runtime.py": "a173a9f3aa57ded91906a1dd252ae49c26f6e59eec1666a85df024dcbb912b3d",
+    "[original-study-workspace]/work/repo-angle-review/backend/extraction.py": "63a5eabe21503fdf18c4fba052f0eea2275d38c3dbe2a7826a337e66d393d968"
+  },
+  "protocol_sha256": "3a65e563688bdb1e1b10c8863d166e1a56baeb26f76ec9d210cee3f90d6931b2",
+  "folds_sha256": "780dbf30da1642c95cbadfce713fa7068fead14869f03dcdeb637f309993ef13",
+  "fresh_corpus_sha256": "04caad280eb7ac12e89f6d730ca355ad3674a75cd49317d75eb4fbecbc2ee38d",
+  "fresh_assets": {
+    "steps.jsonl": "83af682d00295cc0ad5c60686d07b1c2a4ac0d7be76494f0fa1f094245dd4972",
+    "paired_challenges.json": "cfb6c32e89feed48eff83c4af3315ead2159e293ac11d6ce1297b08785486a09",
+    "protocol.md": "82609f1392635f248f7275f698edeab469fb5acb684e8c686fad4cd4ac8209c8",
+    "manifest.json": "bf39aba4b4aea1e274fcebb843d1e466a8b0e30747121c3dc752e1b72fef0f21"
+  },
+  "rule": "No formulas or prediction implementation changes after this freeze. Fresh targets not collected."
+}

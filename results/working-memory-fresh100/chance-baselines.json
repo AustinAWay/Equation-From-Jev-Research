@@ -1,0 +1,64 @@
+{
+  "scope": "Post-hoc baseline comparison on existing fresh100 test. No equation changes or Jev calls. Random scores independently drawn using equal-family development score frequencies. Constant score selected using development data only.",
+  "passages": 100,
+  "steps": 910,
+  "families": 50,
+  "training_score_frequencies": {
+    "1": 0.17463976073467563,
+    "2": 0.28526345311413953,
+    "3": 0.2815198958137515,
+    "4": 0.15621644715253102,
+    "5": 0.06824213184607168,
+    "6": 0.023810696143527578,
+    "7": 0.007487391572025574,
+    "8": 0.0021834572888351964,
+    "9": 0.0004983388704318937,
+    "11": 0.00013842746400885935
+  },
+  "constant_score": 2,
+  "metrics": {
+    "equation": {
+      "exact": 0.47269975136376063,
+      "within_one": 0.9144135943978047,
+      "mae": 0.6342867168950761,
+      "exact_ci95": [
+        0.42948300005199197,
+        0.5157872233504799
+      ]
+    },
+    "always_training_mode": {
+      "exact": 0.3444380415450849,
+      "within_one": 0.8176957065380438,
+      "mae": 0.9268468168026216,
+      "exact_ci95": [
+        0.30590348592025457,
+        0.38191259768861735
+      ]
+    },
+    "random_training_frequencies": {
+      "exact": 0.23413398169769614,
+      "within_one": 0.6227327715920294,
+      "mae": 1.368698523377003,
+      "exact_ci95": [
+        0.2266786505114447,
+        0.24117492002093102
+      ]
+    }
+  },
+  "paired_exact_gain": {
+    "always_training_mode": {
+      "percentage_points": 12.826170981867577,
+      "ci95_percentage_points": [
+        8.217506120040952,
+        17.42804792610211
+      ]
+    },
+    "random_training_frequencies": {
+      "percentage_points": 23.856576966606443,
+      "ci95_percentage_points": [
+        19.639241211200893,
+        28.104511765891736
+      ]
+    }
+  }
+}
