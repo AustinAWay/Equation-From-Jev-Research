@@ -77,7 +77,7 @@ base(x) = 3 + Σᵢ₌₁…400 (0.03 × Tᵢ(x))
 score(x) = max(0, floor(base(x) + 0.5))
 ```
 
-Every coefficient and condition is in [the full equation (in research-round1.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round1.zip); [the machine-readable equation (in research-round1.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round1.zip) preserves its exact structure. After installation, text measurement and equation evaluation run locally without Jev calls. Parsing uses a downloaded language model; familiarity proxies use the local wordfreq 3.1.1 tables. Neither requires an API call during checking. Local measurements use the text prefix through each step; Passage’s local full-text parser determines the reading-step boundaries.
+Every coefficient and condition is in [the full equation (in research-round1.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round1.zip); [the machine-readable equation (in research-round1.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round1.zip) preserves its exact structure. After installation, text measurement and equation evaluation run locally without Jev calls. Parsing uses a downloaded language model; familiarity proxies use the local wordfreq 3.1.1 tables. Neither requires an API call during checking. Local measurements use the text prefix through each step; Passage’s local full-text parser determines the reading-step boundaries.
 
 ## Reproducibility, cost and limits
 
@@ -89,7 +89,7 @@ The final test covered only 12 families from a small, synthetic, narrowly sized 
 
 Missing the targets shows this search did not find the required equation under these conditions. It does not show that a better equation is impossible. The next study should expand independently sourced passages and investigate remaining errors, then use a new untouched final set.
 
-See the [decision and reasoning log](research_log.md), [reference-quality audit](reference-report.json), and [complete reproducible experiment (in research-round1.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round1.zip) for the detailed record.
+See the [decision and reasoning log](research_log.md), [reference-quality audit](reference-report.json), and [complete reproducible experiment (in research-round1.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round1.zip) for the detailed record.
 
 ## Visual results
 

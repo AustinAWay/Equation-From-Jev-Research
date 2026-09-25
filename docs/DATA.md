@@ -27,21 +27,21 @@
 Each archive extracts under `research/`. Download all seven into `downloads/`, check them, then extract into the same directory. They do not overwrite one another's study files. The internal `MANIFEST.json` documents that archive separately; inspect it within its ZIP before extracting multiple archives, since that manifest filename is shared.
 
 ```sh
-gh release download research-data-v1 --repo AustinAWay/Equation-From-Jev-Research --dir downloads
+gh release download research-data-v2 --repo AustinAWay/Equation-From-Jev-Research --dir downloads
 python scripts/verify_archives.py downloads --members
 ```
 
 | Archive | Download size | Included files | Raw JSON files* |
 |---|---:|---:|---:|
-| [research-round1.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round1.zip) | 188.8 MB | 4,122 | 360 |
-| [research-round2.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round2.zip) | 28.4 MB | 371 | 144 |
-| [research-round3.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round3.zip) | 371.4 MB | 3,357 | 1,800 |
-| [research-round4.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round4.zip) | 1099.4 MB | 3,026 | 1,800 |
-| [research-fresh100.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-fresh100.zip) | 47.4 MB | 363 | 300 |
-| [research-direct-nonlinear.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-direct-nonlinear.zip) | 2.4 MB | 87 | 0 |
-| [research-autopilot.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-autopilot.zip) | 45.5 MB | 603 | 0 |
+| [research-round1.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round1.zip) | 188.8 MB | 4,122 | 360 |
+| [research-round2.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round2.zip) | 28.4 MB | 371 | 144 |
+| [research-round3.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round3.zip) | 371.4 MB | 3,357 | 1,800 |
+| [research-round4.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round4.zip) | 1099.3 MB | 3,026 | 1,800 |
+| [research-fresh100.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-fresh100.zip) | 47.4 MB | 363 | 300 |
+| [research-direct-nonlinear.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-direct-nonlinear.zip) | 2.4 MB | 87 | 0 |
+| [research-autopilot.zip](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-autopilot.zip) | 45.5 MB | 603 | 0 |
 
-The archives contain **11,929 files**, about **12.43 GB** before compression and **1.78 GB** to download. SHA-256 checksums are recorded in [release-manifest.json](../provenance/release-manifest.json) and the release's `SHA256SUMS` file.
+The archives contain **11,929 files**, about **12.42 GB** before compression and **1.78 GB** to download. SHA-256 checksums are recorded in [release-manifest.json](../provenance/release-manifest.json) and the release's `SHA256SUMS` file.
 
 *Raw-file counts include preserved copies and recovery snapshots. They are **not counts of independent analyses**; use record IDs, repeat numbers, provenance hashes and the collection ledgers to deduplicate. Earlier final-test passages become later development material, so summing stage sample sizes also double counts passages.
 
@@ -61,4 +61,4 @@ Raw analysis JSON normally contains a passage `record`, a `repeat` number, colle
 
 This is the equation study's local research record as found for publication. Separate education-index and literature-review projects are outside its scope. [archive-exclusions.json](../provenance/archive-exclusions.json) identifies 631 excluded files and their original hashes: nested ZIPs, serialized fitting/cache objects and presentation media. Installed environments, `.git`, bytecode, cache directories and housekeeping files are omitted. Small explicitly vendored source snapshots retain their own notices.
 
-All eligible raw JSON, text corpora, numerical JSON equations, predictions, failed-request records and search logs in the inventoried study folders are included. Duplicate numeric/source copies remain where they document a historical package or recovery path. Each source file's bytes were checked during packaging. Retained local paths in original scripts are historical provenance, not portable execution instructions.
+All eligible raw JSON, text corpora, numerical JSON equations, predictions, failed-request records and search logs in the inventoried study folders are included. Duplicate numeric/source copies remain where they document a historical package or recovery path. Each source file's bytes were checked during packaging. Original personal paths in archival scripts are replaced with `/RESEARCH_ROOT`, `/RESEARCH_WORKSPACES`, `/RESEARCH_HOME` or `/TOOL_CONFIG`. These placeholders are not portable execution instructions. Original and published hashes are distinguished in every archive manifest; see [privacy redactions](../provenance/privacy-redactions.json).

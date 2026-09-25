@@ -48,9 +48,9 @@ This reproduces the comparison table and all **4,550 predictions from five compa
 
 ## Data and research record
 
-The repository includes development and comparison rows, saved measurement matrices, exact parameters, readable reports, and verification tools. The [research-data-v1 release](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/tag/research-data-v1) contains the larger research records: raw app responses, repeated analyses, unsuccessful requests, candidate searches, rejected equations, source snapshots, protocols, audits and accounting.
+The repository includes development and comparison rows, saved measurement matrices, exact parameters, readable reports, and verification tools. The [research-data-v2 release](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/tag/research-data-v2) contains the larger research records: raw app responses, repeated analyses, unsuccessful requests, candidate searches, rejected equations, source snapshots, protocols, audits and accounting.
 
-The [archive index](provenance/release-manifest.json) identifies each download and its SHA-256 checksum. Exclusions are recorded explicitly: redundant nested archives, installed environments, serialized training/cache files and presentation media. Numerical JSON equations and collected reference data remain included. Old reports and raw records are historical evidence; the navigation and qualifications in this README and `docs/` describe this publication.
+The [archive index](provenance/release-manifest.json) identifies each download and its SHA-256 checksum. Exclusions are recorded explicitly: redundant nested archives, installed environments, serialized training/cache files and presentation media. Numerical JSON equations and collected reference data remain included. Personal machine paths and unnecessary operational wording are sanitized, with original and published hashes recorded. Old reports and raw records are historical evidence; the navigation and qualifications in this README and `docs/` describe this publication.
 
 ## What would improve the evidence?
 

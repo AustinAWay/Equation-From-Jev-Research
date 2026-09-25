@@ -85,7 +85,7 @@ The full research record, including failed candidates, operational service inter
 
 ## Reference usage
 
-This continuation saved 900 full reference analyses: 600 for the 200 new development passages and 300 for the 100 final passages. Reported-token cost was estimated at **$73.14**. Conservative accounting including retained unknown-usage reservations totals **$440.31**; that larger number is not a confirmed bill. These figures exclude assistant use and local computation. The original request ledgers are counted once; recovery snapshots and merged copies add no new spending. See costs.json.
+This continuation saved 900 full reference analyses: 600 for the 200 new development passages and 300 for the 100 final passages. Reported-token cost was estimated at **$73.14**. Conservative accounting including retained unknown-usage reservations totals **$440.31**; that larger number is not a confirmed bill. These figures exclude development-tool use and local computation. The original request ledgers are counted once; recovery snapshots and merged copies add no new spending. See costs.json.
 
 ## Additional development tests
 

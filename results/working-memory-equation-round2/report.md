@@ -93,5 +93,5 @@ For equation research, keep approach 2 unchanged as the comparator. Give a revis
 - [Research log](research_log.md): decisions, revisions and their reasons.
 - [Detailed results](final_results.json) and [every final prediction](final_predictions.jsonl).
 - [Failure analysis](failure_analysis.md): specific counterexamples and paired challenges.
-- [Offline calculator instructions (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round2.zip): run and inspect all three formulas locally.
-- [Complete research archive (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round2.zip): code, equations, data, candidate records and frozen reference provenance.
+- [Offline calculator instructions (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round2.zip): run and inspect all three formulas locally.
+- [Complete research archive (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round2.zip): code, equations, data, candidate records and frozen reference provenance.

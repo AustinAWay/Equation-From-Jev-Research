@@ -118,7 +118,7 @@
   "notes": [
     "Reference usage estimates at the frozen input-token price; not a billing invoice.",
     "Includes failed requests with recorded cost and retains unknown-usage reservations.",
-    "Does not include Codex/assistant usage or local computation.",
+    "Does not include development-tool usage or local computation.",
     "Counts underlying shard ledgers once, never the merged final-data budget view."
   ]
 }

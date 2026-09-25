@@ -4,86 +4,86 @@
     "edits": [
       {
         "before": "[the full equation](equation.txt)",
-        "after": "[the full equation (in research-round1.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round1.zip)"
+        "after": "[the full equation (in research-round1.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round1.zip)"
       },
       {
         "before": "[the machine-readable equation](equation.json)",
-        "after": "[the machine-readable equation (in research-round1.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round1.zip)"
+        "after": "[the machine-readable equation (in research-round1.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round1.zip)"
       },
       {
         "before": "[complete reproducible experiment](full-experiment.zip)",
-        "after": "[complete reproducible experiment (in research-round1.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round1.zip)"
+        "after": "[complete reproducible experiment (in research-round1.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round1.zip)"
       }
     ],
-    "published_sha256": "b79aaa4879a59ef09fff7a2f5b2c1e8cbff6f2c5716a60a0bf797aa605f1ddd1"
+    "published_sha256": "97085ef12116a5a2b2b7ece05f4bda9187bddccf472c5bb5c550ccb3b41bb707"
   },
   {
     "path": "results/working-memory-equation-round2/report.md",
     "edits": [
       {
         "before": "[Offline calculator instructions](offline/README.md)",
-        "after": "[Offline calculator instructions (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round2.zip)"
+        "after": "[Offline calculator instructions (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round2.zip)"
       },
       {
         "before": "[Complete research archive](full-experiment.zip)",
-        "after": "[Complete research archive (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round2.zip)"
+        "after": "[Complete research archive (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round2.zip)"
       }
     ],
-    "published_sha256": "7914fb7eb93d6d0970b0565237c24412dc8151c8d5d7730dbc52f66de3479a44"
+    "published_sha256": "4d1522cb3d46f97e0f614984c647f9c6357783c45ffd85f36d5a660742f78384"
   },
   {
     "path": "results/working-memory-equation-round2/README.md",
     "edits": [
       {
         "before": "[Run the offline calculators](offline/README.md)",
-        "after": "[Run the offline calculators (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round2.zip)"
+        "after": "[Run the offline calculators (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round2.zip)"
       },
       {
         "before": "[the portable checker](offline-checker.zip)",
-        "after": "[the portable checker (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round2.zip)"
+        "after": "[the portable checker (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round2.zip)"
       },
       {
         "before": "[Download the complete research record](full-experiment.zip)",
-        "after": "[Download the complete research record (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round2.zip)"
+        "after": "[Download the complete research record (in research-round2.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round2.zip)"
       }
     ],
-    "published_sha256": "2beb32e9b2eb96647c86bd6de42d10cab397b2ae39bb536e52586b05702e996b"
+    "published_sha256": "accd70c71b66b5b10e05d862dc1e39400a802e9e215b0f083705ae0b798075dc"
   },
   {
     "path": "results/working-memory-equation-round3/reference-findings.md",
     "edits": [
       {
         "before": "[Findings, separate study stages, assumptions and costs](reference-study/repeatability-replication/reference-findings-plain.md)",
-        "after": "[Findings, separate study stages, assumptions and costs (in research-round3.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round3.zip)"
+        "after": "[Findings, separate study stages, assumptions and costs (in research-round3.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round3.zip)"
       },
       {
         "before": "[Identical input with different recorded targets](reference-study/repeatability-replication/example.md)",
-        "after": "[Identical input with different recorded targets (in research-round3.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round3.zip)"
+        "after": "[Identical input with different recorded targets (in research-round3.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round3.zip)"
       },
       {
         "before": "[Pooled statistics](reference-study/repeatability-replication/pooled-report.md)",
-        "after": "[Pooled statistics (in research-round3.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round3.zip)"
+        "after": "[Pooled statistics (in research-round3.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round3.zip)"
       }
     ],
-    "published_sha256": "5aa0cbc65f97367c996f0102944c74042676b2cd512d0c26b78cd43d08550b10"
+    "published_sha256": "3d789d750b0cdb0efadfc594a2c30654492ada33ea8075ce37568c8fc8901b3a"
   },
   {
     "path": "results/working-memory-equation-round3/report.md",
     "edits": [
       {
         "before": "[Full context and all nine scores](reference-study/repeatability-replication/example.md)",
-        "after": "[Full context and all nine scores (in research-round3.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round3.zip)"
+        "after": "[Full context and all nine scores (in research-round3.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round3.zip)"
       },
       {
         "before": "[diagnostic and its limits](development-input-check/summary.md)",
-        "after": "[diagnostic and its limits (in research-round3.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round3.zip)"
+        "after": "[diagnostic and its limits (in research-round3.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round3.zip)"
       },
       {
         "before": "[checker instructions](offline/README.md)",
-        "after": "[checker instructions (in research-round3.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round3.zip)"
+        "after": "[checker instructions (in research-round3.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round3.zip)"
       }
     ],
-    "published_sha256": "7bf09f6f185d802f868a72a76d918d04f749f7599184d9d7ade8a02ec87cd8e1"
+    "published_sha256": "4eb140ee08af81bdcf4962ea27178fc59e7e6b8f96c7935fb65f65408f45c6ff"
   },
   {
     "path": "results/working-memory-equation-round4/README.md",
@@ -94,18 +94,18 @@
       },
       {
         "before": "[every numerical rule written out](full-equation.txt)",
-        "after": "[every numerical rule written out (in research-round4.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round4.zip)"
+        "after": "[every numerical rule written out (in research-round4.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round4.zip)"
       },
       {
         "before": "[the offline calculator](offline-checker.zip)",
-        "after": "[the offline calculator (in research-round4.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round4.zip)"
+        "after": "[the offline calculator (in research-round4.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round4.zip)"
       },
       {
         "before": "[Inspect the complete research record](research-record.zip)",
-        "after": "[Inspect the complete research record (in research-round4.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round4.zip)"
+        "after": "[Inspect the complete research record (in research-round4.zip)](https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round4.zip)"
       }
     ],
-    "published_sha256": "8794979d117a2842f887a759e2ff9923daa0afe8962609a53e5cd18f4c0d4d83"
+    "published_sha256": "b8b06048a9a3c21ce2e067b79735b408c7a140380bbb3161e5573ffb87c2393a"
   },
   {
     "path": "provenance/Working-Memory-Jev-NOTICES.md",

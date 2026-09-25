@@ -19,7 +19,7 @@
     "previous_cost_summary_sha256": "fe4f54f633f379db49b3e6cc27d19f7f2088e31abccedc49524e1b838a1742b5"
   },
   "notes": [
-    "Frozen input-token price estimates, not invoices; excludes assistant use and local computation.",
+    "Frozen input-token price estimates, not invoices; excludes development-tool use and local computation.",
     "Original shard ledgers counted once; merged copies and recovery snapshots are not additional spending.",
     "Unknown-usage reservations, including rejected/interrupted requests, are retained and are not confirmed charges."
   ]

@@ -1,88 +1,97 @@
 {
-  "version": "research-data-v1",
-  "created_utc": "2026-09-25T17:21:50.470185+00:00",
+  "version": "research-data-v2",
+  "publication_revision": 2,
+  "created_utc": "2026-09-25T17:40:28.910464+00:00",
   "source_files": 11929,
   "source_bytes": 12429278382,
+  "published_uncompressed_bytes": 12420919688,
   "excluded_files": 631,
+  "sanitized_files": 469,
   "assets": [
     {
       "name": "research-round1.zip",
-      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round1.zip",
-      "bytes": 188819313,
-      "sha256": "b5124cbb5cc8bb972afe4907949be2c16f8ab5523d8506256f5414a07ffb565f",
+      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round1.zip",
+      "bytes": 188819977,
+      "sha256": "43e75dec4cdc6d892bffa2e54036d2ed1c014ca1b81a7e6f3c936a00bfe23fac",
       "members": 4122,
-      "uncompressed_bytes": 1167969828,
+      "uncompressed_bytes": 1167950014,
       "excluded_files": 624,
       "raw_json_files": 360,
-      "distinct_raw_json_hashes": 360
+      "distinct_raw_json_hashes": 360,
+      "sanitized_files": 16
     },
     {
       "name": "research-round2.zip",
-      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round2.zip",
-      "bytes": 28423958,
-      "sha256": "d12c91e69a85cd12354af1991912ca647b36accbe50bef26b4447cdda906d878",
+      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round2.zip",
+      "bytes": 28425208,
+      "sha256": "b6f57a3cefbeb8801c9b7b809d6c9e3f705c4373dda35789922de82d7a4c9592",
       "members": 371,
-      "uncompressed_bytes": 234846587,
+      "uncompressed_bytes": 234840069,
       "excluded_files": 2,
       "raw_json_files": 144,
-      "distinct_raw_json_hashes": 144
+      "distinct_raw_json_hashes": 144,
+      "sanitized_files": 19
     },
     {
       "name": "research-round3.zip",
-      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round3.zip",
-      "bytes": 371432244,
-      "sha256": "f4d590b8b3051ef16750e6e2d70e33245a832b2c370d1fdd9ba6692a1075969a",
+      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round3.zip",
+      "bytes": 371422018,
+      "sha256": "de9cb63d3bba755949ea2b8679215d6a89a4056c654246445772e36228d21cad",
       "members": 3357,
-      "uncompressed_bytes": 2919668848,
+      "uncompressed_bytes": 2918474991,
       "excluded_files": 3,
       "raw_json_files": 1800,
-      "distinct_raw_json_hashes": 1560
+      "distinct_raw_json_hashes": 1560,
+      "sanitized_files": 101
     },
     {
       "name": "research-round4.zip",
-      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-round4.zip",
-      "bytes": 1099367377,
-      "sha256": "97e36180f18480fb9853ac908bc63d7db719184b5d4f37e72bbcf7a037f153a0",
+      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-round4.zip",
+      "bytes": 1099290249,
+      "sha256": "c458ab1d4c7804e4cd6c214b9f1975ff765abfe204a08475d9664bc7e6357053",
       "members": 3026,
-      "uncompressed_bytes": 7369969897,
+      "uncompressed_bytes": 7362924891,
       "excluded_files": 2,
       "raw_json_files": 1800,
-      "distinct_raw_json_hashes": 900
+      "distinct_raw_json_hashes": 900,
+      "sanitized_files": 260
     },
     {
       "name": "research-fresh100.zip",
-      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-fresh100.zip",
-      "bytes": 47392340,
-      "sha256": "3bee4dcfbb741f32649b856b8f0b4ec56b1324eb74267e188fe42b686037f8da",
+      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-fresh100.zip",
+      "bytes": 47392156,
+      "sha256": "c6a197296f7d08f82b35abaac44830138e6f3aba74da3876cb58b399eebba08e",
       "members": 363,
-      "uncompressed_bytes": 456103613,
+      "uncompressed_bytes": 456059124,
       "excluded_files": 0,
       "raw_json_files": 300,
-      "distinct_raw_json_hashes": 300
+      "distinct_raw_json_hashes": 300,
+      "sanitized_files": 21
     },
     {
       "name": "research-direct-nonlinear.zip",
-      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-direct-nonlinear.zip",
-      "bytes": 2433584,
-      "sha256": "a08c5f346b826999a0785efe5c9610e56e833e05c6d5d7058d552a6920600efd",
+      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-direct-nonlinear.zip",
+      "bytes": 2433360,
+      "sha256": "09ccfcab3a8b0e8fdad653baf89adfac1d6cfc0e2731ef9b03ed09ed35f3b01a",
       "members": 87,
-      "uncompressed_bytes": 30406144,
+      "uncompressed_bytes": 30364258,
       "excluded_files": 0,
       "raw_json_files": 0,
-      "distinct_raw_json_hashes": 0
+      "distinct_raw_json_hashes": 0,
+      "sanitized_files": 11
     },
     {
       "name": "research-autopilot.zip",
-      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v1/research-autopilot.zip",
-      "bytes": 45529034,
-      "sha256": "da52d4fe1899971f94dbc55c5f3ad19682a36e0cc5f495b559be5dc51449147f",
+      "url": "https://github.com/AustinAWay/Equation-From-Jev-Research/releases/download/research-data-v2/research-autopilot.zip",
+      "bytes": 45529906,
+      "sha256": "fa14c34f26f470df67bb12a68f132ca42586c17494d3256963f3f7666b5179e3",
       "members": 603,
-      "uncompressed_bytes": 250313465,
+      "uncompressed_bytes": 250306341,
       "excluded_files": 0,
       "raw_json_files": 0,
-      "distinct_raw_json_hashes": 0
+      "distinct_raw_json_hashes": 0,
+      "sanitized_files": 41
     }
   ],
-  "coverage": "Equation-study folders listed in each archive. Separate working-memory literature and education-index projects are outside this release.",
-  "preservation": "Source file bytes are unchanged; original absolute paths in historical source are retained. No original archives are nested; numerical JSON exports are retained instead of serialized training caches."
+  "preservation": "Numeric research records retained; personal paths and unnecessary operational wording sanitized. Each archive retains original and published member hashes. The shared-authoring-process limitation and AI-authored corpus remain disclosed."
 }

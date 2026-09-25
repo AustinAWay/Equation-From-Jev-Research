@@ -10,6 +10,21 @@
   ],
   "archive_files_verified": 11929,
   "archive_sha256_verification": "all seven archives and every included member passed",
-  "source_file_bytes": "all included files match their source snapshot hashes",
-  "excluded_files": 631
+  "source_file_bytes": "Original source hashes retained; new published hashes validate sanitized bytes.",
+  "excluded_files": 631,
+  "publication_revision": 2,
+  "privacy_review": {
+    "personal_paths_sanitized": true,
+    "quoted_operational_instruction_removed": true,
+    "tool_specific_cost_wording_generalized": true,
+    "scientific_ai_authorship_disclosures_preserved": true,
+    "public_license_contacts_and_third_party_notices_preserved": true,
+    "sanitized_archive_files": 469,
+    "archive_members_reverified": 11929,
+    "offline_integrity_manifests_verified": 8,
+    "original_personal_path_matches_rechecked": 459,
+    "other_dataset_model_exports_byte_identical": 16,
+    "component_model_change": "Only combination_provenance path keys.",
+    "earlier_download_release_withdrawn": true
+  }
 }

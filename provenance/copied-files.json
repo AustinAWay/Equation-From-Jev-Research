@@ -4,1000 +4,1143 @@
     "published": "results/working-memory-equation/README.md",
     "source_sha256": "5d2647e9267514e1f09e89f320a10d922ee63cf0b098e77827aea507e244ba3a",
     "published_sha256": "5d2647e9267514e1f09e89f320a10d922ee63cf0b098e77827aea507e244ba3a",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/dependencies.json",
     "published": "results/working-memory-equation/dependencies.json",
     "source_sha256": "c5237fb0c30b4541012a755bb7873e20f1cfbf3f6b39db8b624a041c8233ad06",
     "published_sha256": "c5237fb0c30b4541012a755bb7873e20f1cfbf3f6b39db8b624a041c8233ad06",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/experiment_spec.json",
     "published": "results/working-memory-equation/experiment_spec.json",
     "source_sha256": "5b766dd58ada2d297a7bd0fb094eab1214eaca84eaff8344d1e94a6ee3ecb651",
     "published_sha256": "5b766dd58ada2d297a7bd0fb094eab1214eaca84eaff8344d1e94a6ee3ecb651",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/failure_analysis.json",
     "published": "results/working-memory-equation/failure_analysis.json",
     "source_sha256": "7fb09ca325d53762a3ed673bf1b6d06e22657edcc7a607954885420d3e91048c",
     "published_sha256": "7fb09ca325d53762a3ed673bf1b6d06e22657edcc7a607954885420d3e91048c",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/failure_analysis.md",
     "published": "results/working-memory-equation/failure_analysis.md",
     "source_sha256": "6403da06d48de1e8774b76249ee4b7f25fa3c002c3979f49312d0a225320f8da",
     "published_sha256": "6403da06d48de1e8774b76249ee4b7f25fa3c002c3979f49312d0a225320f8da",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/feature_notes.md",
     "published": "results/working-memory-equation/feature_notes.md",
     "source_sha256": "6c7d1742fabd1cbdce3fb6f49d44eb2513ccf9e3087caf5dcab953197655c4b9",
     "published_sha256": "6c7d1742fabd1cbdce3fb6f49d44eb2513ccf9e3087caf5dcab953197655c4b9",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/final_predictions.jsonl",
     "published": "results/working-memory-equation/final_predictions.jsonl",
     "source_sha256": "b5215b966d261fe65e30b18d2d83ee45a874773ced398640d5357c70395b2568",
     "published_sha256": "b5215b966d261fe65e30b18d2d83ee45a874773ced398640d5357c70395b2568",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/final_results.json",
     "published": "results/working-memory-equation/final_results.json",
     "source_sha256": "5c4ff0c17807e30691dc6a3d29b74491ef3b041699a6ad68b5c837b45455c1c9",
     "published_sha256": "5c4ff0c17807e30691dc6a3d29b74491ef3b041699a6ad68b5c837b45455c1c9",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/frozen_candidate.json",
     "published": "results/working-memory-equation/frozen_candidate.json",
     "source_sha256": "54d27342f5bfd7415e42ae14dc0095e05b1b780ca72d3275685db15d878523e3",
     "published_sha256": "54d27342f5bfd7415e42ae14dc0095e05b1b780ca72d3275685db15d878523e3",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/iterations.jsonl",
     "published": "results/working-memory-equation/iterations.jsonl",
     "source_sha256": "925bbcbcfa42ccbc9f4e63f2130b68b27a1aff19bd3ff6c4b3d095a51ceeff6c",
     "published_sha256": "925bbcbcfa42ccbc9f4e63f2130b68b27a1aff19bd3ff6c4b3d095a51ceeff6c",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/offline-example.json",
     "published": "results/working-memory-equation/offline-example.json",
     "source_sha256": "28192776ef58410d80dc07cca46ab371730aef94384da461cb4fc37918c52b4c",
     "published_sha256": "28192776ef58410d80dc07cca46ab371730aef94384da461cb4fc37918c52b4c",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/offline-verification.json",
     "published": "results/working-memory-equation/offline-verification.json",
     "source_sha256": "0d2095c7ecd56521d0935b2af59bee4b301a28b4a65dbf8139eb0fd8a946b0d9",
     "published_sha256": "0d2095c7ecd56521d0935b2af59bee4b301a28b4a65dbf8139eb0fd8a946b0d9",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/package-manifest.json",
     "published": "results/working-memory-equation/package-manifest.json",
     "source_sha256": "e55cab46a6dbac026d9e6c0266c6030d35f607106950f8a3b2afa8b29e6fd5bd",
     "published_sha256": "e55cab46a6dbac026d9e6c0266c6030d35f607106950f8a3b2afa8b29e6fd5bd",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/reference-report.json",
     "published": "results/working-memory-equation/reference-report.json",
     "source_sha256": "5de43f510d14032c369b99f26a91f2fcf5ec52915fef637d2ba8262be68f0b3e",
     "published_sha256": "c1b94d697b56a6153dd0b8f001f5ae387d203a8ba8fd1f05d3701a797b133431",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/report.md",
     "published": "results/working-memory-equation/report.md",
     "source_sha256": "c4c7bc806f52cb72bbd7faad06709c3e3f7341022d51a7b4e6076b51fd5bae27",
-    "published_sha256": "c4c7bc806f52cb72bbd7faad06709c3e3f7341022d51a7b4e6076b51fd5bae27",
-    "path_redacted": false
+    "published_sha256": "97085ef12116a5a2b2b7ece05f4bda9187bddccf472c5bb5c550ccb3b41bb707",
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/research_log.md",
     "published": "results/working-memory-equation/research_log.md",
     "source_sha256": "8e0df16bb46991b1fae03397b02dee0fc21ffb5c1f32b31ac540a9f5a03fd1f7",
     "published_sha256": "8e0df16bb46991b1fae03397b02dee0fc21ffb5c1f32b31ac540a9f5a03fd1f7",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/selection-decision.json",
     "published": "results/working-memory-equation/selection-decision.json",
     "source_sha256": "df82748a4d7ed4b92cb37965b6330cfb3bb7c6d55db020f133587097a461cbdc",
     "published_sha256": "df82748a4d7ed4b92cb37965b6330cfb3bb7c6d55db020f133587097a461cbdc",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation/test_access.json",
     "published": "results/working-memory-equation/test_access.json",
     "source_sha256": "85e62bbacb2b86a9c3bef067d4ae910329cc8bfb14d15b47113e8d894f646fc3",
     "published_sha256": "85e62bbacb2b86a9c3bef067d4ae910329cc8bfb14d15b47113e8d894f646fc3",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/README.md",
     "published": "results/working-memory-equation-round2/README.md",
     "source_sha256": "82f11838dd5e08cdb5e30a6f74298654f4e409f6bfdd0f27e3b3c192e105f9fc",
-    "published_sha256": "82f11838dd5e08cdb5e30a6f74298654f4e409f6bfdd0f27e3b3c192e105f9fc",
-    "path_redacted": false
+    "published_sha256": "accd70c71b66b5b10e05d862dc1e39400a802e9e215b0f083705ae0b798075dc",
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/arithmetic-verification.json",
     "published": "results/working-memory-equation-round2/arithmetic-verification.json",
     "source_sha256": "9ea0629b32e1c27c816fca4ace705dd34862131f12163856a6dd0c78994f9c6d",
     "published_sha256": "9ea0629b32e1c27c816fca4ace705dd34862131f12163856a6dd0c78994f9c6d",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/collection_audit.json",
     "published": "results/working-memory-equation-round2/collection_audit.json",
     "source_sha256": "5daa766bdf04a2ddba8ab35cf877ccc44926b05af156fb3ef6090b9fa848e765",
     "published_sha256": "5daa766bdf04a2ddba8ab35cf877ccc44926b05af156fb3ef6090b9fa848e765",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/distance_reference_audit.json",
     "published": "results/working-memory-equation-round2/distance_reference_audit.json",
     "source_sha256": "10d0d6f7bc55bd9bc3f7eaaf6f354cfe473594e47e37f1aabbfc5b934953d88b",
     "published_sha256": "10d0d6f7bc55bd9bc3f7eaaf6f354cfe473594e47e37f1aabbfc5b934953d88b",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/distance_reference_audit.md",
     "published": "results/working-memory-equation-round2/distance_reference_audit.md",
     "source_sha256": "506f59918da5d916385c916d0e77df39fcb4fa2e7cab9cb907c8a3906cc29767",
     "published_sha256": "506f59918da5d916385c916d0e77df39fcb4fa2e7cab9cb907c8a3906cc29767",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/exact_collisions.json",
     "published": "results/working-memory-equation-round2/exact_collisions.json",
     "source_sha256": "465916543653368a71281e76c450b28349f8f7e078c8785d0951479e22c7e331",
     "published_sha256": "2287fbb1939a7a1b1f8aad9d67ab706fdaceb0fe0bc5c6646fdb5475651523ea",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/exact_collisions.md",
     "published": "results/working-memory-equation-round2/exact_collisions.md",
     "source_sha256": "f8df371f27faf16c922c9ff6dea3654bb82e0a76281ec775853156e564250f24",
     "published_sha256": "f8df371f27faf16c922c9ff6dea3654bb82e0a76281ec775853156e564250f24",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/failure_analysis.json",
     "published": "results/working-memory-equation-round2/failure_analysis.json",
     "source_sha256": "6bc6a6cfd725ff7ee99fd7560f1bf1b135f3bc546356437cc5ed6bf2f0b5a063",
     "published_sha256": "6bc6a6cfd725ff7ee99fd7560f1bf1b135f3bc546356437cc5ed6bf2f0b5a063",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/failure_analysis.md",
     "published": "results/working-memory-equation-round2/failure_analysis.md",
     "source_sha256": "360d0542084385b71de2ed66d6eca7bb8fe68e6f3ccef517636eacfae384a505",
     "published_sha256": "360d0542084385b71de2ed66d6eca7bb8fe68e6f3ccef517636eacfae384a505",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/final_predictions.jsonl",
     "published": "results/working-memory-equation-round2/final_predictions.jsonl",
     "source_sha256": "adbfca7901df4395781b1dc44b150afbda7f3e1247b7a937909af58200d0913a",
     "published_sha256": "adbfca7901df4395781b1dc44b150afbda7f3e1247b7a937909af58200d0913a",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/final_results.json",
     "published": "results/working-memory-equation-round2/final_results.json",
     "source_sha256": "a4b9ca23dd20834f09b8047eba9040a8e80c646629e6e8f05a6d230d8c8da394",
     "published_sha256": "a4b9ca23dd20834f09b8047eba9040a8e80c646629e6e8f05a6d230d8c8da394",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/folds.json",
     "published": "results/working-memory-equation-round2/folds.json",
     "source_sha256": "780dbf30da1642c95cbadfce713fa7068fead14869f03dcdeb637f309993ef13",
     "published_sha256": "780dbf30da1642c95cbadfce713fa7068fead14869f03dcdeb637f309993ef13",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/freeze.json",
     "published": "results/working-memory-equation-round2/freeze.json",
     "source_sha256": "0c7ebf2b9adb8e9556b09becf9179aa645e82c47ef2a2ded2e4680c11d7b720a",
     "published_sha256": "404dcdd34670e487ab224bc134c9d6a069cfa5cbd00cd618b28add8068055f7e",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/package_verification.json",
     "published": "results/working-memory-equation-round2/package_verification.json",
     "source_sha256": "23bcdc3423ca1405cb9fb95299a4ace59d0b3c78be8dec7c540130c124294f2a",
     "published_sha256": "23bcdc3423ca1405cb9fb95299a4ace59d0b3c78be8dec7c540130c124294f2a",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/predictions_manifest.json",
     "published": "results/working-memory-equation-round2/predictions_manifest.json",
     "source_sha256": "00cb0c30f228aa738ccebce7049d97ab86796d59d4fae8a0ca60602f6f2cb76f",
     "published_sha256": "00cb0c30f228aa738ccebce7049d97ab86796d59d4fae8a0ca60602f6f2cb76f",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/protocol.md",
     "published": "results/working-memory-equation-round2/protocol.md",
     "source_sha256": "3a65e563688bdb1e1b10c8863d166e1a56baeb26f76ec9d210cee3f90d6931b2",
     "published_sha256": "3a65e563688bdb1e1b10c8863d166e1a56baeb26f76ec9d210cee3f90d6931b2",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/reference-report.json",
     "published": "results/working-memory-equation-round2/reference-report.json",
     "source_sha256": "360290401ea3c381d99a2c4e74a248fffcc35cd1fd6626c8c90210b4b474c869",
     "published_sha256": "6443d8b356df0dc6c431045cff48092c5a653d40fc7036c00763daeb3dbf31b4",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/report.md",
     "published": "results/working-memory-equation-round2/report.md",
     "source_sha256": "07943c37a9f7c7462cc786c2b2a918fa8e1bb243ecc1aaa73b3c7ce74a0dd064",
-    "published_sha256": "07943c37a9f7c7462cc786c2b2a918fa8e1bb243ecc1aaa73b3c7ce74a0dd064",
-    "path_redacted": false
+    "published_sha256": "4d1522cb3d46f97e0f614984c647f9c6357783c45ffd85f36d5a660742f78384",
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round2/research_log.md",
     "published": "results/working-memory-equation-round2/research_log.md",
     "source_sha256": "43a5ee2cc31a1d06e726155f8b4bad3a3f5f2f1b3032789410e2e5337fbc8055",
     "published_sha256": "43a5ee2cc31a1d06e726155f8b4bad3a3f5f2f1b3032789410e2e5337fbc8055",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/README.md",
     "published": "results/working-memory-equation-round3/README.md",
     "source_sha256": "14c6051ee96f633a1e7d536ed5159fe9f734c078d5c1a0da002be8d42cba2da4",
     "published_sha256": "14c6051ee96f633a1e7d536ed5159fe9f734c078d5c1a0da002be8d42cba2da4",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/all-model-metrics.md",
     "published": "results/working-memory-equation-round3/all-model-metrics.md",
     "source_sha256": "0c3dad5c7748fd797f6775634fc31fbb7b5538929f9cc7015d3b9ac96892ebea",
     "published_sha256": "0c3dad5c7748fd797f6775634fc31fbb7b5538929f9cc7015d3b9ac96892ebea",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/costs.json",
     "published": "results/working-memory-equation-round3/costs.json",
     "source_sha256": "fe4f54f633f379db49b3e6cc27d19f7f2088e31abccedc49524e1b838a1742b5",
-    "published_sha256": "4b8be36e2cb38973dd8dc8ea61c0e687e6503fc9d48737a6bf598538ffafbd53",
-    "path_redacted": true
+    "published_sha256": "ba42678a8f9b85453f496aa0653af475ce86779e935df504a8e7d8120984405c",
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/equation-definitions.md",
     "published": "results/working-memory-equation-round3/equation-definitions.md",
     "source_sha256": "5018816a683bef89b943a1d8a11e758af8d371bec15e5bb8f77b5cdcfa6a6501",
     "published_sha256": "5018816a683bef89b943a1d8a11e758af8d371bec15e5bb8f77b5cdcfa6a6501",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/equations-explained.md",
     "published": "results/working-memory-equation-round3/equations-explained.md",
     "source_sha256": "158e784e95ce4c7ea7814d4a61a59737959e42312e480bfc6470222bb7d69b8e",
     "published_sha256": "158e784e95ce4c7ea7814d4a61a59737959e42312e480bfc6470222bb7d69b8e",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/final-accuracy.png",
     "published": "results/working-memory-equation-round3/final-accuracy.png",
     "source_sha256": "6bc547169a18db15a15bdaa82c5717c50335ca8f1cfb00b0559ce2a13f5d5b55",
     "published_sha256": "6bc547169a18db15a15bdaa82c5717c50335ca8f1cfb00b0559ce2a13f5d5b55",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/final-results.json",
     "published": "results/working-memory-equation-round3/final-results.json",
     "source_sha256": "b042a0f7ad9e0a227e68bd13ce4921751c2df94fa88c614dce3b352726a3c8df",
     "published_sha256": "b042a0f7ad9e0a227e68bd13ce4921751c2df94fa88c614dce3b352726a3c8df",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/independent-audit.json",
     "published": "results/working-memory-equation-round3/independent-audit.json",
     "source_sha256": "7e14c032b0b7b9e0f0ced0802dbc85e1e383fdda8772ce2ace2abb2a196eca63",
     "published_sha256": "7e14c032b0b7b9e0f0ced0802dbc85e1e383fdda8772ce2ace2abb2a196eca63",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/largest-errors.json",
     "published": "results/working-memory-equation-round3/largest-errors.json",
     "source_sha256": "cdaf1bdb3cc78b91014bc99b1722d8bdf6efcbbdf8f25ebf85367d4b6c229fd5",
     "published_sha256": "cdaf1bdb3cc78b91014bc99b1722d8bdf6efcbbdf8f25ebf85367d4b6c229fd5",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/learning-curve.png",
     "published": "results/working-memory-equation-round3/learning-curve.png",
     "source_sha256": "03f69a8b27aaf8b8b7cfaba1c2a40de14669b1b03b5aeaf0b9949ffe6de3c8b9",
     "published_sha256": "03f69a8b27aaf8b8b7cfaba1c2a40de14669b1b03b5aeaf0b9949ffe6de3c8b9",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/literature-context.md",
     "published": "results/working-memory-equation-round3/literature-context.md",
     "source_sha256": "ecde53a9eb5440c5adc037bbe9373651943adc43ec816afc99e9e10c99a0274b",
     "published_sha256": "ecde53a9eb5440c5adc037bbe9373651943adc43ec816afc99e9e10c99a0274b",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/package_verification.json",
     "published": "results/working-memory-equation-round3/package_verification.json",
     "source_sha256": "25b4110c8192d73a5e4d8645768f5430148ae7087bd5fd0f58353bf5b61f8c3d",
     "published_sha256": "25b4110c8192d73a5e4d8645768f5430148ae7087bd5fd0f58353bf5b61f8c3d",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/reference-findings.md",
     "published": "results/working-memory-equation-round3/reference-findings.md",
     "source_sha256": "5a7cebf2d5ebd1c56edc465b5db1a0ae5b500708c49758719c784cfcdf9620f8",
-    "published_sha256": "5a7cebf2d5ebd1c56edc465b5db1a0ae5b500708c49758719c784cfcdf9620f8",
-    "path_redacted": false
+    "published_sha256": "3d789d750b0cdb0efadfc594a2c30654492ada33ea8075ce37568c8fc8901b3a",
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/reference-flag-meaning.md",
     "published": "results/working-memory-equation-round3/reference-flag-meaning.md",
     "source_sha256": "44a085b2cd4a3f4a5fda6cd9b900054aeda6b17a519e6734376e38ba28b6924e",
     "published_sha256": "44a085b2cd4a3f4a5fda6cd9b900054aeda6b17a519e6734376e38ba28b6924e",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/report.md",
     "published": "results/working-memory-equation-round3/report.md",
     "source_sha256": "7dcc58b99dec0521033824ca8aa1aeca82d987dc6166b0da2f485c0fd29d01f8",
-    "published_sha256": "7dcc58b99dec0521033824ca8aa1aeca82d987dc6166b0da2f485c0fd29d01f8",
-    "path_redacted": false
+    "published_sha256": "4eb140ee08af81bdcf4962ea27178fc59e7e6b8f96c7935fb65f65408f45c6ff",
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/research-log.md",
     "published": "results/working-memory-equation-round3/research-log.md",
     "source_sha256": "997be0c6e8fb18faf9d5cba8a16ce770aa12a7ce41525dbb41f67a6906dba1f0",
-    "published_sha256": "997be0c6e8fb18faf9d5cba8a16ce770aa12a7ce41525dbb41f67a6906dba1f0",
-    "path_redacted": false
+    "published_sha256": "246a8e50358bfeff4f7753e46b0d3dfe11daaf4566cdbcc1fcb1d8f0e9a2841a",
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round3/secondary-results.json",
     "published": "results/working-memory-equation-round3/secondary-results.json",
     "source_sha256": "684b0a222e0139f795aed38983c33eaab0eb8073dcfddc4efb8c2f027ebc8427",
     "published_sha256": "684b0a222e0139f795aed38983c33eaab0eb8073dcfddc4efb8c2f027ebc8427",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/README.md",
     "published": "results/working-memory-equation-round4/README.md",
     "source_sha256": "48561e12ccdae5814b058c631fa3d387a12b7819cc957e68e43532abc09b8f04",
-    "published_sha256": "48561e12ccdae5814b058c631fa3d387a12b7819cc957e68e43532abc09b8f04",
-    "path_redacted": false
+    "published_sha256": "b8b06048a9a3c21ce2e067b79735b408c7a140380bbb3161e5573ffb87c2393a",
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/additional-experiments.md",
     "published": "results/working-memory-equation-round4/additional-experiments.md",
     "source_sha256": "e8c4cc3bd33885c23f4d8bbba85cc12436835c073d10181838cc7f16929600d5",
     "published_sha256": "e8c4cc3bd33885c23f4d8bbba85cc12436835c073d10181838cc7f16929600d5",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/archive-recovery-review.json",
     "published": "results/working-memory-equation-round4/archive-recovery-review.json",
     "source_sha256": "74b11174c1cd2a957252dcf8b0ea79956703e587d6286e114028c6a7cac773ef",
     "published_sha256": "80d98615654bf451ee7e04da40d585a4b45001fd90e0abba5c1de4e4276dcca7",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/archive-verification.json",
     "published": "results/working-memory-equation-round4/archive-verification.json",
     "source_sha256": "3f629c26d286e38e7167b6937f4c2679b95638da8a2f9db1e6ed50bbd4b89401",
     "published_sha256": "3f629c26d286e38e7167b6937f4c2679b95638da8a2f9db1e6ed50bbd4b89401",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/costs.json",
     "published": "results/working-memory-equation-round4/costs.json",
     "source_sha256": "8862f8c80d867a473d78a5ebe4cbc21eb78f7d9000353303a7b6da85f9b9ad14",
-    "published_sha256": "8862f8c80d867a473d78a5ebe4cbc21eb78f7d9000353303a7b6da85f9b9ad14",
-    "path_redacted": false
+    "published_sha256": "7c77cb5c0e5131da7d0128a5b11ac3a5a6904c2f270cd81c4000cfedfd1d4f64",
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/delivery-integrity.json",
     "published": "results/working-memory-equation-round4/delivery-integrity.json",
     "source_sha256": "aa2e05ec33e27ce66cf1d971c5c4f6054eb8c22c4271b07ba60736e9f825a328",
     "published_sha256": "aa2e05ec33e27ce66cf1d971c5c4f6054eb8c22c4271b07ba60736e9f825a328",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/delivery-provenance.json",
     "published": "results/working-memory-equation-round4/delivery-provenance.json",
     "source_sha256": "33fa6474acd8e9d6e4f57f97f08541ccd9e11ad21bbda018c2acde6845083318",
     "published_sha256": "acaca9b9139cf84690a4bc346218987fc96f0dfe2e8195473f423fc196613669",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/equation-explained.md",
     "published": "results/working-memory-equation-round4/equation-explained.md",
     "source_sha256": "0b2719ecb981887c2bcd11a091cebd36c4d38193aa115cbb431734e078dd735d",
     "published_sha256": "0b2719ecb981887c2bcd11a091cebd36c4d38193aa115cbb431734e078dd735d",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/equation-export-audit.json",
     "published": "results/working-memory-equation-round4/equation-export-audit.json",
     "source_sha256": "d5f649019f29b525b061d28f539ae9205e0e1e07615d69df90be26ada4fcfca6",
     "published_sha256": "e10e29020581b29514570ddaaee2993f19bb3eea4b52be6281d868932ddb1d95",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/evaluation-completion.json",
     "published": "results/working-memory-equation-round4/evaluation-completion.json",
     "source_sha256": "a092709427069ade39b44e51724e243f9b889f6c5c335eebdba2b2c414527b94",
     "published_sha256": "9677e357114fddaf90f9cd4a572f1fcba88f040588c0dd21ff94e8a5deb75449",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/final-results.json",
     "published": "results/working-memory-equation-round4/final-results.json",
     "source_sha256": "198d46a04f132f430d11fac03c0981338872df08d5c3b40c02c327b0dc15ffe8",
     "published_sha256": "e3b0d59f6fa40f69161e90adeddc594a06b3d6d5fdd02b99f132ef6997b8fab8",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/fresh-test-comparison.png",
     "published": "results/working-memory-equation-round4/fresh-test-comparison.png",
     "source_sha256": "7e38bb0ed764521adea9cdd9640f09b7f96499c7aad04476d2259af2ec4fc861",
     "published_sha256": "7e38bb0ed764521adea9cdd9640f09b7f96499c7aad04476d2259af2ec4fc861",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/fresh-test-comparison.svg",
     "published": "results/working-memory-equation-round4/fresh-test-comparison.svg",
     "source_sha256": "6f36c39d320ef95dd447b3f8b6d3ea1c207d71781e6b4bb0393567f3e4fec5c3",
     "published_sha256": "6f36c39d320ef95dd447b3f8b6d3ea1c207d71781e6b4bb0393567f3e4fec5c3",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/independent-development-audit.json",
     "published": "results/working-memory-equation-round4/independent-development-audit.json",
     "source_sha256": "b5034e7a9267a93c7034999482173c7aefc58ae0eabdab288d7d9c484953e6bb",
     "published_sha256": "a6531173143e0491fb3053e836a83df939b183902e5e7edb9b644abfbad13385",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/independent-interpretation-review.json",
     "published": "results/working-memory-equation-round4/independent-interpretation-review.json",
     "source_sha256": "c3d25ca43391535e2367b7e65291942d793ae4ef10ce6e45a28433593508ab62",
     "published_sha256": "9fc4f7597653af92ae849c5ff1db90466117e912e4cc02638520bf911c9d80a6",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/independent-reference-audit.json",
     "published": "results/working-memory-equation-round4/independent-reference-audit.json",
     "source_sha256": "5941f59880f42775e380e5a73bc0af62ad4f7f4adf2b57168fa10d1de21fdad5",
     "published_sha256": "64283308ac49996cc2a500c7fa5d8daaa9191e37b122dd8fac623a37a467a4a3",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/independent-statistics-audit.json",
     "published": "results/working-memory-equation-round4/independent-statistics-audit.json",
     "source_sha256": "dd002b4667da644ca9e3ee314c8e9dc18466458e0fe7db5a609e0a46884246dd",
     "published_sha256": "956e0a8f2c2e4cb9ec196d56a5b2f6c79bdd5efa1ad1de6cf5fad1f9be07039e",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/local-runtime-results.json",
     "published": "results/working-memory-equation-round4/local-runtime-results.json",
     "source_sha256": "ad65a1b3927155c1d033973a9fe4e2f7877c13a42feaa178916699dbf8958920",
     "published_sha256": "61b0bc986a1196179c4f574969738dd6215f836c65565d335931e58fb40ec346",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/local-runtime.md",
     "published": "results/working-memory-equation-round4/local-runtime.md",
     "source_sha256": "2739768464b33ab2ec27de64a3e8494ff14c840068656716e6c3b4f234ab0744",
     "published_sha256": "2739768464b33ab2ec27de64a3e8494ff14c840068656716e6c3b4f234ab0744",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/offline-readiness-amendment.json",
     "published": "results/working-memory-equation-round4/offline-readiness-amendment.json",
     "source_sha256": "20758298620e4cae03682945644a7654fe7a37ed82c1419fed233e8a20c45bb6",
     "published_sha256": "3bf1ae32ba2dca5769e01a6c74263b1b34f691f7335e0049afc858b45fee8794",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/offline-readiness-review.json",
     "published": "results/working-memory-equation-round4/offline-readiness-review.json",
     "source_sha256": "0e2dcc68c4dc1271c2af95dac7c5d6f9a2342535711a87a1c05d0c11422e63a6",
     "published_sha256": "3f44dc13ff040279ab624c9684a3f0d4df8c92c7f19a267b0ce91ff4aa00fc1d",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/offline-readiness.json",
     "published": "results/working-memory-equation-round4/offline-readiness.json",
     "source_sha256": "a356ecfbd7d24eaf1ccfa0a3e69b1914a209e55feae22ffea26a68f4e4ff4682",
     "published_sha256": "b790893ba7f507350c372747b0ea1145735e3b4e71646ca6fc2be4ff7e45408b",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/offline-verification.json",
     "published": "results/working-memory-equation-round4/offline-verification.json",
     "source_sha256": "e3f7214385e77de56daa95846615adf1e8716872dd45b84a48a4e411d34d32c1",
-    "published_sha256": "dbf5fd6d66918d3308ca33dce9729f51f3bf91c4da2ddf8f939a1f361890d21b",
-    "path_redacted": true
+    "published_sha256": "bbda61a1717135eddd55248e57047a3a418f029c74d7d2ccebbfa822a30f541c",
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/reference-transport-amendment.json",
     "published": "results/working-memory-equation-round4/reference-transport-amendment.json",
     "source_sha256": "d4eaa9680399a343aecc203e8e4e6c387870576a15d4a3f6b32388ebf7079d16",
     "published_sha256": "c30710313c990c3abc234f53c3e777321777d8f77ea6313b09a25cbc803d4360",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/report.md",
     "published": "results/working-memory-equation-round4/report.md",
     "source_sha256": "a5250d4c15f94c37512e278d1a81adf5bfb5a6d64b2e7cde961c07642cc51ff6",
-    "published_sha256": "a5250d4c15f94c37512e278d1a81adf5bfb5a6d64b2e7cde961c07642cc51ff6",
-    "path_redacted": false
+    "published_sha256": "d6cc1186b535f2ef3e485768094fcc97a9b2b882ccc4219bf2d5794b8d3a5873",
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/research-log.md",
     "published": "results/working-memory-equation-round4/research-log.md",
     "source_sha256": "b86ee1d50dbdbb74018d9777c6e441ea434fb16ebcf6b40371a3c773f3d6da9c",
     "published_sha256": "b86ee1d50dbdbb74018d9777c6e441ea434fb16ebcf6b40371a3c773f3d6da9c",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/research-protocol.md",
     "published": "results/working-memory-equation-round4/research-protocol.md",
     "source_sha256": "574259256975d817226b75e9eaaf65c359957fad3c27e8dc82dcbaac19294495",
     "published_sha256": "574259256975d817226b75e9eaaf65c359957fad3c27e8dc82dcbaac19294495",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/README.md",
     "published": "results/working-memory-fresh100/README.md",
     "source_sha256": "5e3e4ae4f63ca4d2a1c69ca2d00f70bb71f0439284fa62390b965967cabcc0c6",
     "published_sha256": "5e3e4ae4f63ca4d2a1c69ca2d00f70bb71f0439284fa62390b965967cabcc0c6",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/all-comparisons.jsonl",
     "published": "results/working-memory-fresh100/all-comparisons.jsonl",
     "source_sha256": "eb6a4030f06695522431c84a754d66847f34eb3583f9f87ca0eeaf825fe8e00e",
     "published_sha256": "eb6a4030f06695522431c84a754d66847f34eb3583f9f87ca0eeaf825fe8e00e",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/chance-baselines.json",
     "published": "results/working-memory-fresh100/chance-baselines.json",
     "source_sha256": "7166faae3496d72a75058e4afbe2c36608c3f04c62c16ec2f781b1db461cdb83",
     "published_sha256": "7166faae3496d72a75058e4afbe2c36608c3f04c62c16ec2f781b1db461cdb83",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/chance-comparison.md",
     "published": "results/working-memory-fresh100/chance-comparison.md",
     "source_sha256": "55d4b54664ecd9f2d96e8ef83e1b79026feb01bd3c78101d0c212d42eddb914a",
     "published_sha256": "55d4b54664ecd9f2d96e8ef83e1b79026feb01bd3c78101d0c212d42eddb914a",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/corpus.jsonl",
     "published": "results/working-memory-fresh100/corpus.jsonl",
     "source_sha256": "3ebfa3714cdcb1d8d336805437e8868d89d38c2a10bf6456a12eec5c2735312c",
     "published_sha256": "3ebfa3714cdcb1d8d336805437e8868d89d38c2a10bf6456a12eec5c2735312c",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/design.md",
     "published": "results/working-memory-fresh100/design.md",
     "source_sha256": "362e516c41133675f72006c5119f0b8b748af39ae7d294a207a89c901e46505e",
     "published_sha256": "362e516c41133675f72006c5119f0b8b748af39ae7d294a207a89c901e46505e",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/overlap-check.json",
     "published": "results/working-memory-fresh100/overlap-check.json",
     "source_sha256": "b1f9462e0d8461b8c30097472ee24fe79e5edb75d4b1433884d7173bbb0a28d8",
     "published_sha256": "a53b235533e53a570f061cb969d43e355943f3660af2d935f7fec2de73524c70",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/predictions.jsonl",
     "published": "results/working-memory-fresh100/predictions.jsonl",
     "source_sha256": "12803d644da428b7c43de04abfd5a643f06f0d531b0b29c15c0032c7e9d70d9d",
     "published_sha256": "12803d644da428b7c43de04abfd5a643f06f0d531b0b29c15c0032c7e9d70d9d",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/protocol.md",
     "published": "results/working-memory-fresh100/protocol.md",
     "source_sha256": "742d4cb08c2435a4d747788f6926a5a4c4dca588cc4d63cb816b978a6273161e",
     "published_sha256": "742d4cb08c2435a4d747788f6926a5a4c4dca588cc4d63cb816b978a6273161e",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/report.md",
     "published": "results/working-memory-fresh100/report.md",
     "source_sha256": "69bd0e95939b982118fab1b76b7e97b18dee7fcab9d50b5d09748824e1053d3a",
     "published_sha256": "69bd0e95939b982118fab1b76b7e97b18dee7fcab9d50b5d09748824e1053d3a",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/results.json",
     "published": "results/working-memory-fresh100/results.json",
     "source_sha256": "f66287acd4f0d4b7273f0c55f8109adc73615d2d03385fc90fa7de13b9f2b8ff",
     "published_sha256": "c934e739946c33dd8921984efaa38ad222332dc43b25d59b95a94da8cfdbddbd",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/seal.json",
     "published": "results/working-memory-fresh100/seal.json",
     "source_sha256": "5e09b47f446a80ded4336eade908053acdccd3b2e0843d4f0e51d3a02de4ac49",
     "published_sha256": "75c7be4eba58c40bdc5b052d80d609e66619f52e0d65a8617dadf4fc700e5fd4",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/status.json",
     "published": "results/working-memory-fresh100/status.json",
     "source_sha256": "e67b49d60ec6dd509b7fb6a50942d7c1ceb6e8c815a759e54ad85cbfe559bff6",
     "published_sha256": "e67b49d60ec6dd509b7fb6a50942d7c1ceb6e8c815a759e54ad85cbfe559bff6",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/status.md",
     "published": "results/working-memory-fresh100/status.md",
     "source_sha256": "7f56d269091ad372bca60af1605ca1ed07fc4baff93e33c4b27cf01f18b309c4",
     "published_sha256": "7f56d269091ad372bca60af1605ca1ed07fc4baff93e33c4b27cf01f18b309c4",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/direct-text-equation-20260924/comparison-predictions.json",
     "published": "results/direct-text-equation-20260924/comparison-predictions.json",
     "source_sha256": "f9ba55f7a4ac97f353fd11391eda08dcde7e64e78163abbce5b2e3415018598e",
     "published_sha256": "f9ba55f7a4ac97f353fd11391eda08dcde7e64e78163abbce5b2e3415018598e",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/direct-text-equation-20260924/development-oof.json",
     "published": "results/direct-text-equation-20260924/development-oof.json",
     "source_sha256": "aee1a38708042e6ba006441fc8311f073b916f635f72258a393898ad589785af",
     "published_sha256": "aee1a38708042e6ba006441fc8311f073b916f635f72258a393898ad589785af",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/direct-text-equation-20260924/development-search.json",
     "published": "results/direct-text-equation-20260924/development-search.json",
     "source_sha256": "f4b352a38fe92275acffab7cf8848bb52a52daa1a45869e8d2babee49171e5f2",
     "published_sha256": "f4b352a38fe92275acffab7cf8848bb52a52daa1a45869e8d2babee49171e5f2",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/direct-text-equation-20260924/equation.md",
     "published": "results/direct-text-equation-20260924/equation.md",
     "source_sha256": "b797cfe4624cec2f2355578f544dbed1e2e03124b3e0da6212eba2369c6fc01d",
     "published_sha256": "b797cfe4624cec2f2355578f544dbed1e2e03124b3e0da6212eba2369c6fc01d",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/direct-text-equation-20260924/example-calculations.json",
     "published": "results/direct-text-equation-20260924/example-calculations.json",
     "source_sha256": "9f20b683f01e9db6ce03e9e452506b40228c9a7b9afd466770e6bf904e715ef2",
     "published_sha256": "9f20b683f01e9db6ce03e9e452506b40228c9a7b9afd466770e6bf904e715ef2",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/direct-text-equation-20260924/feature-definitions.json",
     "published": "results/direct-text-equation-20260924/feature-definitions.json",
     "source_sha256": "3fe29e55f29553e02e58b2d8bdbc61f5246a0bbccd04125abda8e2c814af3860",
     "published_sha256": "3fe29e55f29553e02e58b2d8bdbc61f5246a0bbccd04125abda8e2c814af3860",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/direct-text-equation-20260924/freeze.json",
     "published": "results/direct-text-equation-20260924/freeze.json",
     "source_sha256": "98338b39e22404c8be4f7a98b60597da24a2267c0a405d23602b3b2eb778d9e1",
     "published_sha256": "98338b39e22404c8be4f7a98b60597da24a2267c0a405d23602b3b2eb778d9e1",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/direct-text-equation-20260924/protocol.md",
     "published": "results/direct-text-equation-20260924/protocol.md",
     "source_sha256": "ecac932f0c8514d71a11cfae6a3548e289960997542934a97fad8f4e91ff93db",
     "published_sha256": "ecac932f0c8514d71a11cfae6a3548e289960997542934a97fad8f4e91ff93db",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/direct-text-equation-20260924/report.md",
     "published": "results/direct-text-equation-20260924/report.md",
     "source_sha256": "b89314ad769070d323f6073e465de6722b5ab9223713ffb17296406c7da0153d",
     "published_sha256": "b89314ad769070d323f6073e465de6722b5ab9223713ffb17296406c7da0153d",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/direct-text-equation-20260924/results.json",
     "published": "results/direct-text-equation-20260924/results.json",
     "source_sha256": "4919f5d26da9bb5c7a3cc02466d82f22fb64f89cc9c6d1fc866b10d3c9782962",
     "published_sha256": "4919f5d26da9bb5c7a3cc02466d82f22fb64f89cc9c6d1fc866b10d3c9782962",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/direct-text-equation-20260924/verification.json",
     "published": "results/direct-text-equation-20260924/verification.json",
     "source_sha256": "54aa3751aa9566648d71d0f09e0323f0722084c1e84e86fd687e9d53d4badcb4",
     "published_sha256": "54aa3751aa9566648d71d0f09e0323f0722084c1e84e86fd687e9d53d4badcb4",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/comparison-predictions.json",
     "published": "results/nonlinear-text-equation-20260924/comparison-predictions.json",
     "source_sha256": "39ee8a53e6e227f1053b10c9984749e7b13c9debff010aa24d26b00a7a6f45f8",
     "published_sha256": "39ee8a53e6e227f1053b10c9984749e7b13c9debff010aa24d26b00a7a6f45f8",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/delivery-verification.json",
     "published": "results/nonlinear-text-equation-20260924/delivery-verification.json",
     "source_sha256": "1128fbb46cf4d3dd9a8d0e886366d2f4f8e1eb6ba1d3de9c2ba41bda7f349cf9",
     "published_sha256": "1128fbb46cf4d3dd9a8d0e886366d2f4f8e1eb6ba1d3de9c2ba41bda7f349cf9",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/equation.md",
     "published": "results/nonlinear-text-equation-20260924/equation.md",
     "source_sha256": "fcd00eace4179f134565cb24821daccddd8a68932e8739ce238ff603d28e047a",
     "published_sha256": "fcd00eace4179f134565cb24821daccddd8a68932e8739ce238ff603d28e047a",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/example-calculations.json",
     "published": "results/nonlinear-text-equation-20260924/example-calculations.json",
     "source_sha256": "f91f048cf00145f7ee56653fe8b0476c777d9076fbdbdf143f22b295eaaa3786",
     "published_sha256": "f91f048cf00145f7ee56653fe8b0476c777d9076fbdbdf143f22b295eaaa3786",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/feature-collisions.json",
     "published": "results/nonlinear-text-equation-20260924/feature-collisions.json",
     "source_sha256": "18ae645ce82e35cf7cbd7827ca667e6b87d87b7a3043e194f17040982d797c83",
     "published_sha256": "18ae645ce82e35cf7cbd7827ca667e6b87d87b7a3043e194f17040982d797c83",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/numerical-resolution.md",
     "published": "results/nonlinear-text-equation-20260924/numerical-resolution.md",
     "source_sha256": "6c11187c8367e9263fd9bdef9e476a35330bce90c9b9bebe30720e544aeb1a39",
     "published_sha256": "6c11187c8367e9263fd9bdef9e476a35330bce90c9b9bebe30720e544aeb1a39",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/protocol.md",
     "published": "results/nonlinear-text-equation-20260924/protocol.md",
     "source_sha256": "a4078a8090feb9095788cc7b4221638659bd9a6b7150cde650931a0e9c0bf926",
     "published_sha256": "a4078a8090feb9095788cc7b4221638659bd9a6b7150cde650931a0e9c0bf926",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/report.md",
     "published": "results/nonlinear-text-equation-20260924/report.md",
     "source_sha256": "1df5c1dc0e27da3873eab59d3493b463979f4972cec8e60a4148ae80f50422cd",
     "published_sha256": "1df5c1dc0e27da3873eab59d3493b463979f4972cec8e60a4148ae80f50422cd",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/results.json",
     "published": "results/nonlinear-text-equation-20260924/results.json",
     "source_sha256": "789a33acd8529f11e00986c90b26c5e646820dc06fd17dbe12d9e8a132b14164",
     "published_sha256": "789a33acd8529f11e00986c90b26c5e646820dc06fd17dbe12d9e8a132b14164",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/selection.json",
     "published": "results/nonlinear-text-equation-20260924/selection.json",
     "source_sha256": "02d646261bf8da9b486098cc14a584a9d305194b17dbba5618e6f458f2461c71",
     "published_sha256": "20d0de9760bc509574fe7fd1710ab24e7f62b683763426330b73c47209a672e0",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/equation-autopilot/README.md",
     "published": "results/equation-autopilot/README.md",
     "source_sha256": "c3e44cd0bc9b967f3082d21c9c39541a8cce1b64f3f1cc3eec71612f481d3abc",
     "published_sha256": "c3e44cd0bc9b967f3082d21c9c39541a8cce1b64f3f1cc3eec71612f481d3abc",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/equation-autopilot/best-candidate.json",
     "published": "results/equation-autopilot/best-candidate.json",
     "source_sha256": "6127bd1e07f52914b5a1cad6d4d7bae5a6388eb8ef980a7cfcfc91c67db7ee87",
     "published_sha256": "6127bd1e07f52914b5a1cad6d4d7bae5a6388eb8ef980a7cfcfc91c67db7ee87",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/equation-autopilot/config.json",
     "published": "results/equation-autopilot/config.json",
     "source_sha256": "ffd3467c1d06911f6c04371456833121de36057bfb1d6648417230a586ad6608",
     "published_sha256": "cbdcaf73f7f97ba143c71d92ba53b48ea48522264050afa6b6862ad86d192a8d",
-    "path_redacted": true
+    "path_redacted": true,
+    "publication_revision": 2
   },
   {
     "source": "outputs/equation-autopilot/status.json",
     "published": "results/equation-autopilot/status.json",
     "source_sha256": "8e3234d597d38fb4bc07ee065fc97676d6ef7b1415a9db6d409f7adcae6e3dc1",
     "published_sha256": "8e3234d597d38fb4bc07ee065fc97676d6ef7b1415a9db6d409f7adcae6e3dc1",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/equation-autopilot/status.md",
     "published": "results/equation-autopilot/status.md",
     "source_sha256": "c73a7ffad7abecf676f443029a98e9d600e8dfa06d61208719b0fee5046b903f",
     "published_sha256": "c73a7ffad7abecf676f443029a98e9d600e8dfa06d61208719b0fee5046b903f",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/equation-autopilot/verification.json",
     "published": "results/equation-autopilot/verification.json",
     "source_sha256": "b0d5a509729a7eec8ab4476e417e946b5fec57c164557133db955b1cef504c0d",
     "published_sha256": "b0d5a509729a7eec8ab4476e417e946b5fec57c164557133db955b1cef504c0d",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/kernel-polynomial/gaussian-equation.json",
     "published": "models/gaussian.json",
     "source_sha256": "bbf6494601187a251af4f659b0a7cf80df9b77b8bb1cdf22b59c4b94ace4c5bc",
     "published_sha256": "bbf6494601187a251af4f659b0a7cf80df9b77b8bb1cdf22b59c4b94ace4c5bc",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/kernel-polynomial/polynomial-equation.json",
     "published": "models/polynomial.json",
     "source_sha256": "103f0f5164ca291db2dc2f7f9db734eb1cd3ed85d63c1657d02ba79215d6d3bf",
     "published_sha256": "103f0f5164ca291db2dc2f7f9db734eb1cd3ed85d63c1657d02ba79215d6d3bf",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/splines/spline-equation.json",
     "published": "models/spline.json",
     "source_sha256": "ba78e63049f744b58e27d7bd8cc3d69186aea7bb9ee149777cbf77f116d25f27",
     "published_sha256": "ba78e63049f744b58e27d7bd8cc3d69186aea7bb9ee149777cbf77f116d25f27",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/splines/word_count_spline-equation.json",
     "published": "models/word-count.json",
     "source_sha256": "fdee043a8232e53bb246e798a931870d752454d0579d9ea5f3766ecc1c59184f",
     "published_sha256": "fdee043a8232e53bb246e798a931870d752454d0579d9ea5f3766ecc1c59184f",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/direct-text-equation-20260924/equation.json",
     "published": "models/linear.json",
     "source_sha256": "dd422edd0486cf11435b1596abdb5758614cbb78bd1e506de376f41ea64d1b1d",
     "published_sha256": "dd422edd0486cf11435b1596abdb5758614cbb78bd1e506de376f41ea64d1b1d",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-equation-round4/equation.json",
     "published": "models/component-count-mode.json",
     "source_sha256": "be1a6884cb99d4a7d56759c9ae81e8d75d4b140963cfc0e568908e023303d781",
-    "published_sha256": "be1a6884cb99d4a7d56759c9ae81e8d75d4b140963cfc0e568908e023303d781",
-    "path_redacted": false
+    "published_sha256": "f8c7b8f7f3ed63f3d9083181487e81628fc9aa9f9d95a854d38ef52841374666",
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/full-equation.txt",
     "published": "models/gaussian-full-equation.txt",
     "source_sha256": "b685dd68bcbf5c0c962c90984c78ce9ffc90b15dd8e44ced9c9494acea532a56",
     "published_sha256": "b685dd68bcbf5c0c962c90984c78ce9ffc90b15dd8e44ced9c9494acea532a56",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "work/nonlinear-text-equation-20260924/data/train.npz",
     "published": "data/train.npz",
     "source_sha256": "8aa63b37d4fbc29408caa76086a5b9837f2071908647fd42b47a84e292c07276",
     "published_sha256": "8aa63b37d4fbc29408caa76086a5b9837f2071908647fd42b47a84e292c07276",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "work/nonlinear-text-equation-20260924/data/comparison-features.npz",
     "published": "data/comparison-features.npz",
     "source_sha256": "3f290e194ef772d38ddadd3299eab379447cf8303f1e19449ce617a460caad84",
     "published_sha256": "3f290e194ef772d38ddadd3299eab379447cf8303f1e19449ce617a460caad84",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "work/nonlinear-text-equation-20260924/data/features.json",
     "published": "data/features.json",
     "source_sha256": "f38dbb90a09f183cd5adb599859ce39b1e96328244290a23da3c68c9e4dab0f1",
     "published_sha256": "f38dbb90a09f183cd5adb599859ce39b1e96328244290a23da3c68c9e4dab0f1",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "work/nonlinear-text-equation-20260924/data/folds.json",
     "published": "data/folds.json",
     "source_sha256": "9fb011b7e4c4b004b7ad2a671a3aa9b576da38ef1ad0a4ef01fb800ad461db52",
     "published_sha256": "9fb011b7e4c4b004b7ad2a671a3aa9b576da38ef1ad0a4ef01fb800ad461db52",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "work/nonlinear-text-equation-20260924/data/provenance.json",
     "published": "data/provenance.json",
     "source_sha256": "246ce3cc141ab34a0c6b2ad2a9051bfb1f50e89939e566754b01c6d67d7779a4",
     "published_sha256": "246ce3cc141ab34a0c6b2ad2a9051bfb1f50e89939e566754b01c6d67d7779a4",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "work/round4/data/development-labels-688.jsonl",
     "published": "data/development.jsonl",
     "source_sha256": "d22f480c1c0a3f056504ad56807a80eb1e53e0917906e3898da41216cc20c546",
     "published_sha256": "d22f480c1c0a3f056504ad56807a80eb1e53e0917906e3898da41216cc20c546",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/all-comparisons.jsonl",
     "published": "data/comparison.jsonl",
     "source_sha256": "eb6a4030f06695522431c84a754d66847f34eb3583f9f87ca0eeaf825fe8e00e",
     "published_sha256": "eb6a4030f06695522431c84a754d66847f34eb3583f9f87ca0eeaf825fe8e00e",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/working-memory-fresh100/corpus.jsonl",
     "published": "data/comparison-corpus.jsonl",
     "source_sha256": "3ebfa3714cdcb1d8d336805437e8868d89d38c2a10bf6456a12eec5c2735312c",
     "published_sha256": "3ebfa3714cdcb1d8d336805437e8868d89d38c2a10bf6456a12eec5c2735312c",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "work/equation-research/features.py",
     "published": "src/jev_equations/features.py",
     "source_sha256": "7928287c39bb1db956d7f5006c02515492973aa7660f675a7054090f134e450f",
     "published_sha256": "7928287c39bb1db956d7f5006c02515492973aa7660f675a7054090f134e450f",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "work/direct-text-equation-20260924/text_counts.py",
     "published": "src/jev_equations/text_counts.py",
     "source_sha256": "9db715cb1a22c006bf7d0952d14967e61e578fefcb5cb5711f068c6dee2ade57",
     "published_sha256": "9db715cb1a22c006bf7d0952d14967e61e578fefcb5cb5711f068c6dee2ade57",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "outputs/nonlinear-text-equation-20260924/splines/runtime.py",
     "published": "src/jev_equations/spline_runtime.py",
     "source_sha256": "8c2fe893926e449df94d6132a58f44696383154cf31d776d2d68e1f082049a78",
     "published_sha256": "8c2fe893926e449df94d6132a58f44696383154cf31d776d2d68e1f082049a78",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "work/round4/package/bundle-final/requirements.txt",
     "published": "provenance/original-environment.txt",
     "source_sha256": "4f5ff315511a9ac13d6f361abd5d0df460e15191dae1e54af3f4b41b30598d5f",
     "published_sha256": "4f5ff315511a9ac13d6f361abd5d0df460e15191dae1e54af3f4b41b30598d5f",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "work/repo-angle-review/LICENSE",
     "published": "provenance/Working-Memory-Jev-LICENSE.txt",
     "source_sha256": "98cc022bc8939f4d55310bc6feb471c4ba2d4a229a7f17300e70d4a63b6cdf9e",
     "published_sha256": "98cc022bc8939f4d55310bc6feb471c4ba2d4a229a7f17300e70d4a63b6cdf9e",
-    "path_redacted": false
+    "path_redacted": false,
+    "publication_revision": 2
   },
   {
     "source": "work/repo-angle-review/THIRD_PARTY_NOTICES.md",
     "published": "provenance/Working-Memory-Jev-NOTICES.md",
     "source_sha256": "8536a32a2dd18c58c105a16b6cca418b332996f3134193a27b596cfdc361573e",
-    "published_sha256": "8536a32a2dd18c58c105a16b6cca418b332996f3134193a27b596cfdc361573e",
-    "path_redacted": false
+    "published_sha256": "80e01c5b475b195ccefae7d2fa68318b049d053495f1a826c807df8e52d4fa82",
+    "path_redacted": false,
+    "publication_revision": 2
   }
 ]

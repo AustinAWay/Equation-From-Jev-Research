@@ -1,0 +1,2820 @@
+{
+  "revision": 2,
+  "files": [
+    {
+      "path": "outputs/equation-autopilot/best-equation.json",
+      "source_sha256": "61161481a3168e5270348b16b754731d14853769d745372e0d29117d1125fba1",
+      "published_sha256": "27f48bc3418c67cc6cc1b1ec709402e12fecc9be55bfa16157c99981f4024637",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/equation-autopilot/config.json",
+      "source_sha256": "ffd3467c1d06911f6c04371456833121de36057bfb1d6648417230a586ad6608",
+      "published_sha256": "985d86b75c51cd4ae8560fe2ebee589c146511c911862b461e22c56b2363362b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/nonlinear-text-equation-20260924/kernel-polynomial/freeze.json",
+      "source_sha256": "8ea62a200bfb8442e6bac61d5ba30fa8b7e9de6e85bd693f22c6b886e1e2c22b",
+      "published_sha256": "4e25e55d99fb327f665278160eaaf239f5f9619b648ac44400ab1e9cf639cbf6",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/nonlinear-text-equation-20260924/kernel-polynomial/numerical-initial/initial.log",
+      "source_sha256": "3bd10f4a25f1b94fef33d7fd43018ce27110bcddb1833114bd77baea3981b361",
+      "published_sha256": "dbeb0a09aa64e74b357e680180d41f57cfc271726ab2cde2bbacf955d3dcc279",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/nonlinear-text-equation-20260924/selection.json",
+      "source_sha256": "02d646261bf8da9b486098cc14a584a9d305194b17dbba5618e6f458f2461c71",
+      "published_sha256": "0e85b3794a0abd9eda2d069bbc972538106fb9ddcc40a828df43b7751778d96f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/nonlinear-text-equation-20260924/splines/freeze.json",
+      "source_sha256": "eb1906c5ddf398638fe1472f129e3925ff9cc5dfacc357d34c76b74577bf88fd",
+      "published_sha256": "f646e6e87ca73ef46c166f364e9118c4168a944e3763f2749287bcf1a4844632",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round2/exact_collisions.json",
+      "source_sha256": "465916543653368a71281e76c450b28349f8f7e078c8785d0951479e22c7e331",
+      "published_sha256": "f830bfbf1abf518cf27f1be0b333bd8c62fdbd355b88c8cb4dc4b74db6537536",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round2/freeze.json",
+      "source_sha256": "0c7ebf2b9adb8e9556b09becf9179aa645e82c47ef2a2ded2e4680c11d7b720a",
+      "published_sha256": "9afb1ea2438d88a44827b41b70a76c23570a2d36a4717cb020bdec1151ed08d5",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round2/reference-report.json",
+      "source_sha256": "360290401ea3c381d99a2c4e74a248fffcc35cd1fd6626c8c90210b4b474c869",
+      "published_sha256": "f092c82884f3fb567b8c8e6edab6b26a0b2645519ed15926e1af4d72462c287b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round3/costs.json",
+      "source_sha256": "fe4f54f633f379db49b3e6cc27d19f7f2088e31abccedc49524e1b838a1742b5",
+      "published_sha256": "4de4d152d5251c3eadd626e576976f53303ca0c3603aced83233b62e5e6683a5",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round3/offline/verification.json",
+      "source_sha256": "ba899aad1dc943f01053019722fa7f1bb5c7ed175afbd3d5011d99e3f2e5d8d1",
+      "published_sha256": "3e140bebd9f63a0ecfdedc38b828a0c57b0b53c9898894f3471ab4727ace1915",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round3/reference-study/repeatability-replication/consolidated-reference-audit.json",
+      "source_sha256": "936e0949dc3fec52db2ac43f32e9720fa833829627ae3c9efb2d83f6c88eb04c",
+      "published_sha256": "37d66bd25b0d50215391ec85ecf537db7572980114b2a4462629b9fad9113c80",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round3/reference-study/repeatability-replication/pooled-results.json",
+      "source_sha256": "8812b47c0425c5e454c334bfce65b167e1a3d9708354a6fff6b87512f9abdfc0",
+      "published_sha256": "3a2037525ea087a320cec513fb0a07a985a6195de5388ea32073531da97a9c70",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round3/reference-study/repeatability-replication/selection.json",
+      "source_sha256": "5d0ffba469cb399a85d77127d50c77b13da9db3cbea8bb9fb614b72f44968dc7",
+      "published_sha256": "0a3385ad8a6b57f946997e8411c85b5727cf6ec77eaef4a7209c3480164b445e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round3/reference-study/repeatability/selection.json",
+      "source_sha256": "81e6f5aa42b3755475f57e1265fd57b44e6693ce66b91160f9d5e9bb2832a630",
+      "published_sha256": "460962443364c99e7d06746e4883a5993427c1d8b4a74bb56fc8d051910869ab",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round3/report.md",
+      "source_sha256": "7dcc58b99dec0521033824ca8aa1aeca82d987dc6166b0da2f485c0fd29d01f8",
+      "published_sha256": "9e9bcd0acfc5ca21e6f7f3488a2d6bcd8b93a788041c9e692c4caefd9ed7518c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round3/research-log.md",
+      "source_sha256": "997be0c6e8fb18faf9d5cba8a16ce770aa12a7ce41525dbb41f67a6906dba1f0",
+      "published_sha256": "246a8e50358bfeff4f7753e46b0d3dfe11daaf4566cdbcc1fcb1d8f0e9a2841a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/archive-recovery-review.json",
+      "source_sha256": "74b11174c1cd2a957252dcf8b0ea79956703e587d6286e114028c6a7cac773ef",
+      "published_sha256": "66d79b7057bc1cec2a819243ce7d8ab5450e93d9d4bb48362aaccec07072573d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/costs.json",
+      "source_sha256": "8862f8c80d867a473d78a5ebe4cbc21eb78f7d9000353303a7b6da85f9b9ad14",
+      "published_sha256": "7c77cb5c0e5131da7d0128a5b11ac3a5a6904c2f270cd81c4000cfedfd1d4f64",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/delivery-provenance.json",
+      "source_sha256": "33fa6474acd8e9d6e4f57f97f08541ccd9e11ad21bbda018c2acde6845083318",
+      "published_sha256": "3262174929fe1b9f6cf1db6749f4b36934ee94d4b43400831184ee62b43de621",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/equation-export-audit.json",
+      "source_sha256": "d5f649019f29b525b061d28f539ae9205e0e1e07615d69df90be26ada4fcfca6",
+      "published_sha256": "e296e9126d3b06e61a57f82e430de162cba339a9e13dd1f3a62e6d07eff322e1",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/equation.json",
+      "source_sha256": "be1a6884cb99d4a7d56759c9ae81e8d75d4b140963cfc0e568908e023303d781",
+      "published_sha256": "f8c7b8f7f3ed63f3d9083181487e81628fc9aa9f9d95a854d38ef52841374666",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/evaluation-completion.json",
+      "source_sha256": "a092709427069ade39b44e51724e243f9b889f6c5c335eebdba2b2c414527b94",
+      "published_sha256": "ab2f1659769db65bd47cc9853cdaf635d13a9c0d898e6b9879455147588d62d5",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/final-results.json",
+      "source_sha256": "198d46a04f132f430d11fac03c0981338872df08d5c3b40c02c327b0dc15ffe8",
+      "published_sha256": "50005f04ee0d4288f025881aae15ff32434b1c011595c328be52e965cab3da58",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/independent-development-audit.json",
+      "source_sha256": "b5034e7a9267a93c7034999482173c7aefc58ae0eabdab288d7d9c484953e6bb",
+      "published_sha256": "3063143209a121e709da43681779c896b80191a4de742a2cd86540cf8a636bad",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/independent-interpretation-review.json",
+      "source_sha256": "c3d25ca43391535e2367b7e65291942d793ae4ef10ce6e45a28433593508ab62",
+      "published_sha256": "95810fd16823b5fde099b185558d935ed9b8d1e23a80ea6c6c437acf99b7bef8",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/independent-reference-audit.json",
+      "source_sha256": "5941f59880f42775e380e5a73bc0af62ad4f7f4adf2b57168fa10d1de21fdad5",
+      "published_sha256": "e049a1d82fd1a6aa0e7c95703f600f45c55302b06212354e890e57d7aca899ee",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/independent-statistics-audit.json",
+      "source_sha256": "dd002b4667da644ca9e3ee314c8e9dc18466458e0fe7db5a609e0a46884246dd",
+      "published_sha256": "026fa4293945dea5704dd2e28280939d78650c8a7371e4a074cd24c6f1b487a2",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/local-runtime-results.json",
+      "source_sha256": "ad65a1b3927155c1d033973a9fe4e2f7877c13a42feaa178916699dbf8958920",
+      "published_sha256": "4e1b3056ea02d81f088885abdd798f1ffa953b9b78b646a4e83a5392be58a976",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/offline-readiness-amendment.json",
+      "source_sha256": "20758298620e4cae03682945644a7654fe7a37ed82c1419fed233e8a20c45bb6",
+      "published_sha256": "5f17675c13c473666204ae5cdb909088e6eaaea26240ba6344bff38b002a318c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/offline-readiness-review.json",
+      "source_sha256": "0e2dcc68c4dc1271c2af95dac7c5d6f9a2342535711a87a1c05d0c11422e63a6",
+      "published_sha256": "dbfc19ab468a323e7acc1e4857ed066393b457116373f720651188bc475c1e58",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/offline-readiness.json",
+      "source_sha256": "a356ecfbd7d24eaf1ccfa0a3e69b1914a209e55feae22ffea26a68f4e4ff4682",
+      "published_sha256": "901dab4f18c63cb238168d90a16a59e11599afc0bad55f5699a9f1115f504f01",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/offline-verification.json",
+      "source_sha256": "e3f7214385e77de56daa95846615adf1e8716872dd45b84a48a4e411d34d32c1",
+      "published_sha256": "2ec5c7f8295b1a728f55fc303e4422fc94244836ef52829cf557310877d1a703",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/reference-transport-amendment.json",
+      "source_sha256": "d4eaa9680399a343aecc203e8e4e6c387870576a15d4a3f6b32388ebf7079d16",
+      "published_sha256": "6469b3ee8dc4f189f9b067a4e10b4249979d01b061e2d0cb26d82fd28cafc6c5",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation-round4/report.md",
+      "source_sha256": "a5250d4c15f94c37512e278d1a81adf5bfb5a6d64b2e7cde961c07642cc51ff6",
+      "published_sha256": "d6cc1186b535f2ef3e485768094fcc97a9b2b882ccc4219bf2d5794b8d3a5873",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation/figures/figures_manifest.json",
+      "source_sha256": "9caf21efe578cd9ad8890786e9ac6c16104063735191a89815c8d8ef753fd7d7",
+      "published_sha256": "ffabe09f4e33401a8587183d781dc9348c72fe60129f0bb558446015cd8b18de",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-equation/reference-report.json",
+      "source_sha256": "5de43f510d14032c369b99f26a91f2fcf5ec52915fef637d2ba8262be68f0b3e",
+      "published_sha256": "50d784f142c506527b9e1353889720eb5b62c47a113dc16f0cc8247a7b7ef79b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-fresh100/overlap-check.json",
+      "source_sha256": "b1f9462e0d8461b8c30097472ee24fe79e5edb75d4b1433884d7173bbb0a28d8",
+      "published_sha256": "57ffc83deed76a7359b865d3ac0894c357f29ee9fd5f683f19af0e709031f594",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-fresh100/results.json",
+      "source_sha256": "f66287acd4f0d4b7273f0c55f8109adc73615d2d03385fc90fa7de13b9f2b8ff",
+      "published_sha256": "b5da22a4a7c82a8300ba0f4411c6c09c6797482b1706ba4c46b907756596c39f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "outputs/working-memory-fresh100/seal.json",
+      "source_sha256": "5e09b47f446a80ded4336eade908053acdccd3b2e0843d4f0e51d3a02de4ac49",
+      "published_sha256": "d01478ff75cc7dfbdbeb7ac5552fbe5a47a5dc4da9890b20b6f7d387d0929b05",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/autopilot-smoke/config.json",
+      "source_sha256": "db0a14db15f5678cbb4434ef1e8692380e6903f3d462ae7705a9cfd7a3b853b4",
+      "published_sha256": "7b98d014826596e241d05392fb74979a55d57287a118fa3af3e5975b2fe49c9a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/autopilot-smoke/output/best-equation.json",
+      "source_sha256": "33167baaf00318d649297f0af2fbf7e410d0e1b92185cc89b4ab3a6f1be973ae",
+      "published_sha256": "2654c5458417dddde2eebacf0dd0d57df065ac08f649d780b5450af88619b4f0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/autopilot-smoke/run/identity.json",
+      "source_sha256": "5388e6db1f09fb8f426a2dd6a325028b7f8edf46c5012ad4ebac85675c12dd2a",
+      "published_sha256": "37a46c1234519bf5e23ad45336e2f6486414ae458dd454fc76bcccf0fdbe2e37",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/autopilot-smoke/run/trials/00000/equation.json",
+      "source_sha256": "56afae7670510f18ba106b1d118d9dc030b5ef9191fac01d089668e71defcaad",
+      "published_sha256": "ba3c06d7e146b15cb2bbabf95ea3780b21a5301022668bc3d16eca280b8b7d58",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/autopilot-smoke/run/trials/00000/export-result.json",
+      "source_sha256": "e24b8459ebc9e4f6369bedcbf4270ca50055c207c8f90a986678c9853eb0fa11",
+      "published_sha256": "09b85d529414ab1fb1856623b18fc108cfe7a92dc83e1aaed7ce181e78689dd1",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/autopilot-smoke/run/trials/00001/equation.json",
+      "source_sha256": "fce110b2f64ceab214609b30032540307f52c7d9e3f17503654e8eb1f6d12679",
+      "published_sha256": "6efb99fbca47fa84e079f4fa63c0ad77b7e3f5d36dda8924c5f66d8fd1361474",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/autopilot-smoke/run/trials/00001/export-result.json",
+      "source_sha256": "4944541ed584cf771c6244386b649a1c36d7d389b6e6d474605341c0fa5dec54",
+      "published_sha256": "1eff49d911f53d73be7995a85710ec99f7f5e168147f57fd283786c9400a29bd",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/direct-text-equation-20260924/fit-verified.log",
+      "source_sha256": "6027b4f058ae21dbeb9e9e7d7e7ef95650f24821c5931e60f51e94232761faf1",
+      "published_sha256": "ee286edc69160f300a33aeaf50c4e56dea61b9386af45ae615a234e102b1f55d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/direct-text-equation-20260924/fit.log",
+      "source_sha256": "1b05eefe137cd75973ecacc517c1d09c59f2cc8ba296ea96d8f01abb5c7fd480",
+      "published_sha256": "b794fbd3b609aa9e63c59120e153ae1b4a7a5e4b1a0e0668f802544c4041413e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/direct-text-equation-20260924/structure-extraction.log",
+      "source_sha256": "17151e36cc18213166b03a6c167bf30d9c59ccdf7ca1c520776447cede77a24e",
+      "published_sha256": "c7fea6b977984f1c9374950d329b3d41330da376fc1affde5599625df8e8fc7f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/identity.json",
+      "source_sha256": "e19678a9a4ebb14778b5273137f0adfdfea67f7cc8704d5980c363d1f67f4e8d",
+      "published_sha256": "86568aaaa1622ee7be87506d6623d4a112ba5657dbf817ca2a6c7a2786679386",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/launch.json",
+      "source_sha256": "52581b249b33de90e2538bd6789274ec2b6ccfc0353295f40f5edfbbdee1b5fd",
+      "published_sha256": "8f38ac4f58fd8f69a1531761d33f384b288e96d3e9bdc7a487fde40c9d1ac5cb",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00000/equation.json",
+      "source_sha256": "c7c0b694872437333d94995929c804452f2210b4822d69c61f259233d19df2ef",
+      "published_sha256": "dfc164f5d333b1a45b82a57b14a5632553254f899125b499895b71638cfd43d1",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00000/export-result.json",
+      "source_sha256": "840f2e43811e571940da424a5a2cd48a3f92ae341bccfb15a90ed235eb9497ed",
+      "published_sha256": "23704815d369c290a7a558c90facd97555991b67a04439a99d6e8a18000809d3",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00005/score.log",
+      "source_sha256": "1dcd17a8aec624852c8adef06ba458c9190f523a3443bd8b4445d3186fe56693",
+      "published_sha256": "765ab326fd3046007abfe6694f9c32028b846ad60632202528e922b06f7278d0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00006/score.log",
+      "source_sha256": "1dcd17a8aec624852c8adef06ba458c9190f523a3443bd8b4445d3186fe56693",
+      "published_sha256": "765ab326fd3046007abfe6694f9c32028b846ad60632202528e922b06f7278d0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00007/score.log",
+      "source_sha256": "1dcd17a8aec624852c8adef06ba458c9190f523a3443bd8b4445d3186fe56693",
+      "published_sha256": "765ab326fd3046007abfe6694f9c32028b846ad60632202528e922b06f7278d0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00016/equation.json",
+      "source_sha256": "fac3216714b1baaede395a8c4c040296359572cbacae0b0f6b268ce16389b315",
+      "published_sha256": "514530658c6290e2a3e85d95c01e17f54d2a7a2831b6fac703aaa495f36d88a7",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00016/export-result.json",
+      "source_sha256": "724e157aa45998d4d31c4effa8c531fa778af702555786d6cf70dbc3f1dc17d8",
+      "published_sha256": "6fef19eb284191e096ca54e71506d10ad35492aea70a9d06aee3e439e67e409c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00025/equation.json",
+      "source_sha256": "576c40083137ce9ca37c21b13d61a75a8d56bf4feae5bd3d1cf17de8cad012ee",
+      "published_sha256": "bbf0f174ebad6216866adfb3d523fc0083645915275e1eb369e90e16b1842465",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00025/export-result.json",
+      "source_sha256": "77f075321a82fcd058dc887506ec73fa1defc9dc31acce24c03c6e93817a7d23",
+      "published_sha256": "a4636bf559a01963a024ec3d771d27c248172c671b2819286ff1b041694b8bad",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00027/score.log",
+      "source_sha256": "b7e91f76417908399473afe18a47b0a6255cfbeab99f19f701bd56663e9a2515",
+      "published_sha256": "0da440db30232aa5b80434178470e1ffb38482c22b6ed0260591d0216b27a368",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00030/score.log",
+      "source_sha256": "b9252d51b67499354d70e4baf2f13ce4837ecae6287d8841e4e5bf4807c5a115",
+      "published_sha256": "6e27b2a01a87156fd5fd4570b0a5e09b4f8c68aa3313a69abcc7dcf8aab2f5c0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00031/equation.json",
+      "source_sha256": "8b5ee4c8478bac0f6f542aee1e1006bdde3310d1bfaf3cf7cd2ffc0d1b0bff2e",
+      "published_sha256": "89809b6ebd98bc7e93d01bf30b05ab70bce2baea6275e703caeb43daca092487",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00031/export-result.json",
+      "source_sha256": "b4ffd9ab7d845f6b422b3b4c23b8875a62836c98ceb71fe60f767d8585403f4e",
+      "published_sha256": "44fc14e35f05a29c987a9493caf8985041208f57fed6b4941ae2cd5a884d6a89",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00036/score.log",
+      "source_sha256": "1dcd17a8aec624852c8adef06ba458c9190f523a3443bd8b4445d3186fe56693",
+      "published_sha256": "765ab326fd3046007abfe6694f9c32028b846ad60632202528e922b06f7278d0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00058/score.log",
+      "source_sha256": "1dcd17a8aec624852c8adef06ba458c9190f523a3443bd8b4445d3186fe56693",
+      "published_sha256": "765ab326fd3046007abfe6694f9c32028b846ad60632202528e922b06f7278d0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00059/score.log",
+      "source_sha256": "b9252d51b67499354d70e4baf2f13ce4837ecae6287d8841e4e5bf4807c5a115",
+      "published_sha256": "6e27b2a01a87156fd5fd4570b0a5e09b4f8c68aa3313a69abcc7dcf8aab2f5c0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00080/score.log",
+      "source_sha256": "b9252d51b67499354d70e4baf2f13ce4837ecae6287d8841e4e5bf4807c5a115",
+      "published_sha256": "6e27b2a01a87156fd5fd4570b0a5e09b4f8c68aa3313a69abcc7dcf8aab2f5c0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00083/score.log",
+      "source_sha256": "1dcd17a8aec624852c8adef06ba458c9190f523a3443bd8b4445d3186fe56693",
+      "published_sha256": "765ab326fd3046007abfe6694f9c32028b846ad60632202528e922b06f7278d0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00102/score.log",
+      "source_sha256": "b9252d51b67499354d70e4baf2f13ce4837ecae6287d8841e4e5bf4807c5a115",
+      "published_sha256": "6e27b2a01a87156fd5fd4570b0a5e09b4f8c68aa3313a69abcc7dcf8aab2f5c0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00106/score.log",
+      "source_sha256": "b9252d51b67499354d70e4baf2f13ce4837ecae6287d8841e4e5bf4807c5a115",
+      "published_sha256": "6e27b2a01a87156fd5fd4570b0a5e09b4f8c68aa3313a69abcc7dcf8aab2f5c0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00109/score.log",
+      "source_sha256": "b9252d51b67499354d70e4baf2f13ce4837ecae6287d8841e4e5bf4807c5a115",
+      "published_sha256": "6e27b2a01a87156fd5fd4570b0a5e09b4f8c68aa3313a69abcc7dcf8aab2f5c0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00116/equation.json",
+      "source_sha256": "d823fa9522f802e3cd9b5c75741e5ee32d9ed74b1492174e5f3a29dfb8d48c56",
+      "published_sha256": "ad9cf7f3da78dc15cc6b11888bc3679bfb25fb1320a41a28e1d59c5afdf1d36e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00116/export-result.json",
+      "source_sha256": "7d0abcde55fcb31d2b16c30035a54efdf3c05ac4bc04bee29464312674b8768a",
+      "published_sha256": "21dcfd936fd10792b9a63220be573049fa23b1def4c46e5f369f683967b68bb9",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00118/score.log",
+      "source_sha256": "1dcd17a8aec624852c8adef06ba458c9190f523a3443bd8b4445d3186fe56693",
+      "published_sha256": "765ab326fd3046007abfe6694f9c32028b846ad60632202528e922b06f7278d0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00119/score.log",
+      "source_sha256": "1dcd17a8aec624852c8adef06ba458c9190f523a3443bd8b4445d3186fe56693",
+      "published_sha256": "765ab326fd3046007abfe6694f9c32028b846ad60632202528e922b06f7278d0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00135/score.log",
+      "source_sha256": "b9252d51b67499354d70e4baf2f13ce4837ecae6287d8841e4e5bf4807c5a115",
+      "published_sha256": "6e27b2a01a87156fd5fd4570b0a5e09b4f8c68aa3313a69abcc7dcf8aab2f5c0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00136/score.log",
+      "source_sha256": "b9252d51b67499354d70e4baf2f13ce4837ecae6287d8841e4e5bf4807c5a115",
+      "published_sha256": "6e27b2a01a87156fd5fd4570b0a5e09b4f8c68aa3313a69abcc7dcf8aab2f5c0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00147/equation.json",
+      "source_sha256": "aa44c5c017c7e5c5c2925ee75513bf25f9b13b5a8a4e5327e21bbf189a3080ff",
+      "published_sha256": "1e199331c8393e54d868164d734d787affc13f2a4d0d0d235d2a80d62f309733",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00147/export-result.json",
+      "source_sha256": "ec6b1b208e197e6081f568b07df6b884facf06a24e2fb76eb58ca49d5b0cfca1",
+      "published_sha256": "e48ecb2d0140bd5467a13d1aff1521d3cf786da2963a953a01c725a007491914",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-autopilot-run/trials/00172/score.log",
+      "source_sha256": "b9252d51b67499354d70e4baf2f13ce4837ecae6287d8841e4e5bf4807c5a115",
+      "published_sha256": "6e27b2a01a87156fd5fd4570b0a5e09b4f8c68aa3313a69abcc7dcf8aab2f5c0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/collect.py",
+      "source_sha256": "8a8165924ac74711579781dad0279aaeed18d055440c966415df6c55da02cb2c",
+      "published_sha256": "383a4507fcfc3d4c0ba6b5822a3b6f768f6dce290031cf8d04642ffd70a7ebdb",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/development-reference-progress.json",
+      "source_sha256": "de9b647d5761fbfb9b77a4fee4f9eb914f9197cb968deccb07f218da38ac9861",
+      "published_sha256": "789b42bf15e745129b9817bcbdd52fbd2d402bae47a4845ce3ce0c0845d3c657",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/figures/figures_manifest.json",
+      "source_sha256": "9caf21efe578cd9ad8890786e9ac6c16104063735191a89815c8d8ef753fd7d7",
+      "published_sha256": "ffabe09f4e33401a8587183d781dc9348c72fe60129f0bb558446015cd8b18de",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/final-evaluation.log",
+      "source_sha256": "1570bdbbef54f18c426281815679f2e483d7fb909509d28acb2407c0bb0d9d21",
+      "published_sha256": "3688dadeeabd21a2929af49062bda9b5ca5f776cae0a64055523806c6fe47609",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/final-search-verification.log",
+      "source_sha256": "e7028b6b04b2c0581f407c88c3a87d61b4a71733e550f4cfedeba2d26b8a7b8b",
+      "published_sha256": "ecad2415495bea0f0f345b5f3c6fe08de4ac3deb36b335193cb1a98f2324f166",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/full-fit.log",
+      "source_sha256": "edf8e951e129888235d24f8e80410ed494a986a71a87740fe0fb442853ea3812",
+      "published_sha256": "6dd06bb7441e7f9a5de9eb724bb2a7a919a68793eb7a41efa322febac5879c32",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/midpoint-fit-v3.log",
+      "source_sha256": "d8ba3c0c2937259d9a1b828551a02894e87ffd682c5cbcd8b5bf3bf2f1c78c83",
+      "published_sha256": "b4868d9198a8b0a40912e402eb49559238dc95f2b37a44096a2768e2d4ec596e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/midpoint-fit.log",
+      "source_sha256": "685cc57e2098ef37fd0881e03750f9e6461c222050e20152d7c986b5e1993fc6",
+      "published_sha256": "4961660e5d48d88cc626339ce9610f31b1fe9876196b15251e69f62834fbde24",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/package_results.py",
+      "source_sha256": "d7af1de1b5d61221cd2b2f96958f2d23dd86c0e9a7b0d70a1f6568a704b6ee0e",
+      "published_sha256": "e531c1203e8e733cd2458de11192ed40d67cf778f8c067a54ca6b9e67b905a5f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/pilot-fit-v2.log",
+      "source_sha256": "98642daa42f899745a036f86962cc4ebd989e1b7098b8ad153a7af4cabef31d3",
+      "published_sha256": "684b94cbda222703342b835338233cd11730b2700680522219f243a16200733b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/pilot-fit.log",
+      "source_sha256": "04309b47d94d8c00901fa97643c64cc1f9ed1bb8ed2354195099d93e6f44dc80",
+      "published_sha256": "08aa03f275c3f40d08c79c5d37ae44a2ad76785aa1db38f3636d65c0a793ba5c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/reference-report.json",
+      "source_sha256": "5de43f510d14032c369b99f26a91f2fcf5ec52915fef637d2ba8262be68f0b3e",
+      "published_sha256": "50d784f142c506527b9e1353889720eb5b62c47a113dc16f0cc8247a7b7ef79b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/tests-verification.log",
+      "source_sha256": "afdb325f3c0bd9cfc3c22202a57198aed6274ab23d95230aa310f85b74283dfc",
+      "published_sha256": "373c06c91b0589b06db6c23698b942af5203e562fe16e0016997bd56211af952",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/equation-research/tests/test_collection.py",
+      "source_sha256": "e686f5c5d34d713d6013a66219a7967e070ff8ca790ab84c3654a4fe6173c398",
+      "published_sha256": "449a486321551dc40b1f4f9be45ae19eebf2fb8b76902fd03dc4d56589f70a31",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/collect_fresh.py",
+      "source_sha256": "e0796c2f7c31cc918fa2c01e4127bc5f0e62f3ef69da5ce3d32ef00099ebf712",
+      "published_sha256": "b274972dde5877cbdfab84634dc7ecd5fa58a4b0d81b54168bcf26994fb11ff7",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/controller.log",
+      "source_sha256": "15cd74a59b01bdeb94d5726065283c799f9b7e3293456b5f873720ab90d64adc",
+      "published_sha256": "bce4e9e5277d14daf5a4ade4337b48fd5eec3e687a7cb06c7924869f65e4554e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/launch.json",
+      "source_sha256": "c99b7a7149e11d6988063d7ff47057fe2f9f1943f62d41c024f1e0d5758e5d40",
+      "published_sha256": "3394016c182e7a5727b61f6eb937fe00d168923995ec7a9af611088019d44dbf",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/overlap-check.json",
+      "source_sha256": "b1f9462e0d8461b8c30097472ee24fe79e5edb75d4b1433884d7173bbb0a28d8",
+      "published_sha256": "57ffc83deed76a7359b865d3ac0894c357f29ee9fd5f683f19af0e709031f594",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/overlap-run.log",
+      "source_sha256": "37ba7b0cdee21f04449eb9d2869292896e1d54840d1848d35d9f46e373eec25d",
+      "published_sha256": "a7288c2b574ad5039d87b3b91417bb2e803c7406e058d35c91552b2dd135bf2c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/reference/invocation-01.log",
+      "source_sha256": "5332b47d380002d77b54864ae5572c04ee0c4c51b8f879f52e703366b0141930",
+      "published_sha256": "c70ebd20a66e754e965a451abafff580d4aff7688f4163496f4091a449a3b443",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/reference/invocations.jsonl",
+      "source_sha256": "c89be9a19d5bb89524c48c28bc263091e1f9ace46f9868c76bc9ca48851dfda1",
+      "published_sha256": "2860704a7f81e090c85665cea8e4d62e8d4d7089b188064acce185fb9b27646d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/reference/runtime/invocation-01/raw-manifest.json",
+      "source_sha256": "0ad76a640f8b6b8236d48db44499d39d5f7f3e4fe56279e37839ac520f99ade0",
+      "published_sha256": "55f177d478581fdfba9b4e653b2593d3d2b5c689529617fa0467c7e69e5a08f0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/reference/runtime/invocation-01/runtime.json",
+      "source_sha256": "46fc4b0095a3493746d563a46ab278473699d929f2b067dc6f6c967d1330afe6",
+      "published_sha256": "c03debb579bef99af97d74c3f598a5b0d9e42ae3beceb059f397e48b7210bff3",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/reference/runtime/invocation-02/raw-manifest.json",
+      "source_sha256": "ee56ad46113087ef73b16ad6f113ce632c944a2f051a78c8cb2619eacab94f3b",
+      "published_sha256": "8003ecd3f15dd759eaf0b8605c679be8fdca8cef6c242afff25a5286eb5ee258",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/reference/runtime/invocation-02/runtime.json",
+      "source_sha256": "7b54e959c6aa1efa480ce3d5c1bd06af74d8ecbececf9a18960c69166be574f7",
+      "published_sha256": "34309cb7006dc9690ce4a4f716fb5b4ba1513415cc13a752ed0a0529aa6b5183",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/reference/transport-binding.json",
+      "source_sha256": "1db05f4d6e145ae639132b11316b9d7c8b1d87fb9f68894a3f39940ec01bd977",
+      "published_sha256": "c8583b627c467ae2adad377825f30e455308aa4d7d986d658ff73a8ef158bac3",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/results.json",
+      "source_sha256": "f66287acd4f0d4b7273f0c55f8109adc73615d2d03385fc90fa7de13b9f2b8ff",
+      "published_sha256": "b5da22a4a7c82a8300ba0f4411c6c09c6797482b1706ba4c46b907756596c39f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/seal.json",
+      "source_sha256": "5e09b47f446a80ded4336eade908053acdccd3b2e0843d4f0e51d3a02de4ac49",
+      "published_sha256": "d01478ff75cc7dfbdbeb7ac5552fbe5a47a5dc4da9890b20b6f7d387d0929b05",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/speedup-source-review.json",
+      "source_sha256": "24fc621201588984761a177225afaca244071eef4e0971df2b2ead53c57d8dcf",
+      "published_sha256": "2c992e0b305b106c86e46cea48512b5a914c32e893548886d49cef2b4f816218",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/speedup/amendment.json",
+      "source_sha256": "40d9e34ee4fd18997ff26e654884ff53359e6c6a3951081e9785821a2891859e",
+      "published_sha256": "98273d7d515f82da2cb85e39ad4c5accf9e1a95c8704c92f358d934f0058bc81",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/speedup/launch.json",
+      "source_sha256": "2261c04e487878094ef5a83eacba9c1bd23f3eaf73f17a10db4fc90cab7167ea",
+      "published_sha256": "7418b50e2b4d08f3cc0929eda0bdc01a38670da2b27f0d18a38bcd81962d513c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/fresh100-20260924/speedup/stopped.json",
+      "source_sha256": "78b2513e25f3310e6c18799ecc808978ba0094c4163c64bdd0d700fbfc1bbf1d",
+      "published_sha256": "41d01ad73619f4a3e604a414048c0a2b6e3e646265dba18cc3c35fe558203fea",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/nonlinear-text-equation-20260924/data/build.log",
+      "source_sha256": "e98b1f30e7b597b6fad8d369444abb3f665ac3b12e9c61c557c8b1fc3bab25bf",
+      "published_sha256": "84ab32d83e8c2149221050dad3296c09cf6ec9dfeb6cf0ea867a30ed6bf925c3",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/nonlinear-text-equation-20260924/nonlinear-final.log",
+      "source_sha256": "307c6a6597eae7ea566224df262574ae3a4b3523bfb9e21c88d76f9fd228dbd2",
+      "published_sha256": "a03d14d734751b8c1a31ace533e9a3e75e8048cd8467ef74134dfcd70b7e833a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/nonlinear-text-equation-20260924/nonlinear.log",
+      "source_sha256": "3bd10f4a25f1b94fef33d7fd43018ce27110bcddb1833114bd77baea3981b361",
+      "published_sha256": "dbeb0a09aa64e74b357e680180d41f57cfc271726ab2cde2bbacf955d3dcc279",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/nonlinear-text-equation-20260924/splines/run.log",
+      "source_sha256": "57a215e046f483221109473251483768633811d153938c5980e715922f41e7dc",
+      "published_sha256": "c2d1399bff8c7ba3a2b060768294e665c00f217ae131377e341ab4b9219ea19f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/approach1/fit.log",
+      "source_sha256": "9973a1c9ec1e7a68e3dc9641279745708ca7587aeafd120407f48b0d71983ef8",
+      "published_sha256": "8b0b921036641851a689685554dbf44669048cccf76f2a478374a51754350b95",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/approach2/fit.log",
+      "source_sha256": "83f8c95e10e97e5629519e3c5c42a1f2a374a27e07991926041c1ef9c8fd8df8",
+      "published_sha256": "87f4e289a91b3b4d4993fb5dbf6a0715b8f112d77760763609ff4883073850f7",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/approach2/results/summary.json",
+      "source_sha256": "0ed8c9408e5549261d3f736a82e7d2eafaa536735d0b0a895d251906cb572cac",
+      "published_sha256": "e9e8333652d21f42fe9a9af79380a33e5e41ec7b3c974710681fe497d57d7d4b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/approach2/tests.log",
+      "source_sha256": "ef9a218acc418ca102b0175409bcf8d8b9283e60ea242ad07c026cb78eafbba8",
+      "published_sha256": "57b9767f885f1f67d90667f891e8630200f9837b82a3cd4fc0ec0f5881c0661d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/approach2/verification.log",
+      "source_sha256": "b52b9c7c3235e72c39cba7e02e8a5a4531d35b4a20d27912c907391d3755ea52",
+      "published_sha256": "4d86935b4710b91235ce34feeeecc92bb632f3eb463dfaf35ad5fe1992582cf1",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/approach3/fit.log",
+      "source_sha256": "28c4188103e8b2b59c0611f11024478c6491229f16af54cf255481c5c1961e59",
+      "published_sha256": "5d2a0e9fbc63e78e79a67fe7764eecbebf40d60a5015a1c66ae16a13b65a6e6e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/diagnostics/exact_collisions.json",
+      "source_sha256": "465916543653368a71281e76c450b28349f8f7e078c8785d0951479e22c7e331",
+      "published_sha256": "f830bfbf1abf518cf27f1be0b333bd8c62fdbd355b88c8cb4dc4b74db6537536",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/freeze.json",
+      "source_sha256": "0c7ebf2b9adb8e9556b09becf9179aa645e82c47ef2a2ded2e4680c11d7b720a",
+      "published_sha256": "9afb1ea2438d88a44827b41b70a76c23570a2d36a4717cb020bdec1151ed08d5",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/fresh/collect_fresh.py",
+      "source_sha256": "4a964ed0fd06a5c9ec3fd774848123d38420e4702eaa2b2e4b03a5fbc839b66f",
+      "published_sha256": "d76d5137e1222504610f4edf0feb28704badb6d7052d4e4bee1ed2ea5b111248",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/fresh/collection_invocation.json",
+      "source_sha256": "6cb84e135388bff8edbbef29166fa6bf85581dfe4499b083a7c0aeb58ba998cf",
+      "published_sha256": "945c1c2126bb21e85bc828557cad20037b577159f7e4feee986ed274b28db242",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/fresh/prediction.log",
+      "source_sha256": "5fcd3be55823945466a54049fe80357c949016b780dc51430de0f62082a9c791",
+      "published_sha256": "e03fc551d43ca6d2a30a21f549ce134e6ac09074f278de6b5847dc9f7e2922a6",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/fresh/reference-report.json",
+      "source_sha256": "360290401ea3c381d99a2c4e74a248fffcc35cd1fd6626c8c90210b4b474c869",
+      "published_sha256": "f092c82884f3fb567b8c8e6edab6b26a0b2645519ed15926e1af4d72462c287b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/model_manifest.json",
+      "source_sha256": "d90e67a73249db5309f430350f2efa88cc83788b8ed3e926791c45eaa6c4b1d3",
+      "published_sha256": "e9dd9c9fc8a08e8510739a8b4d0ac6e216177a35b45abc272b40dcbdedb76d27",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/package-offline.log",
+      "source_sha256": "0b66eac4a91927c0620bdc29e512e26eae4a697a9f5a6f3a9130233a2ddbd3db",
+      "published_sha256": "738cd35a1e32562948f24ccc197923f8375b150290b1588ea5d73a8de083be7e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/package_offline.py",
+      "source_sha256": "5137f4d6f31b4aeaf9c766ac537df011415197d029336cd7c5c2b0fe1267ccf7",
+      "published_sha256": "2337b3e50a1a9e58e3ecfb248c82d2cca7ba1bc4985ebdc90d349d6e03d358f9",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round2/package_research.py",
+      "source_sha256": "3823ea9ee44ded80f740bb6104981164779f1ef25d78693c96cdfaf9fa31581d",
+      "published_sha256": "42565d6f3019ad1afeb494fee3272c80fce1a9483fe4b7243683f76c23e018cb",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/blend-expanded408/independent-arithmetic-audit.json",
+      "source_sha256": "a113f2074ff7ae048230a70093f1bd600b81f02807dfd62852d6daab7d1102af",
+      "published_sha256": "4dcee204c2fa39f3caadfc4838d8a95804a40a9d42922fc314629f042770341b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/blend-expanded408/results.json",
+      "source_sha256": "6dc779d16cdc4777c6b5e415d53f886c19fa79e840bc71a62fb6b7dc269ac1b1",
+      "published_sha256": "07070f73ae5ed5ccf4c3fada6d8213525ea1f53766b465b4eb1c46d2047e2343",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/audits/expanded-inference-checks.log",
+      "source_sha256": "3f7ea4a02ca66152fa3d07c6ab1a2ea16a63610d1d19e128f532139ab5943c22",
+      "published_sha256": "f53bb0b32dc1c6ecb99a64861eeb8fcd13dd0bc7a2a22afdcff340a6108cb3c7",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/audits/fast-runtime-expanded-waiter.log",
+      "source_sha256": "d37b3c96e758e2c7e032b8e9552478974edb9d3aaf136a84ab7d3b0de1edaf6d",
+      "published_sha256": "3a7c90d8dc1810e5b9547c93272604905ff07620965955efd447e5d32296306a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/audits/fast-runtime-expanded.json",
+      "source_sha256": "d804b5a3daf2db7a3c17a96a16dad12420241fa35237ee26fee724a0ab929123",
+      "published_sha256": "3c5fa393749088e40b70f82b0df14b5a7d5a19431a7fbba5ebff24a82a73a83c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/audits/fast-runtime-expanded.log",
+      "source_sha256": "e2fb00eb6f405eb9ccc15ebdf322d82bc7e1b65b1cbaa02109a98ecae62be6bc",
+      "published_sha256": "2115ab6f6e7c163ed0d18b425f80cbb5845679dff59a7c963212a0c993f1e0f9",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/audits/fast-runtime-initial.json",
+      "source_sha256": "3ce64c92ec1befa21285e10d9919545a586782a513c21a681549748bdd9154c3",
+      "published_sha256": "61249a4a30b0ad05957cd537200567ec3724679ab3d3e58303f119ab3548569a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/audits/fast-runtime-initial.log",
+      "source_sha256": "6f6c62930e0f468eb284317bdc463b939cd978f6f72e60f56d45f04fbf7c5749",
+      "published_sha256": "246b255364dccb9cebf44825d4d2be31a7f71513f68ab5335befe0411ad84a7b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/audits/inference-checks.log",
+      "source_sha256": "3f7ea4a02ca66152fa3d07c6ab1a2ea16a63610d1d19e128f532139ab5943c22",
+      "published_sha256": "f53bb0b32dc1c6ecb99a64861eeb8fcd13dd0bc7a2a22afdcff340a6108cb3c7",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/choice408/input-manifest.json",
+      "source_sha256": "257715e1943bea5a7d24064ced6b84db36bf80c597818d33beedd0cd17ab9c02",
+      "published_sha256": "0e161c57c38386b3e96d0f4f297a407fae26f63ff4eade51829533b1bfe8128e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/expanded-coordinator.log",
+      "source_sha256": "671af817e3ede14184ef54bd4f92df39378afe5908775579929f7b8e5e5b04cc",
+      "published_sha256": "e84157466031619a1bfab01c5e720713b17e1a18cfa971f91aacb883aacbf617",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/expanded-parallel-coordinator.log",
+      "source_sha256": "f816ca5579cf2ead67828a23910dea8e21b34e6ea464a144af7a3544560f336e",
+      "published_sha256": "a4553bd2e3370f19a422ee3cf3f452f75c56bc131df1d62d66cc410a883febbe",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/expanded-parallel-prepare.log",
+      "source_sha256": "1d846fa9224b7ea9c18ec74a4bf9c4127c0c0177646d475101345adba5d3f5a0",
+      "published_sha256": "d694cf69de484d06c9b090dea0d0d201f40c98b8dc2ccddf8f244bac66f46932",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/expanded-parallel/choice.log",
+      "source_sha256": "9c43f1cb99b47feac559f4def19c7fa4faae132626db787b2e8340cefce92f95",
+      "published_sha256": "daa54c8280d8b3bd88e55f67a92088ef749b11ff85657fad9487e23648c78254",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/expanded-parallel/original-handoff.json",
+      "source_sha256": "5d1bacf065baf37b87b35e578dcc1513de5821d69e8bce93515c23e7f6f52213",
+      "published_sha256": "939d28aaaade05bdc592bb49c54a1fb17dcb01f75fcea552f1ab285e7cfca0ee",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/expanded-resume.log",
+      "source_sha256": "fa694aa545f7f80c4b109efeafbc0e88d87bbfe1486a36b03a53c04cd18de3f7",
+      "published_sha256": "55cc4dbc65375939614f6a6c6e78d553dfec5a38bf375631ce051213b7a96fd6",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/expanded408.log",
+      "source_sha256": "4d1d9db211eb11bcf5e931d598291e9eab1a8975c09826a2e881322d2c8b65d5",
+      "published_sha256": "9ba9343fa73429571214b557799a0817b7156ed6ab4f66136cb80a9c9b3f82ad",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/expanded408/input-manifest.json",
+      "source_sha256": "53f3ace9be78dd71c6b3c7672fb462e691e33e84aadc7fb523b47ef104fd4f34",
+      "published_sha256": "edf139e7d9c0839dd93f5e60078d0364789448c55aba413abf71966971292d0b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/expanded408/source-audit.json",
+      "source_sha256": "d167dc13af97fab345af758adccb7605757e007f04d1f6929618ce1686377dba",
+      "published_sha256": "62e588082d841cf6f92dfba4c5a3b536286ab18f335557357638379385ec016d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/export-contender.log",
+      "source_sha256": "b8fa9fa66979ba3f9f604fab1b6900e5252bf04f0379df56ba781645d1679a1e",
+      "published_sha256": "7e8e58e969255a21d27cc21bd1c40a93f0a760f93f140ac20db7727093b2f38f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/initial168.log",
+      "source_sha256": "b4fbaf00dfdfbdae57d7ff1d11ff66ef3777dd48f0093fdf8ba2485023ff4671",
+      "published_sha256": "1d8ffd4a60e13bc4828c9450d75c716957d4fa491dc70230422182c2e37d106d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/initial168/source-audit.json",
+      "source_sha256": "44bedd116cc19220f2103662183a80ca11b2b7e2b46bcaf45b18351877a1122d",
+      "published_sha256": "f191ae9e1a15f83b8eb31d756a368e7e018cc50733be083eb0bfb7245e81f20d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/joins168-numerical-audit-restart.log",
+      "source_sha256": "3e9d814e8700697b5d37e5c38d22943b61ec1e7438e60cbdfba635d39ccf5803",
+      "published_sha256": "2fe89eb5247151f150f118ce7f967e3120cc8b1f1f3756ead283284f11a099ae",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/joins168.log",
+      "source_sha256": "a2a019d536d813c6f699da8035e57b8551bf5104cfcaf6a36cfd79e643ef0af2",
+      "published_sha256": "9efc07acf125a48c6a5605ee0deced75f8ddd357a982caddbddf9f9206cccae8",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/learning168.log",
+      "source_sha256": "0ccb5b8d74860dcc7ff74d0f5b046144a7227019cf788861f67bd14400c59e89",
+      "published_sha256": "8cd94df089610b706c6840064123c91ba0f6d4fa41692a77fb0dd87d378061d2",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/release-verification.json",
+      "source_sha256": "8699fcb4ba5a4858785b8bbf1d77e537c32a874b37c9cf5c2f5496e3d4744fa1",
+      "published_sha256": "5ec7c7fb4d2238e5bbe81aab93dae4f85a8b9087e65a755440b5059028b6fcc1",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/softmax168.log",
+      "source_sha256": "36830d91fcd0ebd2d8e690add8fd8377c2481482260a06e5493b86f3dd5fa973",
+      "published_sha256": "95aba69ed4faab3786580b53ed0380b0fe07165ce6429623efad066fcba53c15",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/components/tests.log",
+      "source_sha256": "b41aa1d62c91f646b3bfdf395bdc4669dae6dd2d9c80c03e74e74fcd78fe6e5b",
+      "published_sha256": "461d81ffe5d1315110d3f1e881fb26e02892fb33f35ee01cab3351821c33528b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/continuation-blend.log",
+      "source_sha256": "5e3db4bb7afdb3ae7585a20ba3b3c1c20aa92c5c7b9beb26aba170414602615b",
+      "published_sha256": "e41967db60fa3b7548200fae93de4a945fcc9dbff5a082291b74c8c8a7049ca1",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/continuation-freeze.log",
+      "source_sha256": "4f5f0b96707cf47bf4e8a344b57d5cc43c81d39ef1ef47a0147ff281ba37dcc2",
+      "published_sha256": "b7ad94f8dc4303956668c96918a883ed92bd5b5033732715d9b569c6a214adb9",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/continuation-package.log",
+      "source_sha256": "f83e7e2141fdc1ded499f68a01187604162bfe0b8f5b810ffb0854665272e945",
+      "published_sha256": "7962c916682c008266d8ad00371b77bc353591ad9bfff235ee8bd1145a9dd470",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/continuation-wait-before-optimization.log",
+      "source_sha256": "8e73544d330b894f71af1636eec4639d7f5f92aba1d12448277f562fd01d361e",
+      "published_sha256": "29206d85f4382d9ffc0635367d494f3d0f4e6ab4fd635bd00ded788efcd47896",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/continuation.log",
+      "source_sha256": "1c768077f515db20f94d6ad49067e32c339bc9525d8c8163741a7bfafdda8700",
+      "published_sha256": "a2974921b96a28292d5a1820f920e93541eec9f71e8c677ad979e4d6625b4bae",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/continue_to_final.py",
+      "source_sha256": "d9ddf9c4019997d60429fa6c44f789373a0b133bf3d894f4db34dece86b25628",
+      "published_sha256": "33f0e79f99cabe7e2b9f23ad65ff859d2ac148ef90b7486202b079eb63b46ae1",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/costs.json",
+      "source_sha256": "fe4f54f633f379db49b3e6cc27d19f7f2088e31abccedc49524e1b838a1742b5",
+      "published_sha256": "4de4d152d5251c3eadd626e576976f53303ca0c3603aced83233b62e5e6683a5",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/deliverable-describe_final.log",
+      "source_sha256": "8144f41c308c0180261c65b5b62970497b5d911c63807302d202f0384b6fd650",
+      "published_sha256": "ece80c4dd08c4ad9ffa01bd3430d2e9a7a515024ef4a32d2c5a70dca4a413373",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/deliverable-write_report.log",
+      "source_sha256": "e9ce9c983ba213f29f79e5c9aa5e8106f30f944610fd69e9d1cbac8fc0ed7ce9",
+      "published_sha256": "c5686ff5b70041d02076cb949f8c90ab632dabd8c2dfb9c72ca1c7ffb2fa96fc",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/development-completion.log",
+      "source_sha256": "1b69fd008e5f6a1f2caa56d3cc529c230b30cd3327356c624da07f4a8e317ed2",
+      "published_sha256": "a83d7c7c36b16ca8fa2dcc5ae1ea45b60920da0166f1474cf3ea04b4694106f6",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/development-release.json",
+      "source_sha256": "8c22268605b1c8fd0c9db7053645723cad8bf5afcbbf216aa883f5902df09512",
+      "published_sha256": "8974afd6c5f537a0c280e73647bbc28e12d79ed91457d65376f45b74640bdba8",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/direct-expanded408.log",
+      "source_sha256": "ff8d6b1193eac609a96da418aa05a40b989e32b8f06298e0054ffcff464ffce6",
+      "published_sha256": "3503e030d6d3cb500b2b1cedfaeef8430a2b7893be0494dda5abd36be379868e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/direct/distribution-arithmetic-audit/audit.json",
+      "source_sha256": "94b33d80cb8c3e5933326a6863bea1ea4d155caebf66779eaef25d442e5685b5",
+      "published_sha256": "02be4e49ae6fcf1cf8c1d84ccd34592238b20ee5a27aee3153baeb2ee53792fa",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/direct/distribution168.log",
+      "source_sha256": "104e7a781deb06d40248b544a88eda0c9cda7204964a667b8c72e245ca17f690",
+      "published_sha256": "3b48b727b6cc9347bba0097e2e40ebd449b6e4aee1d42a8c93e9b1c60fce78f1",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/direct/independent-kernel-arithmetic-audit.json",
+      "source_sha256": "824e56799dc30602acca130b2c34be11f623bce2e23ac1b3de59c0f69ddd6985",
+      "published_sha256": "8176288f52135393bd113ea3da7725242d67b48c7a2af032835b8090c4b65b9b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/direct/initial.log",
+      "source_sha256": "6d1236d77b7a33c491d1877030425bb0d18252d98f6a7229d60c8b937875e71a",
+      "published_sha256": "91fd02ff01fab749caa8b8b2b3a2b5c42f2e6e0c526030498448571e1dad6bba",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/final-data/budget.json",
+      "source_sha256": "82a1fe4b557880b46f526967c809cb029715ba728dfda42c48dd24034a244c74",
+      "published_sha256": "9378c3b6ea39ee9b1ce971ababce0226bc4ddf30cb47151e569df30233c1cbd3",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/final-data/merge-manifest.json",
+      "source_sha256": "8e3cdec73debc34b9d4e10343d766bc638221b869783bfa61ddfe21d64450dbf",
+      "published_sha256": "8252717531f53f3ddb8d998c71a2fee0e6d93ad95f03254c961a50cd28ef3f8a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/final_assets.json",
+      "source_sha256": "014c74953faed6525a11328c06d2860a636146fd8fe0d5b237983b5a10a9ac26",
+      "published_sha256": "2756c27db8fb3f00a7078fade1eee65ff17117b5939e2e4673e2e993d2264ed0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/final_collection/collect_final.py",
+      "source_sha256": "a23e3c7614311fc65c875a30b5eee9a6c511691e76f132804b688f84b3e2d171",
+      "published_sha256": "4fa2944ead04042b00f68bfb6b80eec1603080adad1fc61f900b1c4091326c83",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/final_collection/interpreter-path-repair/amendment.json",
+      "source_sha256": "c1956ed40e389ed0f5b8f1e8f4fda2d3f63ef145af621f0a16d1ce4a96a12300",
+      "published_sha256": "ce492bbf0d1e8ebd55e919c8d2b6165ca2f46a1d5a556b25477326df08fd0d51",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/final_collection/interpreter-path-repair/audit-test-before.log",
+      "source_sha256": "f509ec2ecb890b2114f713d12c0a6c8f291c9b057180c8363ce9b71465fcceb5",
+      "published_sha256": "b71cb433b97fd12a5b3d0bb3a0fb4db9660f6d48cee97b39dcb8baeed507f8b9",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/final_collection/interpreter-path-repair/collect_final.before.py",
+      "source_sha256": "5b3a04fad41708e8a87c641f83ccff60c42adc968badb91caf717be5c945ff6b",
+      "published_sha256": "1bc5bc927dcc1543d1d954eda66c6de2df3b780c452b20d6526fdd9f5b26d589",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/final_collection/interpreter-path-repair/failed-prepare.log",
+      "source_sha256": "576898fa159448175942cdc3fb15b8ebcc4f4934a3c7c956830550988ae601e1",
+      "published_sha256": "4646b431828b7221cf52a73705617673622faf4d23b458d43bc7276522721a51",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/final_collection/interpreter-path-repair/independent-review.json",
+      "source_sha256": "0c453750b581de9e8b666277e3af1a7d753b8d989fcac41b6122da279935af06",
+      "published_sha256": "8fe282b27abc2f97a8557407f02cc11621e9acaf795199aa9c7a00dd74bc0abd",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/final_collection/interpreter-path-repair/prefinal-ready.before.json",
+      "source_sha256": "3739ca43d6866a5e44c84209734f484d49454f744300e9f0015983db007b99fc",
+      "published_sha256": "e296cfcbb6d0c1a56a17dcdae5ca40664a81a714e01b84250e7f7e5986be5be3",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/final_collection/interpreter-path-repair/test-before.log",
+      "source_sha256": "7d4b56b0d7098ac45c2f07d9510a7ca91d9085df2c13f04219cfa7172d1c61ea",
+      "published_sha256": "52d0c361bb37cfd4e8bd4e3b570cd311c231a4673207beb00a483acefea35547",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/final_collection/run-plan.json",
+      "source_sha256": "8eba61bc47ebb16b1043a1068a30fea2007e9d0aa2b53453b581c9d587e720e8",
+      "published_sha256": "e637d289ae72fca663df478b4486ab0d17e06375c441833319de94f28b94b801",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/final_collection/test_interpreter_path.py",
+      "source_sha256": "828d8edf631b02ec1ea711bac9caa0c8b9d157e40fc638237a67c3988cf6e904",
+      "published_sha256": "c60cf647a970d8f91c485e1247ed62a3a9c2e0d75a61df82516a1be84f457184",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/finish_collections.py",
+      "source_sha256": "5d322d28be53157a63d34064f51ba14f716ca45b9b7bfdff594bdefeb4df3d08",
+      "published_sha256": "5bcb0df147ae56561be9f996547b06f469a4c9ab0d7d0b7cec8e4d71d1a117a4",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/holdout/seal.json",
+      "source_sha256": "21aacace249dc9ba29107cdfcd82d44b753b245ad5be5a4cae91c864d7f4e668",
+      "published_sha256": "ded8ca619d30ac22481183ccbb8afd2ca2b305f357bb3982fa8435547abc2d5f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/ledger-expanded408.log",
+      "source_sha256": "44fd2201ae60ac4cb8b515de66d967ad25dbcb22fdbe69803199f6645528c4cb",
+      "published_sha256": "4e7c6e1ae8d35fd4353d5d9336c9904036cdf8ee7ba76ee38edfff8c9e7aa267",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/ledger/initial168.log",
+      "source_sha256": "2d17be61e5eb87f5a98290a33710cda2d75bd47872bb10a699bdd32f879e1975",
+      "published_sha256": "89e27a66897409c490299ccb76c37c2aa6c9103f1794c26e2cd34833c50540cd",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/package/bundle-final/verification.json",
+      "source_sha256": "ba899aad1dc943f01053019722fa7f1bb5c7ed175afbd3d5011d99e3f2e5d8d1",
+      "published_sha256": "3e140bebd9f63a0ecfdedc38b828a0c57b0b53c9898894f3471ab4727ace1915",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/package/bundle-initial/verification.json",
+      "source_sha256": "5fde9088115a91788391399b4abb6fcd82181bff6142b4af1511568d7fc42a5f",
+      "published_sha256": "3f5d4b506a3b40e4e5cf6e62fcb63000aa2583f6d891a07add7afe3a32b5fae3",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/package/initial_assets.json",
+      "source_sha256": "6f791a0bb3a98df0b05ca703faa176431bee532a3501a5e861c6f80100028fd7",
+      "published_sha256": "a42c8715d6d6ae0614ed481e0c96456748844c6cfc798a24b95534e83143526c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/package/test_dependency_closure.py",
+      "source_sha256": "2c3e3de627e00c4af63e970177cac4200724a609a71cb0ad3c500b859324ab01",
+      "published_sha256": "f4f2175a48e629867c8a5dd799a97de55201fb9200134fe720c36a55af5d9b2e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/package/verification-initial.log",
+      "source_sha256": "42ad1e5d7f7efd8d0dd52e169e475482bd8119a882128595ec4b71517c6d6223",
+      "published_sha256": "08792f21a7579186a3004d93a9f4803c2fe31e027ca56f2f213b8115421d7a56",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/package/verify_package.py",
+      "source_sha256": "7a66784081fbaf093ecd067f27db50dcb8c1e894d84ffeec5db61f104372ab45",
+      "published_sha256": "be4e8974436406d7fb0a17a3356c9e087223b97ec52a7f1904d8fcf4e6277760",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/package_research.py",
+      "source_sha256": "c8585785e7095bf3d5855a1993a4850e767e3cedb3128bd489ae3ec90edc3086",
+      "published_sha256": "d0288d7422e205f2d399fa28d4ea8a0edd5cfd1bd4baed8510d6a1153d26a06d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/recovery-continuation.log",
+      "source_sha256": "e9af9b4ddd6ea92c7fd3792e870d62bcbb22393640030c0ebc3fceb65b71b76d",
+      "published_sha256": "5106fd811876b1b928a962e3c8ec26351cbd2a24de99d0f6626a48bcf03a386c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/recovery-package.log",
+      "source_sha256": "1e0135d341dc440660f33439bdac12763809edaf78f4f05398c676c212bfbe89",
+      "published_sha256": "35fe80ac92da67f6ab0749805afb39b875a832083e7381aa116dada72d37cd87",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/recovery-predict.log",
+      "source_sha256": "bb29002ef394e149b1ccebd7f62ec2c5ff0050bdf8596a1dfb68a7b51982bfb1",
+      "published_sha256": "3471959543430898f089315685863036bf45e3241c3f3f8f0dde92539a5bfd76",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/recovery-prepare.log",
+      "source_sha256": "576898fa159448175942cdc3fb15b8ebcc4f4934a3c7c956830550988ae601e1",
+      "published_sha256": "4646b431828b7221cf52a73705617673622faf4d23b458d43bc7276522721a51",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/recovery-venv-repair-secondary.log",
+      "source_sha256": "c5660e7d8ebc49ec26ad65c1e654b58730c3dae35afd041c135b4e4cbe0aed71",
+      "published_sha256": "d4694e18d0ea2b5f7f0a66646340fedcabbffb392130b086c84e783831d74175",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/reference-audit/prefinal-ready-before-fast-runtime.json",
+      "source_sha256": "e394f8d5cd2ec5cfddaf967811f269bb273e5370fb3994644ee99f85e1a6e3da",
+      "published_sha256": "b5252b6dbf031a77627588c10756b2bc678646bb6a77ee9d9eb08d552b148323",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/reference-audit/prefinal-ready-before-packaging-dependency-repair.json",
+      "source_sha256": "150af8087b909783717a2631ac17de343390c5c4a2c61926ab4b08cd2acea356",
+      "published_sha256": "b2b1b9009c3e98a6b6a2349dda7fbcb9815d2638e0c362e92d55ab2a0d680cdd",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/reference-audit/prefinal-ready-before-verifier-wording-correction.json",
+      "source_sha256": "b0d393bb99904d9fd041fe0500d65d1c5d9f1ee12e711cf4b1cbb509ec405461",
+      "published_sha256": "5bb1fa446407671d62755e82c8fd06aeb814afa57f5198eb43be40231aa88b1f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/reference-audit/prefinal-ready.json",
+      "source_sha256": "25a7ff7b054d7cbc3dffbf346afcb3f2a62886e056a7837b0f7678ee03a91b6f",
+      "published_sha256": "37902e6be218f76827eab9e3e0b904326b3d66bd9d3fb8f9ec39368d1705f3aa",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/reference-launch-recovery.log",
+      "source_sha256": "a9ef15101435c2b4d3d493a7dbc4987d686c90b09eaa24d252e72691d4e252fd",
+      "published_sha256": "771a0df3e7ca4946400978a64eb645e54fed70b35197127030904ada1da4d00b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/reference_cap/harness/collect.py",
+      "source_sha256": "8a8165924ac74711579781dad0279aaeed18d055440c966415df6c55da02cb2c",
+      "published_sha256": "383a4507fcfc3d4c0ba6b5822a3b6f768f6dce290031cf8d04642ffd70a7ebdb",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/repeatability-replication/collision-bound-first-stage-posthoc.json",
+      "source_sha256": "6f13ecd8515afa6b448a9c4511415986758e2823bad10229aa360030b55f5c26",
+      "published_sha256": "a4a9a8415b02d9e4973c7d70328778efc5db603621099b2c6c2ff499715bd177",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/repeatability-replication/collision-bound-results.json",
+      "source_sha256": "2ff83f081d261dd5993b0df48336c449f68b72950d96903bd75b61a450986a5a",
+      "published_sha256": "0dd84152b09c65f9743375509edf7e2fd40aaab4457a47500a099ee073fe7ec3",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/repeatability-replication/collision-first-stage.log",
+      "source_sha256": "6f13ecd8515afa6b448a9c4511415986758e2823bad10229aa360030b55f5c26",
+      "published_sha256": "a4a9a8415b02d9e4973c7d70328778efc5db603621099b2c6c2ff499715bd177",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/repeatability-replication/collision-statistics.log",
+      "source_sha256": "2ff83f081d261dd5993b0df48336c449f68b72950d96903bd75b61a450986a5a",
+      "published_sha256": "0dd84152b09c65f9743375509edf7e2fd40aaab4457a47500a099ee073fe7ec3",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/repeatability-replication/consolidated-reference-audit.json",
+      "source_sha256": "936e0949dc3fec52db2ac43f32e9720fa833829627ae3c9efb2d83f6c88eb04c",
+      "published_sha256": "37d66bd25b0d50215391ec85ecf537db7572980114b2a4462629b9fad9113c80",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/repeatability-replication/harness/collect.py",
+      "source_sha256": "8a8165924ac74711579781dad0279aaeed18d055440c966415df6c55da02cb2c",
+      "published_sha256": "383a4507fcfc3d4c0ba6b5822a3b6f768f6dce290031cf8d04642ffd70a7ebdb",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/repeatability-replication/pooled-results.json",
+      "source_sha256": "8812b47c0425c5e454c334bfce65b167e1a3d9708354a6fff6b87512f9abdfc0",
+      "published_sha256": "3a2037525ea087a320cec513fb0a07a985a6195de5388ea32073531da97a9c70",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/repeatability-replication/selection.json",
+      "source_sha256": "5d0ffba469cb399a85d77127d50c77b13da9db3cbea8bb9fb614b72f44968dc7",
+      "published_sha256": "0a3385ad8a6b57f946997e8411c85b5727cf6ec77eaef4a7209c3480164b445e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/repeatability/harness/collect.py",
+      "source_sha256": "8a8165924ac74711579781dad0279aaeed18d055440c966415df6c55da02cb2c",
+      "published_sha256": "383a4507fcfc3d4c0ba6b5822a3b6f768f6dce290031cf8d04642ffd70a7ebdb",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/repeatability/selection.json",
+      "source_sha256": "81e6f5aa42b3755475f57e1265fd57b44e6693ce66b91160f9d5e9bb2832a630",
+      "published_sha256": "460962443364c99e7d06746e4883a5993427c1d8b4a74bb56fc8d051910869ab",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/research_log.md",
+      "source_sha256": "997be0c6e8fb18faf9d5cba8a16ce770aa12a7ce41525dbb41f67a6906dba1f0",
+      "published_sha256": "246a8e50358bfeff4f7753e46b0d3dfe11daaf4566cdbcc1fcb1d8f0e9a2841a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/resume_after_package_repair.py",
+      "source_sha256": "7b3b1988f1abb54dd5354f50e49c771ee97442b808ea76916d112e6f9bd972c7",
+      "published_sha256": "2a8fbf6391d863595a22cc8e77f612f821a1444a6fe4c26a772f68bd456ab917",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/summarize_costs.py",
+      "source_sha256": "f1557cbe497ccfa7b4d5983dbe3380d296ef49e2caf44be1ca30334334aa2bca",
+      "published_sha256": "b1cdd7481db89212dfd838bc3bfae0f09c955b0a27f7c7bb3ea8aa07a29b6eed",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round3/write_report.py",
+      "source_sha256": "b05cf1a8ee0cd56e01979541e50efc1a98c9258ca4629e4d4c12a97bb4d72f8c",
+      "published_sha256": "5e04abadead457f00784c334be2e26f2d30f984b49117668e2796428e69607ee",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/archive-recovery-other-files-before-scanner-comparison.json",
+      "source_sha256": "22e4ca35e74037ae617d90bd2a7b42b3c455629a8f3f4fd184f7072b2bcb0264",
+      "published_sha256": "da6ef9ce6429fc141660bb5ca3fdbde03214bedce012d0e8c512b3f61496674d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/archive-recovery-other-files.json",
+      "source_sha256": "cd040123c559cbdbf896f12f7aac6f8a80f47108f09bcd0258e2e16978e52382",
+      "published_sha256": "fcba898e4601837976ab6f4de6d5c81a8e3c49c6e5516d275d7b4bdb811ffab6",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/archive-recovery-source-review.json",
+      "source_sha256": "74b11174c1cd2a957252dcf8b0ea79956703e587d6286e114028c6a7cac773ef",
+      "published_sha256": "66d79b7057bc1cec2a819243ce7d8ab5450e93d9d4bb48362aaccec07072573d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/archive-recovery/amendment.json",
+      "source_sha256": "82bfa61c85d98b9774a4428925f970ddd6b4374c5671045842ac1a479527c0af",
+      "published_sha256": "a1e883e2e38dc9ae0dbdd39368ebce63c91ce38c360bcd097f955c013451e3eb",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/archive-recovery/first-failure.log",
+      "source_sha256": "87e32cfeecf0b3dc538ee98e347dc57a97b5ebded89c585926ca6684e67f214d",
+      "published_sha256": "e42a957b6d002fff481e85251943a077e3a2bf7e5ed7d87c0c36413969733566",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/archive-review/historical-inventory.json",
+      "source_sha256": "3a3c84956fe56065d5e7dad60c8f53ccc53f90ffe3c3a420238d5fe9cc728836",
+      "published_sha256": "b18f8db0db9c87d34b9517a11b6065153f27e6ef238193d84212e94a2e84b6b4",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/archive-review/tests-fixture-path-failure.log",
+      "source_sha256": "6768a058152f38630e4e58e915c108a8a2ed948798efc042f692a861bd27db6d",
+      "published_sha256": "03e6cdaccc46da0f5f6a4ae9c38d0a88288dfe911f3de595263025eb1a69706d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/component-full-fit-resource-check.json",
+      "source_sha256": "b11b565864c09e449fceb0f773c2e4680c0b3ce43bf5054d9be44619e28a2e50",
+      "published_sha256": "8ae33f100d2f7769f4533cae539ebeea24970cc8e082fe6d669fdb762fc92025",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/deliverable-template-review/write_deliverables.before.py",
+      "source_sha256": "5e25fd3a88ce8d3873fbaa98ed3596e90b352ff97d0f9c1af62d0c27cf43b83f",
+      "published_sha256": "5fbd12cfab00db6bedda7bfc752fdd4d2e2447f024ad06d86932746016f171db",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/development-next-test/complementarity.json",
+      "source_sha256": "e4e3b0708231977115fc0823b4dd9c32593603fbd1f01a46b11fa813ec03b3f3",
+      "published_sha256": "8cd1ee462d8e03dce4140a0b340392e6036ac9e12c0046b400c4995467c3a207",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/development-next-test/results.json",
+      "source_sha256": "2388147118249fd9ac4da79c6464c9eacdf3d25c1633765756216e579b7cb15a",
+      "published_sha256": "df92742c5e54519babd9b5d47b49ffd42e894de2d9e96861c130caf7b372c419",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/development-next-test/run.log",
+      "source_sha256": "fa0ecf05097022a206305f83ff508c02ee77c3d2fc2d0318f7267a8c9b387991",
+      "published_sha256": "03c117cd18d8fd17a4cf40c66681f48cef1a72331348fb3f83d3660b3fdb51ce",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/development-target-context.json",
+      "source_sha256": "3e83458f9ed4a997efc54faae15f2c155be4def98e1a20a3ed10bfb4495f0552",
+      "published_sha256": "06a22b33ff525bf37acbf92c8e2df2bf4a0b5337a76971b739ce2ab8a230ab25",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/direct-expected-value.json",
+      "source_sha256": "2a6ed92870c20f77716ebb271bd67849aaae4913713adae3a67d0edfed319a91",
+      "published_sha256": "6c46c641a2af4a68c824d4fea2256b2175f48df67e08dbd075cec0db383425b4",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/equation-exporter/check.log",
+      "source_sha256": "4ad2d872128fe67fa4c21ae36714ba6d762736fcede58ae6e64208c038b19067",
+      "published_sha256": "af150b0dd0b80dfe4f46bd3e4c18ffc2961f2b1635e7866d00896678bd19240c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/equation-exporter/review.json",
+      "source_sha256": "4ad2d872128fe67fa4c21ae36714ba6d762736fcede58ae6e64208c038b19067",
+      "published_sha256": "af150b0dd0b80dfe4f46bd3e4c18ffc2961f2b1635e7866d00896678bd19240c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-completion-entry-red.log",
+      "source_sha256": "0f6d98f7f404939a6cbfced0312a2cf1671c4aece0a818087d3386681fa2040a",
+      "published_sha256": "2d6aaf1aeb42d9deca8276997a5c2d9a17d1a029e83e71347b528e69414421c0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-completion-queued.json",
+      "source_sha256": "0d765305644361aab44dc40a82526618e0087573a8e8764de214b71c0a771d5d",
+      "published_sha256": "482e5ae5853dfe13fe11125cf47f83d5e73491b44002c22fb8a9f8e117aff592",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-completion-source-review.json",
+      "source_sha256": "dccb1cb3cc2dce74df55e034b35eb7f24f2a29c261b7dee7c2e20f5ebbb79ae2",
+      "published_sha256": "3367ebfc35b9483d0a7f0b8529520a70a43d8cecdb0bb9a581b4508d813fd838",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-completion-tests-red.log",
+      "source_sha256": "d7db08406bb101d3c5e2337dac2e5f8a849475aa4ce147c6a3cb763bd9424efa",
+      "published_sha256": "12218d9e94844ba4f27eb156593ef0cbf105f390cc9f56c4ade3784df480a03b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-continuation-source-review.json",
+      "source_sha256": "4ff6a32983885562579cc21f8530a01f653a861cf92ac09a2e978d0badb07918",
+      "published_sha256": "c66bbad30caf99a45929260a6c651a70709f80762a0e97a9782356dac20df3ba",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-delivery-interpretation-review.json",
+      "source_sha256": "c3d25ca43391535e2367b7e65291942d793ae4ef10ce6e45a28433593508ab62",
+      "published_sha256": "95810fd16823b5fde099b185558d935ed9b8d1e23a80ea6c6c437acf99b7bef8",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-equation-export-audit.json",
+      "source_sha256": "d5f649019f29b525b061d28f539ae9205e0e1e07615d69df90be26ada4fcfca6",
+      "published_sha256": "e296e9126d3b06e61a57f82e430de162cba339a9e13dd1f3a62e6d07eff322e1",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-equation-export-publication-amendment.json",
+      "source_sha256": "4c2433a1d253ab5210fd7b4c89335acdb93f05d3cf6b772ad860035bedcba77d",
+      "published_sha256": "e1c748120742e2bb29c79bff46a5fa43ba1d82b27d588b07532784c93b70252c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-equation-export-queued.json",
+      "source_sha256": "7a6d1cc169d5f8483d0d735fb62e354c5d98ad3303dedc536f67bdf2e90e5cc9",
+      "published_sha256": "f498baaf52b068998328ca06f39cf0c8067953152023cc41d70b35a2695d7dfb",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-equation-export-waiter.log",
+      "source_sha256": "11ec9476cc4d668dc0a986eb8a8137cd5bac6094e8b7404250e462cebd80ce6c",
+      "published_sha256": "a3cbfea829be1548ad469aa9fc8b587742d47bb0aec5d1683843cd55035f9b4b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-serial-handoff-executor-source-review.json",
+      "source_sha256": "79d843794baf70a3908330b0230b5b4a92681f1558274d8f9c607ba5eeb5254e",
+      "published_sha256": "e38245d4ae43879bf695eed152255d8e35653c5b6841b0b85f6e45b62043834e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-serial-handoff/authorization.json",
+      "source_sha256": "e8101c1c242565169096e724eb58a370a27d2fa727793458e2fd5bb746a8bb7e",
+      "published_sha256": "d3738d15e3a9f13336ea24c390ad957f78236730bd79ea3e620301c7b892552e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-serial-handoff/final-parallel-continuation.log",
+      "source_sha256": "1cce0edc2702e10e0f322b922c49a6df96493bdb89c1f75bdc2a9ac025af96a5",
+      "published_sha256": "b466a3e7ac894438e9622265d15ed00a395f37c0f2c9359b5e0f039bd8b398da",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-serial-handoff/final-reference-collect.log",
+      "source_sha256": "469edae56fdc80b255ac9e46cca1072d4c5cff3192502b0b1a77a08ad122a298",
+      "published_sha256": "ac94d8a31439be43ab323de6fb9866529eda49e1ac8f688b42f1919010e7e04a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-serial-handoff/handoff.json",
+      "source_sha256": "6d51a0126fe1373c25a04fa704cf3931dd2344fb364473877a103b6b00c4e423",
+      "published_sha256": "f661a5e555cc5a753ff1ca76ac763b15c20b05555506df612a92c5dac9535d21",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-serial-handoff/readiness.json",
+      "source_sha256": "e21cef62cdd8108e100e305c35678218563e46c7a7b9a20a2935427652eb8945",
+      "published_sha256": "956ab3b0cb967f4ee2679544e9565c2a0cb19e1ff14ec0bd2beab5d63dbe2913",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-serial-recovery-source-review.json",
+      "source_sha256": "3c87793bb23f00335f4662fffc80cf3c1815d45fde63f42024b3560e5d124218",
+      "published_sha256": "69b9cf0163f2e224a9200002359e90110c23eeea449c6391d9d5432d486a1ccb",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-statistics-source-lock.json",
+      "source_sha256": "9897ac438809a736c288bed1783d17efdfd0d429683795080bcc375ad6c52e4d",
+      "published_sha256": "5739d5b0acb6e212e549434dfd5a099595b86903982f495149266cacffe4d591",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-transport-evaluation-started.json",
+      "source_sha256": "4a2e0834d9950518ab8507a270f4303e50d2ade6dafa21afc5d652d3ebca7955",
+      "published_sha256": "1c03c8ae35377edbb8fa0c7a9aad702543398eea5ffa55b0219959fa63daed49",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-transport-handoff/handoff.json",
+      "source_sha256": "12b2b6a9aa10331c54272f9e27bbc9ed6f78c6f3350000a556e6592528f32d8a",
+      "published_sha256": "58b68d930e3aafcf0706777db648c0af7488eb0174f542ccaf6ed4d6f2f1c787",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-transport-handoff/post-stop-checks.json",
+      "source_sha256": "a6fbe33e53935dce905478652109722d0c4343e7f051f81551606a09d8c3da88",
+      "published_sha256": "1760b7660e391c9b65b2738ab449a412e243c224476d3d83587507a64b8366f1",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-transport-handoff/pre-stop-observation.json",
+      "source_sha256": "9ceb8ab8a10cbd9b4ba54207345c26145d98a95e64ec6379eebb6f958cf1ee57",
+      "published_sha256": "d2f7297db466c4fb844640bfc8380da9bb8f898dfe2cc7f776c3e69e88e57f84",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-transport-handoff/stop-release.json",
+      "source_sha256": "a282dbaf806360fe448100ff4517b0817d3d0929aaa8314371becac3df553d22",
+      "published_sha256": "ca28fe054486554dd0c424bafb3dc7a876517331315f74b5c415397fd657db27",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-transport-pilot-audit.json",
+      "source_sha256": "42017e48786f5b8fa360f259796556adecd8eedc6cb05e27a3e0111f0952d642",
+      "published_sha256": "fca26df6ee72ddd13be9aaef01199f3126818e7518fa46e9d48795306b877565",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-transport-reference-audit.json",
+      "source_sha256": "5941f59880f42775e380e5a73bc0af62ad4f7f4adf2b57168fa10d1de21fdad5",
+      "published_sha256": "e049a1d82fd1a6aa0e7c95703f600f45c55302b06212354e890e57d7aca899ee",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-transport-statistics-audit.json",
+      "source_sha256": "dd002b4667da644ca9e3ee314c8e9dc18466458e0fe7db5a609e0a46884246dd",
+      "published_sha256": "026fa4293945dea5704dd2e28280939d78650c8a7371e4a074cd24c6f1b487a2",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/final-upstream-busy-observation.json",
+      "source_sha256": "24952828858a12dcf976b1b9f7cf90bc2619661dbf28ee960a8867af17294e47",
+      "published_sha256": "cebfb4b43be30f6256143569b8f41ae7d86e6a3b23c65f85fe7e984659a70189",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/frozen-registry-audit.json",
+      "source_sha256": "0a68e23e39a4c46c66443fda824f884e9f5a8d825582f393af31c9de047701ab",
+      "published_sha256": "43cfcec3d2df2852c85429cdf77358d4051f9d1a6cfd63cdf7dface9f84e6c23",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/frozen-registry-waiter.log",
+      "source_sha256": "1ed77185731a078e29a4eb229459ce4ea80a68c483e64cf415cd55d2eb274fa5",
+      "published_sha256": "84a2e4bc9f0c4fa3c9f652c59110548fa96bd5677ae9457add7521d497343493",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/history/final-equation-export-queued-before-publication-status.json",
+      "source_sha256": "5ba26e73623d259553c283fd0079ce239b5e3ee37182cc3920ece6c0e51471a9",
+      "published_sha256": "c232dd3b11fccc88f5f46cf12e3ab15cca4714b7cc3e66653f90171a2efdd75f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/history/final-equation-export-waiter-before-publication-status.log",
+      "source_sha256": "3141f893b63afed612dd36d17bf14cceba7b47e680d3cce63a63cd488e7bbb98",
+      "published_sha256": "2344aef3c65cda66d971ec4d5b9009cb6a849b5f15ad04725bcada590bfee7a5",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/input-diagnosis.log",
+      "source_sha256": "b99db9c187bc999c7953954af7a4a2907d5ecb5fec702e52050137b16b12d7bf",
+      "published_sha256": "cc1b846285c68c89257ef441849c0d52e50eb9493b257585ac3e1f1be6d9cb82",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/new-development-reference-audit.json",
+      "source_sha256": "b5034e7a9267a93c7034999482173c7aefc58ae0eabdab288d7d9c484953e6bb",
+      "published_sha256": "3063143209a121e709da43681779c896b80191a4de742a2cd86540cf8a636bad",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/parallel-final-continuation-source-review.json",
+      "source_sha256": "f14e58216fce2f83e1d61ab31dc2a9aaf839f485f00822def28d8277d0ce567f",
+      "published_sha256": "a884d374b70818b09cd6ccc424ba676a55c92f75a4459b713703bf5eb82bc2b8",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/runtime-benchmark-plan.json",
+      "source_sha256": "f4c181ff97fff4a658226ae924787d03794d277f79a35764323bbaba366d0b6e",
+      "published_sha256": "b15636bf9540f9b920369b96c20b8b92f7f096341124383c3792c789fe6d0693",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/runtime-benchmark-results.json",
+      "source_sha256": "ad65a1b3927155c1d033973a9fe4e2f7877c13a42feaa178916699dbf8958920",
+      "published_sha256": "4e1b3056ea02d81f088885abdd798f1ffa953b9b78b646a4e83a5392be58a976",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/runtime-benchmark-selection.json",
+      "source_sha256": "1b65f1ee80a525f4157da3dd0c718b86df4435dde6f132f52b3c6d0654c467f6",
+      "published_sha256": "5cc362bab6216d11e5a3e5e30dc89f0eaeb1ec1bd8f28e58a88b3a6baef78729",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/runtime-benchmark-stderr.log",
+      "source_sha256": "7ce09dbe30cfc6222b3fc2cbe0f2c40283970b33585d83a048e87db976292079",
+      "published_sha256": "aeacfa05df7b80f710f0067dabaaeb3603f23a8882f0227294f2e2613aacbdf4",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/runtime-benchmark-waiter.log",
+      "source_sha256": "38c212687b95583c4cf9f1a1c651723cdd7e09e613c928393b2968e36aa5eba3",
+      "published_sha256": "20b64fa0be600698ed5842ef50f70e501df7f689eea5ee20684f694d3961e249",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/runtime-benchmark.py",
+      "source_sha256": "250ca805d40367b176aa4755ee3bad638f68e21f3205d8a8f7237e73ac892320",
+      "published_sha256": "723e68250e6744507d5815c3ac1d7e4040e2891d4e7dba8cab47c1c07a3d11f9",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-delivery-source-review.json",
+      "source_sha256": "2dd58c974f28efe66fb1e934c363a8d4b81a6dbaf0d2f204e2dee53690f63d5f",
+      "published_sha256": "18fcc7b58a9074dba22fef1b1dc1c8881581b70501f589cd477bd699e4783cdd",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-final-collection-note.json",
+      "source_sha256": "4c4a28e374d2c176bdfd10adc6086a884671cff8dacfff10faae89eb46ac7b4c",
+      "published_sha256": "785812dd0a2aa47060cee92f193a2d3d0074bd62ad370055abe8a12ee49dd949",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-launcher-corpus-source-review.json",
+      "source_sha256": "a9ea80b1866d77531a5353562e68837ee4b717fe3ad687ba55b94abd592bd0e0",
+      "published_sha256": "52e1f58434216ac00707a81427bcbc938201ab5242e1e35d18b08bb0540ffa53",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-launcher-root-review/review-before-final-source-inventory.json",
+      "source_sha256": "dc04c80e471913c79fc5a5389a195128818aaad2bd25d876368b711b6e3c8542",
+      "published_sha256": "74cf462198e0c5f43b50e3e7a8184eaad2c24f7a50c68812b0f5e7a8bcef60fe",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-launcher-source-review.json",
+      "source_sha256": "39d3d6e3fb802d3de5cbacb79f9020e459e264de1eae24ac5a15e5bdec604e83",
+      "published_sha256": "cb50d2dbd07a97ebfe01fa0a9008158b4393a526d2a9b8d065a94c4c7f3d2a8e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-ledger-tests-red.log",
+      "source_sha256": "bee6601e32269d364f0f4301e8132c33fe2d005be1fe825fbdbb10d9a8150048",
+      "published_sha256": "969b1e2f9b94ed537bd5949538a41d8c39f0d14cdd15c33083c686218642700a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-operational-source-lock.json",
+      "source_sha256": "5f76ca7cd56878bacc28e13dd4ef17ffacbe8ac88325ab6e6f1df3e9d4b09e1f",
+      "published_sha256": "36d3a723dcd761b8c84ff07222b3e19d6bc70aba99b1bbf9b009b54b4a35b073",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-reference-source-review.json",
+      "source_sha256": "356a6e0a83ff46852c0f4081f8de6f2c78eac7edfa06fd1c80f5576122536590",
+      "published_sha256": "0423088c219e2995e6659baf8669e21e9af163bc20382cab833712de3b03de77",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-runtime-source-review.json",
+      "source_sha256": "e6c7aac4d0abb9dc54bba5d107336a491d55ad6efea15e71c0b428044e29ba35",
+      "published_sha256": "f44e84daf94b6e4bd88b3213e29caadc93fd907ae2a94b70531882fd0b60e3fc",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-statistics-lock-history/prepared-before-reference-auditor-completion.json",
+      "source_sha256": "8026759d0e70048b5dd6d9328d386c805aae31fcadd3527d6bb32e676ab0fd4f",
+      "published_sha256": "34fbc2dc49b55ddd03eae6b74c9ff471f363957f2db186767c20493c7930e612",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-statistics-lock-history/reason.json",
+      "source_sha256": "25b257ba4ad9ec9a13547a800c196f43714f8e3c85c710b747e83a0dd1f809ba",
+      "published_sha256": "4861e3d8c780d01afe0f570d1e7fee4bac068705471e2dc593810d678d8b1856",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-statistics-preparation/prepared.json",
+      "source_sha256": "5f5df2eb8c0815256ddf514eec3daf6743a8ace15c2a7d536c0866229c18ffaf",
+      "published_sha256": "3051fd01f2a8a4ac7d4ff6d1500a924a90b40408fa0b9079cc4d798bd4da5a98",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-statistics-source-lock.json",
+      "source_sha256": "449defa1a1e928fbcf191e648d385acfb5466f4121e7c303e47da17244a42240",
+      "published_sha256": "fb2b021e3e6329914370ea0cce14f0748397a2221154fe03e5a980888c28ec21",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-statistics-source-review.json",
+      "source_sha256": "23643793caddcd7b94ea9515eb1e304de4c876dec57f6ef20136c3a1e4d4d8b5",
+      "published_sha256": "3602fe31c44b3a4eb35d2a6dbef60b0cce6f34b73096f2be1199829442d9677d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/transport-trace-tests-red.log",
+      "source_sha256": "d8194ddc463f8d4aef7cef318868236f08ecebec5cb8f96b4070b311923bb345",
+      "published_sha256": "3983eb38e72aae158cf22911a6243d298324e73641227e2f74be898986ba1622",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/upstream-connection-recovery-observation.json",
+      "source_sha256": "ed4f1f29741cbbeec05041e0e86f0b633b54ee0c5123b4a44f44877b96f1cb18",
+      "published_sha256": "57f5b6dfbda2db66d07ac5202b123fd216e092edf6f1d507c527e39dde0a5518",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/audit/waiter-status-20260923T181837Z.json",
+      "source_sha256": "b36a05277d127150e8a7d5927f3b44b60fd4c0454c7cbb2c2fc33e21762dc3a6",
+      "published_sha256": "41d15cd6bdf5f93a231ff2b5617d1709c216ad45b6342ed266f3c2ed967f86c1",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/count-mode488/input-lock.json",
+      "source_sha256": "cf3aa992f698155b349a49fd0cd4aed7108dd29d6c104ed0724546ca5d85a4d7",
+      "published_sha256": "31ffc8960c7f04486a59def8841d762c63ce55d43097cc0dcf5043b37cae74b0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/count-mode688/input-lock.json",
+      "source_sha256": "e2b44b49e53d4d6a8c7390a33aad1578e77f557e11919fda0aedbc2e7be89f49",
+      "published_sha256": "0f90366031bb313626bda6c64de9fe8f50e5ac55d0b00460a7ee0ac0cf130233",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/count-mode688/model.json",
+      "source_sha256": "2b1c4e97601c6b0506bebfaa2524291d7164c7b2f920df54066d388c31580d01",
+      "published_sha256": "15f08ce4ab1396a9e5f3115af4c922871a1a4f5c7f4c6a021a184791110d912b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/count-mode688/summary.json",
+      "source_sha256": "64f6e4f703b699dfa8912a6996db7b0e326b1bed339f2c76368d5cfd1f9f729d",
+      "published_sha256": "a815186e997c76870129575235690382dd74d7fb0f20d928477e0e26f4b493db",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/expanded688-coordinator.log",
+      "source_sha256": "519b7ed2b92bba47de4cf0bf2b6407d915212eba26bc0ef90253638609f55ab9",
+      "published_sha256": "33fcb5b183b7a8d7973083e498032f99ae5cf16d6519a430bb25930915e1a87d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/expanded688-verification.log",
+      "source_sha256": "24e45358a19048d680ca6c178d8c9f17fe0a92c07241620591e8b40e9f2cb11a",
+      "published_sha256": "dc97ef00fbdb1a18f77fad2f49b7393cef726317a5f7ad500c3734a14decf2e5",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/expanded688.log",
+      "source_sha256": "95fe6d7bd017a10242952b6193fa36f60a57fb04cb13a3b625cfe66d6c0c5164",
+      "published_sha256": "6226134a0e625c174d5f0303c633428d143d14e640c1b8698a136330cfc46662",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/frequency-count-mode488.log",
+      "source_sha256": "77ed6ea080dcb9a914d79d21b010f0ec7c68d45ea58f006bf05d0940919f2831",
+      "published_sha256": "73affbf94eae2fab2e0174e6fbe060a209210941b4d68e253f89396a0c444bac",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/frequency-count-mode488/input-lock.json",
+      "source_sha256": "6efcc00f17fb8a0359b93d582c8795c2a97e99ccbdf73008bcaa98b20fea512f",
+      "published_sha256": "16b00bcd310acfb16df77184e9ededdb7a0ba519ca3aa57404913a079021b6d6",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/frequency-count-mode488/model.json",
+      "source_sha256": "0b3c7992f3c0b74fa05642c23c3c5c8a24167b5b406335f225b8a00106894b68",
+      "published_sha256": "07898a6db560230118c4ad0f09a6d7b8532f195ed487d5a3bf04a60f7b696159",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/frequency-count-mode488/summary.json",
+      "source_sha256": "e6378b5526b62cd67441a8f6f6f3a27d20defa0042f5ae4f388cb8dd1df32448",
+      "published_sha256": "b874986397fb6b5806d578139499328f94556bce4bac3a8a70e6b325f8e50b11",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/frequency-count-mode688/input-lock.json",
+      "source_sha256": "1656760f24be6d34fe008582b16e404886812a2569b55184e8aa66c5ae1fa242",
+      "published_sha256": "06c0fb0d9b2e4ebf436b1f9a6f542f942e63c9e45dd9c2d9a33ae5ed04fc4d76",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/frequency-count-mode688/model.json",
+      "source_sha256": "be1a6884cb99d4a7d56759c9ae81e8d75d4b140963cfc0e568908e023303d781",
+      "published_sha256": "f8c7b8f7f3ed63f3d9083181487e81628fc9aa9f9d95a854d38ef52841374666",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/frequency-count-mode688/summary.json",
+      "source_sha256": "350dbcd9e560d93f96b4be3914ef1f02f91ac47d1a056ea79bd2def6480be4fd",
+      "published_sha256": "40dda07f1952098b8b07cb7cc440d846de11e863f4460652330c0ffd3e9314ca",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/frequency488-verification.log",
+      "source_sha256": "d90857ed48499d4c5810349b6da7610248e1f31c8d2b783cb15bd687c471b6b6",
+      "published_sha256": "98cb6adcc46a6e212bda2ffe174183317de5d27346bbd3e5f79c0f570c73a78e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/frequency488.log",
+      "source_sha256": "a5badff8bc6c4c3f9975b44a45903a85269e5a841fa3464f4bb1f53e2de0c327",
+      "published_sha256": "b9083154926e4f9225d3bd463e03891a6f4a501515fae887c2aa60910e10e58f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/frequency688-verification.log",
+      "source_sha256": "6d4ddc657f3038f669e1e4cd885d37472351969f5dacaec1d32059fa3832695c",
+      "published_sha256": "ed5c1a19256feb65ab0585b44e31d299bb84fcd1fc5f133ca29952c8d8e56fec",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/frequency688.log",
+      "source_sha256": "368efbd65b18a2265c4ec47e8802ae69f599b4e2f1be967ca9010a40e6fdfbb2",
+      "published_sha256": "05ebb439803ec5d95b3faa23002f3558042c82b593249b43337e076ae1346f08",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/initial488-verification.log",
+      "source_sha256": "44b1424066d1878ca0fbd88fec82c4abc08081b2941cb90c67fca5ab36c317b0",
+      "published_sha256": "3b3c6917a753eaa3d83849f1fa9ba1695324e744d0039241e9303c3ca8298c35",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/initial488.log",
+      "source_sha256": "839eb4c3aeefdbc2b1b03f9fe17b35c457175e7eab13a5fefb4914bac29de83d",
+      "published_sha256": "4b7acad4e6cfc589e9267ff58515357e478f45f3d306065aa9319b0e7218cfe7",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/tests-after.log",
+      "source_sha256": "82f0786f315dced8cdaa658e717580d4dd7ffd556f559346ed7d70d4530ac135",
+      "published_sha256": "068dddf1c0ac7b702b27d9c9fb9be4bd528eb7ae5e3a43565c9bb0cda22d73ad",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/tests-before.log",
+      "source_sha256": "f4163a1a5bfbdb0c5fab0afa25a9a14393d763cefbf6b6c40d3564529b5c7ed4",
+      "published_sha256": "844bc4fb9802cf4e405df532a772fe5085f138b4814eb83fa34fbdaa6dd53411",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/tests-expanded.log",
+      "source_sha256": "b238ec9988dff923bf1f0cb3d62b37b77c31c7ede6c0afe17116060ec8ea989d",
+      "published_sha256": "61599dd03bee9cf17ba95e0ea8db7574faa4ab3aca5777a0884a175e863cdd8d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/tests-frequency.log",
+      "source_sha256": "6c104841b5d76227e884b260d8953de245d1bf64c7e8adb2b19498480d893414",
+      "published_sha256": "583f4ae657aac81521196f07218a355402a9f9508147a19c5483e811f10559b0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/tests-weighting.log",
+      "source_sha256": "18ae1af8487adc3c268a84e4dba24864830094e0cbea331318ee9e3e6113c239",
+      "published_sha256": "635f34c9a7199157a95c92e4636bd924aab09b6a7783ba524b80ae780502bf27",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/weighting488-verification.log",
+      "source_sha256": "6d4ddc657f3038f669e1e4cd885d37472351969f5dacaec1d32059fa3832695c",
+      "published_sha256": "ed5c1a19256feb65ab0585b44e31d299bb84fcd1fc5f133ca29952c8d8e56fec",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/components/weighting488.log",
+      "source_sha256": "30b844a3d1f0b004e5fb2fbc6665c0fc6cab71a0ac05ab64addf4a1bba1505c3",
+      "published_sha256": "6d6770b5da3588d346c58d081af559f9dee4f10610b847957f6d4ee4012878e9",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/consensus/initial488.log",
+      "source_sha256": "12f6b50a7c0f23ae5ef4b02f7adcb8e1b75781a8872bbac10b5f4500c52b271a",
+      "published_sha256": "ee3cbbbc9f1c20a55cfa59ec1e685717562b3f224b422427500e3c72d74be82d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/consensus/initial488/input-lock.json",
+      "source_sha256": "8d4cb1603fcd39a68aeaa0586729d1d260bda9621854cc8b41029669fa8b275c",
+      "published_sha256": "6c020fbc6b5fc40f398da539578c60695e9faa26e72104c92c5644ceb548a3f7",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/consensus/initial488/model.json",
+      "source_sha256": "ff0635324eeb08e75db5b9af8b9e55b83614d1463bb3ad6904e2b67d303ee82e",
+      "published_sha256": "86d8b5700972a4ee637cb1d429dc9452d19c38bfa3ed218b5bcc4362f37edf41",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/consensus/initial488/summary.json",
+      "source_sha256": "47e88fab3e524832b8a6b761cb92f50cc08ce530c7033c583ad706f79675639e",
+      "published_sha256": "0e85a1b7e469f98228efeedba44325641f22363b4453d4f4b36ecfe1998d6849",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/continue_final.py",
+      "source_sha256": "c7f1f77a64f76145f173efe3d1b2eda195d0abf64698493555ea60e237fdc9d0",
+      "published_sha256": "2713bcfc8ca910395fa8ee66c776faddbac40ee343819d7e1d3e1b18eb63c034",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/count-mode-expanded688.log",
+      "source_sha256": "8a1d5e853036b8094da7b874af354ed53ef3cc7423254880bdff4d71df7fcd5a",
+      "published_sha256": "dfd121ee67c71982495e74f2c216be35134cf13f416a1e06630dca3e37bd9024",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/data/development-manifest-688.json",
+      "source_sha256": "cb63808f165f1e7b61090b296059360c5f8d05c366b2d281761c0f22f54bfe06",
+      "published_sha256": "3cc5e4ac0f633af7a24875ae57e5023e8dfb126da47c2fa5ffb3c41d687e7ae0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/data/development-manifest.json",
+      "source_sha256": "5fa238fee682e064c4ce5d7d697491a83e3163c3c10677144d940523a09b1c4a",
+      "published_sha256": "3cd127e33f86d3a9b9d79c99b24ac1f9da35af5052701009663119b0d89bb05d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/data/development688-ready.json",
+      "source_sha256": "3e2463d9593b3943de059141f1574994045e184ab60f42f7e13dccc5cc33d302",
+      "published_sha256": "bd9453efd24a04e97467f140a66a84da48b0b09a713e81d258be9a1c1bd1109e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-calibration-classification/input-lock.json",
+      "source_sha256": "0ac2d9fe77d205bb860850c98d7d937dead5c5abe25e85126a922354981d218b",
+      "published_sha256": "4b53ad28c67f6b27f739a0b7e2037421bbbd07bb28f3d7c88247ec1cc9a98cfa",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-calibration-classification/model-development-only.json",
+      "source_sha256": "12fa0a506f405723ba8450d1861278cd21331c367bf36343005d462370aacab4",
+      "published_sha256": "0678099528363197d68860e16c96d0f7947b071101c0161a1759286c39696d0f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-calibration-classification/result-audit.json",
+      "source_sha256": "576c69ddf17adb191f9d338f9965b31beb2a810479e812a94ba1d2dd69ef56c5",
+      "published_sha256": "12594767556ceb89cd706d05116897f082d25f03e45af62e6e04ed7febdf605e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-calibration-classification/run.log",
+      "source_sha256": "fd4fd294708a24a7b090fcc4f93e4f7325a8ef54c776df712c0cf24a115f3df2",
+      "published_sha256": "bd55c78e241f9e8b6bb0a45a4ff5b28b580ccec9e6e9d7f595fbcc635ab56b34",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-calibration-classification/source-review.json",
+      "source_sha256": "364b09322f6240abb492449c2197dc428b350d7e821b59b59cb9b88c8a8e66d3",
+      "published_sha256": "25d0f378f84a3d9e79aef1e66d3a6194be77aaa533231937a3e85e07a492c67d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-calibration-exploration/independent-tests.log",
+      "source_sha256": "029012fbb8aaacaa46554d8442b02a9852ef6d4bb9f900ce42333dc27bf0ed54",
+      "published_sha256": "1b37ffb95ff4d4cea5a881adbe4b53d57310ab77e2d92a2ce1cdfeeabd995187",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-calibration-exploration/input-lock.json",
+      "source_sha256": "8feb5b6362f32ae18d32d803c16b4d45e1a1198d229cef665bfca27a8ead81aa",
+      "published_sha256": "c9076df4ae7122a6c0d7b772a1898e4e1b432e1c1a8eb0e97c663c1522d4917e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-calibration-exploration/model-development-only.json",
+      "source_sha256": "9666653ecbe6540145e8c7f2e2633a9a242af12620b9a38b2e18a5a0ef336406",
+      "published_sha256": "a596ba124dc7c0a7ae470be9a5fa4e24c44fcc946c5fe3a8686caff739943c0d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-calibration-exploration/result-audit.json",
+      "source_sha256": "1522427b25188df9e2656d061da20ac6c189fea0e0442ca340ba105bc1dd6046",
+      "published_sha256": "e2d6af064977be57d5051b62b4093aede3f3e1f9d6aa1151f5ad031d9c02193b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-calibration-exploration/run.log",
+      "source_sha256": "d1bc5ebea5afdb5397122551fc016fc1d53d9b1953168e146e468ec459cfa5b6",
+      "published_sha256": "ef7665d156d3969b467cd2cd6aec3f908765b86fe8be081824837533a4997655",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-calibration-exploration/source-review.json",
+      "source_sha256": "8c7539e3ae1291c77968dedb51ed63c404b11be35c80214dc663cff65b87419f",
+      "published_sha256": "a1569cc5abb8e9891686453f31c2d71eb6f781aa9ddfa55343df8b45fd59eb90",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-calibration-exploration/tests-final.log",
+      "source_sha256": "484bea9f0cd4c1f50fb9f4620f25af649e9bc759c9855bb1db8d351cd177f429",
+      "published_sha256": "d8ca324c1fd6dcc86f6bc10d17900bdbc2d7276de79bd5a537e38529c9a2902c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-calibration-exploration/tests.log",
+      "source_sha256": "de715e6e4b1b678152b4b6df850eaf05f767f78d1212e66254d998e80aa3fe24",
+      "published_sha256": "9999f42df698b8ee40f9702cf1e318663509b1bd47ac9f9c0e1746d016fa6eda",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-candidates-ready.json",
+      "source_sha256": "b578ea63d35d4092d4c55c3ee65947b2a14fd1966b10340af90435ae2289c943",
+      "published_sha256": "81ff0fe4d7bebbb1bc51e20c34167bd65dd0e705bafb2a10d0a74df145fca0e2",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-continuation-lock.json",
+      "source_sha256": "5b3802b48eecace93a99487726bb69531ae744114fbb3ff8607f69292a8ea52f",
+      "published_sha256": "76f2062e16a70ec43b606753a40db89bc96dcf43bc9b97d3cb4e754805cdbaf5",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-score-history-probe/input-lock.json",
+      "source_sha256": "609fa9fcfb73d746a05894dd08b6624001a837b083c96fe3073a8b8ac96b2833",
+      "published_sha256": "70f7cccad1f4eacc1a79360cbbaf9066f72053415f888bb9ef52d4ac0f263a48",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-score-history-probe/model-development-only.json",
+      "source_sha256": "83ab43b2ba6ae9459c75db11d6783925e2bca1cb35ff3baa19fd54d1cc152943",
+      "published_sha256": "64d00ce67e5eaad17b96271a2cd49cca8771a8525c7a4ab21ae2e756c007483a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-score-history-probe/result-audit.json",
+      "source_sha256": "89f990d0df4e6a7906c46418372170b2088ad622bc8789d99436d6bd5be2136f",
+      "published_sha256": "251a6fcf7d32ba7268c9f7dd47a7294f28827870189e8855d038138217484c2d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-score-history-probe/run.log",
+      "source_sha256": "d9dfbe3e8ca2bb7287c4a15b138456d46d8e4cc3599a2547d0f1514d96e35163",
+      "published_sha256": "3b9730170f238ad258e8502c3670d459c552571e6ed0a3063ea6803c4ff2e06f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/development-score-history-probe/source-review.json",
+      "source_sha256": "949a2bcf76076e281135debbece91cc44f24a95e54252ade9ff18acc2cc6c697",
+      "published_sha256": "d3bb1baa8359c9e2e372670ebadeeec791834b14184c7471687194f55f5837f6",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/direct-expanded688.log",
+      "source_sha256": "5fac52a75ddc9f7d9cb8c40f43273de656291c8d8e762de0e66bb5300a7e5f70",
+      "published_sha256": "8cec7e8a5c2065679ea4531ff0bd4b3b82b6dac8c1738f31b62f79f8e75532eb",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/direct/development488.log",
+      "source_sha256": "6a4b932596ad4ab83b7ad891d32d7214af685754723bdb85ff8755f08537552d",
+      "published_sha256": "1ec0d2e0c22c4be844dddb4854597d0ba7ea870f764959c701eb420005f489d2",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/direct/expanded688/configuration-lock.json",
+      "source_sha256": "4dcbf14346ddcef60ec4c66f02450c330bc6ddb8648cc414124f26dbb5371ed6",
+      "published_sha256": "ec9712038af0d31f50ba697c5bd58a241ed8aa45ed0799a4b3f98f725eb10b56",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/direct/expanded688/summary.json",
+      "source_sha256": "63583a30b57ead8964305c4f813197e375349fe56b0e7e45569878f135cb8a92",
+      "published_sha256": "dfb0c6c9ec78801ac0c905e0c842eec6bd0326c49fa1073e72bc86eed81f6068",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/final-completion-coordinator.log",
+      "source_sha256": "52834397aa8486a5c012863a7c4cfe975bb5f299a06e5fb569d795ca1e160ee9",
+      "published_sha256": "c1a8e9f331dd018db3b2372b396b3a9674723b29b8f922845355c09b2ca31c63",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/final-continuation-lock.json",
+      "source_sha256": "f33238ff1fab55b2635649a5bf8572ac9e662a170c1bbe8bcdf7ca6649282391",
+      "published_sha256": "134eb18555038d2092763d6eacf80553688245fd9b8650755817692a0db71cbb",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/final-continuation.log",
+      "source_sha256": "1672eaab9b21beca363b06d323d389cc366265a7916196eee2794b838b9363fe",
+      "published_sha256": "e7570fe45fb788f139612282a51224d032e2864b31d1c23eea05abbf93864c38",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/final-parallel-continuation.log",
+      "source_sha256": "1cce0edc2702e10e0f322b922c49a6df96493bdb89c1f75bdc2a9ac025af96a5",
+      "published_sha256": "b466a3e7ac894438e9622265d15ed00a395f37c0f2c9359b5e0f039bd8b398da",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/final-predict.log",
+      "source_sha256": "f53d53dd218debebaf23739fafc3bd0b165853fdb27d1c77d061b0eaf9a2f489",
+      "published_sha256": "eed75869d2206f56abab773585b3210e7a436271961d605165b44c3d7efac86b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/final-reference-collect.log",
+      "source_sha256": "469edae56fdc80b255ac9e46cca1072d4c5cff3192502b0b1a77a08ad122a298",
+      "published_sha256": "ac94d8a31439be43ab323de6fb9866529eda49e1ac8f688b42f1919010e7e04a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/final-transport-evaluation-ready.json",
+      "source_sha256": "a092709427069ade39b44e51724e243f9b889f6c5c335eebdba2b2c414527b94",
+      "published_sha256": "ab2f1659769db65bd47cc9853cdaf635d13a9c0d898e6b9879455147588d62d5",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/frequency-count-mode-expanded688.log",
+      "source_sha256": "b832afcf2f6d46cd972a027d08b475b442f2c75d2f353ebdd35fb881914ef2e9",
+      "published_sha256": "af383021839d13e4bba0475beb23cb6e2c05758e99b35652581da4801321ed0e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/frozen-models.json",
+      "source_sha256": "5da3c43ff25d6fb107d8b5cb6f793c33ed5d2a91f424b737f435a49f7428671c",
+      "published_sha256": "60efe7a4788d81e660fe33f7f5d9dbebc10e25de5e41e29cd048b689ab432b0f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/holdout/results-transport.json",
+      "source_sha256": "198d46a04f132f430d11fac03c0981338872df08d5c3b40c02c327b0dc15ffe8",
+      "published_sha256": "50005f04ee0d4288f025881aae15ff32434b1c011595c328be52e965cab3da58",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/build-initial-canonical.log",
+      "source_sha256": "863ce9e9da34b9cdb736852bed33fef5fd2350402833970e1725218d826aa331",
+      "published_sha256": "3052ed74e8289e84b01edaa3d10933f2b44f61da0c36ab502e91f101c4dce480",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/build-initial.log",
+      "source_sha256": "d18f2c96645ef7716c42d90dbf4fa223804e683808430914b713e60566666639",
+      "published_sha256": "5c5b5fccbc9d76956f9504b74bcb2d69c2d9fe496af433b09690caf95848d2af",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-final/integrity.json",
+      "source_sha256": "946da03d2c5b3d4d905fa083dfb1c0b5a26a96138464550a7aab15cd071f407f",
+      "published_sha256": "60af48cf8672ecdb429d2a5524c3bbf51033c5b412ec10cca4f059c4edc560aa",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-final/isolated-verification-stderr.log",
+      "source_sha256": "30855bce255a7ec236fb268cc8c9902aabf56ec0907ee276873087c34abd3d8e",
+      "published_sha256": "e71638a03af251ff87cbc61036febce22cf5148a9a83f4c75cc79f86ccbc58b2",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-final/models/component_count_mode.json",
+      "source_sha256": "2b1c4e97601c6b0506bebfaa2524291d7164c7b2f920df54066d388c31580d01",
+      "published_sha256": "15f08ce4ab1396a9e5f3115af4c922871a1a4f5c7f4c6a021a184791110d912b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-final/models/component_frequency_count_mode.json",
+      "source_sha256": "be1a6884cb99d4a7d56759c9ae81e8d75d4b140963cfc0e568908e023303d781",
+      "published_sha256": "f8c7b8f7f3ed63f3d9083181487e81628fc9aa9f9d95a854d38ef52841374666",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-final/models/initial488_same_method.json",
+      "source_sha256": "0b3c7992f3c0b74fa05642c23c3c5c8a24167b5b406335f225b8a00106894b68",
+      "published_sha256": "07898a6db560230118c4ad0f09a6d7b8532f195ed487d5a3bf04a60f7b696159",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-final/verification.json",
+      "source_sha256": "e3f7214385e77de56daa95846615adf1e8716872dd45b84a48a4e411d34d32c1",
+      "published_sha256": "2ec5c7f8295b1a728f55fc303e4422fc94244836ef52829cf557310877d1a703",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-final/workspace-verification-stderr.log",
+      "source_sha256": "81e2d7f15adc927054f47a684c97fb77b4ccfb415f1f9678f8d35677d6da8f73",
+      "published_sha256": "91d462e75c8357be8888073c63b8ed057aa69697d945f577f206201abc388fe7",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-initial-pre-canonical/integrity.json",
+      "source_sha256": "db65072ecca4f58fc9b4f8c07640bee5e3f260ffe67500701db82aee743bf632",
+      "published_sha256": "2b53e2e03aaadd524af87bdd5e60b11ca2a65b08efd34922818828d6303add5a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-initial-pre-canonical/models/frequency_count_mode.json",
+      "source_sha256": "0b3c7992f3c0b74fa05642c23c3c5c8a24167b5b406335f225b8a00106894b68",
+      "published_sha256": "07898a6db560230118c4ad0f09a6d7b8532f195ed487d5a3bf04a60f7b696159",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-initial/integrity.json",
+      "source_sha256": "8b30d6ed06bb1a763fc1b866d139ce7663f1d470a8f8ba3898835dc02d86a6cc",
+      "published_sha256": "d749443dacd33fa7de7f6170a926b893ab2c124991f350ef314cf589fa445d82",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-initial/isolated-verification-stderr.log",
+      "source_sha256": "408bc10f4509af213b3bcb82d8ef5187ec7c5894fa43240f0186bc67af4462ea",
+      "published_sha256": "e4e7e86a4033fa9fdee762cce77aac7192febfc41d7aee5a1e0491ad746c8947",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-initial/models/frequency_count_mode.json",
+      "source_sha256": "0b3c7992f3c0b74fa05642c23c3c5c8a24167b5b406335f225b8a00106894b68",
+      "published_sha256": "07898a6db560230118c4ad0f09a6d7b8532f195ed487d5a3bf04a60f7b696159",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-initial/verification.json",
+      "source_sha256": "a8e14a9c70611e5ff5ce78f1037e89f0c32ba990b27654a52047049efa58cc7b",
+      "published_sha256": "c82d8516c9ccb5ce4e054056761237d40c69d299403dd2c8c6a4521917ed4ad3",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/bundle-initial/workspace-verification-stderr.log",
+      "source_sha256": "81e2d7f15adc927054f47a684c97fb77b4ccfb415f1f9678f8d35677d6da8f73",
+      "published_sha256": "91d462e75c8357be8888073c63b8ed057aa69697d945f577f206201abc388fe7",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/compatibility-completion.log",
+      "source_sha256": "e22f53b8c61b3d9e38f25facfb5bb26f7d2cca0f5339cefde09ca0a467a2c228",
+      "published_sha256": "6efe301cb02f12749388eb564beffbe2f4785f3c187e45e6407999327ab1aba3",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/compatibility-prepare.log",
+      "source_sha256": "def4cef6e952aa6b2cb1fd4de573cc7a97e997e0d7f1e34078e6fb57fff2ccaa",
+      "published_sha256": "d0a1e5055290c3f4b1111f4b0553644496379ed19bc1fc0b29c03ca7c8af9aed",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/compatibility/amendment.json",
+      "source_sha256": "20758298620e4cae03682945644a7654fe7a37ed82c1419fed233e8a20c45bb6",
+      "published_sha256": "5f17675c13c473666204ae5cdb909088e6eaaea26240ba6344bff38b002a318c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/compatibility/capability.json",
+      "source_sha256": "4d248b030a0f10703eaceaa6f3a20609a2a2b9c1d841ef6bc6b419006cd10910",
+      "published_sha256": "bb556e3bcf636231ca675674aa7f651117241d17ab1e249a8ba643ce28272e35",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/compatibility/input-lock.json",
+      "source_sha256": "616ad9419c2640410a70693b883a532a7f8bccc1769bdaa1bb7e11d7eaec79ce",
+      "published_sha256": "2577579105fa9af3028fefbefdaf119d3500dbbad96eb8fa748b0964c4046fad",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/compatibility/original-coordinator-failure.log",
+      "source_sha256": "52d29da713342650690bec0e5b06a4192421c8d86811ba3e5b823ad2d916173c",
+      "published_sha256": "e423f2129c4f4de56b374660b062cb42ed3b2a6fe50af2e99ab2250be5e70027",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/compatibility/original-queued-plan.json",
+      "source_sha256": "a324b4a8c9f1c0f0dd8e503bf8e793d88f4c67a820a3ee6628211aa60e850cd0",
+      "published_sha256": "7555602deb06da52d22a4bc359a03e85fc86f725d08b16b456d4e0f9926e0dd0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/compatibility/probe-stderr.log",
+      "source_sha256": "7ce09dbe30cfc6222b3fc2cbe0f2c40283970b33585d83a048e87db976292079",
+      "published_sha256": "aeacfa05df7b80f710f0067dabaaeb3603f23a8882f0227294f2e2613aacbdf4",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/compatibility/source-review.json",
+      "source_sha256": "0e2dcc68c4dc1271c2af95dac7c5d6f9a2342535711a87a1c05d0c11422e63a6",
+      "published_sha256": "dbfc19ab468a323e7acc1e4857ed066393b457116373f720651188bc475c1e58",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/final-build.log",
+      "source_sha256": "fa02f6af14f6d765fccd0d6b4d7d11a70541ebc5b10d68bcee665c6d84efa648",
+      "published_sha256": "437521d3b206110027576c472c9da9455829e86c0ba5902b80b9838eea5a5e9d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/final-package-coordinator.log",
+      "source_sha256": "52d29da713342650690bec0e5b06a4192421c8d86811ba3e5b823ad2d916173c",
+      "published_sha256": "e423f2129c4f4de56b374660b062cb42ed3b2a6fe50af2e99ab2250be5e70027",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/final-package-queued-plan.json",
+      "source_sha256": "a324b4a8c9f1c0f0dd8e503bf8e793d88f4c67a820a3ee6628211aa60e850cd0",
+      "published_sha256": "7555602deb06da52d22a4bc359a03e85fc86f725d08b16b456d4e0f9926e0dd0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/final-package-ready.json",
+      "source_sha256": "a356ecfbd7d24eaf1ccfa0a3e69b1914a209e55feae22ffea26a68f4e4ff4682",
+      "published_sha256": "901dab4f18c63cb238168d90a16a59e11599afc0bad55f5699a9f1115f504f01",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/final-verification.log",
+      "source_sha256": "32089d4d256845d7069be647901706b0f5495bb2ed75bdd1efa83c9b96a9ffd2",
+      "published_sha256": "c286fa977761b8e39d8accbc43a3de3baa3402df7c6694263ba2c6a687871d0a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/history/verify_package-before-input-guard.py",
+      "source_sha256": "2bdd0bd70b762e4a72a7e7478b5fb8a941eec616da36b745fad3757220a74f06",
+      "published_sha256": "812d6fcea5e815576365764b7ae9ac9c38ba1e8d1f7add5f14084f47f96b87ba",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/history/verify_package-before-output-binding.py",
+      "source_sha256": "dd121cfa5f3dc9bbb6a927d113872abbbccaced8b3885f775738317535533a20",
+      "published_sha256": "2d454c7db011e1a577a548e00c77dc855217bc9aa5ec46f7e530f91990c9d935",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/initial_assets-pre-canonical.json",
+      "source_sha256": "1821476710ee4576538187d961be3c00e655e8ab7c5993a7b3fe020018c7582c",
+      "published_sha256": "7f01257f10e585150f998db9f2d4c274815b8ab51828333336343032e6b212c3",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/initial_assets.json",
+      "source_sha256": "43d3e3a1dcdf6bca437b5f0d3434677c09859388155d5eab009dc8c79e6138d2",
+      "published_sha256": "8ac37decbad3d024075f797d7a6f55476f095e52085e67b06862b1394c4a38f7",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/input-guard-amendment.json",
+      "source_sha256": "2a16347b406048babc2e4aa5a62a192dc83b9d6d64ae918e1cee61fb7d830d35",
+      "published_sha256": "d3b4d4084bcd6bfae0c7765663039cbc3a6ce3b9982bff07240b21f072c5283d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/input-guard-red-tests.log",
+      "source_sha256": "fcb640dc16ec0a77a1b49d0fc452243736245f93c1140ce235f6ef8d223bdcea",
+      "published_sha256": "6293936673c9f228f251063fb8f319fb702f8086612e0adb246672905eb7a74f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/output-binding-amendment.json",
+      "source_sha256": "40f77093dc1d28901618f4788f2b55f835469d39d29544edb4945094ddf69403",
+      "published_sha256": "5c718d83d7c1bfbe4230a5215fee1fb7a3ce51602f6f75d0a0b03fc04f69934e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/red-tests.log",
+      "source_sha256": "64c396ae118438c2b118826d260e1e25d7ed1c344dc93353c8e6b769365e004b",
+      "published_sha256": "332c789a5e6f0a6815bb6fd282dfc81bd2b5572cec57c147aae6310c5feecf50",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/source-closure.json",
+      "source_sha256": "a5d95fd66f3b58673cac47410eeea926882b61563ccdeb35fadd24c8dc428e5f",
+      "published_sha256": "863c40a96bee08e547b574b0a37b7579c44cfa4684eaee6ca072013dd9abb2cd",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/test_dependency_closure.py",
+      "source_sha256": "7b4f34333bb3e0a908c580feb4aefc9eda87a9e6b9e3650331971347aa2d27e1",
+      "published_sha256": "1226234d7a1fb0754df91899ce1e68cb2a7be333315de7b645fcbdd45b51531e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/verification-corpus688-provenance.json",
+      "source_sha256": "70bb14dd297f98c205419834ba6f862b60a04138b98bbb58f177795ccb05a7f7",
+      "published_sha256": "5789c2cc644c9029aa6e001f7e6699d1134d7e6969b4691e3fd07aed9f6611d9",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/verification-initial.log",
+      "source_sha256": "9c268b1e7d46a24e17ab5c4820ec3fcf9494ff7a7d1f593776c5b53623ec6641",
+      "published_sha256": "7154c83a4f2fc8e8f775e744718d1cbaf4cccc838ad1ab08bc364109fd21ee42",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/package/verify_package.py",
+      "source_sha256": "971957f2ee35048570430691fcbe4992484a031fd58994dfb6d5824ce84cd69a",
+      "published_sha256": "5882cbd1b3f0a10ac41fa00eaaec6c6a417afc21667b43c4314f18f18cfc0666",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/audit-development-after-amendment.log",
+      "source_sha256": "ae8e4efc33a265e43887bd8aade64333d030d033812615f7990e117c7b599616",
+      "published_sha256": "236bc9809354a18cd8aa3db95279bffa74609bdd98e6424a076f69dd38f28bd5",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/audit-development.log",
+      "source_sha256": "ce06140f7ce402d7ffbcd6f379165e2a8a0e3a710c38585fe1f6625fcadd082e",
+      "published_sha256": "30156bd831454819dd83e132635f433e9dc90777506ca4a23a9e1077456a986c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/batch01-launcher.log",
+      "source_sha256": "6caabcfb61f6df1960e7a15b9cc3665c2e3b78ad6e366d582592ccf438ecfd2e",
+      "published_sha256": "f27a4359326e42f79cf93b4a7646aa9f506cbda4ee450fd36fe2e771a0d70a6a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/batch01/a.log",
+      "source_sha256": "acb159759d92a24d76d3374d3b7ed44f75972ce6fcd8c80af533804104b9cdfb",
+      "published_sha256": "f206d7aefe04357c8371a57e5d09dc403060afb6c2f426320697c25e3eae122e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/batch01/data/budget.json",
+      "source_sha256": "acf68adc1b3d262ed4bcf4b503f282911275e83cb24fdbd62561fd60df2c1dd0",
+      "published_sha256": "1e76c1a022f77b02e05a8502538e975d8beaa8403e9c8331f61d84844bff1211",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/batch01/data/merge-manifest.json",
+      "source_sha256": "23ae78f627e4bebcf6975b3ed9ffd23eb4f9c87b8e202a4c4cb20b5630d19c94",
+      "published_sha256": "9643626cc0bd04adbe7160488ee56750e793a21ec1dd7410c1c336341b50fa0b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/batch01/run-plan.json",
+      "source_sha256": "24e5aeb88a1eec8aef88e7a0e07146e73cec8df26d0dde3978900736abcfe011",
+      "published_sha256": "98b0a5f00d8c2732ef391249c9e8fe95c9ce62bbdeb6dae328c8c90a494aaf9e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/batch02-launcher.log",
+      "source_sha256": "6caabcfb61f6df1960e7a15b9cc3665c2e3b78ad6e366d582592ccf438ecfd2e",
+      "published_sha256": "f27a4359326e42f79cf93b4a7646aa9f506cbda4ee450fd36fe2e771a0d70a6a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/batch02/b.log",
+      "source_sha256": "471b95d97a781d5427e98a9fff032943ac10339db6b2a375d146a435d6bf848c",
+      "published_sha256": "97ee64db48ed8b5418371740b639e31366f6e505833ffd19823503f9257e7415",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/batch02/data/budget.json",
+      "source_sha256": "e41f5e0480ee5ad74bd2974d5c6f453109d51911a2ffddc0684cec29b339df32",
+      "published_sha256": "57e5b3f84b971200c26a4fdb6d10cbb64cf64ea33ec0ca7f78f179fa3b459b8f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/batch02/data/merge-manifest.json",
+      "source_sha256": "4e957a44f82b376833f028aa777b76182e7a7435644487da4ea468756ac8a768",
+      "published_sha256": "892c98c6d68d3d92f609716c74e933becff4efb9db1cb2dc9b2c97deba89bd79",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/batch02/run-plan.json",
+      "source_sha256": "bf0acfe7b1ada712341c758bf8d4d27035c696a6702e168eb52642e943509395",
+      "published_sha256": "0f94ba178202dc0ce768ce821206d3bf2ab5852820fecc667fa1e5eafe5c0d3b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/collect_development.py",
+      "source_sha256": "2580786f5758dfb0a52a9ed4197ce857487ba2f58259e2154b26312d8079c270",
+      "published_sha256": "14a12e29be23f5de2cb7e3da0d14e1b2500f5e8730ccc9c40ecf94d7b8a7ef1b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/collect_final.py",
+      "source_sha256": "a18c6ff22addb845d4cbfd848d5827ad635e588d521e0dba3a39740da633aebe",
+      "published_sha256": "84c35bbf254a7d45b7873465b8820b662d124e2f17a51a3522d2c920490cd0f6",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/collect_final_bounded.py",
+      "source_sha256": "938c9c315a42a0967fe09837784d79d444716a0fd1c3ed6ec034ddf37cd0b3ce",
+      "published_sha256": "ecf70b55d7104ee973c58282a77ecc694a2e5d98f545606e91c959df273730b2",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/collect_final_serial.py",
+      "source_sha256": "2db73419f0b76567b379915f5aff8c56d37fee615f6154ca7d818041239eaf9a",
+      "published_sha256": "e50d69ddbc8e5e036de3d06670a6d8704c1e379bd1712b4c3f3c493b37e8a8df",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-reference-audit-waiter.log",
+      "source_sha256": "d5a2e78a64c07b60f9fcce611f33c4fa571fb4ae61fc28b9adaa33c8089f6543",
+      "published_sha256": "d380c106af545ae310858f81db37e3a926cc2882885ff74cb39d4ebaa88cb554",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-serial-handoff-executor.log",
+      "source_sha256": "bfe8adea9d179ddf7b952d3955c5469e857b6bd20bad8d6f4f4dea9af7566f97",
+      "published_sha256": "fa0aa3f0f365b02f19b213e7421092b1d4f1fd542ad6d0669670cf4fd203655a",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-serial-recovery/amendment.json",
+      "source_sha256": "c7cc0452a9fe995f6c2e1265c37d877917071afb02b9e95f2415a5f8b228159c",
+      "published_sha256": "c694abd42ee3eee506910cfc8754d06b8dad62b09e9cfa959797bb8e61b09f8d",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-serial-recovery/handoff.json",
+      "source_sha256": "6d51a0126fe1373c25a04fa704cf3931dd2344fb364473877a103b6b00c4e423",
+      "published_sha256": "f661a5e555cc5a753ff1ca76ac763b15c20b05555506df612a92c5dac9535d21",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-serial-recovery/readiness.json",
+      "source_sha256": "e21cef62cdd8108e100e305c35678218563e46c7a7b9a20a2935427652eb8945",
+      "published_sha256": "956ab3b0cb967f4ee2679544e9565c2a0cb19e1ff14ec0bd2beab5d63dbe2913",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-statistics-audit-waiter.log",
+      "source_sha256": "b1f80dcb63f3230a1c860ac3ad48b8b1ab3566018308e33c09e4201d727a992b",
+      "published_sha256": "d3f0bca962086e044aa2fea73a9f5073d8d6ed7d08a32b7123315a57800c40bd",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/a-pilot-3-1855ea350d25-launch.json",
+      "source_sha256": "8fdb8be7ae92e356903753b6b49077bc3fd5854d8a76c105e8249511910fd428",
+      "published_sha256": "ea713b9d487a8ef7cf2ceca25086b1a25fde498427184c7518458ac1444213db",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/a-resume-4-4c015ec68cb8-launch.json",
+      "source_sha256": "32f2f88825412286a42957ae1da49d4b781ba58cbe932d19f4aaa01e6c91c047",
+      "published_sha256": "ff2172dfb1b7b7c702d26d7ca6d6b8e2ebfdef5633335c6f469250513b2024e8",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/amendment.json",
+      "source_sha256": "d4eaa9680399a343aecc203e8e4e6c387870576a15d4a3f6b32388ebf7079d16",
+      "published_sha256": "6469b3ee8dc4f189f9b067a4e10b4249979d01b061e2d0cb26d82fd28cafc6c5",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/b-resume-2-601e28481d3b-launch.json",
+      "source_sha256": "6a181dc5aa0f6f40643b255deff8784f00957049e0a5b84a289068b02c1fd853",
+      "published_sha256": "f8f958b14a176dbbe1e033848716f8d3adb382ecb396dba66195d67ee9e50657",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/b-resume-3-0e708ffab324-launch.json",
+      "source_sha256": "847735da3ba75a4386c6cb722e622c9d5441715991dd63c02e5f63c2fe3943cb",
+      "published_sha256": "66f25cbed23bfde84d6418206a304a2357d4b68c9c609451e02bc5417502e369",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/data/budget.json",
+      "source_sha256": "4d4694edfb174938ca52160d24ae61908845bed2b67b52dffaa4a5060e791cc4",
+      "published_sha256": "9ca51246e7b2748341da166afe6ad2e2961d708795dc1f470ea5a5f40b31c80b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/data/merge-manifest.json",
+      "source_sha256": "d015768af2ade2076a7efdb691f114ab3704a9a10296e00effb22fefcc009681",
+      "published_sha256": "5cc5a06de014063f9c5af2862e37a8080399f1a2fd49cdd85b7950208f649e57",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/handoff.json",
+      "source_sha256": "12b2b6a9aa10331c54272f9e27bbc9ed6f78c6f3350000a556e6592528f32d8a",
+      "published_sha256": "58b68d930e3aafcf0706777db648c0af7488eb0174f542ccaf6ed4d6f2f1c787",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/launches.jsonl",
+      "source_sha256": "816cc1fc59c153419a687ebbc95be9e87e4e8ad3404729f43418f22be647bc75",
+      "published_sha256": "79e14c4f421f49a8c757d61299fc5590e4315e7127825e7edad0b5abea735084",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/pilot-audit-evidence/launches.jsonl",
+      "source_sha256": "efbcaa0ec4cb5d6984e639b5fecceff7e2515eb6c12b1b33649fc02b1e3fee12",
+      "published_sha256": "34096576b24e499b29891b69a3c8962643757e2bcb760f0b9dfe9441da785996",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/pilot-result.json",
+      "source_sha256": "61163b33497486e1a01b57189cbf3ef1676bc68662b296d74f2a46b152236b60",
+      "published_sha256": "bb29e5d7e19f366a8d8b5c2e01645e621555aea3c0cf4e07755063658244e271",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/resume-release.json",
+      "source_sha256": "1183e7b7133ae6575cec457c76582c63aa6e96303279c532db2f05b53ab31572",
+      "published_sha256": "286e55be9fd1b09d344e2501357d721abd7c97807eb4a736cbec566137d8de9b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/runtime/a-pilot-3-1855ea350d25/raw-manifest.json",
+      "source_sha256": "4eb338ced5093f07e4e9d1075d6713776bb6a820bb99495f6152af01228fe08b",
+      "published_sha256": "0bf4f50e266faa8311e10750040f8afa26fd1807cb8aaf64d5462db816754a03",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/runtime/a-pilot-3-1855ea350d25/runtime.json",
+      "source_sha256": "f08d6305e9225d1801ac0db95bea483f0bda6dabf790458e9681ddbe5a32e886",
+      "published_sha256": "683b6e3c0ade43568e2187f9be603c258738eaab87bfb4118c6a0a7d23d72775",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/runtime/a-resume-4-4c015ec68cb8/raw-manifest.json",
+      "source_sha256": "103977a159113911d7456e0799d1c3498d20268f043b405c1e374f6e31b6efd4",
+      "published_sha256": "a42ad5d8a17d56bb6f3dc965b2ad713ddd7a0f62db26bac4bde1797f73e9dcc6",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/runtime/a-resume-4-4c015ec68cb8/runtime.json",
+      "source_sha256": "14e316f209cb9745d4c5891b22917facc623b3122fa0fa9327a8dba12260d455",
+      "published_sha256": "5bf317c9e0f6e88db87fc40c5be1ae0a075823882a457ab53b2573f86bf00b07",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/runtime/b-resume-2-601e28481d3b/raw-manifest.json",
+      "source_sha256": "9e57d49e6ab3e1f0c265134d6a4ef98289f48723dd704f3b5fd7f1bf02581168",
+      "published_sha256": "9970bdcca0684016249215b716726e7cc43608fa61a5d94c9bb50e1b0fe00b8f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/runtime/b-resume-2-601e28481d3b/runtime.json",
+      "source_sha256": "c51e7fce0c3a6d29890476b06899bbcc5a4d4bbd0fccdd32246df3534eb3be34",
+      "published_sha256": "09827ba585b1c86488209fe034bfca92b8c897a6cc5e856b572a2f45fada47f6",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/runtime/b-resume-3-0e708ffab324/raw-manifest.json",
+      "source_sha256": "9247bbbad9b271b01703cbe260719746fe8810d520567b51a2cc54810c4b9366",
+      "published_sha256": "3a04f7dc81b4e17ee434a6c77af9872313dd71d1cfe4648518a1c4fca4f3d317",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/runtime/b-resume-3-0e708ffab324/runtime.json",
+      "source_sha256": "f6ba0ece174f75e79f29dcfd590f93c14259373c1af52330cf269e7ef1e758a6",
+      "published_sha256": "272123971c9b48020f0839b2beac21a0c35e32341e5d33d4432b3018266c4ff8",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final-transport/source-lock.json",
+      "source_sha256": "5f76ca7cd56878bacc28e13dd4ef17ffacbe8ac88325ab6e6f1df3e9d4b09e1f",
+      "published_sha256": "36d3a723dcd761b8c84ff07222b3e19d6bc70aba99b1bbf9b009b54b4a35b073",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final/a-bounded-2.log",
+      "source_sha256": "bf2ffaf6798db523f6668a5b8a254236436c61676f7f716b331d967300b76e8d",
+      "published_sha256": "fad9a044ce843803e9d6eaa29afe4d6082b42fa4be754be347bca84770ac8d5c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/final/run-plan.json",
+      "source_sha256": "e0a2370e6df9c5ca810bd050484abeaba809fec2cbdbde5fa16547cb8daa86b2",
+      "published_sha256": "cc0d1a69398ff7a5ddaf893098ffa31fed05addce20c502e0bf339c0a03f806b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/recovery-two/amendment.json",
+      "source_sha256": "664cd447b5a438e776650d331b9f17f956a724f523ddc48aac317ec2250d4a23",
+      "published_sha256": "678f61955917e1b1ce440a097735929868289cbfa9ab25e26570e2b6c4d46655",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/recovery-two/launch-events.jsonl",
+      "source_sha256": "8953353266f8994c6fcc03ecfe8e7b9f5514f51361c27728772aec7a01b64ede",
+      "published_sha256": "998c59b70a0fe0afc2300f8ea6a084f66b3aaba73bc68b7e146d237687cadb8f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/recovery-two/previous-launch-events.jsonl",
+      "source_sha256": "48f07e475409e808870643e3d1aee06e0a588e3683e56c3279473e9871a35fba",
+      "published_sha256": "8340bc55a726d22f2a60cc3f6643dcee7954690912127b3584ddd28c891bf4a0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/recovery429/amendment.json",
+      "source_sha256": "ec61c497ad693d67533b1a74715730ec35ba7dabbe0494cafedbd165928545ff",
+      "published_sha256": "666f9061e7b574eb6779277aa861c1295574f364f0d5df55804e120f9d57546c",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/recovery429/batch01/run-plan.json",
+      "source_sha256": "24e5aeb88a1eec8aef88e7a0e07146e73cec8df26d0dde3978900736abcfe011",
+      "published_sha256": "98b0a5f00d8c2732ef391249c9e8fe95c9ce62bbdeb6dae328c8c90a494aaf9e",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/recovery429/batch02/run-plan.json",
+      "source_sha256": "bf0acfe7b1ada712341c758bf8d4d27035c696a6702e168eb52642e943509395",
+      "published_sha256": "0f94ba178202dc0ce768ce821206d3bf2ab5852820fecc667fa1e5eafe5c0d3b",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/recovery429/launch-events.jsonl",
+      "source_sha256": "48f07e475409e808870643e3d1aee06e0a588e3683e56c3279473e9871a35fba",
+      "published_sha256": "8340bc55a726d22f2a60cc3f6643dcee7954690912127b3584ddd28c891bf4a0",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/recovery429/resume-launcher.log",
+      "source_sha256": "d5ee911647c37c1ce3427651d6e3c76c6141bc9540eeb4fe2f59085e63dd03cd",
+      "published_sha256": "f8a6bf28927bc86c93f6de6608ff6cf4d9d662fb8a5847ce8214070c03e8683f",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/reference/runtime-preflight.json",
+      "source_sha256": "22c5610fbb0ec7988cf976bb8e14a2be96b9f2965102dd5fe43a4d6c05a6881a",
+      "published_sha256": "9c789497ef689d261577d96131f3430ec2f5d0a42f1567cc7521bd6e12a6a6d9",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/write_deliverables.py",
+      "source_sha256": "b4905112118c1ae4ba1c8f7f066975b06220015b7d7ab350f62295c3b1407816",
+      "published_sha256": "a01cddce89fbe561df5edbd1d199e8c8b757b056cc8b2e757c23453517e625d5",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    },
+    {
+      "path": "work/round4/write_transport_deliverables.py",
+      "source_sha256": "16f2599ca8662ed73a3d6a73a25a467a7e8a139d0ececa8b1c9fa3da4a64b4e0",
+      "published_sha256": "856eb2186648b811489920d35bf7b383f9fdfb63effd15ccf843bee1633bdf05",
+      "reason": "privacy metadata redaction or dependent integrity-manifest refresh"
+    }
+  ],
+  "preserved": "Numerical data, equations, predictions, failures, costs, flags, timings, and methodological AI-authorship disclosures. Public pre-existing license contacts and third-party credits retained."
+}

@@ -46,6 +46,6 @@ After extracting all archives, recompute the earlier final-test arithmetic and t
 python scripts/verify_history.py research
 ```
 
-Historical scripts include machine-specific paths, orchestration records and old assumptions; they are an audit archive rather than a one-command training package. Original source paths have been retained there where they are part of the recorded procedure. The five compact prediction paths are the portable, freshly tested interface in this repository. Do not start historical collectors simply to reproduce metrics: they require separate service credentials and can incur costs. Future experiments must use a new untouched test set.
+Historical scripts include machine-specific paths, orchestration records and old assumptions; they are an audit archive rather than a one-command training package. Personal source paths are replaced by publication placeholders such as `/RESEARCH_ROOT`. Archive manifests distinguish original hashes from sanitized published-file hashes; historical freeze hashes remain provenance for the original records. The five compact prediction paths are the portable, freshly tested interface in this repository. Do not start historical collectors simply to reproduce metrics: they require separate service credentials and can incur costs. Future experiments must use a new untouched test set.
 
 Historical SHA-256 freezes record what the original procedure wrote. A manifest supplied beside its own data is an integrity check, not an independently timestamped preregistration or a digital signature.
